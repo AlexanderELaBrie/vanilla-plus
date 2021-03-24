@@ -1,0 +1,32 @@
+
+GridEnhancedDB = {
+	["namespaces"] = {
+		["GridFrame"] = {
+			["profiles"] = {
+				["Default"] = {
+					["statusmap"] = {
+						["icon"] = {
+							["debuff_disease"] = false,
+							["debuff_magic"] = false,
+						},
+					},
+				},
+			},
+		},
+		["GridLayout"] = {
+			["profiles"] = {
+				["Default"] = {
+					["FrameLock"] = true,
+					["PosY"] = 730.6057860510471,
+					["PosX"] = 0,
+				},
+			},
+		},
+	},
+	["profiles"] = {
+		["Default"] = {
+			["detachedTooltip"] = {
+			},
+		},
+	},
+}

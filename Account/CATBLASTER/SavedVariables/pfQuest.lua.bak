@@ -1,0 +1,57 @@
+
+pfQuest_questcache = {
+	["Sweet Serenity:60:Travel to Stratholme and kill the Crimson Hammersmith. Recover the Crimson Hammersmith's Apron and return to Lilith.\n:Within the confines of the Scarlet Bastion lies sweet Serenity. The Crimson Hammersmith guards the recipe with his life. Defeat him and bring me his apron. For that, I shall reward you with the knowledge required to create an enchanted battlehammer!"] = {
+		[1] = 5305,
+	},
+	["Umber, Archivist:57:Take the Encrusted Silithid Object to Umber - the Cenarion Circle's archivist - in the village of Nighthaven, Moonglade.:There's plenty to do here still, but I think taking this back to the Circle for analysis is key.  Trust me - the work will still be here once this is all said and done.  If it's a journal inside this sticky chitin, then the Circle would finally have a window into the past!\n\nTake this to the Circle's archivist in Nighthaven.  His name is Umber, and the man's brilliant.  Touched, sure, but brilliant nonetheless!  Umber's salvaged tomes in far worse shape than this.  If it can be saved, he can do it."] = {
+		[1] = 6844,
+	},
+	["The Annals of Darrowshire:56:Bring the Annals of Darrowshire to Chromie in Andorhal.:To save Joseph Redpath, we must first discover his past.  We can learn this in the Annals of Darrowshire, a book held in the city hall of Andorhal.\n\nBring me that book.  We can then learn Joseph's fate, and with luck... change it!"] = {
+		[1] = 5154,
+	},
+	["The Good Stuff:56:Travel to Blackrock Depths and recover 20 Dark Iron Fanny Packs. Return to Oralius when you have completed this task. You assume that the Dark Iron dwarves inside Blackrock Depths carry these 'fanny pack' contraptions.\n:Captain Winky tells me that the Dark Irons in the Depths got all the good stuff. Ain't that right, Winky?\n\n<Oralius does his best impersonation of a pirate.>\n\nARRR MATEY! IT BE RIGHT!\n\nSee what I'm saying? You need to get in there and bring me back some samples of the good stuff.\n\nGet in there and shake your moneymaker!\n"] = {
+		[1] = 4286,
+	},
+	["The Heart of the Mountain:55:Bring the Heart of the Mountain to Maxwort Uberglint in the Burning Steppes.:For years I have sought a certain gem.  It is called the Heart of the Mountain and it's the size of your fist!  The Dark Iron dwarves have it locked in their vault and, try as I may, they won't let me purchase it.\n\nSo I must resort to force.\n\nFight your way to the Lower Vault of Blackrock Depths, breach its secret safe and gain the Heart.  To do that, you must defeat Watchman Doomgrip, and he won't appear until you've opened every relic coffer in the vault!\n\nGood luck."] = {
+		[1] = 4123,
+	},
+	["The Twilight Mystery:58:Geologist Larksbane at Cenarion Hold in Silithus wants you to collect 8 Twilight Tablet Fragments.:A camp of Twilight's Hammer cultists once thrived northwest of here.  If you were to venture there now, you'd find the area swarming with elementals and nothing but scattered pieces of wood and canvas to mark the spot where the camp was.\n\nI've recovered a few fragments of a clay tablet from the site, but I have too few of them to piece together anything useful.  See if you can find the remaining tablet fragments so we can shed some light into the Twilight's Hammer presence here in Silithus."] = {
+		[1] = 8284,
+	},
+	["Defenders of Darrowshire:55:Free 15 Darrowshire Spirits and return to Carlin Redpath.:Many of the defenders fell at the battle of Darrowshire.  And many roam again as the ghastly servants of the Scourge!  Find these poor souls and end their misery!\n\nHunt cannibal ghouls, gibbering ghouls and diseased flayers.  Many of these fiends were once the good folk of Darrowshire and destroying their forms now will set their souls free.\n\nYou will find them in Plaguewood and Corin's Crossing, and in other Scourge strongholds of Eastern Plaguelands."] = {
+		[1] = 5211,
+	},
+	["Dark Iron Legacy:55:Slay Fineous Darkvire and recover the great hammer, Ironfel. Take Ironfel to the Shrine of Thaurissan and place it on the statue of Franclorn Forgewright.:You will find Fineous Darkvire beyond the Ring of Law, in the Hall of Crafting. Kill the miserable cur and recover Ironfel.\n\nTake Ironfel to the Shrine of Thaurissan and place the hammer in its rightful place: In the hands of the statue erected in my honor.\n\nWhen this is done, the compartment in which I stored the master key will open. More importantly, Ironfel will remain forever in my grasp. Should they make an attempt to remove the hammer; both the statue and hammer will shatter, lost forever."] = {
+		[1] = 3802,
+	},
+	["Uldaman Reagent Run:42:Bring 12 Magenta Fungus Caps to Ghak Healtouch in Thelsamar.:I've heard about a newly discovered plant called the magenta fungus caps.  They grow in clusters at the Uldaman dig site and can be found in the early tunnels and deep within the less-explored areas.  I want to study their potential use in alchemy, and that's where you come in.\n\nFind the magenta cap clusters and bring me a dozen caps.  Be warned, the clusters may spew out poison spores if jostled.\n\nDo this for me, and I'll whip up a batch of one of my famous restorative elixirs for you!"] = {
+		[1] = 17,
+	},
+	["Incendius!:56:Find Lord Incendius in Blackrock Depths and destroy him!:Are you sure Pyron said 'Incendius' when he died?\n\n<Jalinda swallows hard.>\n\nLord Incendius is purported to be a minion of Ragnaros! Oh dear, oh dear... whatever will we do?\n\nDo you think you can handle another mission? I don't have anybody else to send, Naimah!\n\nWe will never get a team in if Incendius continues to raise Pyron from the ashes.\n\nYou'll have to find and destroy Lord Incendius!\n"] = {
+		[1] = 4263,
+	},
+	["Of Forgotten Memories:57:Travel to the Undercroft - at the southernmost section of the Eastern Plaguelands - and recover Taelan's Hammer. Return to Tirion Fordring upon completion of your objective.:To help Taelan regain what he has lost, you must gather items from his past.\n\nThe first such item is a toy that I gave to him on his 7th birthday. It was his most cherished possession: A miniature war hammer; an exact replica of my very own.\n\nAfter I was banished for treason, his mother told him that I had died. He was taken to my false grave at the Undercroft, where he buried the hammer along with my memory - forever.\n\nYou must venture to the Undercroft and recover Taelan's hammer."] = {
+		[1] = 5781,
+	},
+	["A Taste of Flame:58:Travel to Blackrock Depths and slay Bael'Gar.\n\nYou only know that the giant resides inside Blackrock Depths. Remember to use the Altered Black Dragonflight Molt on Bael'Gar's remains to capture the Fiery Essence.\n\nReturn the Encased Fiery Essence to Cyrus Therepentous.\n\n:I wish to taste the searing flames of the mountain of fire. To let the molten fires of Blackrock cascade across my being. That essence, that searing heat, it is what I crave.\n\nBael'Gar resides in the Depths of Blackrock: A being of pure flame, born of the fires of Ragnaros. Slay Bael'Gar and from his smoldering remains bring for me a piece of his inner fire.\n\nUse the molt on his remains to safely extract the inner flame.\n\nSucceed and be rewarded."] = {
+		[1] = 4024,
+	},
+	["Attunement to the Core:60:Venture to the Molten Core entry portal in Blackrock Depths and recover a Core Fragment. Return to Lothos Riftwaker in Blackrock Mountain when you have recovered the Core Fragment.:Rifts stir, tear, and collapse all around us, human. Not two paces from where I stand is a tear leading through the depths of Blackrock Mountain, into the maw of the Firelord.\n\nSurprised? Pity... The mortal races cannot comprehend that which they cannot see, touch, or feel.\n\nI assure you, the portal is there and access is possible.\n\nI've piqued your interest? Attunement is simple. Venture into Blackrock Depths and retrieve a core fragment. Return it to me and I shall attune your essence with the portal."] = {
+		[1] = 7848,
+	},
+	["Morrowgrain Research:50:Use an Evergreen Pouch with a Packet of Tharlendis Seeds and two Un'Goro Soil samples to try and cultivate samples of Morrowgrain.\n\nBring 10 Morrowgrain to Mathrengyl Bearwalker in Darnassus.:Here's your Evergreen Pouch that you'll need to use the Tharlendis seeds with.  You also need to have Un'Goro soil samples on hand to use as fertilizer for the seeds.  Just use the pouch when you have everything; the pouch will take care of the rest.\n\nWhen you have enough morrowgrain, bring them here to me in the enclave.  Please don't bother the Arch Druid; he's a very busy man, and he doesn't need to be disturbed every time someone returns with another batch of morrowgrain!"] = {
+		[1] = 3785,
+	},
+	["Order Must Be Restored:60:Assemble an army and travel to the Eastern Plaguelands. Launch a full assault on Nathanos Blightcaller and any Horde filth that may attempt to protect him.\n\nKeep your wits about you, Naimah. The Horde will defend the ranger lord with their very lives.:Do you know how many ranger lords exist in this world? How many human ranger lords have ever existed?\n\nNathanos' accomplishments were unprecedented. He was a tactical genius, responsible for Alliance victories spanning a decade of conflict.\n\nAnd now... the champion of the Forsaken.\n\nNo. This cannot be. Order must be restored.\n\nGather an army, Naimah. Return to the Plagues with your army and destroy the Blightcaller.\n\nI wish you luck, Naimah. Truly, you will need it for this battle."] = {
+		[1] = 6187,
+	},
+	["The Lost Tablets of Will:45:Find the Tablet of Will, and return them to Advisor Belgrum in Ironforge.:We've slowed the Shadowforge clan by cutting them off from Blackrock Spire, but Hammertoe's quest is still unfulfilled. His death must not be in vain. He dreamt of finding the Tablet of Will: a stone shard inscribed with magic by the titans themselves to help imbue their creations with life--making them have a will of their own, or so the legends say.\n\nWe must still recover the Tablet before the Shadowforge clan finds it.\n\nReturn to Uldaman, find the tablet, and return here immediately."] = {
+		[1] = 1139,
+	},
+	["Back to Uldaman:42:Search for clues as to the current disposition of Talvash's necklace within Uldaman.  The slain paladin he mentioned was the person who had it last.:A competitor of mine started a rumor that my necklace cursed the paladin.  Needless to say, no one wants to buy cursed items from a jeweler.\n\nNaimah, I'll make you a deal - find the gems and I'll reassemble the necklace, so long as you'll advertise that I do NOT make cursed items!\n\nTry looking for clues in Uldaman; maybe see if the paladin's body is down there, since he's the one who we know had it last!  When you find the gems you should use this; it'll allow you to contact me here in Ironforge."] = {
+		[1] = 2200,
+	},
+	["The Lost Dwarves:40:Find Baelog in Uldaman.:The dig site at Uldaman wasn't always overrun.  We Ironforge dwarves used to control the area, but... that was before the troggs came.  They came so fast and in such numbers that not even dwarven might could stop them!\n\nIn fact, their attack was so sudden that I fear some of our people may be trapped behind enemy lines.\n\nMy friend Baelog led a small band of dwarves deep within the site just before the troggs showed up.  If he and his company live, then I want you to find them."] = {
+		[1] = 2398,
+	},
+}

@@ -1,0 +1,5 @@
+MACRO 16777217 "Weapon Swap" Ability_DualWield
+/equip Staff of Orgrimmar
+/equip Engineer's Hammer
+/equip Kresh's Back
+END

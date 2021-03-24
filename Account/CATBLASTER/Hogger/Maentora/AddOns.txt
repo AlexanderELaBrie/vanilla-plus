@@ -1,0 +1,2 @@
+AtlasLoot: enabled
+FuBar_AtlasFu: disabled

@@ -1,0 +1,56 @@
+
+AtlasLootCharDB = {
+	["DefaultTT"] = true,
+	["ItemSyncTT"] = false,
+	["AutoQuery"] = false,
+	["ItemIDs"] = true,
+	["LastBossText"] = "Alchemy: Apprentice",
+	["Opaque"] = false,
+	["SafeLinks"] = false,
+	["SearchResult"] = {
+	},
+	["EquipCompare"] = false,
+	["MinimapButtonRadius"] = 78,
+	["WishList"] = {
+		[1] = {
+			[1] = 11815,
+			[2] = "Interface",
+			[3] = "Hand of Justice",
+			[4] = "=ds=#s14#",
+			[5] = "BRDEmperorDagranThaurissan|AtlasLootItems",
+		},
+		[2] = {
+			[1] = 11931,
+			[2] = "Interface",
+			[3] = "=q3=Dreadforge Retaliator",
+			[4] = "=ds=#h2#, #w1#",
+			[5] = "BRDEmperorDagranThaurissan|AtlasLootItems",
+		},
+		[3] = {
+			[1] = 11933,
+			[2] = "Interface",
+			[3] = "=q3=Imperial Jewel",
+			[4] = "=ds=#s2#",
+			[5] = "BRDEmperorDagranThaurissan|AtlasLootItems",
+		},
+		[4] = {
+			[1] = 11926,
+			[2] = "Interface",
+			[3] = "=q3=Deathdealer Breastplate",
+			[4] = "=ds=#s5#, #a3#",
+			[5] = "BRDTomb|AtlasLootItems",
+		},
+	},
+	["LastBoss"] = "AlchemyApprentice1",
+	["HidePanel"] = false,
+	["ItemSpam"] = true,
+	["PartialMatching"] = true,
+	["AllLinks"] = true,
+	["QuickLooks"] = {
+	},
+	["AtlasLootVersion"] = "40605",
+	["MinimapButtonPosition"] = 331,
+	["FirstTime"] = false,
+	["MinimapButton"] = true,
+	["LootlinkTT"] = false,
+}

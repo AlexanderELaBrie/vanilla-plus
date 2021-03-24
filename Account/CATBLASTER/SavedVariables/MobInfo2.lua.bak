@@ -1,0 +1,86 @@
+
+MobInfoConfig = {
+	["HealthPosX"] = -7,
+	["SaveBasicInfo"] = 1,
+	["ShowQuality"] = 1,
+	["ShowLoots"] = 1,
+	["SaveItems"] = 1,
+	["ItemTooltip"] = 1,
+	["TargetFontSize"] = 10,
+	["ShowHealth"] = 1,
+	["DisableMobInfo"] = 0,
+	["ShowLocation"] = 1,
+	["HealthPosY"] = 11,
+	["DisableHealth"] = 0,
+	["ShowXp"] = 1,
+	["TargetMana"] = 1,
+	["ShowNo2lev"] = 1,
+	["ShowCombined"] = 1,
+	["SavePlayerHp"] = 1,
+	["ShowCoin"] = 1,
+	["ShowClothSkin"] = 1,
+	["ImportOnlyNew"] = 0,
+	["ShowMana"] = 1,
+	["ManaPercent"] = 1,
+	["TargetFont"] = 2,
+	["ShowCloth"] = 1,
+	["ShowIV"] = 0,
+	["CombinedMode"] = 0,
+	["TargetHealth"] = 1,
+	["ShowEmpty"] = 0,
+	["ItemFilter"] = "",
+	["ShowBlankLines"] = 1,
+	["KeypressMode"] = 0,
+	["HealthPercent"] = 1,
+	["ShowTotal"] = 1,
+	["CompactMode"] = 1,
+	["SaveLocation"] = 1,
+	["ShowDamage"] = 1,
+	["ManaPosY"] = 11,
+	["ShowClass"] = 1,
+	["MI2_OptShowItems"] = 1,
+	["ShowKills"] = 1,
+	["ShowItems"] = 1,
+	["SaveCharData"] = 1,
+	["ManaPosX"] = -7,
+	["ItemsQuality"] = 3,
+	["StableMax"] = 0,
+}
+MobInfoDB = {
+	["DatabaseVersion:0"] = {
+		["ver"] = 6,
+	},
+}
+MobHealthDB = {
+}
+MobHealthPlayerDB = {
+	["Withedream"] = "123/27",
+	["Geoin"] = "1585/27",
+	["Deisch"] = "2034/42",
+	["Gaiye"] = "59/2",
+	["Hellbutze"] = "259/18",
+	["Sebbi"] = "532/41",
+	["Zasalamél"] = "1059/35",
+	["Corofino"] = "152/21",
+	["Blütenzauber"] = "293/16",
+	["Nandorax"] = "780/24",
+	["Statix"] = "467/15",
+	["Fedôra"] = "16/6",
+	["Nightmäd"] = "835/76",
+	["Len"] = "358/14",
+	["Ashuran"] = "1117/34",
+	["Kazuya"] = "94/4",
+	["Tirith"] = "42/43",
+	["Zehun"] = "148/10",
+	["Shugger"] = "709/22",
+	["Redminni"] = "1236/89",
+}
+MI2_ItemNameTable = {
+}
+MI2_CharTable = {
+	["Hogger:Naimah"] = "c1",
+	["charCount"] = 1,
+}
+MI2_ZoneTable = {
+	["cnt"] = 0,
+}

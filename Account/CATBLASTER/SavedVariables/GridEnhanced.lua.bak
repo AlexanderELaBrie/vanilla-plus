@@ -1,0 +1,19 @@
+
+GridEnhancedDB = {
+	["namespaces"] = {
+		["GridLayout"] = {
+			["profiles"] = {
+				["Default"] = {
+					["PosY"] = 400.0000468037335,
+					["PosX"] = 500.000008150664,
+				},
+			},
+		},
+	},
+	["profiles"] = {
+		["Default"] = {
+			["detachedTooltip"] = {
+			},
+		},
+	},
+}

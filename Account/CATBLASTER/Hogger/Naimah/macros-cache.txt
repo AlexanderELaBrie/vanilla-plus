@@ -1,0 +1,46 @@
+MACRO 16777218 "Auras" Spell_Holy_ImprovedResistanceAuras
+/run CURRENT_ACTIONBAR_PAGE=7; ChangeActionBarPage()
+END
+MACRO 16777226 "Cleanse" Ability_Ambush
+/script cast [target=mouseover] Cleanse
+END
+MACRO 16777221 "Concentration" Spell_Holy_MindSooth
+/showtooltip
+/cast Concentration Aura
+/run CURRENT_ACTIONBAR_PAGE=1; ChangeActionBarPage()
+END
+MACRO 16777219 "Devotion Aura" Spell_Holy_DevotionAura
+/showtooltip
+/cast Devotion Aura
+/run CURRENT_ACTIONBAR_PAGE=1; ChangeActionBarPage()
+END
+MACRO 16777225 "Fire Resistance" Spell_Fire_SealOfFire
+/showtooltip
+/cast Fire Resistance Aura
+/run CURRENT_ACTIONBAR_PAGE=1; ChangeActionBarPage()
+END
+MACRO 16777223 "Frost Resistance" Spell_Frost_WizardMark
+/showtooltip
+/cast Frost Resistance Aura
+/run CURRENT_ACTIONBAR_PAGE=1; ChangeActionBarPage()
+END
+MACRO 16777222 "Retribution Aura" Spell_Holy_AuraOfLight
+/showtooltip
+/cast Retribution Aura
+/run CURRENT_ACTIONBAR_PAGE=1; ChangeActionBarPage()
+END
+MACRO 16777220 "Sanctity Aura" Spell_Holy_MindVision
+/showtooltip
+/cast Sanctity Aura
+/run CURRENT_ACTIONBAR_PAGE=1; ChangeActionBarPage()
+END
+MACRO 16777224 "Shadow Resist" Spell_Shadow_SealOfKings
+/showtooltip
+/cast Shadow Resistance Aura
+/run CURRENT_ACTIONBAR_PAGE=1; ChangeActionBarPage()
+END
+MACRO 16777217 "Weapon Swap" Ability_DualWield
+/equip Blackwater Cutlass
+/equip Grunt's Shield of Strength
+/equip Smite's Mighty Hammer 
+END

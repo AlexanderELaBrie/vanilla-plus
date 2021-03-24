@@ -1,0 +1,19 @@
+MACRO 2 "_Main Action Bar" Ability_Creature_Cursed_04
+/run CURRENT_ACTIONBAR_PAGE=1; ChangeActionBarPage()
+END
+MACRO 1 "_Swap Actionbar" Ability_Ambush
+/run CURRENT_ACTIONBAR_PAGE=1; ChangeActionBarPage()
+Replace the "1" with whichever page to be swapped to.
+Bar pages are as follows:
+1 - ActionBarMain
+7 - ActionBarStance1
+8 - ActionBarStance2
+9 - ActionBarStance3
+10 - ActionBarStance4
+END
+MACRO 3 "Icon Skull" Spell_Shadow_CorpseExplode
+/script SetRaidTarget("target", 8);
+END
+MACRO 4 "Icon X" Spell_Shadow_CurseOfMannoroth
+/script SetRaidTarget("target", 7);
+END

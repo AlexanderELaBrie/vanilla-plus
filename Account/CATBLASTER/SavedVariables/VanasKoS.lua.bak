@@ -1,0 +1,12 @@
+
+VanasKoSDB = {
+	["profiles"] = {
+		["default"] = {
+			["notifyVisual"] = 1,
+			["NotifyTimerInterval"] = 60,
+			["enableWarnFrame"] = 1,
+			["notifyChatframe"] = 1,
+			["playSound"] = 1,
+		},
+	},
+}

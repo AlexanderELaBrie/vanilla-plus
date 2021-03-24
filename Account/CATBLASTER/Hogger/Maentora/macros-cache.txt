@@ -1,0 +1,26 @@
+MACRO 16777217 "Earth Totems" Spell_Nature_EarthBindTotem
+/run CURRENT_ACTIONBAR_PAGE=7; ChangeActionBarPage()
+END
+MACRO 16777223 "Fire Nova Totem" Spell_Fire_SealOfFire
+/showtooltip Fire Nova Totem
+/cast Fire Nova Totem
+/run CURRENT_ACTIONBAR_PAGE=1; ChangeActionBarPage()
+END
+MACRO 16777221 "Fire Totems" Spell_Fire_SealOfFire
+/run CURRENT_ACTIONBAR_PAGE=8; ChangeActionBarPage()
+END
+MACRO 16777222 "Searing Totem" Spell_Fire_SearingTotem
+/showtooltip Searing Totem
+/cast Searing Totem
+/run CURRENT_ACTIONBAR_PAGE=1; ChangeActionBarPage()
+END
+MACRO 16777220 "Stoneclaw Totem" Spell_Nature_StoneClawTotem
+/showtooltip Stoneclaw Totem
+/cast Stoneclaw Totem
+/run CURRENT_ACTIONBAR_PAGE=1; ChangeActionBarPage()
+END
+MACRO 16777219 "Stoneskin Totem" Spell_Nature_StoneSkinTotem
+/showtooltip Stoneskin Totem
+/cast Stoneskin Totem
+/run CURRENT_ACTIONBAR_PAGE=1; ChangeActionBarPage()
+END

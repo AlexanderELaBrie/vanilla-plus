@@ -1,0 +1,14 @@
+
+AF_ToolTip = {
+	["Gape|Rebirth"] = {
+		["Guild"] = 1,
+		["Fade"] = 1,
+		["ReactionText"] = 0,
+		["PositionY"] = 15,
+		["PositionX"] = 0,
+		["Anchor"] = "mouse",
+		["PvP"] = 1,
+		["Tapped"] = 1,
+		["Rank"] = 1,
+	},
+}

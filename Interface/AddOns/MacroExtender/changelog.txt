@@ -1,0 +1,124 @@
+ ----------------------------------------------------------------------------------
+-- VERSION HISTORY
+----------------------------------------------------------------------------------
+
+REPORT ALL BUGS TO: https://github.com/PROXiCiDE/MacroExtender/issues
+
+1.06.10 -
+		MacroUI / Container Linking is fixed due to secure hooking
+		
+1.06.9 -
+		Macro condition changes
+		mana,pmana,health,phealth now support Raw and Percentage numbers
+
+		#showtooltip, #show implemented
+		ActionBars / Player Inventory frame now functions similar to TBC+
+		ActionBars will highlight items that are in your bag corresponding towards item quality
+
+		Misc bugs in fixes
+
+		ReadMe
+		Spell checking fixes
+
+
+1.06.8 -
+		Mounts
+		Support for Qiraji
+		removed the limitations on class mounts due to localization
+		pvp mounts should now work correctly
+
+1.06.7 -
+		Mount: Bug should be fixed
+
+1.06.6 -
+		Macro condition changes
+		iscaster added
+		ismelee added
+		pmana, phealth added for player ownly
+
+		Macro UI changes
+		You can now link items by holding down Shift Key and Left Clicking the item from your bags or character inventory
+		
+		/mex added for configuration
+
+		/hearth added
+		/mount added
+		/click added
+		
+		/cast has been replaced, same as /castx just has TBC+ feel, If you want to use the old casting macro command then use /oldcast.
+		/castx still remains for compatability issues
+
+		Directory structure has changed for the AddOn
+
+		Check ReadMe for additional information
+1.06.5 -
+		Macro condition changes
+		pbuff / pdebuff - Checks the player only, its equivalent of buff:@TextureFile
+		
+		equipped now accept item name search Example: /eq [noequipped:spellstone]spellstone
+		smartcast has been improved, can now use bandages / health potions / mana potions /
+			 food / water / conjure food / conjure water / healthstones (now accepts talent improved comparison) /
+			 firestone / soulstone / spellstone
+			 
+		Check ReadMe for aditional information
+		ReadMe.html was removed
+1.06.4 -
+		Macro condition changes
+		equipped fixed bugs and also accept numeric slot values for advanced users, check ReadMe for description
+
+		misc bug fixes
+1.06.3 -
+		IMPORTANT:
+			Smartcast last build said it had a alias, it was my mistake i had removed it and realized that it would probably cost complications
+			later on, ReadMe has been updated
+
+		Macro condition changes
+		smartcast option will now work for WARLOCK: soulstone,healthstone,firestone,spellstone, MAGE: conjured mana crystals
+
+		Macro command changes
+		/equip and /use will now lookup warlock/mage class items such as healthstones/firestone/../mana crystal etc and use the highest level one found in bag
+1.06.2 -
+		Macro condition changes
+		mod has been renamed modifier
+
+		Aliases for channeling (chan),shadowform (shform),equipped (eq),modifier (mod), stance (form)
+			swimming (swim), pethappy (peth), petloyalty (petl), smartcast (sc)
+
+		Macro command changes
+		/castsequence now operates properly with [channeling] condition
+1.06.1 -
+		Macro condition changes
+		buff and debuff now allow to check player buff/debuff with prefix "@" to prevent target=player messing up harmful spell execution, see ReadMe for details
+
+		misc bug fixes
+1.06 -
+		Macro condition changes
+		channeling now accepts a spell paramater
+
+		fixed bugs that included a spell rank
+1.05 -
+		Macro condition changes
+		mana / health condition checks via percentage base
+		equipped condition now accepts iventory slots
+		smartcast condition now supports Life Tap, must meet requirements such as Mana < 100%, will down rank life tap to the corresponding mana deficiency
+
+		Macro commands
+		/equip added can accept list of items
+1.04 - 
+		equipped condition is now available
+		Syntax checking for /castsequence
+		Removed useless Locale strings
+		fixed bugs for buff/debuff conditions
+1.03 - Added /castsequence
+1.02 - 
+		Macro updates / added
+		/castrandom /use /userandom /pick /petaggressive /petdefensive /petpassive /petfollow /petstay
+		/castx can now use items found in the players inventory
+		/cancelform now works with Priest Shadowform and Shaman Ghost Wolf
+		
+		Localization.lua file added, currently only supports English
+		
+		new conditional options: smartcast,shadowform,petloyalty,pethappy
+
+1.01 - Fixed Debug Information
+1.00 - Initial Release

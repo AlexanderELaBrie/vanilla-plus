@@ -1,0 +1,299 @@
+
+pfUI_profiles = {
+	["pfUI"] = {
+		["chat"] = {
+			["right"] = {
+				["enable"] = "1",
+			},
+		},
+	},
+	["Slim"] = {
+		["panel"] = {
+			["use_unitfonts"] = "1",
+		},
+		["appearance"] = {
+			["infight"] = {
+				["screen"] = "0",
+				["common"] = "1",
+			},
+			["border"] = {
+				["color"] = "0,0,0,1",
+				["bags"] = "3",
+				["panels"] = "1",
+				["unitframes"] = "1",
+				["default"] = "1",
+				["background"] = "0.1,0.1,0.1,0.8",
+				["actionbars"] = "1",
+				["chat"] = "2",
+			},
+		},
+		["tooltip"] = {
+			["position"] = "bottom",
+		},
+		["chat"] = {
+			["global"] = {
+				["custombg"] = "1",
+				["tabmouse"] = "1",
+				["background"] = "0,0,0,0.3",
+				["border"] = "0,0,0,0",
+				["tabdock"] = "0",
+			},
+			["text"] = {
+				["outline"] = "0",
+			},
+			["left"] = {
+				["height"] = "160",
+				["width"] = "405",
+			},
+			["right"] = {
+				["enable"] = "1",
+				["height"] = "160",
+				["width"] = "405",
+			},
+		},
+		["version"] = "3.3.0",
+		["nameplates"] = {
+			["use_unitfonts"] = "1",
+		},
+		["bars"] = {
+			["background"] = "0",
+			["icon_size"] = "22",
+		},
+		["unitframes"] = {
+			["ptarget"] = {
+				["portrait"] = "off",
+				["height"] = "8",
+				["pheight"] = "-1",
+				["pspace"] = "-1",
+				["width"] = "125",
+			},
+			["ttarget"] = {
+				["portrait"] = "off",
+				["height"] = "16",
+				["pheight"] = "6",
+				["pspace"] = "-1",
+				["width"] = "125",
+			},
+			["pet"] = {
+				["debuffs"] = "top",
+				["pheight"] = "6",
+				["pspace"] = "-1",
+				["width"] = "125",
+			},
+			["customcolor"] = "0.15,0.15,0.15,1",
+			["custombgcolor"] = "0.5,0.2,0.2,1",
+			["player"] = {
+				["debuffs"] = "off",
+				["pheight"] = "6",
+				["pspace"] = "-1",
+				["width"] = "225",
+				["showPVP"] = "1",
+				["height"] = "35",
+				["buffs"] = "off",
+				["txthpleft"] = "powerdyn",
+				["panchor"] = "TOPRIGHT",
+			},
+			["custombg"] = "1",
+			["focus"] = {
+				["pheight"] = "6",
+			},
+			["target"] = {
+				["debuffs"] = "off",
+				["pheight"] = "6",
+				["pspace"] = "-1",
+				["width"] = "225",
+				["height"] = "35",
+				["buffsize"] = "14",
+				["panchor"] = "TOPLEFT",
+			},
+			["raid"] = {
+				["height"] = "24",
+				["width"] = "48",
+			},
+			["tttarget"] = {
+				["portrait"] = "off",
+				["height"] = "16",
+				["pheight"] = "6",
+				["pspace"] = "-1",
+				["width"] = "125",
+			},
+			["custom"] = "1",
+		},
+		["buffbar"] = {
+			["tdebuff"] = {
+				["height"] = "14",
+				["enable"] = "1",
+			},
+			["pdebuff"] = {
+				["height"] = "14",
+				["enable"] = "1",
+			},
+			["pbuff"] = {
+				["height"] = "14",
+				["enable"] = "1",
+			},
+		},
+	},
+	["pfUI Dark"] = {
+		["appearance"] = {
+			["border"] = {
+				["color"] = "0.0,0.0,0.0,1",
+				["background"] = "0.02,0.02,0.02,0.75",
+			},
+		},
+		["chat"] = {
+			["right"] = {
+				["enable"] = "1",
+			},
+		},
+	},
+	["Adapta"] = {
+		["appearance"] = {
+			["infight"] = {
+				["screen"] = "1",
+				["common"] = "0",
+			},
+			["border"] = {
+				["color"] = "0,0,0,1",
+				["background"] = "0.05,0.15,0.15,0.75",
+				["actionbars"] = "4",
+				["unitframes"] = "1",
+			},
+		},
+		["bars"] = {
+			["bottomright"] = {
+				["formfactor"] = "4 x 3",
+			},
+			["right"] = {
+				["formfactor"] = "4 x 3",
+			},
+			["icon_size"] = "17",
+		},
+		["chat"] = {
+			["global"] = {
+				["custombg"] = "1",
+				["tabmouse"] = "1",
+				["tabdock"] = "0",
+				["border"] = "0,0,0,1",
+				["background"] = "0.15,0.25,0.25,0.3",
+			},
+			["text"] = {
+				["outline"] = "0",
+			},
+			["left"] = {
+				["height"] = "161",
+				["width"] = "400",
+			},
+			["right"] = {
+				["enable"] = "1",
+				["height"] = "161",
+				["width"] = "400",
+			},
+		},
+		["unitframes"] = {
+			["pet"] = {
+				["debuffs"] = "top",
+				["portrait"] = "off",
+				["pheight"] = "6",
+				["pspace"] = "-1",
+				["width"] = "125",
+			},
+			["customcolor"] = "0.1,0.2,0.2,1",
+			["custom"] = "1",
+			["ptarget"] = {
+				["portrait"] = "off",
+				["height"] = "8",
+				["pheight"] = "-1",
+				["pspace"] = "-1",
+				["width"] = "125",
+			},
+			["custombg"] = "1",
+			["focus"] = {
+				["pheight"] = "6",
+				["portrait"] = "off",
+			},
+			["target"] = {
+				["portrait"] = "off",
+				["pheight"] = "6",
+				["height"] = "35",
+				["width"] = "225",
+				["pspace"] = "-1",
+				["panchor"] = "TOPLEFT",
+			},
+			["ttarget"] = {
+				["portrait"] = "off",
+				["height"] = "16",
+				["pheight"] = "6",
+				["pspace"] = "-1",
+				["width"] = "125",
+			},
+			["tttarget"] = {
+				["portrait"] = "off",
+				["height"] = "16",
+				["pheight"] = "6",
+				["pspace"] = "-1",
+				["width"] = "125",
+			},
+			["player"] = {
+				["portrait"] = "off",
+				["pheight"] = "6",
+				["pspace"] = "-1",
+				["width"] = "225",
+				["txthpleft"] = "powerdyn",
+				["height"] = "35",
+				["showPVP"] = "1",
+				["panchor"] = "TOPRIGHT",
+			},
+		},
+	},
+}
+pfUI_addon_profiles = {
+}
+pfUI_cache = {
+	["prediction"] = {
+		["Hogger"] = {
+			["Naimah"] = {
+				["heals"] = {
+				},
+			},
+		},
+	},
+	["libhealth"] = {
+	},
+	["gold"] = {
+		["Hogger"] = {
+			["Naimah"] = 129,
+		},
+	},
+	["chathistory"] = {
+		["Hogger"] = {
+			["Naimah"] = {
+				[1] = {
+					[1] = "|cffb29393Joined Channel: [4. World]",
+					[2] = "|cffb29393Joined Channel: [3. LocalDefense - Elwynn Forest]",
+					[3] = "|cffb29393Joined Channel: [1. General - Elwynn Forest]",
+					[4] = "|cffffff00<AF>|rToolTip: Theme: |cff0099FFAqua Fusion|r by |cff0099FFAquaFlare7 (AquaFlare7@gmail.com)|r applied",
+					[5] = "|cffffff00<AF>|rToolTip: v5.8 Loaded for Naimah of Hogger",
+					[6] = "|cffb2b233Welcome to World of Warcraft: Vanilla+",
+					[7] = "|cFF7CFC00M|r|cffC495DDacro|r |cFF7CFC00E|r|cffC495DDxtender|r: Has been loaded",
+					[8] = "|cffffff78Ace Initialization Complete|r\n|cffffff78Registered Ace applications:|r 1\n|cffffff78Profile loaded:|r default\n|cffffff78Type|r |cffd8c7ff/ace|r |cffffff78for more information|r",
+					[9] = "MobInfo-2  v 2.97  Loaded,  |cff00ff00enter /mi2 or /mobinfo2 for help",
+					[10] = "|cffffff00Natur EnemyCastBar |cffcccc00(4.4.0)|cffffff00:|cffffffff AddOn loaded. Use |cff00ff00/necb|cffffffff to configure.",
+					[11] = "TheoryCraft |cffccccff|Hurl:1.06.5|h[1.06.5]|h|r by Aelian. Type /tc for ui interface. Type /tc more for hidden features.",
+				},
+				[2] = {
+				},
+				[3] = {
+				},
+				[4] = {
+				},
+				[5] = {
+				},
+				[6] = {
+				},
+				[7] = {
+				},
+			},
+		},
+	},
+}

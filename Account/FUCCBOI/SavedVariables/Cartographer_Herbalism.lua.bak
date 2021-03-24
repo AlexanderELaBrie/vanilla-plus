@@ -1,0 +1,6 @@
+
+Cartographer_HerbalismDB = {
+	["Mulgore"] = {
+		[674115] = "Silverleaf",
+	},
+}
