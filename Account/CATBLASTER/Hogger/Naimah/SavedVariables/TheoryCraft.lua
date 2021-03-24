@@ -171,7 +171,7 @@ TheoryCraft_Settings = {
 			["crits"] = 1,
 		},
 		["89:0"] = {
-			["casts"] = 49,
+			["casts"] = 50,
 			["crits"] = 3,
 		},
 		["79:0"] = {

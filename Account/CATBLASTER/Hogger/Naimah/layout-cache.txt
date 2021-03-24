@@ -11,7 +11,7 @@ FrameLevel: 1
 X: 264
 Y: -86
 Frame: ChatFrame1
-FrameLevel: 2
+FrameLevel: 13
 X: 7
 Y: -753
 W: 375
@@ -39,11 +39,11 @@ FrameLevel: 17
 X: 0
 Y: -104
 Frame: CharacterFrame
-FrameLevel: 30
-X: 0
+FrameLevel: 28
+X: 394
 Y: -104
 Frame: FriendsFrame
-FrameLevel: 21
+FrameLevel: 22
 X: 0
 Y: -104
 Frame: WorldMapFrame
@@ -86,7 +86,7 @@ X: 506
 Y: -136
 Frame: pfQuestMapTracker
 FrameLevel: 1
-X: 1383
+X: 1346
 Y: -199
 Frame: pfQuestBrowser
 FrameLevel: 1

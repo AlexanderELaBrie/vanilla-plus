@@ -11,18 +11,18 @@ AtlasLootCharDB = {
 	},
 	["EquipCompare"] = false,
 	["MinimapButtonRadius"] = 78,
-	["WishList"] = {
-	},
+	["ItemSpam"] = true,
 	["LastBoss"] = "UBRSGyth",
 	["HidePanel"] = false,
-	["ItemSpam"] = true,
+	["FirstTime"] = false,
 	["PartialMatching"] = true,
 	["AllLinks"] = false,
 	["QuickLooks"] = {
 	},
 	["AtlasLootVersion"] = "40605",
 	["MinimapButtonPosition"] = 315,
-	["FirstTime"] = false,
+	["WishList"] = {
+	},
 	["MinimapButton"] = true,
 	["LootlinkTT"] = false,
 }

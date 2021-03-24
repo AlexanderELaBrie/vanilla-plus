@@ -11,6 +11,9 @@ Bar pages are as follows:
 9 - ActionBarStance3
 10 - ActionBarStance4
 END
+MACRO 5 "Chicken" Ability_Druid_DemoralizingRoar
+/chicken
+END
 MACRO 3 "Icon Skull" Spell_Shadow_CorpseExplode
 /script SetRaidTarget("target", 8);
 END
