@@ -4,25 +4,25 @@ AtlasLootCharDB = {
 	["ItemSyncTT"] = false,
 	["AutoQuery"] = false,
 	["ItemIDs"] = false,
-	["LastBossText"] = "Gyth",
+	["LastBossText"] = "Ramstein the Gorger",
 	["Opaque"] = false,
 	["SafeLinks"] = true,
 	["SearchResult"] = {
 	},
 	["EquipCompare"] = false,
 	["MinimapButtonRadius"] = 78,
-	["ItemSpam"] = true,
-	["LastBoss"] = "UBRSGyth",
+	["WishList"] = {
+	},
+	["LastBoss"] = "STRATRamsteintheGorger",
 	["HidePanel"] = false,
-	["FirstTime"] = false,
+	["ItemSpam"] = true,
 	["PartialMatching"] = true,
 	["AllLinks"] = false,
 	["QuickLooks"] = {
 	},
 	["AtlasLootVersion"] = "40605",
 	["MinimapButtonPosition"] = 315,
-	["WishList"] = {
-	},
+	["FirstTime"] = false,
 	["MinimapButton"] = true,
 	["LootlinkTT"] = false,
 }

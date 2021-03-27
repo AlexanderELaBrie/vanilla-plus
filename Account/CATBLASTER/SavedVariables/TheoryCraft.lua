@@ -14,24 +14,6 @@ TheoryCraft_SetBonuses = {
 			["text"] = "+18 Stamina.",
 		},
 	},
-	["The Gladiator"] = {
-		[1] = {
-			["pieces"] = 2,
-			["text"] = "+20 Armor.",
-		},
-		[2] = {
-			["pieces"] = 3,
-			["text"] = "Increased Defense +2.",
-		},
-		[3] = {
-			["pieces"] = 4,
-			["text"] = "+10 Attack Power.",
-		},
-		[4] = {
-			["pieces"] = 5,
-			["text"] = "Improves your chance to get a critical strike by 1%.",
-		},
-	},
 	["Defias Leather"] = {
 		[1] = {
 			["pieces"] = 2,
@@ -48,6 +30,24 @@ TheoryCraft_SetBonuses = {
 		[4] = {
 			["pieces"] = 5,
 			["text"] = "+10 Attack Power.",
+		},
+	},
+	["The Gladiator"] = {
+		[1] = {
+			["pieces"] = 2,
+			["text"] = "+20 Armor.",
+		},
+		[2] = {
+			["pieces"] = 3,
+			["text"] = "Increased Defense +2.",
+		},
+		[3] = {
+			["pieces"] = 4,
+			["text"] = "+10 Attack Power.",
+		},
+		[4] = {
+			["pieces"] = 5,
+			["text"] = "Improves your chance to get a critical strike by 1%.",
 		},
 	},
 }

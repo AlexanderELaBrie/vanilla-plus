@@ -87,12 +87,12 @@ TheoryCraft_Settings = {
 			["crits"] = 0,
 		},
 		["101:0"] = {
-			["casts"] = 11,
+			["casts"] = 12,
 			["crits"] = 1,
 		},
 		["122:0"] = {
-			["casts"] = 11,
-			["crits"] = 0,
+			["casts"] = 50,
+			["crits"] = 8,
 		},
 		["115:0"] = {
 			["casts"] = 1,
@@ -167,12 +167,12 @@ TheoryCraft_Settings = {
 			["crits"] = 0,
 		},
 		["99:0"] = {
-			["casts"] = 5,
-			["crits"] = 1,
+			["casts"] = 6,
+			["crits"] = 2,
 		},
 		["89:0"] = {
-			["casts"] = 50,
-			["crits"] = 3,
+			["casts"] = 69,
+			["crits"] = 5,
 		},
 		["79:0"] = {
 			["casts"] = 11,
@@ -223,7 +223,7 @@ TheoryCraft_Settings = {
 			["crits"] = 0,
 		},
 		["106:0"] = {
-			["casts"] = 38,
+			["casts"] = 40,
 			["crits"] = 4,
 		},
 		["70:0"] = {
@@ -235,7 +235,7 @@ TheoryCraft_Settings = {
 			["crits"] = 1,
 		},
 		["118:0"] = {
-			["casts"] = 6,
+			["casts"] = 8,
 			["crits"] = 0,
 		},
 		["62:0"] = {
@@ -283,11 +283,11 @@ TheoryCraft_Settings = {
 			["crits"] = 1,
 		},
 		["86:0"] = {
-			["casts"] = 8,
-			["crits"] = 1,
+			["casts"] = 39,
+			["crits"] = 3,
 		},
 		["96:0"] = {
-			["casts"] = 109,
+			["casts"] = 114,
 			["crits"] = 12,
 		},
 		["169:0"] = {

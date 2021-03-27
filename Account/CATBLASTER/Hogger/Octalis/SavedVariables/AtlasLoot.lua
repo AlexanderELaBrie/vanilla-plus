@@ -11,18 +11,18 @@ AtlasLootCharDB = {
 	},
 	["EquipCompare"] = false,
 	["MinimapButtonRadius"] = 78,
-	["ItemSpam"] = true,
+	["FirstTime"] = false,
 	["LastBoss"] = "RFCTaragaman",
 	["HidePanel"] = false,
-	["FirstTime"] = false,
+	["WishList"] = {
+	},
 	["PartialMatching"] = true,
 	["AllLinks"] = false,
 	["QuickLooks"] = {
 	},
 	["AtlasLootVersion"] = "50008",
 	["MinimapButtonPosition"] = 315,
-	["WishList"] = {
-	},
+	["ItemSpam"] = true,
 	["MinimapButton"] = true,
 	["LootlinkTT"] = false,
 }

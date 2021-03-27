@@ -18,128 +18,9 @@ gOutfitter_Settings = {
 			},
 		},
 		[2] = {
-			["Name"] = "Weapon Swap Sword-and-Board",
+			["Name"] = "Riding",
 		},
 		[3] = {
-			["Items"] = {
-				["Finger0Slot"] = {
-					["Name"] = "Magni's Will",
-					["Code"] = 12548,
-					["SubCode"] = 0,
-					["EnchantCode"] = 0,
-				},
-				["BackSlot"] = {
-					["Name"] = "Cerise Drape",
-					["Code"] = 15804,
-					["SubCode"] = 0,
-					["EnchantCode"] = 884,
-				},
-				["Trinket0Slot"] = {
-					["Name"] = "Archaedas' Stone Heart",
-					["Code"] = 26014,
-					["SubCode"] = 0,
-					["EnchantCode"] = 0,
-				},
-				["TabardSlot"] = {
-					["Name"] = "",
-					["Code"] = 0,
-					["SubCode"] = 0,
-					["EnchantCode"] = 0,
-				},
-				["FeetSlot"] = {
-					["Name"] = "Savage Gladiator Greaves",
-					["Code"] = 11731,
-					["SubCode"] = 0,
-					["EnchantCode"] = 929,
-				},
-				["NeckSlot"] = {
-					["Name"] = "Talvash's Enhancing Necklace",
-					["Code"] = 7673,
-					["SubCode"] = 0,
-					["EnchantCode"] = 0,
-				},
-				["Finger1Slot"] = {
-					["Name"] = "Cyclopean Band",
-					["Code"] = 11824,
-					["SubCode"] = 0,
-					["EnchantCode"] = 0,
-				},
-				["RangedSlot"] = {
-					["Name"] = "Libram of Truth",
-					["Code"] = 22400,
-					["SubCode"] = 0,
-					["EnchantCode"] = 0,
-				},
-				["Trinket1Slot"] = {
-					["Name"] = "Hand of Justice",
-					["Code"] = 11815,
-					["SubCode"] = 0,
-					["EnchantCode"] = 0,
-				},
-				["HeadSlot"] = {
-					["Name"] = "Mugthol's Helm",
-					["Code"] = 13073,
-					["SubCode"] = 0,
-					["EnchantCode"] = 0,
-				},
-				["MainHandSlot"] = {
-					["Name"] = "Force of Magma",
-					["Code"] = 11803,
-					["SubCode"] = 0,
-					["MetaSlotName"] = "TwoHandSlot",
-					["EnchantCode"] = 1897,
-				},
-				["ShirtSlot"] = {
-					["Name"] = "",
-					["Code"] = 0,
-					["SubCode"] = 0,
-					["EnchantCode"] = 0,
-				},
-				["SecondaryHandSlot"] = {
-					["Name"] = "",
-					["Code"] = 0,
-					["SubCode"] = 0,
-					["EnchantCode"] = 0,
-				},
-				["LegsSlot"] = {
-					["Name"] = "Savage Gladiator Leggings",
-					["Code"] = 11728,
-					["SubCode"] = 0,
-					["EnchantCode"] = 0,
-				},
-				["ShoulderSlot"] = {
-					["Name"] = "Ebonsteel Spaulders",
-					["Code"] = 12557,
-					["SubCode"] = 0,
-					["EnchantCode"] = 0,
-				},
-				["ChestSlot"] = {
-					["Name"] = "Savage Gladiator Chain",
-					["Code"] = 11726,
-					["SubCode"] = 0,
-					["EnchantCode"] = 928,
-				},
-				["WristSlot"] = {
-					["Name"] = "Black Steel Bindings",
-					["Code"] = 22205,
-					["SubCode"] = 0,
-					["EnchantCode"] = 927,
-				},
-				["HandsSlot"] = {
-					["Name"] = "Fists of Phalanx",
-					["Code"] = 11745,
-					["SubCode"] = 0,
-					["EnchantCode"] = 1887,
-				},
-				["WaistSlot"] = {
-					["Name"] = "Atal'alarion's Tusk Ring",
-					["Code"] = 10798,
-					["SubCode"] = 0,
-					["EnchantCode"] = 0,
-				},
-			},
-		},
-		[4] = {
 			["Items"] = {
 				["WristSlot"] = {
 					["Name"] = "Black Steel Bindings",
@@ -257,7 +138,7 @@ gOutfitter_Settings = {
 				},
 			},
 		},
-		[5] = {
+		[4] = {
 			["Items"] = {
 				["WristSlot"] = {
 					["Name"] = "Black Steel Bindings",
@@ -375,7 +256,7 @@ gOutfitter_Settings = {
 				},
 			},
 		},
-		[6] = {
+		[5] = {
 			["Items"] = {
 				["WristSlot"] = {
 					["Name"] = "Black Steel Bindings",
@@ -493,7 +374,7 @@ gOutfitter_Settings = {
 				},
 			},
 		},
-		[7] = {
+		[6] = {
 			["Items"] = {
 				["WristSlot"] = {
 					["Name"] = "Black Steel Bindings",
@@ -611,7 +492,7 @@ gOutfitter_Settings = {
 				},
 			},
 		},
-		[8] = {
+		[7] = {
 			["Items"] = {
 				["WristSlot"] = {
 					["Name"] = "Black Steel Bindings",
@@ -729,7 +610,7 @@ gOutfitter_Settings = {
 				},
 			},
 		},
-		[9] = {
+		[8] = {
 			["Items"] = {
 				["WristSlot"] = {
 					["Name"] = "Black Steel Bindings",
@@ -848,13 +729,132 @@ gOutfitter_Settings = {
 				},
 			},
 		},
-		[10] = {
+		[9] = {
 			["Items"] = {
+				["Finger0Slot"] = {
+					["Name"] = "Magni's Will",
+					["Code"] = 12548,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["BackSlot"] = {
+					["Name"] = "Cerise Drape",
+					["Code"] = 15804,
+					["SubCode"] = 0,
+					["EnchantCode"] = 884,
+				},
+				["Trinket0Slot"] = {
+					["Name"] = "Argent Dawn Commission",
+					["Code"] = 12846,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["TabardSlot"] = {
+					["Name"] = "",
+					["Code"] = 0,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["FeetSlot"] = {
+					["Name"] = "Savage Gladiator Greaves",
+					["Code"] = 11731,
+					["SubCode"] = 0,
+					["EnchantCode"] = 929,
+				},
+				["NeckSlot"] = {
+					["Name"] = "Talvash's Enhancing Necklace",
+					["Code"] = 7673,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["Finger1Slot"] = {
+					["Name"] = "Cyclopean Band",
+					["Code"] = 11824,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["RangedSlot"] = {
+					["Name"] = "Egan's Blaster",
+					["Code"] = 13289,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["Trinket1Slot"] = {
+					["Name"] = "Hand of Justice",
+					["Code"] = 11815,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["HeadSlot"] = {
+					["Name"] = "Mugthol's Helm",
+					["Code"] = 13073,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["MainHandSlot"] = {
+					["Name"] = "Force of Magma",
+					["Code"] = 11803,
+					["SubCode"] = 0,
+					["MetaSlotName"] = "TwoHandSlot",
+					["EnchantCode"] = 1897,
+				},
+				["ShirtSlot"] = {
+					["Name"] = "",
+					["Code"] = 0,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["SecondaryHandSlot"] = {
+					["Name"] = "",
+					["Code"] = 0,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["LegsSlot"] = {
+					["Name"] = "Savage Gladiator Leggings",
+					["Code"] = 11728,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["ShoulderSlot"] = {
+					["Name"] = "Ebonsteel Spaulders",
+					["Code"] = 12557,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["ChestSlot"] = {
+					["Name"] = "Savage Gladiator Chain",
+					["Code"] = 11726,
+					["SubCode"] = 0,
+					["EnchantCode"] = 928,
+				},
 				["WristSlot"] = {
 					["Name"] = "Black Steel Bindings",
 					["Code"] = 22205,
 					["SubCode"] = 0,
 					["EnchantCode"] = 927,
+				},
+				["HandsSlot"] = {
+					["Name"] = "Fists of Phalanx",
+					["Code"] = 11745,
+					["SubCode"] = 0,
+					["EnchantCode"] = 1887,
+				},
+				["WaistSlot"] = {
+					["Name"] = "Atal'alarion's Tusk Ring",
+					["Code"] = 10798,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+			},
+		},
+		[10] = {
+			["Items"] = {
+				["Finger0Slot"] = {
+					["Name"] = "Magni's Will",
+					["Code"] = 12548,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
 				},
 				["BackSlot"] = {
 					["Name"] = "Cerise Drape",
@@ -880,9 +880,9 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 929,
 				},
-				["WaistSlot"] = {
-					["Name"] = "Atal'alarion's Tusk Ring",
-					["Code"] = 10798,
+				["NeckSlot"] = {
+					["Name"] = "Mark of Fordring",
+					["Code"] = 15411,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
@@ -917,9 +917,9 @@ gOutfitter_Settings = {
 					["MetaSlotName"] = "TwoHandSlot",
 					["EnchantCode"] = 1897,
 				},
-				["LegsSlot"] = {
-					["Name"] = "Savage Gladiator Leggings",
-					["Code"] = 11728,
+				["WaistSlot"] = {
+					["Name"] = "Atal'alarion's Tusk Ring",
+					["Code"] = 10798,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
@@ -929,9 +929,21 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["NeckSlot"] = {
-					["Name"] = "Talvash's Enhancing Necklace",
-					["Code"] = 7673,
+				["HandsSlot"] = {
+					["Name"] = "Fists of Phalanx",
+					["Code"] = 11745,
+					["SubCode"] = 0,
+					["EnchantCode"] = 1887,
+				},
+				["WristSlot"] = {
+					["Name"] = "Black Steel Bindings",
+					["Code"] = 22205,
+					["SubCode"] = 0,
+					["EnchantCode"] = 927,
+				},
+				["RangedSlot"] = {
+					["Name"] = "Libram of Truth",
+					["Code"] = 22400,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
@@ -941,23 +953,11 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["RangedSlot"] = {
-					["Name"] = "Libram of Truth",
-					["Code"] = 22400,
+				["LegsSlot"] = {
+					["Name"] = "Savage Gladiator Leggings",
+					["Code"] = 11728,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
-				},
-				["Finger0Slot"] = {
-					["Name"] = "Magni's Will",
-					["Code"] = 12548,
-					["SubCode"] = 0,
-					["EnchantCode"] = 0,
-				},
-				["HandsSlot"] = {
-					["Name"] = "Fists of Phalanx",
-					["Code"] = 11745,
-					["SubCode"] = 0,
-					["EnchantCode"] = 1887,
 				},
 				["SecondaryHandSlot"] = {
 					["Name"] = "",
@@ -1020,12 +1020,6 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["WaistSlot"] = {
-						["Name"] = "",
-						["Code"] = 0,
-						["SubCode"] = 0,
-						["EnchantCode"] = 0,
-					},
 					["LegsSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
@@ -1033,6 +1027,12 @@ gOutfitter_Settings = {
 						["EnchantCode"] = 0,
 					},
 					["HandsSlot"] = {
+						["Name"] = "",
+						["Code"] = 0,
+						["SubCode"] = 0,
+						["EnchantCode"] = 0,
+					},
+					["WaistSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -1291,18 +1291,11 @@ gOutfitter_Settings = {
 			},
 			[4] = {
 				["Items"] = {
-				},
-				["BindingIndex"] = 2,
-				["Name"] = "Weapon Swap Sword-and-Board",
-				["CategoryID"] = "Partial",
-			},
-			[5] = {
-				["Items"] = {
 					["SecondaryHandSlot"] = {
-						["Name"] = "Crest of Supremacy",
-						["Code"] = 10835,
+						["Name"] = "Rock Golem Bulwark",
+						["Code"] = 11785,
 						["SubCode"] = 0,
-						["EnchantCode"] = 1890,
+						["EnchantCode"] = 0,
 					},
 					["MainHandSlot"] = {
 						["Name"] = "Rubidium Hammer",
@@ -1312,6 +1305,13 @@ gOutfitter_Settings = {
 					},
 				},
 				["BindingIndex"] = 1,
+				["Name"] = "Weapon Swap Sword-and-Board",
+				["CategoryID"] = "Partial",
+			},
+			[5] = {
+				["Items"] = {
+				},
+				["BindingIndex"] = 2,
 				["Name"] = "Weapon Swap Two-Hander",
 				["CategoryID"] = "Partial",
 			},
