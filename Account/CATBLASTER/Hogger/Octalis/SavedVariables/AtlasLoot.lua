@@ -4,7 +4,7 @@ AtlasLootCharDB = {
 	["ItemSyncTT"] = false,
 	["AutoQuery"] = false,
 	["ItemIDs"] = false,
-	["LastBossText"] = "Taragaman the Hungerer",
+	["LastBossText"] = "Hydrospawn",
 	["Opaque"] = false,
 	["SafeLinks"] = true,
 	["SearchResult"] = {
@@ -12,7 +12,7 @@ AtlasLootCharDB = {
 	["EquipCompare"] = false,
 	["MinimapButtonRadius"] = 78,
 	["FirstTime"] = false,
-	["LastBoss"] = "RFCTaragaman",
+	["LastBoss"] = "DMEHydro",
 	["HidePanel"] = false,
 	["WishList"] = {
 	},
