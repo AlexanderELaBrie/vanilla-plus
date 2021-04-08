@@ -11,18 +11,18 @@ AtlasLootCharDB = {
 	},
 	["EquipCompare"] = false,
 	["MinimapButtonRadius"] = 78,
-	["FirstTime"] = false,
-	["LastBoss"] = "STRATBaronRivendare",
-	["HidePanel"] = false,
 	["WishList"] = {
 	},
+	["LastBoss"] = "STRATBaronRivendare",
+	["HidePanel"] = false,
+	["ItemSpam"] = true,
 	["PartialMatching"] = true,
 	["AllLinks"] = false,
 	["QuickLooks"] = {
 	},
 	["AtlasLootVersion"] = "40605",
 	["MinimapButtonPosition"] = 315,
-	["ItemSpam"] = true,
+	["FirstTime"] = false,
 	["MinimapButton"] = true,
 	["LootlinkTT"] = false,
 }

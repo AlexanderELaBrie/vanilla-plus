@@ -4,19 +4,19 @@ AtlasLootCharDB = {
 	["ItemSyncTT"] = false,
 	["AutoQuery"] = false,
 	["ItemIDs"] = false,
-	["LastBossText"] = "Hydrospawn",
+	["LastBossText"] = "The Grim Guzzler",
 	["Opaque"] = false,
 	["SafeLinks"] = true,
 	["SearchResult"] = {
 	},
-	["EquipCompare"] = false,
+	["PartialMatching"] = true,
 	["MinimapButtonRadius"] = 78,
 	["FirstTime"] = false,
-	["LastBoss"] = "DMEHydro",
+	["LootlinkTT"] = false,
 	["HidePanel"] = false,
 	["WishList"] = {
 	},
-	["PartialMatching"] = true,
+	["EquipCompare"] = false,
 	["AllLinks"] = false,
 	["QuickLooks"] = {
 	},
@@ -24,5 +24,5 @@ AtlasLootCharDB = {
 	["MinimapButtonPosition"] = 315,
 	["ItemSpam"] = true,
 	["MinimapButton"] = true,
-	["LootlinkTT"] = false,
+	["LastBoss"] = "BRDGuzzler",
 }

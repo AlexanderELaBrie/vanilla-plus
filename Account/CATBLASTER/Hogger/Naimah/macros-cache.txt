@@ -1,9 +1,9 @@
 MACRO 16777218 "Auras" Spell_Holy_ImprovedResistanceAuras
 /run CURRENT_ACTIONBAR_PAGE=7; ChangeActionBarPage()
 END
-MACRO 16777226 "Cleanse" Ability_Ambush
-/script if UnitExists("mouseover") then TargetUnit("mouseover"); CastSpellByName("Cleanse") ; TargetLastTarget(); end
-/cast Cleanse
+MACRO 16777226 "Cleanse" Spell_Holy_Renew
+/showtooltip Cleanse
+/run local t=GetMouseOver(1) TargetUnit(t) CastSpellByName("Cleanse");
 END
 MACRO 16777221 "Concentration" Spell_Holy_MindSooth
 /showtooltip

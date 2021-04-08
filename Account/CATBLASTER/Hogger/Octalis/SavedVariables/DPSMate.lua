@@ -1,12 +1,28 @@
 
 DPSMateUser = {
+	["Adanos"] = {
+		[1] = 3,
+		[2] = "priest",
+		[3] = 1,
+		[8] = 60,
+	},
 	["Octalis"] = {
 		[1] = 1,
 		[2] = "rogue",
 		[8] = 1,
 	},
+	["Dirja"] = {
+		[1] = 4,
+		[2] = "druid",
+		[3] = 1,
+		[8] = 60,
+	},
 }
 DPSMateAbility = {
+	["Fire"] = {
+		[1] = 2,
+		[3] = "fire",
+	},
 	["Init"] = {
 		[1] = 1,
 	},
@@ -184,11 +200,11 @@ DPSMateHistory = {
 	},
 	["OHealing"] = {
 	},
-	["names"] = {
+	["Auras"] = {
 	},
 	["EHealing"] = {
 	},
-	["EDTaken"] = {
+	["OHealingTaken"] = {
 	},
 	["CCBreaker"] = {
 	},
@@ -198,23 +214,23 @@ DPSMateHistory = {
 	},
 	["THealingTaken"] = {
 	},
-	["EHealingTaken"] = {
+	["Interrupts"] = {
 	},
-	["Auras"] = {
+	["EDTaken"] = {
 	},
 	["THealing"] = {
 	},
-	["OHealingTaken"] = {
-	},
-	["Absorbs"] = {
+	["DMGTaken"] = {
 	},
 	["Deaths"] = {
 	},
-	["DMGTaken"] = {
+	["Absorbs"] = {
+	},
+	["EHealingTaken"] = {
 	},
 	["DMGDone"] = {
 	},
-	["Interrupts"] = {
+	["names"] = {
 	},
 }
 DPSMateFails = {

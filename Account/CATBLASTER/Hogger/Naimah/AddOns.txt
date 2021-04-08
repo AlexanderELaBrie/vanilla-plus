@@ -29,3 +29,4 @@ Atlas: enabled
 !Questie: enabled
 FuBar_AtlasFu: disabled
 AF_Tooltip: enabled
+Auctioneer: disabled

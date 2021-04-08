@@ -1,2 +1,3 @@
 AtlasLoot: enabled
 FuBar_AtlasFu: disabled
+Auctioneer: enabled
