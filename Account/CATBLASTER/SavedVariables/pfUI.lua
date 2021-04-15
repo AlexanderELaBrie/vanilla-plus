@@ -144,12 +144,12 @@ pfUI_profiles = {
 		["disabled"] = {
 			["totems"] = "0",
 			["pixelperfect"] = "0",
-			["skin_Merchant"] = "1",
+			["skin_Spellbook"] = "1",
 			["skin_Options - Sound"] = "0",
-			["skin_KeyBindings"] = "1",
+			["skin_Options - Video"] = "0",
 			["unlock"] = "0",
 			["vanillaplus"] = "0",
-			["roll"] = "0",
+			["loot"] = "0",
 			["feigndeath"] = "0",
 			["target"] = "0",
 			["map"] = "0",
@@ -161,9 +161,9 @@ pfUI_profiles = {
 			["player"] = "0",
 			["updatenotify"] = "0",
 			["hunterbar"] = "0",
-			["skin_Color Picker"] = "1",
+			["skin_Flightmaster"] = "1",
 			["targettargettarget"] = "0",
-			["mapreveal"] = "0",
+			["socialmod"] = "0",
 			["bags"] = "0",
 			["chat"] = "0",
 			["autoshift"] = "0",
@@ -179,20 +179,20 @@ pfUI_profiles = {
 			["skin_Tutorial"] = "1",
 			["targettarget"] = "0",
 			["sellvalue"] = "0",
-			["mirrortimers"] = "0",
+			["EliteOverlay"] = "0",
 			["skin_Readycheck"] = "1",
 			["custom"] = "0",
 			["skin_Gossip and Quest"] = "1",
 			["skin_Popup Dialogs"] = "1",
 			["skin_Options - Interface"] = "0",
-			["EliteOverlay"] = "0",
+			["mirrortimers"] = "0",
 			["skin_Opacity"] = "1",
 			["share"] = "0",
 			["skin_Pet Stable Master"] = "1",
 			["skin_GM Survey"] = "1",
 			["autovendor"] = "0",
 			["bubbles"] = "0",
-			["castbar"] = "0",
+			["hoverbind"] = "0",
 			["skin_Books"] = "1",
 			["easteregg"] = "0",
 			["skin_Battlefield Minimap"] = "1",
@@ -201,23 +201,23 @@ pfUI_profiles = {
 			["skin"] = "0",
 			["skin_Trade"] = "1",
 			["skin_Inspect"] = "1",
-			["screenshot"] = "0",
-			["skin_Options - Video"] = "0",
+			["castbar"] = "0",
+			["skin_KeyBindings"] = "1",
 			["infight"] = "0",
-			["addons"] = "0",
-			["xpbar"] = "0",
 			["questitem"] = "0",
-			["unusable"] = "0",
+			["xpbar"] = "0",
+			["addons"] = "0",
 			["skin_Friends"] = "1",
-			["mouseover"] = "0",
+			["pet"] = "0",
+			["unusable"] = "0",
 			["skin_Dress Up Frame"] = "1",
 			["macrotweak"] = "0",
-			["whisperproxy"] = "0",
 			["skin_Game Menu"] = "0",
+			["whisperproxy"] = "0",
 			["skin_Macro"] = "1",
-			["energytick"] = "0",
-			["gm"] = "0",
 			["eqcompare"] = "0",
+			["mapcolors"] = "0",
+			["energytick"] = "0",
 			["skin_Character"] = "1",
 			["thirdparty"] = "0",
 			["skin_Battlefield"] = "1",
@@ -230,24 +230,24 @@ pfUI_profiles = {
 			["buffwatch"] = "0",
 			["addoncompat"] = "0",
 			["buff"] = "0",
-			["mapcolors"] = "0",
+			["gm"] = "0",
 			["skin_Battlefield Score"] = "1",
 			["skin_Coin Pickup"] = "1",
 			["chatcopy"] = "0",
 			["skin_Quest Timer"] = "1",
 			["panel"] = "0",
-			["pet"] = "0",
-			["skin_Spellbook"] = "1",
-			["hoverbind"] = "0",
-			["skin_Mailbox"] = "1",
-			["loot"] = "0",
-			["pettarget"] = "0",
+			["mouseover"] = "0",
+			["skin_Merchant"] = "1",
+			["screenshot"] = "0",
 			["itemclick"] = "0",
-			["skin_Flightmaster"] = "1",
+			["roll"] = "0",
+			["pettarget"] = "0",
+			["skin_Mailbox"] = "1",
+			["skin_Color Picker"] = "1",
 			["afkcam"] = "0",
 			["firstrun"] = "0",
 			["actionbar"] = "0",
-			["socialmod"] = "0",
+			["mapreveal"] = "0",
 			["skin_Tooltips"] = "1",
 			["cooldown"] = "0",
 			["combopoints"] = "0",
@@ -258,19 +258,19 @@ pfUI_profiles = {
 		["chat"] = {
 			["global"] = {
 				["chatflash"] = "1",
-				["whisper"] = "1,.7,1,1",
+				["fadeout"] = "0",
 				["tabmouse"] = "0",
 				["tabdock"] = "0",
 				["border"] = ".4,.4,.4,.5",
 				["fadetime"] = "10",
 				["frameshadow"] = "1",
-				["scrollspeed"] = "1",
-				["fadeout"] = "0",
-				["whispermod"] = "1",
 				["sticky"] = "1",
-				["hidecombat"] = "0",
-				["background"] = ".2,.2,.2,.5",
 				["custombg"] = "0",
+				["whispermod"] = "1",
+				["scrollspeed"] = "1",
+				["background"] = ".2,.2,.2,.5",
+				["hidecombat"] = "0",
+				["whisper"] = "1,.7,1,1",
 			},
 			["bubbles"] = {
 				["alpha"] = ".75",
@@ -308,14 +308,219 @@ pfUI_profiles = {
 			["raritytimer"] = "1",
 			["advancedloot"] = "1",
 			["autopickup"] = "1",
+			["autoresize"] = "1",
 			["mousecursor"] = "1",
 			["rollannouncequal"] = "3",
-			["autoresize"] = "1",
 			["rollannounce"] = "0",
 		},
-		["gm"] = {
-			["server"] = "elysium",
-			["disable"] = "1",
+		["bars"] = {
+			["cd_size"] = "12",
+			["oomcolor"] = ".2,.2,1,1",
+			["showoom"] = "1",
+			["macro_color"] = "1,1,1,1",
+			["eqcolor"] = ".2,.8,.2,.2",
+			["shiftdrag"] = "1",
+			["nacolor"] = ".3,.3,.3,1",
+			["bar9"] = {
+				["showmacro"] = "1",
+				["showkeybind"] = "1",
+				["buttons"] = "12",
+				["enable"] = "0",
+				["icon_size"] = "20",
+				["showempty"] = "1",
+				["spacing"] = "1",
+				["autohide"] = "0",
+				["hide_time"] = "3",
+				["pageable"] = "0",
+				["background"] = "0",
+				["showcount"] = "1",
+				["formfactor"] = "12 x 1",
+			},
+			["count_color"] = ".2,1,.8,1",
+			["animation"] = "zoomfade",
+			["bar1"] = {
+				["showmacro"] = "1",
+				["showkeybind"] = "1",
+				["buttons"] = "12",
+				["enable"] = "1",
+				["icon_size"] = "20",
+				["showempty"] = "0",
+				["spacing"] = "1",
+				["autohide"] = "0",
+				["hide_time"] = "3",
+				["pageable"] = "1",
+				["background"] = "0",
+				["showcount"] = "1",
+				["formfactor"] = "12 x 1",
+			},
+			["keydown"] = "0",
+			["druidstealth"] = "0",
+			["font"] = "Interface\\AddOns\\pfUI\\fonts\\BigNoodleTitling.ttf",
+			["bar7"] = {
+				["showmacro"] = "1",
+				["showkeybind"] = "1",
+				["buttons"] = "12",
+				["enable"] = "0",
+				["icon_size"] = "20",
+				["showempty"] = "1",
+				["spacing"] = "1",
+				["autohide"] = "0",
+				["hide_time"] = "3",
+				["pageable"] = "0",
+				["background"] = "0",
+				["showcount"] = "1",
+				["formfactor"] = "12 x 1",
+			},
+			["animalways"] = "0",
+			["altself"] = "0",
+			["bar12"] = {
+				["showmacro"] = "1",
+				["showkeybind"] = "1",
+				["enable"] = "1",
+				["icon_size"] = "18",
+				["showempty"] = "1",
+				["spacing"] = "1",
+				["autohide"] = "0",
+				["hide_time"] = "3",
+				["pageable"] = "0",
+				["background"] = "0",
+				["showcount"] = "1",
+				["formfactor"] = "10 x 1",
+			},
+			["showna"] = "1",
+			["font_offset"] = "0",
+			["bar10"] = {
+				["showmacro"] = "1",
+				["showkeybind"] = "1",
+				["buttons"] = "12",
+				["enable"] = "0",
+				["icon_size"] = "20",
+				["showempty"] = "1",
+				["spacing"] = "1",
+				["autohide"] = "0",
+				["hide_time"] = "3",
+				["pageable"] = "0",
+				["background"] = "0",
+				["showcount"] = "1",
+				["formfactor"] = "12 x 1",
+			},
+			["showcastable"] = "1",
+			["animmode"] = "keypress",
+			["bind_size"] = "8",
+			["bind_color"] = "1,1,0,1",
+			["macro_size"] = "9",
+			["showequipped"] = "1",
+			["count_size"] = "11",
+			["bar2"] = {
+				["showmacro"] = "1",
+				["showkeybind"] = "1",
+				["buttons"] = "12",
+				["enable"] = "1",
+				["icon_size"] = "20",
+				["showempty"] = "0",
+				["spacing"] = "1",
+				["autohide"] = "0",
+				["hide_time"] = "3",
+				["pageable"] = "1",
+				["background"] = "0",
+				["showcount"] = "1",
+				["formfactor"] = "12 x 1",
+			},
+			["bar8"] = {
+				["showmacro"] = "1",
+				["showkeybind"] = "1",
+				["buttons"] = "12",
+				["enable"] = "0",
+				["icon_size"] = "20",
+				["showempty"] = "1",
+				["spacing"] = "1",
+				["autohide"] = "0",
+				["hide_time"] = "3",
+				["pageable"] = "0",
+				["background"] = "0",
+				["showcount"] = "1",
+				["formfactor"] = "12 x 1",
+			},
+			["bar3"] = {
+				["showmacro"] = "1",
+				["showkeybind"] = "1",
+				["buttons"] = "12",
+				["enable"] = "1",
+				["icon_size"] = "20",
+				["showempty"] = "0",
+				["spacing"] = "1",
+				["autohide"] = "0",
+				["hide_time"] = "3",
+				["pageable"] = "0",
+				["background"] = "0",
+				["showcount"] = "1",
+				["formfactor"] = "12 x 1",
+			},
+			["bar5"] = {
+				["showmacro"] = "1",
+				["showkeybind"] = "1",
+				["buttons"] = "12",
+				["enable"] = "1",
+				["icon_size"] = "20",
+				["showempty"] = "0",
+				["spacing"] = "1",
+				["autohide"] = "0",
+				["hide_time"] = "3",
+				["pageable"] = "0",
+				["background"] = "0",
+				["showcount"] = "1",
+				["formfactor"] = "12 x 1",
+			},
+			["bar6"] = {
+				["showmacro"] = "1",
+				["showkeybind"] = "1",
+				["buttons"] = "12",
+				["enable"] = "1",
+				["icon_size"] = "20",
+				["showempty"] = "0",
+				["spacing"] = "1",
+				["autohide"] = "0",
+				["hide_time"] = "3",
+				["pageable"] = "0",
+				["background"] = "0",
+				["showcount"] = "1",
+				["formfactor"] = "12 x 1",
+			},
+			["rangecolor"] = "1,0.1,0.1,1",
+			["glowrange"] = "1",
+			["rightself"] = "0",
+			["pagemaster"] = "0",
+			["hunterbar"] = "0",
+			["bar11"] = {
+				["showmacro"] = "1",
+				["showkeybind"] = "1",
+				["enable"] = "1",
+				["icon_size"] = "18",
+				["showempty"] = "1",
+				["spacing"] = "1",
+				["autohide"] = "0",
+				["hide_time"] = "3",
+				["pageable"] = "0",
+				["background"] = "0",
+				["showcount"] = "1",
+				["formfactor"] = "10 x 1",
+			},
+			["reagents"] = "1",
+			["bar4"] = {
+				["showmacro"] = "1",
+				["showkeybind"] = "1",
+				["buttons"] = "12",
+				["enable"] = "1",
+				["icon_size"] = "20",
+				["showempty"] = "1",
+				["spacing"] = "1",
+				["autohide"] = "1",
+				["hide_time"] = "3",
+				["pageable"] = "0",
+				["background"] = "0",
+				["showcount"] = "1",
+				["formfactor"] = "1 x 12",
+			},
 		},
 		["unitframes"] = {
 			["grouptarget"] = {
@@ -324,10 +529,10 @@ pfUI_profiles = {
 				["verticalbar"] = "0",
 				["debuffsize"] = "16",
 				["powercolor"] = "1",
-				["cooldown_anim"] = "0",
+				["customfont_size"] = "12",
 				["txthpleft"] = "unit",
 				["bufflimit"] = "32",
-				["buffperrow"] = "8",
+				["debufflimit"] = "32",
 				["healthcolor"] = "1",
 				["squarepos"] = "TOPLEFT",
 				["healcolor"] = "0,1,0,0.6",
@@ -335,12 +540,12 @@ pfUI_profiles = {
 				["indicator_stacks"] = "1",
 				["squarecombat"] = "0",
 				["squareaggro"] = "0",
-				["debuff_ind_size"] = ".65",
+				["visible"] = "1",
 				["alpha_offline"] = ".25",
 				["debuff_indicator"] = "0",
 				["txtpowerright"] = "none",
 				["custom_indicator"] = "",
-				["raidiconsize"] = "24",
+				["classcolor"] = "1",
 				["panchor"] = "TOP",
 				["focuscolor"] = "1,1,.75,1",
 				["bartexture"] = "Interface\\AddOns\\pfUI\\img\\bar",
@@ -350,7 +555,7 @@ pfUI_profiles = {
 				["custombg"] = "0",
 				["show_buffs"] = "1",
 				["customfont_style"] = "OUTLINE",
-				["debuffs"] = "off",
+				["cooldown_text"] = "1",
 				["indicator_size"] = "10",
 				["txthpcenter"] = "none",
 				["pheight"] = "0",
@@ -358,29 +563,29 @@ pfUI_profiles = {
 				["levelcolor"] = "1",
 				["glowcombat"] = "0",
 				["invert_healthbar"] = "0",
-				["debuff_ind_pos"] = "CENTER",
+				["buffsize"] = "16",
 				["hitindicator"] = "0",
-				["classcolor"] = "1",
+				["ragecolor"] = "1,.5,.5,1",
 				["all_procs"] = "0",
 				["leadericon"] = "1",
-				["ragecolor"] = "1,.5,.5,1",
+				["debuff_ind_size"] = ".65",
 				["custompbg"] = "0",
 				["show_hots"] = "0",
 				["squaresize"] = "8",
-				["all_hots"] = "0",
 				["overhealperc"] = "20",
+				["custompbgcolor"] = ".5,.2,.2,1",
 				["show_totems"] = "0",
 				["buffs"] = "off",
-				["customfont"] = "0",
+				["glowaggro"] = "1",
 				["raidicon"] = "1",
 				["txthpright"] = "healthperc",
 				["showPVP"] = "0",
 				["buff_indicator"] = "0",
-				["custompbgcolor"] = ".5,.2,.2,1",
-				["customfont_size"] = "12",
+				["customfont"] = "0",
+				["cooldown_anim"] = "0",
 				["debuff_ind_class"] = "1",
-				["width"] = "120",
-				["cooldown_text"] = "1",
+				["customcolor"] = ".2,.2,.2,1",
+				["debuffs"] = "off",
 				["custombgcolor"] = ".5,.2,.2,1",
 				["indicator_time"] = "1",
 				["customfullhp"] = "0",
@@ -395,15 +600,15 @@ pfUI_profiles = {
 				["portrait"] = "off",
 				["indicator_pos"] = "TOPLEFT",
 				["txtpowercenter"] = "none",
-				["glowaggro"] = "1",
-				["customcolor"] = ".2,.2,.2,1",
-				["debufflimit"] = "32",
-				["buffsize"] = "16",
+				["raidiconsize"] = "24",
+				["width"] = "120",
+				["buffperrow"] = "8",
+				["debuff_ind_pos"] = "CENTER",
 				["custom"] = "0",
 				["pwidth"] = "-1",
 				["energycolor"] = "1,1,.5,1",
 				["height"] = "16",
-				["visible"] = "1",
+				["all_hots"] = "0",
 				["customfont_name"] = "Interface\\AddOns\\pfUI\\fonts\\BigNoodleTitling.ttf",
 			},
 			["ragecolor"] = "1,.5,.5,1",
@@ -411,27 +616,27 @@ pfUI_profiles = {
 			["clickcast5_shift"] = "",
 			["ptarget"] = {
 				["alpha_outrange"] = ".50",
-				["indicator_pos"] = "TOPLEFT",
+				["showtooltip"] = "1",
 				["verticalbar"] = "0",
 				["debuffsize"] = "16",
 				["powercolor"] = "1",
-				["cooldown_anim"] = "0",
+				["customfont_size"] = "12",
 				["txthpleft"] = "none",
 				["bufflimit"] = "32",
-				["customfont"] = "0",
+				["buffperrow"] = "8",
 				["healthcolor"] = "1",
-				["clickcast"] = "0",
+				["squarepos"] = "TOPLEFT",
 				["healcolor"] = "0,1,0,0.6",
 				["alpha_visible"] = "1",
 				["indicator_stacks"] = "1",
 				["squarecombat"] = "0",
 				["squareaggro"] = "0",
-				["all_hots"] = "0",
+				["debuff_ind_size"] = ".65",
 				["alpha_offline"] = ".25",
 				["debuff_indicator"] = "0",
 				["txtpowerright"] = "none",
 				["custom_indicator"] = "",
-				["raidiconsize"] = "24",
+				["classcolor"] = "1",
 				["panchor"] = "TOP",
 				["focuscolor"] = "1,1,.75,1",
 				["bartexture"] = "Interface\\AddOns\\pfUI\\img\\bar",
@@ -441,7 +646,7 @@ pfUI_profiles = {
 				["custombg"] = "0",
 				["show_buffs"] = "1",
 				["customfont_style"] = "OUTLINE",
-				["debuffs"] = "off",
+				["cooldown_text"] = "1",
 				["indicator_size"] = "10",
 				["txthpcenter"] = "name",
 				["pheight"] = "-1",
@@ -451,27 +656,27 @@ pfUI_profiles = {
 				["invert_healthbar"] = "0",
 				["debuff_ind_pos"] = "CENTER",
 				["hitindicator"] = "0",
-				["custompbgcolor"] = ".5,.2,.2,1",
+				["ragecolor"] = "1,.5,.5,1",
 				["all_procs"] = "0",
 				["leadericon"] = "1",
-				["visible"] = "0",
+				["all_hots"] = "0",
 				["custompbg"] = "0",
 				["show_hots"] = "0",
 				["squaresize"] = "8",
 				["height"] = "4",
-				["classcolor"] = "1",
+				["customcolor"] = ".2,.2,.2,1",
 				["overhealperc"] = "10",
 				["buffs"] = "off",
-				["customfullhp"] = "0",
+				["width"] = "100",
 				["raidicon"] = "1",
 				["txthpright"] = "none",
 				["showPVP"] = "0",
 				["buff_indicator"] = "0",
-				["squarepos"] = "TOPLEFT",
-				["customfont_size"] = "12",
+				["custompbgcolor"] = ".5,.2,.2,1",
+				["cooldown_anim"] = "0",
 				["debuff_ind_class"] = "1",
-				["width"] = "100",
-				["cooldown_text"] = "1",
+				["customfullhp"] = "0",
+				["debuffs"] = "off",
 				["custombgcolor"] = ".5,.2,.2,1",
 				["indicator_time"] = "1",
 				["glowaggro"] = "1",
@@ -486,15 +691,15 @@ pfUI_profiles = {
 				["portrait"] = "bar",
 				["debufflimit"] = "32",
 				["buffsize"] = "16",
-				["showtooltip"] = "1",
+				["indicator_pos"] = "TOPLEFT",
 				["energycolor"] = "1,1,.5,1",
-				["customcolor"] = ".2,.2,.2,1",
-				["buffperrow"] = "8",
+				["clickcast"] = "0",
+				["customfont"] = "0",
 				["custom"] = "0",
 				["pwidth"] = "-1",
 				["show_totems"] = "0",
-				["debuff_ind_size"] = ".65",
-				["ragecolor"] = "1,.5,.5,1",
+				["visible"] = "0",
+				["raidiconsize"] = "24",
 				["customfont_name"] = "Interface\\AddOns\\pfUI\\fonts\\BigNoodleTitling.ttf",
 			},
 			["player"] = {
@@ -503,10 +708,10 @@ pfUI_profiles = {
 				["verticalbar"] = "0",
 				["debuffsize"] = "20",
 				["powercolor"] = "0",
-				["cooldown_anim"] = "0",
+				["customfont_size"] = "12",
 				["txthpleft"] = "none",
 				["bufflimit"] = "32",
-				["customfont"] = "1",
+				["buffperrow"] = "6",
 				["manatick"] = "1",
 				["healthcolor"] = "1",
 				["squarepos"] = "TOPLEFT",
@@ -515,7 +720,99 @@ pfUI_profiles = {
 				["indicator_stacks"] = "1",
 				["squarecombat"] = "0",
 				["energy"] = "1",
+				["all_hots"] = "0",
+				["alpha_offline"] = ".25",
+				["debuff_indicator"] = "0",
+				["txtpowerright"] = "powerperc",
+				["custom_indicator"] = "",
+				["raidiconsize"] = "24",
+				["panchor"] = "TOP",
+				["focuscolor"] = "1,1,.75,1",
+				["bartexture"] = "Interface\\AddOns\\pfUI\\img\\bar",
+				["indicator_spacing"] = "1",
+				["pspace"] = "-3",
+				["looticon"] = "1",
+				["custombg"] = "0",
+				["show_buffs"] = "1",
+				["customfont_style"] = "OUTLINE",
+				["cooldown_text"] = "1",
+				["portrait"] = "off",
+				["txthpcenter"] = "healthminmax",
+				["pheight"] = "15",
+				["txtpowerleft"] = "none",
+				["showPVPMinimap"] = "1",
+				["glowcombat"] = "0",
+				["invert_healthbar"] = "0",
+				["debuff_ind_pos"] = "CENTER",
+				["ragecolor"] = "1,.5,.5,1",
+				["levelcolor"] = "1",
+				["custompbgcolor"] = ".5,.2,.2,1",
+				["hitindicator"] = "0",
 				["debuff_ind_size"] = ".65",
+				["all_procs"] = "0",
+				["leadericon"] = "1",
+				["squareaggro"] = "1",
+				["custompbg"] = "0",
+				["show_hots"] = "1",
+				["squaresize"] = "8",
+				["energycolor"] = "1,1,.5,1",
+				["height"] = "20",
+				["overhealperc"] = "20",
+				["buffs"] = "TOPLEFT",
+				["cooldown_anim"] = "0",
+				["raidicon"] = "1",
+				["txthpright"] = "healthperc",
+				["width"] = "150",
+				["buff_indicator"] = "0",
+				["indicator_size"] = "10",
+				["showRest"] = "0",
+				["debuff_ind_class"] = "1",
+				["clickcast"] = "0",
+				["showPVP"] = "0",
+				["custombgcolor"] = ".5,.2,.2,1",
+				["indicator_time"] = "1",
+				["defcolor"] = "1",
+				["debuffperrow"] = "6",
+				["hitindicatorfont"] = "Interface\\AddOns\\pfUI\\fonts\\Continuum.ttf",
+				["hitindicatorsize"] = "15",
+				["faderange"] = "0",
+				["txtpowercenter"] = "powerminmax",
+				["show_procs"] = "0",
+				["debuffs"] = "BOTTOMLEFT",
+				["manacolor"] = "0.1,0.1,1,1",
+				["indicator_pos"] = "TOPLEFT",
+				["classcolor"] = "1",
+				["debufflimit"] = "32",
+				["show_totems"] = "0",
+				["customfullhp"] = "0",
+				["customfont"] = "1",
+				["buffsize"] = "20",
+				["custom"] = "2",
+				["pwidth"] = "-1",
+				["visible"] = "1",
+				["customcolor"] = ".2,.2,.2,1",
+				["glowaggro"] = "1",
+				["customfont_name"] = "Interface\\AddOns\\pfUI\\fonts\\BigNoodleTitling.ttf",
+			},
+			["clickcast3"] = "",
+			["target"] = {
+				["alpha_outrange"] = ".50",
+				["showtooltip"] = "1",
+				["verticalbar"] = "0",
+				["debuffsize"] = "12",
+				["powercolor"] = "1",
+				["customfont_size"] = "12",
+				["txthpleft"] = "unit",
+				["bufflimit"] = "32",
+				["debufflimit"] = "32",
+				["healthcolor"] = "1",
+				["squarepos"] = "TOPLEFT",
+				["healcolor"] = "0,1,0,0.6",
+				["alpha_visible"] = "1",
+				["indicator_stacks"] = "1",
+				["squarecombat"] = "0",
+				["squareaggro"] = "0",
+				["visible"] = "1",
 				["alpha_offline"] = ".25",
 				["debuff_indicator"] = "0",
 				["txtpowerright"] = "powerperc",
@@ -530,99 +827,7 @@ pfUI_profiles = {
 				["custombg"] = "0",
 				["show_buffs"] = "1",
 				["customfont_style"] = "OUTLINE",
-				["cooldown_text"] = "1",
-				["indicator_size"] = "10",
-				["txthpcenter"] = "healthminmax",
-				["pheight"] = "15",
-				["txtpowerleft"] = "none",
-				["showPVPMinimap"] = "1",
-				["glowcombat"] = "0",
-				["invert_healthbar"] = "0",
-				["debuff_ind_pos"] = "CENTER",
-				["ragecolor"] = "1,.5,.5,1",
-				["levelcolor"] = "1",
-				["squaresize"] = "8",
-				["hitindicator"] = "0",
-				["visible"] = "1",
-				["all_procs"] = "0",
-				["leadericon"] = "1",
-				["squareaggro"] = "1",
-				["custompbg"] = "0",
-				["show_hots"] = "1",
-				["custompbgcolor"] = ".5,.2,.2,1",
-				["customfullhp"] = "0",
-				["overhealperc"] = "20",
-				["height"] = "20",
-				["buffs"] = "TOPLEFT",
-				["customfont_size"] = "12",
-				["raidicon"] = "1",
-				["txthpright"] = "healthperc",
-				["energycolor"] = "1,1,.5,1",
-				["buff_indicator"] = "0",
-				["portrait"] = "off",
-				["showRest"] = "0",
-				["debuff_ind_class"] = "1",
-				["clickcast"] = "0",
-				["custombgcolor"] = ".5,.2,.2,1",
-				["showPVP"] = "0",
-				["indicator_time"] = "1",
-				["defcolor"] = "1",
-				["debuffperrow"] = "6",
-				["hitindicatorfont"] = "Interface\\AddOns\\pfUI\\fonts\\Continuum.ttf",
-				["hitindicatorsize"] = "15",
-				["faderange"] = "0",
-				["txtpowercenter"] = "powerminmax",
-				["show_procs"] = "0",
 				["debuffs"] = "BOTTOMLEFT",
-				["manacolor"] = "0.1,0.1,1,1",
-				["indicator_pos"] = "TOPLEFT",
-				["classcolor"] = "1",
-				["debufflimit"] = "32",
-				["buffsize"] = "20",
-				["customcolor"] = ".2,.2,.2,1",
-				["buffperrow"] = "6",
-				["show_totems"] = "0",
-				["custom"] = "2",
-				["pwidth"] = "-1",
-				["all_hots"] = "0",
-				["width"] = "150",
-				["panchor"] = "TOP",
-				["customfont_name"] = "Interface\\AddOns\\pfUI\\fonts\\BigNoodleTitling.ttf",
-			},
-			["clickcast3"] = "",
-			["target"] = {
-				["alpha_outrange"] = ".50",
-				["showtooltip"] = "1",
-				["verticalbar"] = "0",
-				["debuffsize"] = "12",
-				["powercolor"] = "1",
-				["cooldown_anim"] = "1",
-				["txthpleft"] = "unit",
-				["bufflimit"] = "32",
-				["buffperrow"] = "8",
-				["healthcolor"] = "1",
-				["squarepos"] = "TOPLEFT",
-				["healcolor"] = "0,1,0,0.6",
-				["alpha_visible"] = "1",
-				["indicator_stacks"] = "1",
-				["squarecombat"] = "0",
-				["squareaggro"] = "0",
-				["visible"] = "1",
-				["alpha_offline"] = ".25",
-				["debuff_indicator"] = "0",
-				["txtpowerright"] = "powerperc",
-				["custom_indicator"] = "",
-				["raidiconsize"] = "24",
-				["panchor"] = "TOP",
-				["focuscolor"] = "1,1,.75,1",
-				["bartexture"] = "Interface\\AddOns\\pfUI\\img\\bar",
-				["indicator_spacing"] = "1",
-				["pspace"] = "-3",
-				["looticon"] = "1",
-				["custombg"] = "0",
-				["show_buffs"] = "1",
-				["customfont_style"] = "OUTLINE",
-				["cooldown_text"] = "0",
 				["indicator_size"] = "10",
 				["txthpcenter"] = "none",
 				["pheight"] = "15",
@@ -630,7 +835,7 @@ pfUI_profiles = {
 				["levelcolor"] = "1",
 				["glowcombat"] = "1",
 				["invert_healthbar"] = "0",
-				["buffsize"] = "12",
+				["debuff_ind_pos"] = "CENTER",
 				["hitindicator"] = "1",
 				["ragecolor"] = "1,.5,.5,1",
 				["all_procs"] = "0",
@@ -639,20 +844,20 @@ pfUI_profiles = {
 				["custompbg"] = "0",
 				["show_hots"] = "0",
 				["squaresize"] = "8",
-				["debuff_ind_size"] = ".65",
 				["overhealperc"] = "20",
+				["custompbgcolor"] = ".5,.2,.2,1",
 				["show_totems"] = "0",
 				["buffs"] = "TOPLEFT",
-				["customfont"] = "0",
+				["panchor"] = "TOP",
 				["raidicon"] = "1",
 				["txthpright"] = "healthdyn",
 				["showPVP"] = "0",
 				["buff_indicator"] = "0",
-				["clickcast"] = "0",
-				["customfont_size"] = "12",
+				["customfont"] = "0",
+				["cooldown_anim"] = "1",
 				["debuff_ind_class"] = "1",
-				["width"] = "150",
-				["debuffs"] = "BOTTOMLEFT",
+				["customcolor"] = ".2,.2,.2,1",
+				["cooldown_text"] = "0",
 				["custombgcolor"] = ".5,.2,.2,1",
 				["indicator_time"] = "0",
 				["customfullhp"] = "0",
@@ -667,42 +872,138 @@ pfUI_profiles = {
 				["portrait"] = "off",
 				["indicator_pos"] = "TOPLEFT",
 				["txtpowercenter"] = "powerminmax",
-				["custompbgcolor"] = ".5,.2,.2,1",
-				["energycolor"] = "1,1,.5,1",
-				["debufflimit"] = "32",
-				["debuff_ind_pos"] = "CENTER",
+				["clickcast"] = "0",
+				["width"] = "150",
+				["buffperrow"] = "8",
+				["buffsize"] = "12",
 				["custom"] = "0",
 				["pwidth"] = "-1",
-				["customcolor"] = ".2,.2,.2,1",
+				["energycolor"] = "1,1,.5,1",
 				["height"] = "20",
-				["glowaggro"] = "1",
+				["debuff_ind_size"] = ".65",
 				["customfont_name"] = "Interface\\AddOns\\pfUI\\fonts\\BigNoodleTitling.ttf",
 			},
-			["rangecheck"] = "0",
-			["custom"] = "0",
+			["clickcast_alt"] = "",
+			["custombg"] = "0",
 			["pastel"] = "1",
 			["clickcast4_ctrl"] = "",
 			["clickcast3_ctrl"] = "",
 			["portraittexture"] = "1",
 			["clickcast"] = "target",
 			["clickcast3_alt"] = "",
-			["layout"] = "default",
-			["clickcast2_shift"] = "",
+			["clickcast4"] = "",
+			["pet"] = {
+				["alpha_outrange"] = ".50",
+				["showtooltip"] = "1",
+				["verticalbar"] = "0",
+				["debuffsize"] = "12",
+				["powercolor"] = "1",
+				["customfont_size"] = "12",
+				["txthpleft"] = "none",
+				["bufflimit"] = "32",
+				["debufflimit"] = "32",
+				["healthcolor"] = "1",
+				["squarepos"] = "TOPLEFT",
+				["healcolor"] = "0,1,0,0.6",
+				["alpha_visible"] = "1",
+				["indicator_stacks"] = "1",
+				["squarecombat"] = "0",
+				["squareaggro"] = "0",
+				["visible"] = "1",
+				["alpha_offline"] = ".25",
+				["debuff_indicator"] = "0",
+				["txtpowerright"] = "none",
+				["custom_indicator"] = "",
+				["classcolor"] = "1",
+				["glowaggro"] = "1",
+				["focuscolor"] = "1,1,.75,1",
+				["bartexture"] = "Interface\\AddOns\\pfUI\\img\\bar",
+				["indicator_spacing"] = "1",
+				["happinesssize"] = "12",
+				["pspace"] = "-3",
+				["looticon"] = "1",
+				["custombg"] = "0",
+				["show_buffs"] = "1",
+				["customfont_style"] = "OUTLINE",
+				["debuffs"] = "TOPLEFT",
+				["indicator_size"] = "10",
+				["txthpcenter"] = "name",
+				["pheight"] = "4",
+				["txtpowerleft"] = "none",
+				["levelcolor"] = "1",
+				["glowcombat"] = "1",
+				["invert_healthbar"] = "0",
+				["debuff_ind_pos"] = "CENTER",
+				["panchor"] = "TOP",
+				["hitindicator"] = "0",
+				["custompbgcolor"] = ".5,.2,.2,1",
+				["all_procs"] = "0",
+				["leadericon"] = "1",
+				["customcolor"] = ".2,.2,.2,1",
+				["custompbg"] = "0",
+				["show_hots"] = "0",
+				["squaresize"] = "8",
+				["debuff_ind_size"] = ".65",
+				["overhealperc"] = "20",
+				["show_totems"] = "0",
+				["buffs"] = "TOPLEFT",
+				["energycolor"] = "1,1,.5,1",
+				["raidicon"] = "1",
+				["txthpright"] = "none",
+				["height"] = "14",
+				["buff_indicator"] = "0",
+				["cooldown_anim"] = "0",
+				["customfullhp"] = "0",
+				["debuff_ind_class"] = "1",
+				["cooldown_text"] = "1",
+				["showPVP"] = "0",
+				["custombgcolor"] = ".5,.2,.2,1",
+				["indicator_time"] = "1",
+				["clickcast"] = "0",
+				["debuffperrow"] = "8",
+				["defcolor"] = "1",
+				["happinessicon"] = "2",
+				["faderange"] = "0",
+				["hitindicatorsize"] = "15",
+				["show_procs"] = "0",
+				["txtpowercenter"] = "none",
+				["manacolor"] = ".5,.5,1,1",
+				["hitindicatorfont"] = "Interface\\AddOns\\pfUI\\fonts\\Continuum.ttf",
+				["portrait"] = "bar",
+				["indicator_pos"] = "TOPLEFT",
+				["customfont"] = "0",
+				["width"] = "100",
+				["buffsize"] = "12",
+				["buffperrow"] = "8",
+				["custom"] = "0",
+				["pwidth"] = "-1",
+				["all_hots"] = "0",
+				["ragecolor"] = "1,.5,.5,1",
+				["raidiconsize"] = "24",
+				["customfont_name"] = "Interface\\AddOns\\pfUI\\fonts\\BigNoodleTitling.ttf",
+			},
 			["custompbg"] = "0",
-			["clickcast5_alt"] = "",
+			["always2dportrait"] = "0",
 			["custompbgcolor"] = ".5,.2,.2,1",
-			["clickcast4_shift"] = "",
+			["custom"] = "0",
 			["portraitalpha"] = "0.1",
-			["ttarget"] = {
+			["rangecheck"] = "0",
+			["clickcast5_alt"] = "",
+			["customfullhp"] = "0",
+			["clickcast2_alt"] = "",
+			["customcolor"] = ".2,.2,.2,1",
+			["abbrevnum"] = "1",
+			["raidforgroup"] = "0",
+			["focustarget"] = {
 				["alpha_outrange"] = ".50",
 				["indicator_pos"] = "TOPLEFT",
 				["verticalbar"] = "0",
-				["debuffsize"] = "16",
+				["debuffsize"] = "20",
 				["powercolor"] = "1",
-				["cooldown_anim"] = "0",
+				["customfont_size"] = "12",
 				["txthpleft"] = "none",
 				["bufflimit"] = "32",
-				["customfont"] = "0",
+				["buffperrow"] = "8",
 				["healthcolor"] = "1",
 				["clickcast"] = "0",
 				["healcolor"] = "0,1,0,0.6",
@@ -715,7 +1016,7 @@ pfUI_profiles = {
 				["debuff_indicator"] = "0",
 				["txtpowerright"] = "none",
 				["custom_indicator"] = "",
-				["raidiconsize"] = "24",
+				["classcolor"] = "1",
 				["panchor"] = "TOP",
 				["focuscolor"] = "1,1,.75,1",
 				["bartexture"] = "Interface\\AddOns\\pfUI\\img\\bar",
@@ -725,101 +1026,7 @@ pfUI_profiles = {
 				["custombg"] = "0",
 				["show_buffs"] = "1",
 				["customfont_style"] = "OUTLINE",
-				["debuffs"] = "off",
-				["indicator_size"] = "10",
-				["txthpcenter"] = "name",
-				["pheight"] = "3",
-				["txtpowerleft"] = "none",
-				["levelcolor"] = "1",
-				["glowcombat"] = "1",
-				["invert_healthbar"] = "0",
-				["debuff_ind_pos"] = "CENTER",
-				["hitindicator"] = "0",
-				["custompbgcolor"] = ".5,.2,.2,1",
-				["all_procs"] = "0",
-				["leadericon"] = "1",
-				["all_hots"] = "0",
-				["custompbg"] = "0",
-				["show_hots"] = "0",
-				["squaresize"] = "8",
-				["overhealperc"] = "10",
-				["classcolor"] = "1",
-				["height"] = "17",
-				["buffs"] = "off",
-				["customfullhp"] = "0",
-				["raidicon"] = "1",
-				["txthpright"] = "none",
-				["showPVP"] = "0",
-				["buff_indicator"] = "0",
-				["squarepos"] = "TOPLEFT",
-				["customfont_size"] = "12",
-				["debuff_ind_class"] = "1",
-				["width"] = "100",
 				["cooldown_text"] = "1",
-				["custombgcolor"] = ".5,.2,.2,1",
-				["indicator_time"] = "1",
-				["glowaggro"] = "1",
-				["debuffperrow"] = "8",
-				["defcolor"] = "1",
-				["hitindicatorfont"] = "Interface\\AddOns\\pfUI\\fonts\\Continuum.ttf",
-				["faderange"] = "0",
-				["hitindicatorsize"] = "15",
-				["show_procs"] = "0",
-				["txtpowercenter"] = "none",
-				["manacolor"] = ".5,.5,1,1",
-				["portrait"] = "off",
-				["debufflimit"] = "32",
-				["buffsize"] = "16",
-				["showtooltip"] = "1",
-				["energycolor"] = "1,1,.5,1",
-				["customcolor"] = ".2,.2,.2,1",
-				["buffperrow"] = "8",
-				["custom"] = "0",
-				["pwidth"] = "-1",
-				["show_totems"] = "0",
-				["visible"] = "1",
-				["ragecolor"] = "1,.5,.5,1",
-				["customfont_name"] = "Interface\\AddOns\\pfUI\\fonts\\BigNoodleTitling.ttf",
-			},
-			["always2dportrait"] = "0",
-			["customcolor"] = ".2,.2,.2,1",
-			["clickcast2_alt"] = "",
-			["energycolor"] = "1,1,.5,1",
-			["abbrevnum"] = "1",
-			["rangechecki"] = "4",
-			["focustarget"] = {
-				["alpha_outrange"] = ".50",
-				["indicator_pos"] = "TOPLEFT",
-				["verticalbar"] = "0",
-				["debuffsize"] = "20",
-				["powercolor"] = "1",
-				["cooldown_anim"] = "0",
-				["txthpleft"] = "none",
-				["bufflimit"] = "32",
-				["customfont"] = "0",
-				["healthcolor"] = "1",
-				["clickcast"] = "0",
-				["healcolor"] = "0,1,0,0.6",
-				["alpha_visible"] = "1",
-				["indicator_stacks"] = "1",
-				["squarecombat"] = "0",
-				["squareaggro"] = "0",
-				["all_hots"] = "0",
-				["alpha_offline"] = ".25",
-				["debuff_indicator"] = "0",
-				["txtpowerright"] = "none",
-				["custom_indicator"] = "",
-				["classcolor"] = "1",
-				["panchor"] = "TOP",
-				["focuscolor"] = "1,1,.75,1",
-				["bartexture"] = "Interface\\AddOns\\pfUI\\img\\bar",
-				["indicator_spacing"] = "1",
-				["pspace"] = "-3",
-				["looticon"] = "1",
-				["custombg"] = "0",
-				["show_buffs"] = "1",
-				["customfont_style"] = "OUTLINE",
-				["debuffs"] = "off",
 				["indicator_size"] = "10",
 				["txthpcenter"] = "name",
 				["pheight"] = "-1",
@@ -827,12 +1034,12 @@ pfUI_profiles = {
 				["levelcolor"] = "1",
 				["glowcombat"] = "1",
 				["invert_healthbar"] = "0",
-				["debuff_ind_pos"] = "CENTER",
+				["buffsize"] = "20",
 				["hitindicator"] = "0",
-				["glowaggro"] = "1",
+				["ragecolor"] = "1,.5,.5,1",
 				["all_procs"] = "0",
 				["leadericon"] = "1",
-				["visible"] = "0",
+				["all_hots"] = "0",
 				["custompbg"] = "0",
 				["show_hots"] = "0",
 				["squaresize"] = "8",
@@ -840,16 +1047,16 @@ pfUI_profiles = {
 				["custompbgcolor"] = ".5,.2,.2,1",
 				["show_totems"] = "0",
 				["buffs"] = "off",
-				["squarepos"] = "TOPLEFT",
+				["glowaggro"] = "1",
 				["raidicon"] = "1",
 				["txthpright"] = "none",
 				["showPVP"] = "0",
 				["buff_indicator"] = "0",
-				["ragecolor"] = "1,.5,.5,1",
-				["customfont_size"] = "12",
+				["squarepos"] = "TOPLEFT",
+				["cooldown_anim"] = "0",
 				["debuff_ind_class"] = "1",
 				["customcolor"] = ".2,.2,.2,1",
-				["cooldown_text"] = "1",
+				["debuffs"] = "off",
 				["custombgcolor"] = ".5,.2,.2,1",
 				["indicator_time"] = "1",
 				["customfullhp"] = "0",
@@ -865,14 +1072,14 @@ pfUI_profiles = {
 				["txtpowercenter"] = "none",
 				["debufflimit"] = "32",
 				["raidiconsize"] = "24",
-				["energycolor"] = "1,1,.5,1",
-				["buffperrow"] = "8",
-				["buffsize"] = "20",
+				["width"] = "80",
+				["customfont"] = "0",
+				["debuff_ind_pos"] = "CENTER",
 				["custom"] = "0",
 				["pwidth"] = "-1",
-				["width"] = "80",
+				["energycolor"] = "1,1,.5,1",
 				["height"] = "12",
-				["debuff_ind_size"] = ".65",
+				["visible"] = "0",
 				["customfont_name"] = "Interface\\AddOns\\pfUI\\fonts\\BigNoodleTitling.ttf",
 			},
 			["group"] = {
@@ -881,10 +1088,10 @@ pfUI_profiles = {
 				["verticalbar"] = "0",
 				["debuffsize"] = "16",
 				["powercolor"] = "1",
-				["cooldown_anim"] = "0",
+				["customfont_size"] = "12",
 				["txthpleft"] = "unit",
 				["bufflimit"] = "32",
-				["customfont"] = "0",
+				["debufflimit"] = "8",
 				["healthcolor"] = "1",
 				["clickcast"] = "0",
 				["healcolor"] = "0,1,0,0.6",
@@ -892,12 +1099,12 @@ pfUI_profiles = {
 				["indicator_stacks"] = "1",
 				["squarecombat"] = "0",
 				["squareaggro"] = "1",
-				["visible"] = "1",
+				["all_hots"] = "0",
 				["alpha_offline"] = ".25",
 				["debuff_indicator"] = "4",
 				["txtpowerright"] = "none",
 				["custom_indicator"] = "",
-				["raidiconsize"] = "24",
+				["classcolor"] = "1",
 				["panchor"] = "TOP",
 				["focuscolor"] = "1,1,.75,1",
 				["bartexture"] = "Interface\\AddOns\\pfUI\\img\\bar",
@@ -907,7 +1114,7 @@ pfUI_profiles = {
 				["custombg"] = "0",
 				["show_buffs"] = "1",
 				["customfont_style"] = "OUTLINE",
-				["cooldown_text"] = "1",
+				["debuffs"] = "BOTTOMLEFT",
 				["indicator_size"] = "12",
 				["txthpcenter"] = "none",
 				["pheight"] = "10",
@@ -915,31 +1122,31 @@ pfUI_profiles = {
 				["levelcolor"] = "1",
 				["glowcombat"] = "0",
 				["invert_healthbar"] = "0",
-				["debuff_ind_pos"] = "CENTER",
-				["debuff_ind_size"] = ".65",
+				["buffsize"] = "8",
+				["raidiconsize"] = "24",
 				["hitindicator"] = "0",
-				["classcolor"] = "1",
+				["ragecolor"] = "1,.5,.5,1",
 				["all_procs"] = "0",
 				["leadericon"] = "1",
-				["customfullhp"] = "0",
+				["energycolor"] = "1,1,.5,1",
 				["custompbg"] = "0",
 				["show_hots"] = "0",
 				["custompbgcolor"] = ".5,.2,.2,1",
-				["squaresize"] = "12",
-				["width"] = "100",
-				["show_totems"] = "0",
+				["visible"] = "1",
+				["customfullhp"] = "0",
+				["overhealperc"] = "20",
 				["buffs"] = "TOPLEFT",
-				["squarepos"] = "TOPRIGHT",
+				["squaresize"] = "12",
 				["raidicon"] = "1",
 				["txthpright"] = "healthmiss",
-				["buffperrow"] = "8",
+				["customfont"] = "0",
 				["buff_indicator"] = "1",
-				["custombgcolor"] = ".5,.2,.2,1",
-				["energycolor"] = "1,1,.5,1",
-				["debuff_ind_class"] = "1",
-				["customfont_size"] = "12",
-				["hide_in_raid"] = "0",
 				["showPVP"] = "0",
+				["customcolor"] = ".2,.2,.2,1",
+				["debuff_ind_class"] = "1",
+				["cooldown_anim"] = "0",
+				["cooldown_text"] = "1",
+				["custombgcolor"] = ".5,.2,.2,1",
 				["indicator_time"] = "1",
 				["glowaggro"] = "1",
 				["debuffperrow"] = "4",
@@ -952,16 +1159,16 @@ pfUI_profiles = {
 				["manacolor"] = ".5,.5,1,1",
 				["portrait"] = "off",
 				["indicator_pos"] = "LEFT",
-				["debuffs"] = "BOTTOMLEFT",
-				["ragecolor"] = "1,.5,.5,1",
-				["customcolor"] = ".2,.2,.2,1",
-				["debufflimit"] = "8",
-				["buffsize"] = "8",
+				["hide_in_raid"] = "0",
+				["squarepos"] = "TOPRIGHT",
+				["width"] = "100",
+				["buffperrow"] = "8",
+				["debuff_ind_pos"] = "CENTER",
 				["custom"] = "0",
 				["pwidth"] = "-1",
-				["overhealperc"] = "20",
-				["all_hots"] = "0",
 				["height"] = "15",
+				["debuff_ind_size"] = ".65",
+				["show_totems"] = "0",
 				["customfont_name"] = "Interface\\AddOns\\pfUI\\fonts\\BigNoodleTitling.ttf",
 			},
 			["fallback"] = {
@@ -970,10 +1177,10 @@ pfUI_profiles = {
 				["verticalbar"] = "0",
 				["debuffsize"] = "20",
 				["powercolor"] = "1",
-				["cooldown_anim"] = "0",
+				["customfont_size"] = "12",
 				["txthpleft"] = "unit",
 				["bufflimit"] = "32",
-				["buffperrow"] = "8",
+				["debufflimit"] = "32",
 				["healthcolor"] = "1",
 				["squarepos"] = "TOPLEFT",
 				["healcolor"] = "0,1,0,0.6",
@@ -987,7 +1194,7 @@ pfUI_profiles = {
 				["txtpowerright"] = "none",
 				["custom_indicator"] = "",
 				["raidiconsize"] = "24",
-				["panchor"] = "TOP",
+				["glowaggro"] = "1",
 				["focuscolor"] = "1,1,.75,1",
 				["bartexture"] = "Interface\\AddOns\\pfUI\\img\\bar",
 				["indicator_spacing"] = "1",
@@ -996,7 +1203,7 @@ pfUI_profiles = {
 				["custombg"] = "0",
 				["show_buffs"] = "1",
 				["customfont_style"] = "OUTLINE",
-				["cooldown_text"] = "1",
+				["debuffs"] = "TOPLEFT",
 				["indicator_size"] = "10",
 				["txthpcenter"] = "none",
 				["pheight"] = "10",
@@ -1004,7 +1211,7 @@ pfUI_profiles = {
 				["levelcolor"] = "1",
 				["glowcombat"] = "1",
 				["invert_healthbar"] = "0",
-				["buffsize"] = "20",
+				["debuff_ind_pos"] = "CENTER",
 				["hitindicator"] = "0",
 				["ragecolor"] = "1,.5,.5,1",
 				["all_procs"] = "0",
@@ -1013,20 +1220,20 @@ pfUI_profiles = {
 				["custompbg"] = "0",
 				["show_hots"] = "0",
 				["squaresize"] = "8",
-				["debuff_ind_size"] = ".65",
 				["overhealperc"] = "20",
+				["custompbgcolor"] = ".5,.2,.2,1",
 				["show_totems"] = "0",
 				["buffs"] = "TOPLEFT",
-				["customfont"] = "0",
+				["panchor"] = "TOP",
 				["raidicon"] = "1",
 				["txthpright"] = "healthdyn",
 				["showPVP"] = "0",
 				["buff_indicator"] = "0",
-				["clickcast"] = "0",
-				["customfont_size"] = "12",
+				["customfont"] = "0",
+				["cooldown_anim"] = "0",
 				["debuff_ind_class"] = "1",
-				["width"] = "200",
-				["debuffs"] = "TOPLEFT",
+				["customcolor"] = ".2,.2,.2,1",
+				["cooldown_text"] = "1",
 				["custombgcolor"] = ".5,.2,.2,1",
 				["indicator_time"] = "1",
 				["customfullhp"] = "0",
@@ -1041,19 +1248,19 @@ pfUI_profiles = {
 				["portrait"] = "bar",
 				["indicator_pos"] = "TOPLEFT",
 				["txtpowercenter"] = "none",
-				["custompbgcolor"] = ".5,.2,.2,1",
-				["energycolor"] = "1,1,.5,1",
-				["debufflimit"] = "32",
-				["debuff_ind_pos"] = "CENTER",
+				["clickcast"] = "0",
+				["width"] = "200",
+				["buffperrow"] = "8",
+				["buffsize"] = "20",
 				["custom"] = "0",
 				["pwidth"] = "-1",
-				["customcolor"] = ".2,.2,.2,1",
+				["energycolor"] = "1,1,.5,1",
 				["height"] = "46",
-				["glowaggro"] = "1",
+				["debuff_ind_size"] = ".65",
 				["customfont_name"] = "Interface\\AddOns\\pfUI\\fonts\\BigNoodleTitling.ttf",
 			},
 			["selfinraid"] = "0",
-			["raidforgroup"] = "0",
+			["clickcast2_ctrl"] = "",
 			["custombgcolor"] = ".5,.2,.2,1",
 			["raid"] = {
 				["alpha_outrange"] = ".50",
@@ -1061,19 +1268,19 @@ pfUI_profiles = {
 				["verticalbar"] = "1",
 				["debuffsize"] = "6",
 				["powercolor"] = "1",
-				["cooldown_anim"] = "0",
+				["customfont_size"] = "12",
 				["txthpleft"] = "name",
 				["bufflimit"] = "32",
-				["customfont"] = "0",
+				["debufflimit"] = "12",
 				["healthcolor"] = "1",
 				["clickcast"] = "0",
 				["healcolor"] = "0,1,0,0.6",
-				["defcolor"] = "1",
+				["alpha_visible"] = "1",
 				["indicator_stacks"] = "1",
 				["squarecombat"] = "0",
 				["raidlayout"] = "5x8",
 				["squareaggro"] = "1",
-				["all_hots"] = "0",
+				["visible"] = "1",
 				["alpha_offline"] = ".25",
 				["debuff_indicator"] = "4",
 				["txtpowerright"] = "none",
@@ -1081,7 +1288,7 @@ pfUI_profiles = {
 				["raidiconsize"] = "12",
 				["panchor"] = "TOP",
 				["focuscolor"] = "1,1,.75,1",
-				["bartexture"] = "Interface\\AddOns\\pfUI\\img\\bar",
+				["raidpadding"] = "10",
 				["indicator_spacing"] = "1",
 				["pspace"] = "-3",
 				["looticon"] = "1",
@@ -1089,39 +1296,39 @@ pfUI_profiles = {
 				["show_buffs"] = "1",
 				["customfont_style"] = "OUTLINE",
 				["debuffs"] = "off",
-				["indicator_size"] = "10",
+				["portrait"] = "off",
 				["txthpcenter"] = "none",
 				["pheight"] = "1",
 				["txtpowerleft"] = "none",
 				["levelcolor"] = "1",
 				["glowcombat"] = "0",
 				["invert_healthbar"] = "0",
-				["buffsize"] = "16",
+				["debuff_ind_pos"] = "CENTER",
+				["ragecolor"] = "1,.5,.5,1",
 				["glowaggro"] = "1",
-				["raidpadding"] = "10",
 				["hitindicator"] = "0",
-				["squaresize"] = "12",
+				["custompbgcolor"] = ".5,.2,.2,1",
 				["all_procs"] = "0",
 				["leadericon"] = "1",
-				["energycolor"] = "1,1,.5,1",
+				["width"] = "50",
 				["custompbg"] = "0",
 				["show_hots"] = "0",
-				["custompbgcolor"] = ".5,.2,.2,1",
+				["squaresize"] = "12",
 				["show_totems"] = "0",
-				["customcolor"] = ".2,.2,.2,1",
+				["energycolor"] = "1,1,.5,1",
 				["overhealperc"] = "10",
 				["buffs"] = "off",
-				["alpha_visible"] = "1",
+				["squarepos"] = "CENTER",
 				["raidicon"] = "1",
 				["txthpright"] = "healthmiss",
-				["squarepos"] = "CENTER",
+				["defcolor"] = "1",
 				["buff_indicator"] = "1",
-				["width"] = "50",
-				["customfont_size"] = "12",
+				["customfullhp"] = "0",
+				["cooldown_anim"] = "0",
 				["debuff_ind_class"] = "1",
-				["portrait"] = "off",
-				["custombgcolor"] = ".5,.2,.2,1",
+				["indicator_size"] = "10",
 				["showPVP"] = "0",
+				["custombgcolor"] = ".5,.2,.2,1",
 				["indicator_time"] = "1",
 				["hitindicatorfont"] = "Interface\\AddOns\\pfUI\\fonts\\Continuum.ttf",
 				["debuffperrow"] = "6",
@@ -1135,15 +1342,15 @@ pfUI_profiles = {
 				["hitindicatorsize"] = "15",
 				["indicator_pos"] = "BOTTOMLEFT",
 				["buffperrow"] = "4",
-				["debufflimit"] = "12",
-				["customfullhp"] = "0",
-				["debuff_ind_pos"] = "CENTER",
+				["customfont"] = "0",
+				["customcolor"] = ".2,.2,.2,1",
+				["buffsize"] = "16",
 				["height"] = "35",
 				["custom"] = "0",
 				["pwidth"] = "-1",
+				["all_hots"] = "0",
+				["bartexture"] = "Interface\\AddOns\\pfUI\\img\\bar",
 				["debuff_ind_size"] = ".65",
-				["ragecolor"] = "1,.5,.5,1",
-				["visible"] = "1",
 				["customfont_name"] = "Interface\\AddOns\\pfUI\\fonts\\BigNoodleTitling.ttf",
 			},
 			["clickcast3_shift"] = "",
@@ -1153,10 +1360,10 @@ pfUI_profiles = {
 				["verticalbar"] = "0",
 				["debuffsize"] = "12",
 				["powercolor"] = "1",
-				["cooldown_anim"] = "0",
+				["customfont_size"] = "12",
 				["txthpleft"] = "unit",
 				["bufflimit"] = "32",
-				["buffperrow"] = "8",
+				["debufflimit"] = "32",
 				["healthcolor"] = "1",
 				["squarepos"] = "TOPLEFT",
 				["healcolor"] = "0,1,0,0.6",
@@ -1170,7 +1377,7 @@ pfUI_profiles = {
 				["txtpowerright"] = "none",
 				["custom_indicator"] = "",
 				["raidiconsize"] = "24",
-				["panchor"] = "TOP",
+				["glowaggro"] = "1",
 				["focuscolor"] = "1,1,.75,1",
 				["bartexture"] = "Interface\\AddOns\\pfUI\\img\\bar",
 				["indicator_spacing"] = "1",
@@ -1179,7 +1386,7 @@ pfUI_profiles = {
 				["custombg"] = "0",
 				["show_buffs"] = "1",
 				["customfont_style"] = "OUTLINE",
-				["cooldown_text"] = "1",
+				["debuffs"] = "TOPLEFT",
 				["indicator_size"] = "10",
 				["txthpcenter"] = "none",
 				["pheight"] = "4",
@@ -1187,7 +1394,7 @@ pfUI_profiles = {
 				["levelcolor"] = "1",
 				["glowcombat"] = "1",
 				["invert_healthbar"] = "0",
-				["buffsize"] = "12",
+				["debuff_ind_pos"] = "CENTER",
 				["hitindicator"] = "0",
 				["ragecolor"] = "1,.5,.5,1",
 				["all_procs"] = "0",
@@ -1196,20 +1403,20 @@ pfUI_profiles = {
 				["custompbg"] = "0",
 				["show_hots"] = "0",
 				["squaresize"] = "8",
-				["debuff_ind_size"] = ".65",
 				["overhealperc"] = "20",
+				["custompbgcolor"] = ".5,.2,.2,1",
 				["show_totems"] = "0",
 				["buffs"] = "TOPLEFT",
-				["customfont"] = "0",
+				["panchor"] = "TOP",
 				["raidicon"] = "1",
 				["txthpright"] = "healthdyn",
 				["showPVP"] = "0",
 				["buff_indicator"] = "0",
-				["clickcast"] = "0",
-				["customfont_size"] = "12",
+				["customfont"] = "0",
+				["cooldown_anim"] = "0",
 				["debuff_ind_class"] = "1",
-				["width"] = "120",
-				["debuffs"] = "TOPLEFT",
+				["customcolor"] = ".2,.2,.2,1",
+				["cooldown_text"] = "1",
 				["custombgcolor"] = ".5,.2,.2,1",
 				["indicator_time"] = "1",
 				["customfullhp"] = "0",
@@ -1224,42 +1431,42 @@ pfUI_profiles = {
 				["portrait"] = "bar",
 				["indicator_pos"] = "TOPLEFT",
 				["txtpowercenter"] = "none",
-				["custompbgcolor"] = ".5,.2,.2,1",
-				["energycolor"] = "1,1,.5,1",
-				["debufflimit"] = "32",
-				["debuff_ind_pos"] = "CENTER",
+				["clickcast"] = "0",
+				["width"] = "120",
+				["buffperrow"] = "8",
+				["buffsize"] = "12",
 				["custom"] = "0",
 				["pwidth"] = "-1",
-				["customcolor"] = ".2,.2,.2,1",
+				["energycolor"] = "1,1,.5,1",
 				["height"] = "34",
-				["glowaggro"] = "1",
+				["debuff_ind_size"] = ".65",
 				["customfont_name"] = "Interface\\AddOns\\pfUI\\fonts\\BigNoodleTitling.ttf",
 			},
 			["clickcast_ctrl"] = "",
 			["clickcast5"] = "",
 			["tttarget"] = {
 				["alpha_outrange"] = ".50",
-				["indicator_pos"] = "TOPLEFT",
+				["showtooltip"] = "1",
 				["verticalbar"] = "0",
 				["debuffsize"] = "16",
 				["powercolor"] = "1",
-				["cooldown_anim"] = "0",
+				["customfont_size"] = "12",
 				["txthpleft"] = "none",
 				["bufflimit"] = "32",
-				["customfont"] = "0",
+				["buffperrow"] = "8",
 				["healthcolor"] = "1",
-				["clickcast"] = "0",
+				["squarepos"] = "TOPLEFT",
 				["healcolor"] = "0,1,0,0.6",
 				["alpha_visible"] = "1",
 				["indicator_stacks"] = "1",
 				["squarecombat"] = "0",
 				["squareaggro"] = "0",
-				["all_hots"] = "0",
+				["debuff_ind_size"] = ".65",
 				["alpha_offline"] = ".25",
 				["debuff_indicator"] = "0",
 				["txtpowerright"] = "none",
 				["custom_indicator"] = "",
-				["raidiconsize"] = "24",
+				["classcolor"] = "1",
 				["panchor"] = "TOP",
 				["focuscolor"] = "1,1,.75,1",
 				["bartexture"] = "Interface\\AddOns\\pfUI\\img\\bar",
@@ -1269,7 +1476,7 @@ pfUI_profiles = {
 				["custombg"] = "0",
 				["show_buffs"] = "1",
 				["customfont_style"] = "OUTLINE",
-				["debuffs"] = "off",
+				["cooldown_text"] = "1",
 				["indicator_size"] = "10",
 				["txthpcenter"] = "name",
 				["pheight"] = "3",
@@ -1279,27 +1486,27 @@ pfUI_profiles = {
 				["invert_healthbar"] = "0",
 				["debuff_ind_pos"] = "CENTER",
 				["hitindicator"] = "0",
-				["custompbgcolor"] = ".5,.2,.2,1",
+				["ragecolor"] = "1,.5,.5,1",
 				["all_procs"] = "0",
 				["leadericon"] = "1",
-				["visible"] = "0",
+				["all_hots"] = "0",
 				["custompbg"] = "0",
 				["show_hots"] = "0",
 				["squaresize"] = "8",
 				["height"] = "17",
-				["classcolor"] = "1",
+				["customcolor"] = ".2,.2,.2,1",
 				["overhealperc"] = "10",
 				["buffs"] = "off",
-				["customfullhp"] = "0",
+				["width"] = "100",
 				["raidicon"] = "1",
 				["txthpright"] = "none",
 				["showPVP"] = "0",
 				["buff_indicator"] = "0",
-				["squarepos"] = "TOPLEFT",
-				["customfont_size"] = "12",
+				["custompbgcolor"] = ".5,.2,.2,1",
+				["cooldown_anim"] = "0",
 				["debuff_ind_class"] = "1",
-				["width"] = "100",
-				["cooldown_text"] = "1",
+				["customfullhp"] = "0",
+				["debuffs"] = "off",
 				["custombgcolor"] = ".5,.2,.2,1",
 				["indicator_time"] = "1",
 				["glowaggro"] = "1",
@@ -1314,15 +1521,15 @@ pfUI_profiles = {
 				["portrait"] = "bar",
 				["debufflimit"] = "32",
 				["buffsize"] = "16",
-				["showtooltip"] = "1",
+				["indicator_pos"] = "TOPLEFT",
 				["energycolor"] = "1,1,.5,1",
-				["customcolor"] = ".2,.2,.2,1",
-				["buffperrow"] = "8",
+				["clickcast"] = "0",
+				["customfont"] = "0",
 				["custom"] = "0",
 				["pwidth"] = "-1",
 				["show_totems"] = "0",
-				["debuff_ind_size"] = ".65",
-				["ragecolor"] = "1,.5,.5,1",
+				["visible"] = "0",
+				["raidiconsize"] = "24",
 				["customfont_name"] = "Interface\\AddOns\\pfUI\\fonts\\BigNoodleTitling.ttf",
 			},
 			["focuscolor"] = "1,1,.75,1",
@@ -1333,10 +1540,10 @@ pfUI_profiles = {
 				["verticalbar"] = "0",
 				["debuffsize"] = "16",
 				["powercolor"] = "1",
-				["cooldown_anim"] = "0",
+				["customfont_size"] = "12",
 				["txthpleft"] = "unit",
 				["bufflimit"] = "32",
-				["buffperrow"] = "8",
+				["debufflimit"] = "32",
 				["healthcolor"] = "1",
 				["squarepos"] = "TOPLEFT",
 				["healcolor"] = "0,1,0,0.6",
@@ -1344,12 +1551,12 @@ pfUI_profiles = {
 				["indicator_stacks"] = "1",
 				["squarecombat"] = "0",
 				["squareaggro"] = "0",
-				["debuff_ind_size"] = ".65",
+				["visible"] = "1",
 				["alpha_offline"] = ".25",
 				["debuff_indicator"] = "0",
 				["txtpowerright"] = "none",
 				["custom_indicator"] = "",
-				["raidiconsize"] = "24",
+				["classcolor"] = "1",
 				["panchor"] = "TOP",
 				["focuscolor"] = "1,1,.75,1",
 				["bartexture"] = "Interface\\AddOns\\pfUI\\img\\bar",
@@ -1359,7 +1566,7 @@ pfUI_profiles = {
 				["custombg"] = "0",
 				["show_buffs"] = "1",
 				["customfont_style"] = "OUTLINE",
-				["debuffs"] = "off",
+				["cooldown_text"] = "1",
 				["indicator_size"] = "10",
 				["txthpcenter"] = "none",
 				["pheight"] = "0",
@@ -1367,29 +1574,29 @@ pfUI_profiles = {
 				["levelcolor"] = "1",
 				["glowcombat"] = "0",
 				["invert_healthbar"] = "0",
-				["debuff_ind_pos"] = "CENTER",
+				["buffsize"] = "16",
 				["hitindicator"] = "0",
-				["classcolor"] = "1",
+				["ragecolor"] = "1,.5,.5,1",
 				["all_procs"] = "0",
 				["leadericon"] = "1",
-				["ragecolor"] = "1,.5,.5,1",
+				["debuff_ind_size"] = ".65",
 				["custompbg"] = "0",
 				["show_hots"] = "0",
 				["squaresize"] = "8",
-				["all_hots"] = "0",
 				["overhealperc"] = "20",
+				["custompbgcolor"] = ".5,.2,.2,1",
 				["show_totems"] = "0",
 				["buffs"] = "off",
-				["customfont"] = "0",
+				["glowaggro"] = "1",
 				["raidicon"] = "1",
 				["txthpright"] = "healthperc",
 				["showPVP"] = "0",
 				["buff_indicator"] = "0",
-				["custompbgcolor"] = ".5,.2,.2,1",
-				["customfont_size"] = "12",
+				["customfont"] = "0",
+				["cooldown_anim"] = "0",
 				["debuff_ind_class"] = "1",
-				["width"] = "100",
-				["cooldown_text"] = "1",
+				["customcolor"] = ".2,.2,.2,1",
+				["debuffs"] = "off",
 				["custombgcolor"] = ".5,.2,.2,1",
 				["indicator_time"] = "1",
 				["customfullhp"] = "0",
@@ -1404,37 +1611,34 @@ pfUI_profiles = {
 				["portrait"] = "off",
 				["indicator_pos"] = "TOPLEFT",
 				["txtpowercenter"] = "none",
-				["glowaggro"] = "1",
-				["customcolor"] = ".2,.2,.2,1",
-				["debufflimit"] = "32",
-				["buffsize"] = "16",
+				["raidiconsize"] = "24",
+				["width"] = "100",
+				["buffperrow"] = "8",
+				["debuff_ind_pos"] = "CENTER",
 				["custom"] = "0",
 				["pwidth"] = "-1",
 				["energycolor"] = "1,1,.5,1",
 				["height"] = "14",
-				["visible"] = "1",
+				["all_hots"] = "0",
 				["customfont_name"] = "Interface\\AddOns\\pfUI\\fonts\\BigNoodleTitling.ttf",
 			},
 			["manacolor"] = ".5,.5,1,1",
 			["animation_speed"] = "5",
 			["selfingroup"] = "0",
 			["clickcast4_alt"] = "",
-			["clickcast2_ctrl"] = "",
-			["customfullhp"] = "0",
+			["rangechecki"] = "4",
+			["energycolor"] = "1,1,.5,1",
 			["combosize"] = "6",
-			["clickcast_alt"] = "",
-			["custombg"] = "0",
-			["clickcast4"] = "",
-			["pet"] = {
+			["ttarget"] = {
 				["alpha_outrange"] = ".50",
-				["indicator_pos"] = "TOPLEFT",
+				["showtooltip"] = "1",
 				["verticalbar"] = "0",
-				["debuffsize"] = "12",
+				["debuffsize"] = "16",
 				["powercolor"] = "1",
-				["cooldown_anim"] = "0",
+				["customfont_size"] = "12",
 				["txthpleft"] = "none",
 				["bufflimit"] = "32",
-				["customfont"] = "0",
+				["buffperrow"] = "8",
 				["healthcolor"] = "1",
 				["squarepos"] = "TOPLEFT",
 				["healcolor"] = "0,1,0,0.6",
@@ -1442,17 +1646,16 @@ pfUI_profiles = {
 				["indicator_stacks"] = "1",
 				["squarecombat"] = "0",
 				["squareaggro"] = "0",
-				["debuff_ind_size"] = ".65",
+				["visible"] = "1",
 				["alpha_offline"] = ".25",
 				["debuff_indicator"] = "0",
 				["txtpowerright"] = "none",
 				["custom_indicator"] = "",
-				["raidiconsize"] = "24",
-				["glowaggro"] = "1",
+				["classcolor"] = "1",
+				["panchor"] = "TOP",
 				["focuscolor"] = "1,1,.75,1",
 				["bartexture"] = "Interface\\AddOns\\pfUI\\img\\bar",
 				["indicator_spacing"] = "1",
-				["happinesssize"] = "12",
 				["pspace"] = "-3",
 				["looticon"] = "1",
 				["custombg"] = "0",
@@ -1461,60 +1664,62 @@ pfUI_profiles = {
 				["cooldown_text"] = "1",
 				["indicator_size"] = "10",
 				["txthpcenter"] = "name",
-				["pheight"] = "4",
+				["pheight"] = "3",
 				["txtpowerleft"] = "none",
 				["levelcolor"] = "1",
 				["glowcombat"] = "1",
 				["invert_healthbar"] = "0",
-				["buffsize"] = "12",
-				["ragecolor"] = "1,.5,.5,1",
+				["debuff_ind_pos"] = "CENTER",
 				["hitindicator"] = "0",
-				["squaresize"] = "8",
+				["ragecolor"] = "1,.5,.5,1",
 				["all_procs"] = "0",
 				["leadericon"] = "1",
-				["energycolor"] = "1,1,.5,1",
+				["debuff_ind_size"] = ".65",
 				["custompbg"] = "0",
 				["show_hots"] = "0",
-				["custompbgcolor"] = ".5,.2,.2,1",
-				["all_hots"] = "0",
-				["overhealperc"] = "20",
-				["height"] = "14",
-				["buffs"] = "TOPLEFT",
+				["squaresize"] = "8",
+				["overhealperc"] = "10",
+				["customcolor"] = ".2,.2,.2,1",
+				["height"] = "17",
+				["buffs"] = "off",
 				["width"] = "100",
 				["raidicon"] = "1",
 				["txthpright"] = "none",
-				["show_totems"] = "0",
-				["buff_indicator"] = "0",
-				["customfont_size"] = "12",
-				["customcolor"] = ".2,.2,.2,1",
-				["debuff_ind_class"] = "1",
-				["debuffs"] = "TOPLEFT",
-				["custombgcolor"] = ".5,.2,.2,1",
 				["showPVP"] = "0",
+				["buff_indicator"] = "0",
+				["custompbgcolor"] = ".5,.2,.2,1",
+				["cooldown_anim"] = "0",
+				["debuff_ind_class"] = "1",
+				["customfullhp"] = "0",
+				["debuffs"] = "off",
+				["custombgcolor"] = ".5,.2,.2,1",
 				["indicator_time"] = "1",
-				["clickcast"] = "0",
+				["glowaggro"] = "1",
 				["debuffperrow"] = "8",
 				["defcolor"] = "1",
-				["happinessicon"] = "2",
+				["hitindicatorfont"] = "Interface\\AddOns\\pfUI\\fonts\\Continuum.ttf",
 				["faderange"] = "0",
 				["hitindicatorsize"] = "15",
 				["show_procs"] = "0",
 				["txtpowercenter"] = "none",
 				["manacolor"] = ".5,.5,1,1",
-				["hitindicatorfont"] = "Interface\\AddOns\\pfUI\\fonts\\Continuum.ttf",
-				["portrait"] = "bar",
-				["showtooltip"] = "1",
-				["buffperrow"] = "8",
-				["customfullhp"] = "0",
-				["debuff_ind_pos"] = "CENTER",
+				["portrait"] = "off",
 				["debufflimit"] = "32",
+				["buffsize"] = "16",
+				["indicator_pos"] = "TOPLEFT",
+				["energycolor"] = "1,1,.5,1",
+				["clickcast"] = "0",
+				["customfont"] = "0",
 				["custom"] = "0",
 				["pwidth"] = "-1",
-				["visible"] = "1",
-				["panchor"] = "TOP",
-				["classcolor"] = "1",
+				["show_totems"] = "0",
+				["all_hots"] = "0",
+				["raidiconsize"] = "24",
 				["customfont_name"] = "Interface\\AddOns\\pfUI\\fonts\\BigNoodleTitling.ttf",
 			},
+			["clickcast4_shift"] = "",
+			["clickcast2_shift"] = "",
+			["layout"] = "default",
 			["clickcast_shift"] = "",
 			["clickcast5_ctrl"] = "",
 			["disable"] = "0",
@@ -1543,7 +1748,7 @@ pfUI_profiles = {
 				["rep_width"] = "5",
 				["rep_position"] = "LEFT",
 				["rep_timeout"] = "5",
-				["xp_width"] = "5",
+				["dont_overlap"] = "0",
 				["rep_display"] = "REP",
 				["xp_anchor"] = "pfChatLeft",
 				["xp_color"] = ".25,.25,1,1",
@@ -1553,7 +1758,7 @@ pfUI_profiles = {
 				["xp_mode"] = "VERTICAL",
 				["xp_height"] = "5",
 				["xp_position"] = "RIGHT",
-				["dont_overlap"] = "0",
+				["xp_width"] = "5",
 				["rep_anchor"] = "pfChatRight",
 				["xp_display"] = "XPFLEX",
 				["rest_color"] = "1,.25,1,.5",
@@ -1567,18 +1772,9 @@ pfUI_profiles = {
 				["enable"] = "1",
 			},
 		},
-		["buffs"] = {
-			["buffrowsize"] = "16",
-			["debuffs"] = "0",
-			["debuffrowsize"] = "16",
-			["wepbuffrowsize"] = "2",
-			["separateweapons"] = "0",
-			["textinside"] = "0",
-			["fontsize"] = "-1",
-			["spacing"] = "5",
-			["buffs"] = "0",
-			["weapons"] = "1",
-			["size"] = "24",
+		["gm"] = {
+			["server"] = "elysium",
+			["disable"] = "1",
 		},
 		["appearance"] = {
 			["infight"] = {
@@ -1677,6 +1873,42 @@ pfUI_profiles = {
 				["width"] = "150",
 			},
 		},
+		["screenshot"] = {
+			["pvprank"] = "0",
+			["levelup"] = "0",
+			["caption_font"] = "Interface\\AddOns\\pfUI\\fonts\\BigNoodleTitling.ttf",
+			["caption"] = "0",
+			["caption_size"] = "22",
+			["loot"] = "0",
+			["faction"] = "0",
+			["interval"] = "0",
+			["hk"] = "0",
+			["hideui"] = "0",
+			["battleground"] = "0",
+		},
+		["tooltip"] = {
+			["questitem"] = {
+				["showcount"] = "0",
+				["showquest"] = "1",
+			},
+			["alwaysperc"] = "0",
+			["extguild"] = "1",
+			["alpha"] = "0.8",
+			["cursoroffset"] = "20",
+			["compare"] = {
+				["basestats"] = "1",
+				["showalways"] = "0",
+			},
+			["position"] = "chat",
+			["cursoralign"] = "native",
+			["statusbar"] = {
+				["texture"] = "Interface\\AddOns\\pfUI\\img\\bar",
+			},
+			["itemid"] = "0",
+			["vendor"] = {
+				["showalways"] = "0",
+			},
+		},
 		["global"] = {
 			["pixelperfect"] = "0",
 			["font_combat"] = "Interface\\AddOns\\pfUI\\fonts\\Continuum.ttf",
@@ -1702,47 +1934,11 @@ pfUI_profiles = {
 			["offscreen"] = "0",
 			["font_default"] = "Interface\\AddOns\\pfUI\\fonts\\Myriad-Pro.ttf",
 		},
-		["tooltip"] = {
-			["questitem"] = {
-				["showcount"] = "0",
-				["showquest"] = "1",
-			},
-			["alwaysperc"] = "0",
-			["extguild"] = "1",
-			["alpha"] = "0.8",
-			["cursoroffset"] = "20",
-			["compare"] = {
-				["basestats"] = "1",
-				["showalways"] = "0",
-			},
-			["position"] = "chat",
-			["cursoralign"] = "native",
-			["statusbar"] = {
-				["texture"] = "Interface\\AddOns\\pfUI\\img\\bar",
-			},
-			["itemid"] = "0",
-			["vendor"] = {
-				["showalways"] = "0",
-			},
-		},
-		["screenshot"] = {
-			["pvprank"] = "0",
-			["levelup"] = "0",
-			["caption_font"] = "Interface\\AddOns\\pfUI\\fonts\\BigNoodleTitling.ttf",
-			["caption"] = "0",
-			["caption_size"] = "22",
-			["loot"] = "0",
-			["faction"] = "0",
-			["interval"] = "0",
-			["hk"] = "0",
-			["hideui"] = "0",
-			["battleground"] = "0",
-		},
 		["abuttons"] = {
 			["position"] = "bottom",
 			["spacing"] = "2",
-			["hideincombat"] = "1",
 			["enable"] = "1",
+			["hideincombat"] = "1",
 			["rowsize"] = "6",
 			["showdefault"] = "0",
 		},
@@ -1750,10 +1946,7 @@ pfUI_profiles = {
 			["noteit"] = {
 				["enable"] = "1",
 			},
-			["recount"] = {
-				["dock"] = "1",
-				["skin"] = "1",
-			},
+			["chatbg"] = "1",
 			["crafty"] = {
 				["enable"] = "1",
 			},
@@ -1769,9 +1962,8 @@ pfUI_profiles = {
 			["flightmap"] = {
 				["enable"] = "1",
 			},
-			["dpsmate"] = {
-				["dock"] = "1",
-				["skin"] = "1",
+			["bag_sort"] = {
+				["enable"] = "1",
 			},
 			["healcomm"] = {
 				["enable"] = "1",
@@ -1818,13 +2010,17 @@ pfUI_profiles = {
 				["dock"] = "1",
 				["skin"] = "1",
 			},
-			["chatbg"] = "1",
+			["recount"] = {
+				["dock"] = "1",
+				["skin"] = "1",
+			},
 			["omen"] = {
 				["dock"] = "1",
 				["skin"] = "1",
 			},
-			["bag_sort"] = {
-				["enable"] = "1",
+			["dpsmate"] = {
+				["dock"] = "1",
+				["skin"] = "1",
 			},
 		},
 		["buffbar"] = {
@@ -1909,17 +2105,17 @@ pfUI_profiles = {
 				["ypos"] = 289,
 				["anchor"] = "BOTTOMLEFT",
 			},
-			["pfActionBarStanceBar4"] = {
-				["xpos"] = 0,
-				["anchor"] = "BOTTOM",
-				["ypos"] = 195,
+			["pfRaid17"] = {
+				["xpos"] = 177,
 				["parent"] = "UIParent",
+				["ypos"] = 210,
+				["anchor"] = "BOTTOMLEFT",
 			},
-			["pfTarget"] = {
-				["xpos"] = 140,
+			["pfRaid8"] = {
+				["xpos"] = 62,
 				["parent"] = "UIParent",
-				["ypos"] = -10,
-				["anchor"] = "CENTER",
+				["ypos"] = 250,
+				["anchor"] = "BOTTOMLEFT",
 			},
 			["pfActionBarPet"] = {
 				["xpos"] = 0,
@@ -1927,10 +2123,10 @@ pfUI_profiles = {
 				["ypos"] = 130,
 				["anchor"] = "BOTTOM",
 			},
-			["pfPlayer"] = {
-				["xpos"] = -240,
+			["pfActionBarMain"] = {
+				["xpos"] = 0,
 				["parent"] = "UIParent",
-				["ypos"] = 85,
+				["ypos"] = 25,
 				["anchor"] = "BOTTOM",
 			},
 			["pfDebuffFrame"] = {
@@ -1963,11 +2159,11 @@ pfUI_profiles = {
 				["ypos"] = 329,
 				["anchor"] = "BOTTOMLEFT",
 			},
-			["pfRaid19"] = {
-				["xpos"] = 177,
+			["pfActionBarRight"] = {
+				["xpos"] = 0,
 				["parent"] = "UIParent",
-				["ypos"] = 289,
-				["anchor"] = "BOTTOMLEFT",
+				["ypos"] = 100,
+				["anchor"] = "BOTTOM",
 			},
 			["pfActionBarPaging"] = {
 				["xpos"] = 0,
@@ -2011,11 +2207,11 @@ pfUI_profiles = {
 				["ypos"] = 289,
 				["anchor"] = "BOTTOMLEFT",
 			},
-			["pfLootRollFrame2"] = {
-				["xpos"] = -55,
-				["anchor"] = "BOTTOMRIGHT",
-				["ypos"] = 220,
+			["pfRaid28"] = {
+				["xpos"] = 291,
 				["parent"] = "UIParent",
+				["ypos"] = 250,
+				["anchor"] = "BOTTOMLEFT",
 			},
 			["pfGroup3"] = {
 				["xpos"] = 6,
@@ -2081,11 +2277,11 @@ pfUI_profiles = {
 				["ypos"] = 160,
 				["parent"] = "UIParent",
 			},
-			["pfActionBarStanceBar1"] = {
-				["xpos"] = 0,
-				["anchor"] = "CENTER",
-				["ypos"] = -155,
+			["pfRaid6"] = {
+				["xpos"] = 62,
 				["parent"] = "UIParent",
+				["ypos"] = 170,
+				["anchor"] = "BOTTOMLEFT",
 			},
 			["pfRaid39"] = {
 				["xpos"] = 406,
@@ -2117,10 +2313,34 @@ pfUI_profiles = {
 				["ypos"] = 210,
 				["anchor"] = "BOTTOMLEFT",
 			},
-			["pfRaid28"] = {
-				["xpos"] = 291,
+			["pfLootRollFrame2"] = {
+				["xpos"] = -55,
+				["anchor"] = "BOTTOMRIGHT",
+				["ypos"] = 220,
 				["parent"] = "UIParent",
-				["ypos"] = 250,
+			},
+			["pfRaid7"] = {
+				["xpos"] = 62,
+				["parent"] = "UIParent",
+				["ypos"] = 210,
+				["anchor"] = "BOTTOMLEFT",
+			},
+			["pfRaid19"] = {
+				["xpos"] = 177,
+				["parent"] = "UIParent",
+				["ypos"] = 289,
+				["anchor"] = "BOTTOMLEFT",
+			},
+			["pfTargetTargetTarget"] = {
+				["xpos"] = -330,
+				["parent"] = "UIParent",
+				["ypos"] = 0,
+				["anchor"] = "RIGHT",
+			},
+			["pfRaid5"] = {
+				["xpos"] = 5,
+				["parent"] = "UIParent",
+				["ypos"] = 329,
 				["anchor"] = "BOTTOMLEFT",
 			},
 			["pfRaid32"] = {
@@ -2129,35 +2349,11 @@ pfUI_profiles = {
 				["ypos"] = 210,
 				["anchor"] = "BOTTOMLEFT",
 			},
-			["pfActionBarRight"] = {
+			["pfActionBarStances"] = {
 				["xpos"] = 0,
 				["parent"] = "UIParent",
-				["ypos"] = 100,
+				["ypos"] = 130,
 				["anchor"] = "BOTTOM",
-			},
-			["pfTargetTargetTarget"] = {
-				["xpos"] = -330,
-				["parent"] = "UIParent",
-				["ypos"] = 0,
-				["anchor"] = "RIGHT",
-			},
-			["pfGroup2"] = {
-				["xpos"] = 6,
-				["parent"] = "UIParent",
-				["ypos"] = -109,
-				["anchor"] = "TOPLEFT",
-			},
-			["pfParty2Target"] = {
-				["xpos"] = 110,
-				["anchor"] = "TOPLEFT",
-				["ypos"] = -107,
-				["parent"] = "UIParent",
-			},
-			["pfRaid18"] = {
-				["xpos"] = 177,
-				["parent"] = "UIParent",
-				["ypos"] = 250,
-				["anchor"] = "BOTTOMLEFT",
 			},
 			["pfRaid31"] = {
 				["xpos"] = 348,
@@ -2165,29 +2361,29 @@ pfUI_profiles = {
 				["ypos"] = 170,
 				["anchor"] = "BOTTOMLEFT",
 			},
-			["pfActionBarStances"] = {
-				["xpos"] = 0,
-				["parent"] = "UIParent",
-				["ypos"] = 130,
-				["anchor"] = "BOTTOM",
-			},
 			["pfChatLeft"] = {
 				["xpos"] = 5,
 				["parent"] = "UIParent",
 				["ypos"] = 5,
 				["anchor"] = "BOTTOMLEFT",
 			},
-			["pfActionBarMain"] = {
-				["xpos"] = 0,
+			["pfParty2Target"] = {
+				["xpos"] = 110,
+				["anchor"] = "TOPLEFT",
+				["ypos"] = -107,
 				["parent"] = "UIParent",
-				["ypos"] = 25,
+			},
+			["pfPlayer"] = {
+				["xpos"] = -240,
+				["parent"] = "UIParent",
+				["ypos"] = 85,
 				["anchor"] = "BOTTOM",
 			},
-			["pfRaid5"] = {
-				["xpos"] = 5,
+			["pfGroup2"] = {
+				["xpos"] = 6,
 				["parent"] = "UIParent",
-				["ypos"] = 329,
-				["anchor"] = "BOTTOMLEFT",
+				["ypos"] = -109,
+				["anchor"] = "TOPLEFT",
 			},
 			["pfRaid20"] = {
 				["xpos"] = 177,
@@ -2207,11 +2403,11 @@ pfUI_profiles = {
 				["ypos"] = 130,
 				["anchor"] = "BOTTOM",
 			},
-			["pfPanelRight"] = {
-				["xpos"] = -236,
+			["pfRaid22"] = {
+				["xpos"] = 234,
 				["parent"] = "UIParent",
-				["ypos"] = 5,
-				["anchor"] = "BOTTOMRIGHT",
+				["ypos"] = 210,
+				["anchor"] = "BOTTOMLEFT",
 			},
 			["pfPetTarget"] = {
 				["xpos"] = -220,
@@ -2219,10 +2415,10 @@ pfUI_profiles = {
 				["ypos"] = 5,
 				["anchor"] = "BOTTOM",
 			},
-			["pfRaid10"] = {
-				["xpos"] = 62,
+			["pfRaid34"] = {
+				["xpos"] = 348,
 				["parent"] = "UIParent",
-				["ypos"] = 329,
+				["ypos"] = 289,
 				["anchor"] = "BOTTOMLEFT",
 			},
 			["pfParty1Target"] = {
@@ -2249,11 +2445,11 @@ pfUI_profiles = {
 				["ypos"] = 160,
 				["anchor"] = "BOTTOM",
 			},
-			["pfRaid34"] = {
-				["xpos"] = 348,
+			["pfPanelRight"] = {
+				["xpos"] = -236,
 				["parent"] = "UIParent",
-				["ypos"] = 289,
-				["anchor"] = "BOTTOMLEFT",
+				["ypos"] = 5,
+				["anchor"] = "BOTTOMRIGHT",
 			},
 			["pfActionBarTop"] = {
 				["xpos"] = 0,
@@ -2285,10 +2481,10 @@ pfUI_profiles = {
 				["ypos"] = 250,
 				["anchor"] = "BOTTOMLEFT",
 			},
-			["pfRaid22"] = {
-				["xpos"] = 234,
+			["pfRaid10"] = {
+				["xpos"] = 62,
 				["parent"] = "UIParent",
-				["ypos"] = 210,
+				["ypos"] = 329,
 				["anchor"] = "BOTTOMLEFT",
 			},
 			["pfRaid23"] = {
@@ -2303,23 +2499,23 @@ pfUI_profiles = {
 				["ypos"] = 329,
 				["parent"] = "UIParent",
 			},
-			["pfRaid8"] = {
-				["xpos"] = 62,
+			["pfTarget"] = {
+				["xpos"] = 140,
 				["parent"] = "UIParent",
-				["ypos"] = 250,
-				["anchor"] = "BOTTOMLEFT",
+				["ypos"] = -10,
+				["anchor"] = "CENTER",
 			},
-			["pfRaid7"] = {
-				["xpos"] = 62,
-				["parent"] = "UIParent",
-				["ypos"] = 210,
-				["anchor"] = "BOTTOMLEFT",
-			},
-			["pfRaid6"] = {
-				["xpos"] = 62,
+			["pfRaid36"] = {
+				["xpos"] = 406,
 				["parent"] = "UIParent",
 				["ypos"] = 170,
 				["anchor"] = "BOTTOMLEFT",
+			},
+			["pfActionBarStanceBar1"] = {
+				["xpos"] = 0,
+				["anchor"] = "CENTER",
+				["ypos"] = -155,
+				["parent"] = "UIParent",
 			},
 			["pfRaid3"] = {
 				["xpos"] = 5,
@@ -2327,10 +2523,10 @@ pfUI_profiles = {
 				["ypos"] = 250,
 				["anchor"] = "BOTTOMLEFT",
 			},
-			["pfRaid36"] = {
-				["xpos"] = 406,
+			["pfRaid18"] = {
+				["xpos"] = 177,
 				["parent"] = "UIParent",
-				["ypos"] = 170,
+				["ypos"] = 250,
 				["anchor"] = "BOTTOMLEFT",
 			},
 			["pfRaid2"] = {
@@ -2339,11 +2535,11 @@ pfUI_profiles = {
 				["ypos"] = 210,
 				["anchor"] = "BOTTOMLEFT",
 			},
-			["pfRaid17"] = {
-				["xpos"] = 177,
+			["pfActionBarStanceBar4"] = {
+				["xpos"] = 0,
+				["anchor"] = "BOTTOM",
+				["ypos"] = 195,
 				["parent"] = "UIParent",
-				["ypos"] = 210,
-				["anchor"] = "BOTTOMLEFT",
 			},
 			["pfChatRight"] = {
 				["xpos"] = -35,
@@ -2390,264 +2586,68 @@ pfUI_profiles = {
 			["enemyclassc"] = "1",
 			["debuffsize"] = "14",
 			["showhostile"] = "1",
-			["outfriendlynpc"] = "1",
+			["target"] = "1",
 			["clickthrough"] = "0",
-			["targetzoomval"] = ".40",
+			["heighthealth"] = "8",
 			["showfriendly"] = "0",
 			["enemyplayer"] = "0",
-			["use_unitfonts"] = "0",
+			["vpos"] = "-10",
 			["fullhealth"] = "1",
 			["neutralnpc"] = "0",
 			["cpdisplay"] = "0",
 			["name"] = {
 				["fontstyle"] = "OUTLINE",
 			},
-			["vpos"] = "-10",
+			["use_unitfonts"] = "0",
 			["raidiconoffy"] = "-5",
-			["showdebuffs"] = "1",
-			["targetglow"] = "1",
+			["outneutral"] = "1",
+			["rightclick"] = "1",
 			["legacy"] = "0",
-			["healthtexture"] = "Interface\\AddOns\\pfUI\\img\\bar",
-			["target"] = "1",
+			["showdebuffs"] = "1",
+			["outfriendlynpc"] = "1",
 			["glowcolor"] = "1,1,1,1",
 			["heightcast"] = "8",
-			["rightclick"] = "1",
+			["targetglow"] = "1",
 			["hptextformat"] = "curmaxs",
 			["clickthreshold"] = "0.5",
 			["totemicons"] = "0",
 			["notargalpha"] = ".75",
-			["friendclassc"] = "1",
+			["enemynpc"] = "0",
 			["raidiconsize"] = "16",
 			["outenemy"] = "1",
 			["friendlynpc"] = "1",
 			["targethighlight"] = "0",
 			["outfriendly"] = "0",
-			["raidiconoffx"] = "0",
 			["critters"] = "1",
+			["raidiconoffx"] = "0",
 			["guessdebuffs"] = "1",
 			["spellname"] = "0",
 			["showcastbar"] = "1",
 			["highlightcolor"] = "1,1,1,1",
 			["width"] = "120",
-			["enemynpc"] = "0",
-			["outneutral"] = "1",
+			["friendclassc"] = "1",
+			["healthtexture"] = "Interface\\AddOns\\pfUI\\img\\bar",
 			["health"] = {
 				["offset"] = "-3",
 			},
-			["raidiconpos"] = "CENTER",
+			["targetzoomval"] = ".40",
 			["targetzoom"] = "0",
-			["heighthealth"] = "8",
+			["raidiconpos"] = "CENTER",
 			["hptextpos"] = "RIGHT",
 			["overlap"] = "0",
 		},
-		["bars"] = {
-			["bar3"] = {
-				["showmacro"] = "1",
-				["formfactor"] = "12 x 1",
-				["buttons"] = "12",
-				["enable"] = "1",
-				["icon_size"] = "20",
-				["showempty"] = "0",
-				["hide_time"] = "3",
-				["autohide"] = "0",
-				["spacing"] = "1",
-				["pageable"] = "0",
-				["background"] = "0",
-				["showcount"] = "1",
-				["showkeybind"] = "1",
-			},
-			["oomcolor"] = ".2,.2,1,1",
-			["showoom"] = "1",
-			["bar8"] = {
-				["showmacro"] = "1",
-				["formfactor"] = "12 x 1",
-				["buttons"] = "12",
-				["enable"] = "0",
-				["icon_size"] = "20",
-				["showempty"] = "1",
-				["hide_time"] = "3",
-				["autohide"] = "0",
-				["spacing"] = "1",
-				["pageable"] = "0",
-				["background"] = "0",
-				["showcount"] = "1",
-				["showkeybind"] = "1",
-			},
-			["eqcolor"] = ".2,.8,.2,.2",
-			["shiftdrag"] = "1",
-			["nacolor"] = ".3,.3,.3,1",
-			["bar9"] = {
-				["showmacro"] = "1",
-				["formfactor"] = "12 x 1",
-				["buttons"] = "12",
-				["enable"] = "0",
-				["icon_size"] = "20",
-				["showempty"] = "1",
-				["hide_time"] = "3",
-				["autohide"] = "0",
-				["spacing"] = "1",
-				["pageable"] = "0",
-				["background"] = "0",
-				["showcount"] = "1",
-				["showkeybind"] = "1",
-			},
-			["count_color"] = ".2,1,.8,1",
-			["animation"] = "zoomfade",
-			["bar11"] = {
-				["showmacro"] = "1",
-				["formfactor"] = "10 x 1",
-				["enable"] = "1",
-				["icon_size"] = "18",
-				["showempty"] = "1",
-				["hide_time"] = "3",
-				["autohide"] = "0",
-				["spacing"] = "1",
-				["pageable"] = "0",
-				["background"] = "0",
-				["showcount"] = "1",
-				["showkeybind"] = "1",
-			},
-			["keydown"] = "0",
-			["druidstealth"] = "0",
-			["font"] = "Interface\\AddOns\\pfUI\\fonts\\BigNoodleTitling.ttf",
-			["bar7"] = {
-				["showmacro"] = "1",
-				["formfactor"] = "12 x 1",
-				["buttons"] = "12",
-				["enable"] = "0",
-				["icon_size"] = "20",
-				["showempty"] = "1",
-				["hide_time"] = "3",
-				["autohide"] = "0",
-				["spacing"] = "1",
-				["pageable"] = "0",
-				["background"] = "0",
-				["showcount"] = "1",
-				["showkeybind"] = "1",
-			},
-			["animalways"] = "0",
-			["altself"] = "0",
-			["bar12"] = {
-				["showmacro"] = "1",
-				["formfactor"] = "10 x 1",
-				["enable"] = "1",
-				["icon_size"] = "18",
-				["showempty"] = "1",
-				["hide_time"] = "3",
-				["autohide"] = "0",
-				["spacing"] = "1",
-				["pageable"] = "0",
-				["background"] = "0",
-				["showcount"] = "1",
-				["showkeybind"] = "1",
-			},
-			["showna"] = "1",
-			["font_offset"] = "0",
-			["bar10"] = {
-				["showmacro"] = "1",
-				["formfactor"] = "12 x 1",
-				["buttons"] = "12",
-				["enable"] = "0",
-				["icon_size"] = "20",
-				["showempty"] = "1",
-				["hide_time"] = "3",
-				["autohide"] = "0",
-				["spacing"] = "1",
-				["pageable"] = "0",
-				["background"] = "0",
-				["showcount"] = "1",
-				["showkeybind"] = "1",
-			},
-			["showcastable"] = "1",
-			["animmode"] = "keypress",
-			["bind_size"] = "8",
-			["bind_color"] = "1,1,0,1",
-			["macro_size"] = "9",
-			["showequipped"] = "1",
-			["count_size"] = "11",
-			["bar2"] = {
-				["showmacro"] = "1",
-				["formfactor"] = "12 x 1",
-				["buttons"] = "12",
-				["enable"] = "1",
-				["icon_size"] = "20",
-				["showempty"] = "0",
-				["hide_time"] = "3",
-				["autohide"] = "0",
-				["spacing"] = "1",
-				["pageable"] = "1",
-				["background"] = "0",
-				["showcount"] = "1",
-				["showkeybind"] = "1",
-			},
-			["macro_color"] = "1,1,1,1",
-			["cd_size"] = "12",
-			["bar5"] = {
-				["showmacro"] = "1",
-				["formfactor"] = "12 x 1",
-				["buttons"] = "12",
-				["enable"] = "1",
-				["icon_size"] = "20",
-				["showempty"] = "0",
-				["hide_time"] = "3",
-				["autohide"] = "0",
-				["spacing"] = "1",
-				["pageable"] = "0",
-				["background"] = "0",
-				["showcount"] = "1",
-				["showkeybind"] = "1",
-			},
-			["bar6"] = {
-				["showmacro"] = "1",
-				["formfactor"] = "12 x 1",
-				["buttons"] = "12",
-				["enable"] = "1",
-				["icon_size"] = "20",
-				["showempty"] = "0",
-				["hide_time"] = "3",
-				["autohide"] = "0",
-				["spacing"] = "1",
-				["pageable"] = "0",
-				["background"] = "0",
-				["showcount"] = "1",
-				["showkeybind"] = "1",
-			},
-			["rangecolor"] = "1,0.1,0.1,1",
-			["glowrange"] = "1",
-			["rightself"] = "0",
-			["pagemaster"] = "0",
-			["hunterbar"] = "0",
-			["bar1"] = {
-				["showmacro"] = "1",
-				["formfactor"] = "12 x 1",
-				["buttons"] = "12",
-				["enable"] = "1",
-				["icon_size"] = "20",
-				["showempty"] = "0",
-				["hide_time"] = "3",
-				["autohide"] = "0",
-				["spacing"] = "1",
-				["pageable"] = "1",
-				["background"] = "0",
-				["showcount"] = "1",
-				["showkeybind"] = "1",
-			},
-			["reagents"] = "1",
-			["bar4"] = {
-				["showmacro"] = "1",
-				["formfactor"] = "1 x 12",
-				["buttons"] = "12",
-				["enable"] = "1",
-				["icon_size"] = "20",
-				["showempty"] = "1",
-				["hide_time"] = "3",
-				["autohide"] = "1",
-				["spacing"] = "1",
-				["pageable"] = "0",
-				["background"] = "0",
-				["showcount"] = "1",
-				["showkeybind"] = "1",
-			},
+		["buffs"] = {
+			["buffrowsize"] = "16",
+			["debuffs"] = "0",
+			["debuffrowsize"] = "16",
+			["wepbuffrowsize"] = "2",
+			["separateweapons"] = "0",
+			["textinside"] = "0",
+			["fontsize"] = "-1",
+			["spacing"] = "5",
+			["buffs"] = "0",
+			["weapons"] = "1",
+			["size"] = "24",
 		},
 		["EliteOverlay"] = {
 			["position"] = "right",
@@ -2847,7 +2847,8 @@ pfUI_cache = {
 						[2] = true,
 					},
 					["Holy LightRank 8"] = {
-						[1] = 1406,
+						[1] = 1499,
+						[2] = true,
 					},
 					["Seal of LightRank 4"] = {
 						[1] = 90,
@@ -2870,7 +2871,7 @@ pfUI_cache = {
 						[2] = true,
 					},
 					["Flash of LightRank 6"] = {
-						[1] = 450,
+						[1] = 428,
 						[2] = true,
 					},
 				},
@@ -2906,10 +2907,10 @@ pfUI_cache = {
 		},
 	},
 	["libhealth"] = {
-		["Skeletal Sorcerer:52"] = {
-			[1] = 2936,
-			[2] = 99,
-			[3] = 13,
+		["Redridge Mongrel:15"] = {
+			[1] = 326,
+			[2] = 85,
+			[3] = 2,
 		},
 		["Death's Head Adept:27"] = {
 			[1] = 2702,
@@ -2931,10 +2932,10 @@ pfUI_cache = {
 			[2] = 97,
 			[3] = 9,
 		},
-		["Burning Blade Apprentice:10"] = {
-			[1] = 135,
-			[2] = 82,
-			[3] = 7,
+		["Huricanian:58"] = {
+			[1] = 3658,
+			[2] = 89,
+			[3] = 10,
 		},
 		["Kobold Laborer:3"] = {
 			[1] = 52,
@@ -2986,15 +2987,15 @@ pfUI_cache = {
 			[2] = 96,
 			[3] = 5,
 		},
-		["Sand Skitterer:56"] = {
-			[1] = 4190,
+		["Blazing Fireguard:54"] = {
+			[1] = 8863,
 			[2] = 99,
-			[3] = 16,
+			[3] = 33,
 		},
-		["Cookie:19"] = {
-			[1] = 4940,
-			[2] = 5,
-			[3] = 1,
+		["Blazing Elemental:47"] = {
+			[1] = 2609,
+			[2] = 89,
+			[3] = 14,
 		},
 		["Baron Rivendare:-1"] = {
 			[1] = 66137,
@@ -3006,10 +3007,10 @@ pfUI_cache = {
 			[2] = 94,
 			[3] = 50,
 		},
-		["Egorn:17"] = {
-			[1] = 109,
-			[2] = 12,
-			[3] = 1,
+		["Thuzadin Shadowcaster:59"] = {
+			[1] = 17616,
+			[2] = 98,
+			[3] = 46,
 		},
 		["Soulless Ghoul:55"] = {
 			[1] = 7119,
@@ -3031,10 +3032,10 @@ pfUI_cache = {
 			[2] = 97,
 			[3] = 4,
 		},
-		["Nerub'enkan:61"] = {
-			[1] = 64319,
-			[2] = 22,
-			[3] = 19,
+		["Dread Weaver:58"] = {
+			[1] = 3232,
+			[2] = 90,
+			[3] = 6,
 		},
 		["Dirja:60"] = {
 			[1] = 5700,
@@ -3111,10 +3112,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 9,
 		},
-		["Fireguard Destroyer:59"] = {
-			[1] = 12851,
-			[2] = 99,
-			[3] = 36,
+		["Hatecrest Warrior:43"] = {
+			[1] = 2272,
+			[2] = 98,
+			[3] = 7,
 		},
 		["Unliving Atal'ai:48"] = {
 			[1] = 6957,
@@ -3131,6 +3132,11 @@ pfUI_cache = {
 			[2] = 96,
 			[3] = 2,
 		},
+		["Hulking Feral Scar:45"] = {
+			[1] = 2191,
+			[2] = 99,
+			[3] = 10,
+		},
 		["Ravage:51"] = {
 			[1] = 4818,
 			[2] = 98,
@@ -3141,10 +3147,10 @@ pfUI_cache = {
 			[2] = 78,
 			[3] = 12,
 		},
-		["Searing Roc:47"] = {
-			[1] = 2469,
-			[2] = 95,
-			[3] = 8,
+		["Scorched Guardian:44"] = {
+			[1] = 6326,
+			[2] = 99,
+			[3] = 31,
 		},
 		["Scarlet Knight:55"] = {
 			[1] = 3524,
@@ -3216,15 +3222,15 @@ pfUI_cache = {
 			[2] = 63,
 			[3] = 9,
 		},
-		["Bile Spewer:61"] = {
-			[1] = 30275,
-			[2] = 63,
-			[3] = 41,
+		["Fetid Zombie:54"] = {
+			[1] = 4106,
+			[2] = 88,
+			[3] = 19,
 		},
-		["Skhowl:36"] = {
-			[1] = 4443,
+		["Cliff Breaker:55"] = {
+			[1] = 8356,
 			[2] = 99,
-			[3] = 29,
+			[3] = 32,
 		},
 		["Shadowforge Flame Keeper:55"] = {
 			[1] = 1288,
@@ -3281,25 +3287,25 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 17,
 		},
-		["Diseased Flayer:59"] = {
-			[1] = 5067,
-			[2] = 99,
-			[3] = 12,
+		["Burrowing Thundersnout:54"] = {
+			[1] = 7181,
+			[2] = 91,
+			[3] = 22,
 		},
 		["Cyclok the Mad:48"] = {
 			[1] = 1802,
 			[2] = 98,
 			[3] = 4,
 		},
-		["Defias Looter:13"] = {
-			[1] = 112,
-			[2] = 77,
+		["Bluegill Murloc:21"] = {
+			[1] = 554,
+			[2] = 93,
 			[3] = 3,
 		},
-		["Doomforge Dragoon:57"] = {
-			[1] = 8917,
+		["Sunscale Screecher:15"] = {
+			[1] = 303,
 			[2] = 99,
-			[3] = 26,
+			[3] = 14,
 		},
 		["Skeletal Berserker:56"] = {
 			[1] = 5289,
@@ -3316,10 +3322,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 17,
 		},
-		["Crimson Defender:61"] = {
-			[1] = 31532,
-			[2] = 94,
-			[3] = 44,
+		["Apothecary Jorell:36"] = {
+			[1] = 1611,
+			[2] = 90,
+			[3] = 17,
 		},
 		["Margol the Rager:48"] = {
 			[1] = 12233,
@@ -3371,10 +3377,10 @@ pfUI_cache = {
 			[2] = 33,
 			[3] = 33,
 		},
-		["Voodoo Troll:7"] = {
-			[1] = 130,
-			[2] = 97,
-			[3] = 4,
+		["Primitive Owlbeast:45"] = {
+			[1] = 2680,
+			[2] = 69,
+			[3] = 5,
 		},
 		["Fallen Hero:58"] = {
 			[1] = 9193,
@@ -3411,20 +3417,20 @@ pfUI_cache = {
 			[2] = 94,
 			[3] = 10,
 		},
-		["Defias Wizard:18"] = {
-			[1] = 1023,
-			[2] = 85,
-			[3] = 7,
+		["Witherbark Headhunter:35"] = {
+			[1] = 1462,
+			[2] = 99,
+			[3] = 10,
 		},
 		["Young Goretusk:12"] = {
 			[1] = 245,
 			[2] = 99,
 			[3] = 5,
 		},
-		["Kurzen Jungle Fighter:32"] = {
-			[1] = 865,
-			[2] = 94,
-			[3] = 4,
+		["Hakkari Frostwing:49"] = {
+			[1] = 10329,
+			[2] = 98,
+			[3] = 35,
 		},
 		["Crimson Battle Mage:60"] = {
 			[1] = 16140,
@@ -3441,10 +3447,10 @@ pfUI_cache = {
 			[2] = 46,
 			[3] = 2,
 		},
-		["Dreadmaul Ogre:45"] = {
-			[1] = 2339,
-			[2] = 99,
-			[3] = 6,
+		["Huntsman Radley:56"] = {
+			[1] = 4744,
+			[2] = 95,
+			[3] = 11,
 		},
 		["Twilight Bodyguard:55"] = {
 			[1] = 13929,
@@ -3471,10 +3477,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 24,
 		},
-		["Wretched Lost One:46"] = {
-			[1] = 1973,
+		["Burning Blade Acolyte:12"] = {
+			[1] = 225,
 			[2] = 99,
-			[3] = 6,
+			[3] = 11,
 		},
 		["Syndicate Magus:38"] = {
 			[1] = 3267,
@@ -3491,15 +3497,15 @@ pfUI_cache = {
 			[2] = 49,
 			[3] = 5,
 		},
-		["Scarlet Spellbinder:58"] = {
-			[1] = 2968,
+		["Hatecrest Serpent Guard:45"] = {
+			[1] = 1665,
 			[2] = 94,
-			[3] = 10,
+			[3] = 3,
 		},
-		["Black Ravager Mastiff:26"] = {
-			[1] = 453,
-			[2] = 78,
-			[3] = 1,
+		["Durotar Tiger:7"] = {
+			[1] = 137,
+			[2] = 79,
+			[3] = 4,
 		},
 		["Crimson Ooze:24"] = {
 			[1] = 729,
@@ -3546,10 +3552,10 @@ pfUI_cache = {
 			[2] = 79,
 			[3] = 2,
 		},
-		["Aku'mai Fisher:24"] = {
-			[1] = 2218,
-			[2] = 99,
-			[3] = 14,
+		["Razorfen Warrior:25"] = {
+			[1] = 2270,
+			[2] = 97,
+			[3] = 16,
 		},
 		["Pygmy Surf Crawler:5"] = {
 			[1] = 76,
@@ -3561,30 +3567,65 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 19,
 		},
+		["Mindless Skeleton:60"] = {
+			[1] = 767,
+			[2] = 6,
+			[3] = 1,
+		},
 		["Black Wyrmkin:53"] = {
 			[1] = 5683,
 			[2] = 98,
 			[3] = 19,
+		},
+		["Dustwind Storm Witch:10"] = {
+			[1] = 145,
+			[2] = 99,
+			[3] = 3,
 		},
 		["Stonevault Cave Hunter:36"] = {
 			[1] = 4006,
 			[2] = 98,
 			[3] = 10,
 		},
-		["Elder Rage Scar:49"] = {
-			[1] = 2884,
-			[2] = 96,
-			[3] = 12,
+		["Angerclaw Grizzly:51"] = {
+			[1] = 4334,
+			[2] = 71,
+			[3] = 13,
+		},
+		["Earthen Custodian:44"] = {
+			[1] = 994,
+			[2] = 99,
+			[3] = 5,
+		},
+		["Lesser Water Elemental:36"] = {
+			[1] = 1218,
+			[2] = 94,
+			[3] = 3,
 		},
 		["Twilight Aquamancer:26"] = {
 			[1] = 2165,
 			[2] = 37,
 			[3] = 5,
 		},
-		["Son of Arugal:24"] = {
-			[1] = 2199,
-			[2] = 93,
-			[3] = 18,
+		["Frostsaber Stalker:59"] = {
+			[1] = 4525,
+			[2] = 98,
+			[3] = 11,
+		},
+		["Mottled Screecher:25"] = {
+			[1] = 746,
+			[2] = 96,
+			[3] = 4,
+		},
+		["Scarlet Praetorian:57"] = {
+			[1] = 7331,
+			[2] = 99,
+			[3] = 19,
+		},
+		["Verek:56"] = {
+			[1] = 19726,
+			[2] = 99,
+			[3] = 52,
 		},
 		["Southsea Brigand:13"] = {
 			[1] = 231,
@@ -3611,6 +3652,11 @@ pfUI_cache = {
 			[2] = 95,
 			[3] = 4,
 		},
+		["Skeletal Acolyte:55"] = {
+			[1] = 5097,
+			[2] = 99,
+			[3] = 23,
+		},
 		["Hive'Ashi Ambusher:56"] = {
 			[1] = 4432,
 			[2] = 97,
@@ -3621,45 +3667,70 @@ pfUI_cache = {
 			[2] = 98,
 			[3] = 18,
 		},
-		["Feeboz:39"] = {
-			[1] = 907,
-			[2] = 45,
-			[3] = 3,
+		["Flamekin Sprite:53"] = {
+			[1] = 857,
+			[2] = 81,
+			[3] = 1,
 		},
 		["Stonevault Bonesnapper:39"] = {
 			[1] = 1649,
 			[2] = 99,
 			[3] = 7,
 		},
-		["Cavalier Durgen:57"] = {
-			[1] = 3088,
-			[2] = 96,
-			[3] = 8,
+		["Blackrock Grunt:20"] = {
+			[1] = 324,
+			[2] = 86,
+			[3] = 2,
 		},
-		["Kurzen Elite:36"] = {
-			[1] = 782,
-			[2] = 96,
-			[3] = 1,
+		["Lord Shalzaru:47"] = {
+			[1] = 1889,
+			[2] = 92,
+			[3] = 5,
+		},
+		["Deadwood Warrior:48"] = {
+			[1] = 3134,
+			[2] = 99,
+			[3] = 13,
+		},
+		["Corrupted Mottled Boar:10"] = {
+			[1] = 170,
+			[2] = 95,
+			[3] = 4,
 		},
 		["Weaver:51"] = {
 			[1] = 15115,
 			[2] = 98,
 			[3] = 46,
 		},
+		["Mosshide Fenrunner:23"] = {
+			[1] = 360,
+			[2] = 98,
+			[3] = 3,
+		},
 		["Servant of Allistarj:54"] = {
 			[1] = 4099,
 			[2] = 99,
 			[3] = 13,
 		},
-		["Blazing Invader:54"] = {
-			[1] = 2705,
+		["Southsea Freebooter:45"] = {
+			[1] = 2132,
 			[2] = 99,
-			[3] = 9,
+			[3] = 6,
 		},
 		["Black Ooze:23"] = {
 			[1] = 393,
 			[2] = 98,
 			[3] = 3,
+		},
+		["Harvest Watcher:15"] = {
+			[1] = 302,
+			[2] = 99,
+			[3] = 5,
+		},
+		["Anvilrage Soldier:54"] = {
+			[1] = 7116,
+			[2] = 78,
+			[3] = 19,
 		},
 		["Green Sludge:47"] = {
 			[1] = 2417,
@@ -3676,6 +3747,11 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 10,
 		},
+		["Skeletal Servant:58"] = {
+			[1] = 870,
+			[2] = 97,
+			[3] = 4,
+		},
 		["Gretheer:57"] = {
 			[1] = 10444,
 			[2] = 97,
@@ -3686,10 +3762,25 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 7,
 		},
-		["Kregg Keelhaul:47"] = {
-			[1] = 1982,
-			[2] = 74,
-			[3] = 4,
+		["Magregan Deepshadow:38"] = {
+			[1] = 3925,
+			[2] = 97,
+			[3] = 9,
+		},
+		["Gor'marok the Ravager:49"] = {
+			[1] = 3355,
+			[2] = 99,
+			[3] = 7,
+		},
+		["Undead Dynamiter:18"] = {
+			[1] = 1325,
+			[2] = 94,
+			[3] = 7,
+		},
+		["Crypt Robber:55"] = {
+			[1] = 6262,
+			[2] = 98,
+			[3] = 19,
 		},
 		["Witchwing Roguefeather:15"] = {
 			[1] = 270,
@@ -3716,24 +3807,24 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 12,
 		},
-		["Blazing Invader:56"] = {
-			[1] = 3181,
-			[2] = 88,
-			[3] = 10,
+		["Lava Elemental:62"] = {
+			[1] = 210369,
+			[2] = 99,
+			[3] = 87,
 		},
 		["Stonevault Cave Lurker:39"] = {
 			[1] = 5153,
 			[2] = 72,
 			[3] = 7,
 		},
-		["Flamekin Spitter:51"] = {
-			[1] = 897,
-			[2] = 97,
-			[3] = 4,
+		["Atal'ai Warrior:49"] = {
+			[1] = 11924,
+			[2] = 91,
+			[3] = 39,
 		},
-		["Southsea Swashbuckler:45"] = {
-			[1] = 2703,
-			[2] = 96,
+		["Glassweb Spider:43"] = {
+			[1] = 2226,
+			[2] = 99,
 			[3] = 9,
 		},
 		["Legashi Rogue:52"] = {
@@ -3741,70 +3832,70 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 10,
 		},
-		["Southsea Swashbuckler:44"] = {
-			[1] = 2247,
-			[2] = 99,
-			[3] = 9,
+		["Molok the Crusher:39"] = {
+			[1] = 1475,
+			[2] = 32,
+			[3] = 4,
 		},
 		["Glassweb Spider:44"] = {
 			[1] = 2418,
 			[2] = 98,
 			[3] = 16,
 		},
-		["Burrowing Thundersnout:54"] = {
-			[1] = 7181,
-			[2] = 91,
-			[3] = 22,
+		["Black Widow Hatchling:25"] = {
+			[1] = 393,
+			[2] = 90,
+			[3] = 2,
 		},
-		["Andre Firebeard:45"] = {
-			[1] = 2702,
-			[2] = 94,
-			[3] = 9,
+		["Fallenroot Rogue:22"] = {
+			[1] = 1925,
+			[2] = 98,
+			[3] = 19,
 		},
 		["Defias Squallshaper:20"] = {
 			[1] = 1034,
 			[2] = 9,
 			[3] = 1,
 		},
-		["Southsea Freebooter:45"] = {
-			[1] = 2132,
-			[2] = 99,
-			[3] = 6,
+		["Shade of Eranikus:-1"] = {
+			[1] = 51158,
+			[2] = 97,
+			[3] = 88,
 		},
 		["Undead Scarab:57"] = {
 			[1] = 2209,
 			[2] = 79,
 			[3] = 5,
 		},
-		["Boar Spirit:19"] = {
-			[1] = 268,
-			[2] = 77,
-			[3] = 2,
+		["Centipaar Swarmer:49"] = {
+			[1] = 3148,
+			[2] = 99,
+			[3] = 18,
 		},
-		["Dragonmaw Bonewarder:28"] = {
-			[1] = 689,
-			[2] = 84,
-			[3] = 4,
+		["Snapping Crustacean:23"] = {
+			[1] = 1929,
+			[2] = 88,
+			[3] = 20,
 		},
 		["Obsidian Elemental:53"] = {
 			[1] = 2726,
 			[2] = 43,
 			[3] = 4,
 		},
-		["Flesh Golem:57"] = {
-			[1] = 23103,
-			[2] = 72,
-			[3] = 31,
+		["Servant of Grol:54"] = {
+			[1] = 4085,
+			[2] = 85,
+			[3] = 11,
 		},
-		["Twilight Geomancer:49"] = {
-			[1] = 4571,
+		["Skullsplitter Panther:42"] = {
+			[1] = 2088,
 			[2] = 99,
-			[3] = 12,
+			[3] = 5,
 		},
-		["Garr Salthoof:41"] = {
-			[1] = 2347,
-			[2] = 80,
-			[3] = 4,
+		["Barnabus:38"] = {
+			[1] = 2606,
+			[2] = 95,
+			[3] = 13,
 		},
 		["Nightmare Wanderer:49"] = {
 			[1] = 7616,
@@ -3816,20 +3907,20 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 13,
 		},
-		["Skeletal Servant:57"] = {
-			[1] = 850,
-			[2] = 92,
-			[3] = 2,
+		["Ironfur Patriarch:49"] = {
+			[1] = 2943,
+			[2] = 95,
+			[3] = 8,
 		},
 		["Cauldron Lord Bilemaw:53"] = {
 			[1] = 4125,
 			[2] = 12,
 			[3] = 2,
 		},
-		["Frostsaber Stalker:59"] = {
-			[1] = 4525,
-			[2] = 98,
-			[3] = 11,
+		["Blackrock Outrunner:20"] = {
+			[1] = 318,
+			[2] = 80,
+			[3] = 3,
 		},
 		["Dragonmaw Shadowwarder:29"] = {
 			[1] = 879,
@@ -3841,35 +3932,35 @@ pfUI_cache = {
 			[2] = 97,
 			[3] = 8,
 		},
-		["Skeletal Miner:17"] = {
-			[1] = 1194,
-			[2] = 98,
-			[3] = 5,
+		["Kobold Tunneler:6"] = {
+			[1] = 21,
+			[2] = 67,
+			[3] = 4,
 		},
-		["Incendosaur:49"] = {
-			[1] = 2956,
+		["Dragonmaw Scout:19"] = {
+			[1] = 354,
+			[2] = 97,
+			[3] = 3,
+		},
+		["Kurzen Medicine Man:32"] = {
+			[1] = 391,
 			[2] = 99,
-			[3] = 12,
+			[3] = 4,
 		},
-		["Nightmare Wyrmkin:51"] = {
-			[1] = 6791,
+		["Hukku's Voidwalker:52"] = {
+			[1] = 3691,
+			[2] = 44,
+			[3] = 6,
+		},
+		["Clattering Scorpid:6"] = {
+			[1] = 123,
 			[2] = 99,
-			[3] = 26,
+			[3] = 3,
 		},
-		["Skeletal Flayer:51"] = {
-			[1] = 3585,
+		["Syndicate Mercenary:32"] = {
+			[1] = 1351,
 			[2] = 99,
-			[3] = 15,
-		},
-		["Skeletal Acolyte:55"] = {
-			[1] = 5097,
-			[2] = 99,
-			[3] = 23,
-		},
-		["Temporal Parasite:56"] = {
-			[1] = 2907,
-			[2] = 96,
-			[3] = 13,
+			[3] = 11,
 		},
 		["Plague Ghoul:58"] = {
 			[1] = 16405,
@@ -3886,25 +3977,25 @@ pfUI_cache = {
 			[2] = 85,
 			[3] = 4,
 		},
-		["Unliving Atal'ai:49"] = {
-			[1] = 8778,
+		["Legashi Rogue:51"] = {
+			[1] = 2899,
 			[2] = 99,
-			[3] = 29,
+			[3] = 13,
 		},
 		["Remote-Controlled Golem:18"] = {
 			[1] = 1498,
 			[2] = 74,
 			[3] = 12,
 		},
-		["Scalding Broodling:53"] = {
-			[1] = 2505,
-			[2] = 99,
-			[3] = 16,
-		},
-		["Ironjaw Basilisk:43"] = {
-			[1] = 2085,
+		["Twilight Keeper Havunth:60"] = {
+			[1] = 4168,
 			[2] = 98,
-			[3] = 4,
+			[3] = 20,
+		},
+		["Skeletal Warlord:58"] = {
+			[1] = 16004,
+			[2] = 30,
+			[3] = 16,
 		},
 		["Anvilrage Soldier:55"] = {
 			[1] = 8357,
@@ -3916,20 +4007,20 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 14,
 		},
-		["Thaurissan Agent:54"] = {
-			[1] = 3754,
-			[2] = 98,
-			[3] = 15,
+		["Twilight Shadowmage:26"] = {
+			[1] = 1913,
+			[2] = 97,
+			[3] = 10,
 		},
 		["Quilguard Champion:31"] = {
 			[1] = 3893,
 			[2] = 95,
 			[3] = 35,
 		},
-		["Riverpaw Runt:8"] = {
-			[1] = 159,
-			[2] = 80,
-			[3] = 5,
+		["Surena Caledon:9"] = {
+			[1] = 95,
+			[2] = 84,
+			[3] = 3,
 		},
 		["Ironbeak Screecher:53"] = {
 			[1] = 3233,
@@ -3951,10 +4042,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 2,
 		},
-		["Skeletal Servant:58"] = {
-			[1] = 870,
-			[2] = 97,
-			[3] = 4,
+		["Thaurissan Agent:54"] = {
+			[1] = 3754,
+			[2] = 98,
+			[3] = 15,
 		},
 		["Dustwind Savage:10"] = {
 			[1] = 150,
@@ -3971,20 +4062,20 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 5,
 		},
-		["Bleak Worg:19"] = {
-			[1] = 1307,
-			[2] = 58,
-			[3] = 12,
+		["Murk Spitter:46"] = {
+			[1] = 5174,
+			[2] = 90,
+			[3] = 19,
 		},
 		["Bloodscalp Beastmaster:35"] = {
 			[1] = 1447,
 			[2] = 99,
 			[3] = 4,
 		},
-		["Servant of Allistarj:55"] = {
-			[1] = 4757,
-			[2] = 99,
-			[3] = 13,
+		["Deadwood Warrior:49"] = {
+			[1] = 3024,
+			[2] = 96,
+			[3] = 9,
 		},
 		["Earthen Hallshaper:45"] = {
 			[1] = 1284,
@@ -3996,65 +4087,65 @@ pfUI_cache = {
 			[2] = 94,
 			[3] = 4,
 		},
-		["Corrupted Mottled Boar:10"] = {
-			[1] = 170,
-			[2] = 95,
-			[3] = 4,
+		["Black Drake:52"] = {
+			[1] = 7924,
+			[2] = 92,
+			[3] = 24,
 		},
-		["Murk Worm:48"] = {
-			[1] = 8141,
-			[2] = 99,
-			[3] = 26,
+		["Defias Pillager:14"] = {
+			[1] = 144,
+			[2] = 65,
+			[3] = 2,
 		},
 		["Young Forest Bear:8"] = {
 			[1] = 99,
 			[2] = 54,
 			[3] = 2,
 		},
-		["Twilight Fire Guard:48"] = {
-			[1] = 6212,
-			[2] = 96,
-			[3] = 27,
+		["Weapon Technician:57"] = {
+			[1] = 3417,
+			[2] = 56,
+			[3] = 10,
 		},
 		["Freezing Ghoul:55"] = {
 			[1] = 4199,
 			[2] = 99,
 			[3] = 16,
 		},
-		["Undead Dynamiter:18"] = {
-			[1] = 1325,
-			[2] = 94,
-			[3] = 7,
+		["Shadowforge Ruffian:37"] = {
+			[1] = 5022,
+			[2] = 99,
+			[3] = 17,
 		},
-		["Crest Killer:54"] = {
-			[1] = 10311,
-			[2] = 96,
-			[3] = 19,
+		["Bloodscalp Axe Thrower:34"] = {
+			[1] = 1057,
+			[2] = 89,
+			[3] = 3,
 		},
-		["Atal'ai Warrior:49"] = {
-			[1] = 11924,
-			[2] = 91,
-			[3] = 39,
+		["Eyeless Watcher:58"] = {
+			[1] = 4043,
+			[2] = 90,
+			[3] = 8,
 		},
 		["Jadespine Basilisk:40"] = {
 			[1] = 4668,
 			[2] = 98,
 			[3] = 18,
 		},
-		["Scalding Whelp:42"] = {
-			[1] = 1793,
+		["Mottled Screecher:24"] = {
+			[1] = 545,
 			[2] = 99,
-			[3] = 7,
+			[3] = 5,
 		},
-		["Deadwood Shaman:53"] = {
-			[1] = 3242,
+		["Defias Thug:3"] = {
+			[1] = 55,
 			[2] = 99,
-			[3] = 13,
+			[3] = 5,
 		},
-		["Stonevault Bonesnapper:40"] = {
-			[1] = 1710,
+		["Singe:24"] = {
+			[1] = 1180,
 			[2] = 95,
-			[3] = 10,
+			[3] = 3,
 		},
 		["Skeletal Executioner:54"] = {
 			[1] = 7331,
@@ -4076,20 +4167,20 @@ pfUI_cache = {
 			[2] = 37,
 			[3] = 25,
 		},
-		["Fallenroot Rogue:22"] = {
-			[1] = 1925,
-			[2] = 98,
-			[3] = 19,
+		["Plague Ghoul:57"] = {
+			[1] = 13306,
+			[2] = 99,
+			[3] = 45,
 		},
 		["Ragereaver Golem:56"] = {
 			[1] = 11295,
 			[2] = 97,
 			[3] = 43,
 		},
-		["Venomlash Scorpid:39"] = {
-			[1] = 4936,
-			[2] = 50,
-			[3] = 7,
+		["Warpwood Moss Flayer:52"] = {
+			[1] = 2973,
+			[2] = 96,
+			[3] = 9,
 		},
 		["Mijan:52"] = {
 			[1] = 13452,
@@ -4101,20 +4192,20 @@ pfUI_cache = {
 			[2] = 74,
 			[3] = 23,
 		},
-		["Defias Digger:15"] = {
-			[1] = 373,
-			[2] = 74,
-			[3] = 3,
-		},
-		["Dustwind Storm Witch:10"] = {
-			[1] = 145,
+		["Shadowforge Ruffian:36"] = {
+			[1] = 4427,
 			[2] = 99,
-			[3] = 3,
+			[3] = 8,
 		},
-		["Servant of Grol:54"] = {
-			[1] = 4085,
-			[2] = 85,
-			[3] = 11,
+		["Blindlight Oracle:25"] = {
+			[1] = 1859,
+			[2] = 95,
+			[3] = 15,
+		},
+		["Slavering Ghoul:52"] = {
+			[1] = 3494,
+			[2] = 99,
+			[3] = 15,
 		},
 		["Vilebranch Shadow Hunter:49"] = {
 			[1] = 5184,
@@ -4126,15 +4217,15 @@ pfUI_cache = {
 			[2] = 97,
 			[3] = 7,
 		},
-		["Skullsplitter Panther:42"] = {
-			[1] = 2088,
+		["Lesser Rock Elemental:39"] = {
+			[1] = 1752,
 			[2] = 99,
-			[3] = 5,
+			[3] = 12,
 		},
-		["Nightbane Dark Runner:29"] = {
-			[1] = 992,
-			[2] = 98,
-			[3] = 2,
+		["Fungal Ooze:46"] = {
+			[1] = 4912,
+			[2] = 89,
+			[3] = 15,
 		},
 		["Earthborer:13"] = {
 			[1] = 1076,
@@ -4151,45 +4242,45 @@ pfUI_cache = {
 			[2] = 88,
 			[3] = 19,
 		},
-		["Dragonmaw Scout:19"] = {
-			[1] = 354,
-			[2] = 97,
-			[3] = 3,
+		["Quarry Slave:48"] = {
+			[1] = 2821,
+			[2] = 99,
+			[3] = 8,
 		},
-		["Skittering Crustacean:23"] = {
-			[1] = 2162,
-			[2] = 80,
-			[3] = 11,
-		},
-		["Dreadmaul Ogre Mage:47"] = {
-			[1] = 1645,
-			[2] = 95,
+		["Samantha Swifthoof:40"] = {
+			[1] = 1425,
+			[2] = 4,
 			[3] = 2,
 		},
-		["Lightning Hide:10"] = {
-			[1] = 171,
-			[2] = 99,
-			[3] = 7,
+		["Tamed Hyena:28"] = {
+			[1] = 655,
+			[2] = 93,
+			[3] = 5,
 		},
-		["Black Dragonspawn:53"] = {
-			[1] = 7869,
-			[2] = 99,
-			[3] = 30,
+		["Panther:32"] = {
+			[1] = 1283,
+			[2] = 86,
+			[3] = 3,
+		},
+		["Mosshide Mistweaver:22"] = {
+			[1] = 491,
+			[2] = 92,
+			[3] = 2,
 		},
 		["Cursed Mage:54"] = {
 			[1] = 2286,
 			[2] = 89,
 			[3] = 7,
 		},
-		["Blackrock Outrunner:20"] = {
-			[1] = 318,
-			[2] = 80,
+		["Bloodtalon Taillasher:6"] = {
+			[1] = 119,
+			[2] = 83,
 			[3] = 3,
 		},
-		["Defias Rogue Wizard:9"] = {
-			[1] = 138,
-			[2] = 97,
-			[3] = 6,
+		["Redridge Mongrel:16"] = {
+			[1] = 174,
+			[2] = 99,
+			[3] = 2,
 		},
 		["Ragereaver Golem:57"] = {
 			[1] = 12646,
@@ -4206,30 +4297,30 @@ pfUI_cache = {
 			[2] = 98,
 			[3] = 13,
 		},
-		["Defias Pirate:18"] = {
-			[1] = 1452,
-			[2] = 62,
+		["Death Speaker Jargba:30"] = {
+			[1] = 8831,
+			[2] = 97,
+			[3] = 60,
+		},
+		["Gilnid:20"] = {
+			[1] = 3878,
+			[2] = 66,
+			[3] = 20,
+		},
+		["Ambassador Infernus:42"] = {
+			[1] = 4189,
+			[2] = 99,
 			[3] = 9,
 		},
-		["Grel'borg the Miser:39"] = {
-			[1] = 3947,
-			[2] = 99,
-			[3] = 26,
+		["Nightbane Tainted One:31"] = {
+			[1] = 652,
+			[2] = 94,
+			[3] = 1,
 		},
-		["Morgan the Collector:10"] = {
-			[1] = 247,
-			[2] = 96,
-			[3] = 10,
-		},
-		["Twilight Shadowmage:26"] = {
-			[1] = 1913,
-			[2] = 97,
-			[3] = 10,
-		},
-		["Maleki the Pallid:61"] = {
-			[1] = 62253,
+		["Dragonmaw Raider:27"] = {
+			[1] = 878,
 			[2] = 98,
-			[3] = 87,
+			[3] = 10,
 		},
 		["Twilight Reaver:26"] = {
 			[1] = 2431,
@@ -4241,75 +4332,75 @@ pfUI_cache = {
 			[2] = 96,
 			[3] = 19,
 		},
-		["Lost One Seer:38"] = {
-			[1] = 1360,
-			[2] = 72,
-			[3] = 3,
+		["Gordunni Mage-Lord:46"] = {
+			[1] = 1917,
+			[2] = 99,
+			[3] = 5,
 		},
 		["Magistrate Barthilas:61"] = {
 			[1] = 79136,
 			[2] = 99,
 			[3] = 76,
 		},
-		["Vale Screecher:43"] = {
-			[1] = 2391,
-			[2] = 99,
-			[3] = 6,
+		["Skittering Crustacean:23"] = {
+			[1] = 2162,
+			[2] = 80,
+			[3] = 11,
 		},
 		["Cleft Scorpid:37"] = {
 			[1] = 602,
 			[2] = 51,
 			[3] = 1,
 		},
-		["Lesser Rock Elemental:39"] = {
-			[1] = 1752,
+		["Highland Thrasher:33"] = {
+			[1] = 1371,
+			[2] = 97,
+			[3] = 8,
+		},
+		["Porcine Entourage:7"] = {
+			[1] = 178,
+			[2] = 40,
+			[3] = 2,
+		},
+		["Vilebranch Hideskinner:49"] = {
+			[1] = 6390,
 			[2] = 99,
-			[3] = 12,
+			[3] = 25,
 		},
-		["Deadwood Warrior:49"] = {
-			[1] = 3024,
-			[2] = 96,
-			[3] = 9,
-		},
-		["Legashi Rogue:51"] = {
-			[1] = 2899,
-			[2] = 99,
-			[3] = 13,
-		},
-		["Defias Overseer:17"] = {
-			[1] = 1333,
-			[2] = 98,
-			[3] = 10,
+		["Skeletal Berserker:57"] = {
+			[1] = 5736,
+			[2] = 59,
+			[3] = 17,
 		},
 		["Heavy War Golem:49"] = {
 			[1] = 2820,
 			[2] = 99,
 			[3] = 15,
 		},
-		["Rogue Black Drake:51"] = {
-			[1] = 5470,
-			[2] = 10,
-			[3] = 4,
-		},
-		["Shadowforge Ruffian:37"] = {
-			[1] = 5022,
+		["Rumbling Exile:39"] = {
+			[1] = 1821,
 			[2] = 99,
-			[3] = 17,
+			[3] = 25,
 		},
-		["Scorched Guardian:43"] = {
-			[1] = 5464,
-			[2] = 99,
-			[3] = 28,
+		["Gordunni Mauler:44"] = {
+			[1] = 1699,
+			[2] = 98,
+			[3] = 6,
+		},
+		["Tormented Officer:24"] = {
+			[1] = 2228,
+			[2] = 95,
+			[3] = 18,
 		},
 		["Skullsplitter Beastmaster:41"] = {
 			[1] = 2162,
 			[2] = 91,
 			[3] = 4,
 		},
-		["Bloodscalp Axe Thrower:34"] = {
-			[1] = 1057,
-			[2] = 89,
-			[3] = 3,
+		["Ragefire Shaman:15"] = {
+			[1] = 1322,
+			[2] = 97,
+			[3] = 25,
 		},
 		["Bloodsail Mage:40"] = {
 			[1] = 1428,
@@ -4326,10 +4417,10 @@ pfUI_cache = {
 			[2] = 98,
 			[3] = 14,
 		},
-		["Rumbler:45"] = {
-			[1] = 2513,
-			[2] = 83,
-			[3] = 14,
+		["Scarlet Worker:55"] = {
+			[1] = 3881,
+			[2] = 52,
+			[3] = 8,
 		},
 		["Vilebranch Hideskinner:48"] = {
 			[1] = 6502,
@@ -4341,25 +4432,25 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 1,
 		},
-		["Defias Miner:17"] = {
-			[1] = 130,
-			[2] = 71,
-			[3] = 2,
-		},
-		["Gordunni Shaman:45"] = {
-			[1] = 2030,
+		["Skeletal Terror:53"] = {
+			[1] = 3533,
 			[2] = 99,
-			[3] = 4,
+			[3] = 11,
 		},
-		["Defias Smuggler:12"] = {
-			[1] = 249,
-			[2] = 96,
+		["Watchman Doomgrip:55"] = {
+			[1] = 9861,
+			[2] = 66,
+			[3] = 21,
+		},
+		["Wastewander Bandit:42"] = {
+			[1] = 2336,
+			[2] = 95,
+			[3] = 7,
+		},
+		["Burning Blade Fanatic:10"] = {
+			[1] = 200,
+			[2] = 98,
 			[3] = 5,
-		},
-		["Dark Iron Sentry:48"] = {
-			[1] = 4863,
-			[2] = 99,
-			[3] = 23,
 		},
 		["Dragonmaw Scout:20"] = {
 			[1] = 336,
@@ -4406,10 +4497,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 13,
 		},
-		["Fen Lord:26"] = {
-			[1] = 832,
-			[2] = 73,
-			[3] = 4,
+		["Goblin Craftsman:18"] = {
+			[1] = 1504,
+			[2] = 94,
+			[3] = 9,
 		},
 		["Goblin Engineer:19"] = {
 			[1] = 1621,
@@ -4421,8 +4512,8 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 5,
 		},
-		["Dustwind Harpy:8"] = {
-			[1] = 155,
+		["Defias Rogue Wizard:9"] = {
+			[1] = 138,
 			[2] = 97,
 			[3] = 6,
 		},
@@ -4436,40 +4527,40 @@ pfUI_cache = {
 			[2] = 95,
 			[3] = 6,
 		},
-		["Crimson Priest:60"] = {
-			[1] = 16540,
-			[2] = 98,
-			[3] = 55,
+		["Goblin Shipbuilder:19"] = {
+			[1] = 1278,
+			[2] = 94,
+			[3] = 12,
 		},
-		["Gruff Swiftbite:12"] = {
-			[1] = 208,
-			[2] = 99,
-			[3] = 8,
+		["Scarlet Hound:53"] = {
+			[1] = 758,
+			[2] = 83,
+			[3] = 1,
 		},
-		["Witherbark Shadowcaster:31"] = {
-			[1] = 783,
-			[2] = 89,
-			[3] = 5,
+		["Arena Spectator:54"] = {
+			[1] = 3468,
+			[2] = 92,
+			[3] = 16,
 		},
 		["Hukku's Imp:52"] = {
 			[1] = 953,
 			[2] = 78,
 			[3] = 1,
 		},
-		["Gravis Slipknot:36"] = {
-			[1] = 1721,
+		["Redridge Basher:20"] = {
+			[1] = 472,
 			[2] = 94,
+			[3] = 4,
+		},
+		["Anvilrage Captain:59"] = {
+			[1] = 12000,
+			[2] = 99,
+			[3] = 39,
+		},
+		["Kolkar Wrangler:13"] = {
+			[1] = 275,
+			[2] = 99,
 			[3] = 7,
-		},
-		["Plague Ghoul:57"] = {
-			[1] = 13306,
-			[2] = 99,
-			[3] = 45,
-		},
-		["Scorpid Tail Lasher:44"] = {
-			[1] = 4147,
-			[2] = 99,
-			[3] = 19,
 		},
 		["Dark Iron Watchman:45"] = {
 			[1] = 2564,
@@ -4481,10 +4572,10 @@ pfUI_cache = {
 			[2] = 7,
 			[3] = 1,
 		},
-		["Defias Miner:18"] = {
-			[1] = 345,
-			[2] = 40,
-			[3] = 2,
+		["Fleshflayer Ghoul:59"] = {
+			[1] = 17094,
+			[2] = 99,
+			[3] = 53,
 		},
 		["Stonearm:15"] = {
 			[1] = 278,
@@ -4496,25 +4587,25 @@ pfUI_cache = {
 			[2] = 92,
 			[3] = 11,
 		},
-		["Scalding Whelp:41"] = {
-			[1] = 1702,
-			[2] = 99,
-			[3] = 8,
+		["Blackfathom Sea Witch:24"] = {
+			[1] = 1859,
+			[2] = 98,
+			[3] = 13,
 		},
 		["Dustbelcher Ogre:38"] = {
 			[1] = 1674,
 			[2] = 99,
 			[3] = 8,
 		},
-		["Redridge Mongrel:16"] = {
-			[1] = 174,
-			[2] = 99,
-			[3] = 2,
+		["Morphaz:52"] = {
+			[1] = 15825,
+			[2] = 62,
+			[3] = 30,
 		},
-		["Dunemaul Enforcer:46"] = {
-			[1] = 2655,
-			[2] = 98,
-			[3] = 8,
+		["Shadowmaw Panther:38"] = {
+			[1] = 1806,
+			[2] = 99,
+			[3] = 9,
 		},
 		["Skullsplitter Warrior:40"] = {
 			[1] = 2075,
@@ -4526,30 +4617,30 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 10,
 		},
-		["Legashi Rogue:53"] = {
-			[1] = 3583,
-			[2] = 99,
-			[3] = 16,
+		["Blackbreath Crony:53"] = {
+			[1] = 8066,
+			[2] = 85,
+			[3] = 25,
 		},
-		["Witherbark Berserker:36"] = {
-			[1] = 4363,
-			[2] = 98,
-			[3] = 28,
-		},
-		["Nightbane Worgen:26"] = {
-			[1] = 397,
-			[2] = 91,
-			[3] = 1,
-		},
-		["Starving Buzzard:37"] = {
-			[1] = 1773,
-			[2] = 81,
-			[3] = 5,
-		},
-		["Blackrock Gladiator:24"] = {
-			[1] = 1708,
+		["Blackrock Hunter:24"] = {
+			[1] = 2016,
 			[2] = 97,
 			[3] = 8,
+		},
+		["Rabid Crag Coyote:43"] = {
+			[1] = 2359,
+			[2] = 99,
+			[3] = 9,
+		},
+		["Hatecrest Siren:42"] = {
+			[1] = 1800,
+			[2] = 93,
+			[3] = 4,
+		},
+		["Bile Slime:60"] = {
+			[1] = 880,
+			[2] = 98,
+			[3] = 9,
 		},
 		["Overmaster Pyron:52"] = {
 			[1] = 13958,
@@ -4571,10 +4662,10 @@ pfUI_cache = {
 			[2] = 98,
 			[3] = 12,
 		},
-		["Dragonmaw Scout:18"] = {
-			[1] = 327,
-			[2] = 94,
-			[3] = 3,
+		["Thistleshrub Dew Collector:48"] = {
+			[1] = 3385,
+			[2] = 99,
+			[3] = 14,
 		},
 		["Anvilrage Warden:51"] = {
 			[1] = 7460,
@@ -4586,25 +4677,25 @@ pfUI_cache = {
 			[2] = 33,
 			[3] = 3,
 		},
-		["Bloodshot:54"] = {
-			[1] = 3589,
-			[2] = 96,
-			[3] = 10,
+		["Winterfall Runner:57"] = {
+			[1] = 4432,
+			[2] = 85,
+			[3] = 13,
 		},
-		["Gordunni Mage-Lord:46"] = {
-			[1] = 1917,
+		["Anvilrage Warden:52"] = {
+			[1] = 7323,
 			[2] = 99,
-			[3] = 5,
+			[3] = 41,
 		},
 		["Crimson Bodyguard:57"] = {
 			[1] = 8929,
 			[2] = 32,
 			[3] = 15,
 		},
-		["Venture Co. Surveyor:41"] = {
-			[1] = 893,
-			[2] = 89,
-			[3] = 2,
+		["Cursed Mage:55"] = {
+			[1] = 2606,
+			[2] = 97,
+			[3] = 6,
 		},
 		["Burning Blade Bruiser:11"] = {
 			[1] = 224,
@@ -4626,40 +4717,40 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 12,
 		},
-		["Shadowforge Surveyor:36"] = {
-			[1] = 2982,
-			[2] = 99,
-			[3] = 10,
+		["Nightbane Worgen:26"] = {
+			[1] = 397,
+			[2] = 91,
+			[3] = 1,
 		},
-		["Savannah Huntress:11"] = {
-			[1] = 177,
-			[2] = 78,
-			[3] = 2,
+		["Ma'ruk Wyrmscale:22"] = {
+			[1] = 539,
+			[2] = 99,
+			[3] = 5,
 		},
 		["Spawn of Bael'Gar:55"] = {
 			[1] = 3560,
 			[2] = 95,
 			[3] = 14,
 		},
-		["Ghost of the Past:55"] = {
-			[1] = 5004,
-			[2] = 99,
-			[3] = 18,
+		["Swampwalker:39"] = {
+			[1] = 1473,
+			[2] = 93,
+			[3] = 5,
 		},
 		["Mr. Smite:19"] = {
 			[1] = 3283,
 			[2] = 90,
 			[3] = 34,
 		},
-		["Lesser Water Elemental:36"] = {
-			[1] = 1218,
-			[2] = 94,
-			[3] = 3,
+		["First Mate Snellig:29"] = {
+			[1] = 892,
+			[2] = 96,
+			[3] = 7,
 		},
-		["Tortured Druid:55"] = {
-			[1] = 5194,
-			[2] = 95,
-			[3] = 11,
+		["Anvilrage Marshal:56"] = {
+			[1] = 8916,
+			[2] = 97,
+			[3] = 34,
 		},
 		["Snapjaw Crocolisk:35"] = {
 			[1] = 805,
@@ -4676,50 +4767,50 @@ pfUI_cache = {
 			[2] = 50,
 			[3] = 10,
 		},
-		["Patchwork Horror:59"] = {
-			[1] = 37671,
+		["Desert Rumbler:58"] = {
+			[1] = 4539,
 			[2] = 99,
-			[3] = 65,
+			[3] = 18,
 		},
 		["Fallenroot Satyr:21"] = {
 			[1] = 1545,
 			[2] = 99,
 			[3] = 12,
 		},
-		["Atal'ai Deathwalker:50"] = {
-			[1] = 9348,
-			[2] = 88,
-			[3] = 29,
+		["Bloodshot:54"] = {
+			[1] = 3589,
+			[2] = 96,
+			[3] = 10,
 		},
-		["Hungering Wraith:57"] = {
-			[1] = 4395,
+		["Scorpid Tail Lasher:44"] = {
+			[1] = 4147,
 			[2] = 99,
-			[3] = 15,
+			[3] = 19,
 		},
 		["Stalvan Mistmantle:32"] = {
 			[1] = 1736,
 			[2] = 92,
 			[3] = 2,
 		},
-		["Shrieking Banshee:59"] = {
-			[1] = 18195,
-			[2] = 98,
-			[3] = 49,
+		["Defias Watchman:16"] = {
+			[1] = 799,
+			[2] = 60,
+			[3] = 5,
 		},
-		["Skeletal Terror:53"] = {
-			[1] = 3533,
-			[2] = 99,
+		["Razormane Defender:12"] = {
+			[1] = 254,
+			[2] = 98,
 			[3] = 11,
 		},
-		["Freezing Ghoul:56"] = {
-			[1] = 4063,
-			[2] = 99,
-			[3] = 17,
+		["Defias Miner:18"] = {
+			[1] = 345,
+			[2] = 40,
+			[3] = 2,
 		},
-		["Tangled Horror:40"] = {
-			[1] = 1197,
-			[2] = 91,
-			[3] = 4,
+		["Dark Iron Lookout:47"] = {
+			[1] = 2724,
+			[2] = 99,
+			[3] = 11,
 		},
 		["Boulderfist Shaman:38"] = {
 			[1] = 3849,
@@ -4741,9 +4832,9 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 17,
 		},
-		["Shadowmaw Panther:38"] = {
-			[1] = 1806,
-			[2] = 99,
+		["Scarlet Worker:57"] = {
+			[1] = 3817,
+			[2] = 48,
 			[3] = 9,
 		},
 		["Twilight Stonecaller:59"] = {
@@ -4756,55 +4847,55 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 13,
 		},
-		["Anvilrage Overseer:51"] = {
-			[1] = 8256,
-			[2] = 97,
-			[3] = 25,
+		["Lesser Rock Elemental:38"] = {
+			[1] = 1688,
+			[2] = 96,
+			[3] = 9,
 		},
-		["Black Slime:21"] = {
-			[1] = 400,
-			[2] = 91,
-			[3] = 3,
+		["Sin'Dall:37"] = {
+			[1] = 1420,
+			[2] = 86,
+			[3] = 4,
 		},
 		["Doomforge Craftsman:55"] = {
 			[1] = 4430,
 			[2] = 62,
 			[3] = 11,
 		},
-		["Warbringer Construct:56"] = {
-			[1] = 11322,
+		["Wastewander Thief:40"] = {
+			[1] = 1904,
 			[2] = 99,
-			[3] = 40,
+			[3] = 7,
 		},
-		["Skeletal Guardian:55"] = {
-			[1] = 4658,
-			[2] = 94,
-			[3] = 20,
-		},
-		["Hatecrest Serpent Guard:44"] = {
-			[1] = 1941,
+		["Dark Iron Sentry:48"] = {
+			[1] = 4863,
 			[2] = 99,
-			[3] = 5,
+			[3] = 23,
 		},
-		["Firegut Ogre:50"] = {
-			[1] = 3927,
-			[2] = 99,
-			[3] = 11,
+		["Dark Iron Steamsmith:46"] = {
+			[1] = 2666,
+			[2] = 96,
+			[3] = 9,
 		},
-		["Blackbreath Crony:55"] = {
-			[1] = 9314,
-			[2] = 99,
-			[3] = 33,
+		["Rage Scar Yeti:47"] = {
+			[1] = 2480,
+			[2] = 98,
+			[3] = 8,
+		},
+		["Daggerspine Sorceress:40"] = {
+			[1] = 240,
+			[2] = 5,
+			[3] = 1,
 		},
 		["Great Goretusk:16"] = {
 			[1] = 354,
 			[2] = 84,
 			[3] = 1,
 		},
-		["Kolkar Wrangler:13"] = {
-			[1] = 275,
-			[2] = 99,
-			[3] = 7,
+		["Marsh Oracle:45"] = {
+			[1] = 2043,
+			[2] = 96,
+			[3] = 6,
 		},
 		["King Bangalash:43"] = {
 			[1] = 6652,
@@ -4831,29 +4922,29 @@ pfUI_cache = {
 			[2] = 82,
 			[3] = 2,
 		},
-		["Earthen Custodian:45"] = {
-			[1] = 1154,
-			[2] = 96,
-			[3] = 4,
+		["Argus Shadow Mage:35"] = {
+			[1] = 1140,
+			[2] = 58,
+			[3] = 2,
 		},
-		["Plaguehound:56"] = {
-			[1] = 4151,
-			[2] = 99,
-			[3] = 12,
+		["Mor'Ladim:35"] = {
+			[1] = 4771,
+			[2] = 95,
+			[3] = 10,
 		},
 		["Scarlet Cleric:54"] = {
 			[1] = 11433,
 			[2] = 95,
 			[3] = 15,
 		},
-		["Ice Thistle Yeti:56"] = {
-			[1] = 4455,
+		["Blighted Zombie:52"] = {
+			[1] = 3114,
 			[2] = 99,
-			[3] = 19,
+			[3] = 15,
 		},
-		["Kolkar Outrunner:7"] = {
-			[1] = 105,
-			[2] = 91,
+		["Mottled Raptor:22"] = {
+			[1] = 291,
+			[2] = 96,
 			[3] = 4,
 		},
 		["Elder Diemetradon:54"] = {
@@ -4861,25 +4952,25 @@ pfUI_cache = {
 			[2] = 87,
 			[3] = 10,
 		},
-		["Twilight Keeper Havunth:60"] = {
-			[1] = 4168,
+		["Frostsaber Huntress:59"] = {
+			[1] = 4357,
 			[2] = 98,
-			[3] = 20,
+			[3] = 17,
 		},
-		["Samantha Swifthoof:40"] = {
-			[1] = 1425,
-			[2] = 4,
-			[3] = 2,
+		["Shrieking Banshee:60"] = {
+			[1] = 19626,
+			[2] = 95,
+			[3] = 53,
 		},
 		["Private Thorsen:30"] = {
 			[1] = 1050,
 			[2] = 14,
 			[3] = 5,
 		},
-		["Anathemus:45"] = {
-			[1] = 9205,
+		["Twilight Geomancer:49"] = {
+			[1] = 4571,
 			[2] = 99,
-			[3] = 21,
+			[3] = 12,
 		},
 		["Burning Blade Thug:8"] = {
 			[1] = 154,
@@ -4896,15 +4987,15 @@ pfUI_cache = {
 			[2] = 72,
 			[3] = 2,
 		},
-		["Dredge Worm:54"] = {
-			[1] = 6466,
-			[2] = 78,
-			[3] = 16,
+		["Firesworn:60"] = {
+			[1] = 125723,
+			[2] = 84,
+			[3] = 71,
 		},
-		["Venomtail Scorpid:10"] = {
-			[1] = 165,
+		["Bloodscalp Headhunter:37"] = {
+			[1] = 1704,
 			[2] = 99,
-			[3] = 14,
+			[3] = 4,
 		},
 		["Boulderfist Enforcer:33"] = {
 			[1] = 1286,
@@ -4916,10 +5007,10 @@ pfUI_cache = {
 			[2] = 95,
 			[3] = 17,
 		},
-		["Deadwood Avenger:54"] = {
-			[1] = 3863,
-			[2] = 99,
-			[3] = 14,
+		["Giant Plains Creeper:36"] = {
+			[1] = 1634,
+			[2] = 90,
+			[3] = 9,
 		},
 		["Shadowhide Gnoll:22"] = {
 			[1] = 456,
@@ -4931,35 +5022,35 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 3,
 		},
-		["Anvilrage Warden:52"] = {
-			[1] = 7323,
+		["Young Wetlands Crocolisk:21"] = {
+			[1] = 395,
+			[2] = 91,
+			[3] = 3,
+		},
+		["Skullsplitter Hunter:42"] = {
+			[1] = 2215,
+			[2] = 92,
+			[3] = 8,
+		},
+		["Gnawbone:25"] = {
+			[1] = 1881,
 			[2] = 99,
-			[3] = 41,
-		},
-		["Crimson Courier:60"] = {
-			[1] = 21577,
-			[2] = 26,
-			[3] = 20,
-		},
-		["Ardo Dirtpaw:24"] = {
-			[1] = 662,
-			[2] = 84,
-			[3] = 2,
+			[3] = 11,
 		},
 		["Anvilrage Footman:52"] = {
 			[1] = 6947,
 			[2] = 98,
 			[3] = 33,
 		},
-		["War Golem:36"] = {
-			[1] = 1612,
-			[2] = 99,
-			[3] = 8,
+		["Private Hendel:35"] = {
+			[1] = 1475,
+			[2] = 82,
+			[3] = 3,
 		},
-		["Kurzen Medicine Man:32"] = {
-			[1] = 391,
-			[2] = 99,
-			[3] = 4,
+		["Chieftain Bloodmaw:56"] = {
+			[1] = 4492,
+			[2] = 94,
+			[3] = 20,
 		},
 		["Molten Elemental:13"] = {
 			[1] = 1084,
@@ -4971,10 +5062,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 17,
 		},
-		["Blighted Zombie:53"] = {
-			[1] = 3185,
-			[2] = 95,
-			[3] = 17,
+		["Searing Blade Cultist:14"] = {
+			[1] = 1077,
+			[2] = 99,
+			[3] = 28,
 		},
 		["Rathorian:15"] = {
 			[1] = 323,
@@ -4991,30 +5082,30 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 21,
 		},
-		["Shadowforge Ruffian:36"] = {
-			[1] = 4427,
+		["Fire Roc:44"] = {
+			[1] = 1966,
 			[2] = 99,
-			[3] = 8,
+			[3] = 5,
 		},
-		["Goblin Craftsman:18"] = {
-			[1] = 1504,
-			[2] = 94,
+		["Marsh Flesheater:44"] = {
+			[1] = 2179,
+			[2] = 99,
 			[3] = 9,
 		},
-		["Fen Creeper:24"] = {
-			[1] = 693,
-			[2] = 95,
-			[3] = 4,
+		["Stranglethorn Tiger:32"] = {
+			[1] = 1339,
+			[2] = 96,
+			[3] = 5,
 		},
 		["Shadowhide Warrior:24"] = {
 			[1] = 553,
 			[2] = 95,
 			[3] = 6,
 		},
-		["Scarlet Worker:57"] = {
-			[1] = 3817,
-			[2] = 48,
-			[3] = 9,
+		["Eye of Naxxramas:60"] = {
+			[1] = 975,
+			[2] = 93,
+			[3] = 3,
 		},
 		["Skullsplitter Beastmaster:42"] = {
 			[1] = 2249,
@@ -5026,50 +5117,50 @@ pfUI_cache = {
 			[2] = 97,
 			[3] = 5,
 		},
-		["Scarlet Praetorian:57"] = {
-			[1] = 7331,
-			[2] = 99,
-			[3] = 19,
+		["Scarlet Hound:52"] = {
+			[1] = 360,
+			[2] = 82,
+			[3] = 1,
 		},
-		["Wolf Master Nandos:25"] = {
-			[1] = 4123,
-			[2] = 45,
-			[3] = 20,
+		["Mountain Lion:32"] = {
+			[1] = 1176,
+			[2] = 99,
+			[3] = 12,
 		},
 		["Dragonmaw Raider:26"] = {
 			[1] = 823,
 			[2] = 99,
 			[3] = 8,
 		},
-		["Doomforge Arcanasmith:57"] = {
-			[1] = 3368,
-			[2] = 98,
-			[3] = 13,
+		["Tortured Sentinel:56"] = {
+			[1] = 4122,
+			[2] = 99,
+			[3] = 15,
 		},
 		["Durotar Tiger:8"] = {
 			[1] = 154,
 			[2] = 88,
 			[3] = 6,
 		},
-		["Dark Iron Lookout:47"] = {
-			[1] = 2724,
+		["Vile'rel:58"] = {
+			[1] = 19879,
 			[2] = 99,
-			[3] = 11,
+			[3] = 43,
 		},
 		["Rotting Sludge:54"] = {
 			[1] = 3910,
 			[2] = 99,
 			[3] = 12,
 		},
-		["Daggerspine Raider:38"] = {
-			[1] = 1704,
+		["Anathemus:45"] = {
+			[1] = 9205,
 			[2] = 99,
-			[3] = 16,
+			[3] = 21,
 		},
-		["Scarlet Enchanter:54"] = {
-			[1] = 5136,
-			[2] = 97,
-			[3] = 22,
+		["Atal'ai Witch Doctor:48"] = {
+			[1] = 6960,
+			[2] = 99,
+			[3] = 26,
 		},
 		["Dreadmaul Brute:46"] = {
 			[1] = 2515,
@@ -5086,10 +5177,10 @@ pfUI_cache = {
 			[2] = 26,
 			[3] = 26,
 		},
-		["Mangy Wolf:5"] = {
-			[1] = 102,
-			[2] = 79,
-			[3] = 5,
+		["Atal'ai Warrior:51"] = {
+			[1] = 14255,
+			[2] = 98,
+			[3] = 37,
 		},
 		["Mummified Atal'ai:46"] = {
 			[1] = 7078,
@@ -5106,40 +5197,40 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 29,
 		},
-		["Dark Iron Steamsmith:46"] = {
-			[1] = 2666,
+		["Southsea Swashbuckler:45"] = {
+			[1] = 2703,
 			[2] = 96,
 			[3] = 9,
 		},
-		["Haunted Servitor:21"] = {
-			[1] = 1607,
-			[2] = 99,
-			[3] = 15,
+		["Bloodsail Warlock:43"] = {
+			[1] = 1231,
+			[2] = 95,
+			[3] = 4,
 		},
 		["Ferocious Rage Scar:48"] = {
 			[1] = 2558,
 			[2] = 99,
 			[3] = 9,
 		},
-		["Roc:41"] = {
-			[1] = 1902,
-			[2] = 95,
-			[3] = 5,
+		["Crushridge Mauler:36"] = {
+			[1] = 4515,
+			[2] = 99,
+			[3] = 28,
 		},
 		["Wailing Banshee:59"] = {
 			[1] = 18445,
 			[2] = 99,
 			[3] = 59,
 		},
-		["Crushridge Mauler:37"] = {
-			[1] = 4373,
+		["Anvilrage Reservist:58"] = {
+			[1] = 1069,
+			[2] = 99,
+			[3] = 8,
+		},
+		["Syndicate Prowler:36"] = {
+			[1] = 4433,
 			[2] = 99,
 			[3] = 29,
-		},
-		["Borer Beetle:52"] = {
-			[1] = 2454,
-			[2] = 96,
-			[3] = 12,
 		},
 		["Razormane Water Seeker:10"] = {
 			[1] = 127,
@@ -5156,10 +5247,10 @@ pfUI_cache = {
 			[2] = 98,
 			[3] = 2,
 		},
-		["Aqua Guardian:23"] = {
-			[1] = 565,
-			[2] = 62,
-			[3] = 4,
+		["Skeletal Flayer:51"] = {
+			[1] = 3585,
+			[2] = 99,
+			[3] = 15,
 		},
 		["Dunemaul Enforcer:47"] = {
 			[1] = 3211,
@@ -5216,15 +5307,15 @@ pfUI_cache = {
 			[2] = 23,
 			[3] = 5,
 		},
-		["Frostsaber Huntress:59"] = {
-			[1] = 4357,
-			[2] = 98,
-			[3] = 17,
+		["Dragonmaw Centurion:28"] = {
+			[1] = 754,
+			[2] = 92,
+			[3] = 10,
 		},
-		["Monstrous Ooze:26"] = {
-			[1] = 736,
-			[2] = 94,
-			[3] = 6,
+		["Gasher:51"] = {
+			[1] = 15993,
+			[2] = 99,
+			[3] = 45,
 		},
 		["Venom Belcher:62"] = {
 			[1] = 30964,
@@ -5246,30 +5337,30 @@ pfUI_cache = {
 			[2] = 95,
 			[3] = 10,
 		},
-		["Crushridge Mage:37"] = {
-			[1] = 3116,
-			[2] = 93,
-			[3] = 16,
+		["Shadowfang Moonwalker:19"] = {
+			[1] = 1254,
+			[2] = 78,
+			[3] = 7,
 		},
-		["Fire Roc:44"] = {
-			[1] = 1966,
-			[2] = 99,
-			[3] = 5,
+		["Enthralled Atal'ai:45"] = {
+			[1] = 5671,
+			[2] = 58,
+			[3] = 12,
 		},
-		["Twilight Keeper Mayna:60"] = {
-			[1] = 3193,
-			[2] = 99,
-			[3] = 13,
+		["Blighted Zombie:53"] = {
+			[1] = 3185,
+			[2] = 95,
+			[3] = 17,
 		},
 		["Syndicate Spy:36"] = {
 			[1] = 1620,
 			[2] = 99,
 			[3] = 12,
 		},
-		["Scalding Drake:54"] = {
-			[1] = 8091,
+		["War Golem:36"] = {
+			[1] = 1612,
 			[2] = 99,
-			[3] = 26,
+			[3] = 8,
 		},
 		["Doomforge Craftsman:56"] = {
 			[1] = 4433,
@@ -5281,25 +5372,25 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 11,
 		},
-		["Fungal Ooze:46"] = {
-			[1] = 4912,
-			[2] = 89,
-			[3] = 15,
+		["Syndicate Pathstalker:32"] = {
+			[1] = 1295,
+			[2] = 97,
+			[3] = 9,
 		},
 		["Fallenroot Shadowstalker:24"] = {
 			[1] = 1684,
 			[2] = 97,
 			[3] = 12,
 		},
-		["Chieftain Bloodmaw:56"] = {
-			[1] = 4492,
-			[2] = 94,
-			[3] = 20,
+		["Jade Ooze:48"] = {
+			[1] = 3068,
+			[2] = 98,
+			[3] = 14,
 		},
-		["Earthen Custodian:44"] = {
-			[1] = 994,
-			[2] = 99,
-			[3] = 5,
+		["Murkgill Hunter:35"] = {
+			[1] = 1540,
+			[2] = 92,
+			[3] = 4,
 		},
 		["Earthen Hallshaper:44"] = {
 			[1] = 441,
@@ -5311,69 +5402,69 @@ pfUI_cache = {
 			[2] = 94,
 			[3] = 9,
 		},
-		["Mottled Raptor:22"] = {
-			[1] = 291,
+		["Makrura Clacker:6"] = {
+			[1] = 119,
+			[2] = 86,
+			[3] = 3,
+		},
+		["Haunted Servitor:21"] = {
+			[1] = 1607,
+			[2] = 99,
+			[3] = 15,
+		},
+		["Earthen Custodian:45"] = {
+			[1] = 1154,
 			[2] = 96,
 			[3] = 4,
-		},
-		["Diseased Wolf:53"] = {
-			[1] = 3697,
-			[2] = 98,
-			[3] = 14,
-		},
-		["Greater Lava Spider:49"] = {
-			[1] = 2729,
-			[2] = 99,
-			[3] = 22,
 		},
 		["Greater Plainstrider:12"] = {
 			[1] = 243,
 			[2] = 97,
 			[3] = 5,
 		},
-		["Stonevault Flameweaver:44"] = {
-			[1] = 4602,
-			[2] = 90,
-			[3] = 11,
+		["Crushridge Mage:37"] = {
+			[1] = 3116,
+			[2] = 93,
+			[3] = 16,
 		},
 		["Venture Co. Mechanic:34"] = {
 			[1] = 778,
 			[2] = 88,
 			[3] = 2,
 		},
-		["Rage Scar Yeti:47"] = {
-			[1] = 2480,
-			[2] = 98,
-			[3] = 8,
-		},
-		["Molok the Crusher:39"] = {
-			[1] = 1475,
-			[2] = 32,
-			[3] = 4,
-		},
-		["Vile'rel:58"] = {
-			[1] = 19879,
-			[2] = 99,
-			[3] = 43,
-		},
-		["Rotting Worm:50"] = {
-			[1] = 49,
-			[2] = 82,
-			[3] = 6,
-		},
-		["Defias Night Blade:25"] = {
-			[1] = 763,
-			[2] = 75,
-			[3] = 1,
-		},
-		["Obsidian Golem:38"] = {
-			[1] = 4842,
-			[2] = 85,
+		["Borer Beetle:52"] = {
+			[1] = 2454,
+			[2] = 96,
 			[3] = 12,
 		},
-		["Prince Nazjak:41"] = {
-			[1] = 1988,
-			[2] = 87,
+		["Thenan:42"] = {
+			[1] = 5215,
+			[2] = 48,
+			[3] = 21,
+		},
+		["Zul'Lor:52"] = {
+			[1] = 20802,
+			[2] = 96,
+			[3] = 50,
+		},
+		["Daggerspine Raider:38"] = {
+			[1] = 1704,
+			[2] = 99,
+			[3] = 16,
+		},
+		["Warpwood Shredder:53"] = {
+			[1] = 3765,
+			[2] = 95,
+			[3] = 8,
+		},
+		["Biba:47"] = {
+			[1] = 1567,
+			[2] = 6,
+			[3] = 1,
+		},
+		["Doomforge Arcanasmith:57"] = {
+			[1] = 3368,
+			[2] = 98,
 			[3] = 13,
 		},
 		["Redridge Basher:19"] = {
@@ -5381,20 +5472,20 @@ pfUI_cache = {
 			[2] = 94,
 			[3] = 5,
 		},
-		["Mor'Ladim:35"] = {
-			[1] = 4771,
-			[2] = 95,
-			[3] = 10,
+		["Wastewander Bandit:41"] = {
+			[1] = 2226,
+			[2] = 93,
+			[3] = 6,
 		},
-		["Temporal Parasite:57"] = {
-			[1] = 3099,
-			[2] = 63,
-			[3] = 10,
+		["Dustbelcher Mystic:37"] = {
+			[1] = 861,
+			[2] = 92,
+			[3] = 4,
 		},
-		["Deadwood Den Watcher:53"] = {
-			[1] = 3618,
+		["Ragefire Trogg:14"] = {
+			[1] = 1111,
 			[2] = 99,
-			[3] = 9,
+			[3] = 24,
 		},
 		["Highland Fleshstalker:37"] = {
 			[1] = 1704,
@@ -5411,20 +5502,20 @@ pfUI_cache = {
 			[2] = 97,
 			[3] = 45,
 		},
-		["Searing Blade Cultist:14"] = {
-			[1] = 1077,
+		["Warbringer Construct:56"] = {
+			[1] = 11322,
 			[2] = 99,
-			[3] = 28,
+			[3] = 40,
 		},
 		["Shill Dinger:56"] = {
 			[1] = 11430,
 			[2] = 99,
 			[3] = 25,
 		},
-		["Mountain Lion:32"] = {
-			[1] = 1176,
+		["Blackbreath Crony:55"] = {
+			[1] = 9314,
 			[2] = 99,
-			[3] = 12,
+			[3] = 33,
 		},
 		["Yarrog Baneshadow:5"] = {
 			[1] = 78,
@@ -5441,60 +5532,60 @@ pfUI_cache = {
 			[2] = 75,
 			[3] = 1,
 		},
-		["Young Stranglethorn Raptor:31"] = {
-			[1] = 1079,
-			[2] = 98,
-			[3] = 3,
+		["Shadowforge Chanter:39"] = {
+			[1] = 1375,
+			[2] = 99,
+			[3] = 7,
 		},
 		["Fireguard Destroyer:58"] = {
 			[1] = 11228,
 			[2] = 99,
 			[3] = 30,
 		},
-		["Atal'ai Warrior:51"] = {
-			[1] = 14255,
-			[2] = 98,
-			[3] = 37,
+		["Black Dragon Whelp:18"] = {
+			[1] = 348,
+			[2] = 75,
+			[3] = 2,
 		},
-		["Bloodsail Warlock:43"] = {
-			[1] = 1231,
-			[2] = 95,
-			[3] = 4,
+		["Ravaged Cadaver:57"] = {
+			[1] = 15836,
+			[2] = 65,
+			[3] = 32,
 		},
 		["Black Widow Hatchling:24"] = {
 			[1] = 698,
 			[2] = 99,
 			[3] = 2,
 		},
-		["Defias Watchman:16"] = {
-			[1] = 799,
-			[2] = 60,
+		["Ragefire Trogg:13"] = {
+			[1] = 946,
+			[2] = 90,
+			[3] = 20,
+		},
+		["Bloodsail Swashbuckler:41"] = {
+			[1] = 2158,
+			[2] = 98,
 			[3] = 5,
 		},
-		["Ma'ruk Wyrmscale:22"] = {
-			[1] = 539,
-			[2] = 99,
-			[3] = 5,
-		},
-		["Private Hendel:35"] = {
-			[1] = 1475,
+		["Stone Golem:38"] = {
+			[1] = 1813,
 			[2] = 82,
-			[3] = 3,
+			[3] = 7,
 		},
-		["Crushridge Mauler:36"] = {
-			[1] = 4515,
-			[2] = 99,
-			[3] = 28,
+		["Plaguehound:55"] = {
+			[1] = 4065,
+			[2] = 93,
+			[3] = 13,
 		},
 		["Lava Annihilator:62"] = {
 			[1] = 222975,
 			[2] = 77,
 			[3] = 68,
 		},
-		["Shadowfang Moonwalker:19"] = {
-			[1] = 1254,
+		["Dredge Worm:54"] = {
+			[1] = 6466,
 			[2] = 78,
-			[3] = 7,
+			[3] = 16,
 		},
 		["Redridge Alpha:21"] = {
 			[1] = 520,
@@ -5511,45 +5602,45 @@ pfUI_cache = {
 			[2] = 67,
 			[3] = 9,
 		},
-		["Skullsplitter Hunter:42"] = {
-			[1] = 2215,
-			[2] = 92,
-			[3] = 8,
-		},
-		["Dredge Worm:52"] = {
-			[1] = 5728,
+		["Rock Stalker:57"] = {
+			[1] = 4261,
 			[2] = 99,
-			[3] = 14,
+			[3] = 11,
 		},
-		["Kurzen Commando:35"] = {
-			[1] = 650,
-			[2] = 99,
-			[3] = 4,
+		["Bluegill Raider:28"] = {
+			[1] = 998,
+			[2] = 94,
+			[3] = 2,
 		},
-		["Singe:24"] = {
-			[1] = 1180,
-			[2] = 95,
+		["Young Stranglethorn Tiger:30"] = {
+			[1] = 1171,
+			[2] = 97,
 			[3] = 3,
+		},
+		["Tortured Druid:55"] = {
+			[1] = 5194,
+			[2] = 95,
+			[3] = 11,
 		},
 		["Meellhouse:20"] = {
 			[1] = 343,
 			[2] = 7,
 			[3] = 1,
 		},
-		["Murkgill Lord:37"] = {
-			[1] = 1268,
-			[2] = 81,
-			[3] = 2,
+		["Scourge Champion:60"] = {
+			[1] = 4887,
+			[2] = 99,
+			[3] = 14,
 		},
-		["Anvilrage Soldier:54"] = {
-			[1] = 7116,
-			[2] = 78,
-			[3] = 19,
+		["Crushridge Ogre:34"] = {
+			[1] = 1252,
+			[2] = 94,
+			[3] = 7,
 		},
-		["Zul'Lor:52"] = {
-			[1] = 20802,
-			[2] = 96,
-			[3] = 50,
+		["Rotted One:25"] = {
+			[1] = 375,
+			[2] = 90,
+			[3] = 1,
 		},
 		["Bael'Gar:57"] = {
 			[1] = 27029,
@@ -5561,10 +5652,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 8,
 		},
-		["Thuzadin Acolyte:60"] = {
-			[1] = 5661,
-			[2] = 97,
-			[3] = 26,
+		["Enraged Feral Scar:44"] = {
+			[1] = 2609,
+			[2] = 98,
+			[3] = 6,
 		},
 		["Venture Co. Lumberjack:34"] = {
 			[1] = 580,
@@ -5576,50 +5667,50 @@ pfUI_cache = {
 			[2] = 47,
 			[3] = 20,
 		},
-		["Dustbelcher Mystic:37"] = {
-			[1] = 861,
-			[2] = 92,
-			[3] = 4,
+		["Defias Footpad:10"] = {
+			[1] = 140,
+			[2] = 97,
+			[3] = 3,
 		},
-		["Jade Ooze:48"] = {
-			[1] = 3068,
-			[2] = 98,
-			[3] = 14,
+		["Anvilrage Reservist:57"] = {
+			[1] = 483,
+			[2] = 99,
+			[3] = 7,
 		},
-		["Forsaken Courier:35"] = {
-			[1] = 1187,
-			[2] = 83,
-			[3] = 10,
+		["Ghost of the Past:55"] = {
+			[1] = 5004,
+			[2] = 99,
+			[3] = 18,
 		},
 		["Aqua Guardian:22"] = {
 			[1] = 537,
 			[2] = 86,
 			[3] = 3,
 		},
-		["Ragefire Trogg:14"] = {
-			[1] = 1111,
+		["Skeletal Executioner:55"] = {
+			[1] = 8841,
 			[2] = 99,
-			[3] = 24,
+			[3] = 36,
 		},
 		["Slavering Worg:18"] = {
 			[1] = 1253,
 			[2] = 88,
 			[3] = 3,
 		},
-		["Lost One Riftseeker:38"] = {
-			[1] = 421,
-			[2] = 84,
-			[3] = 1,
+		["Thuzadin Necromancer:61"] = {
+			[1] = 21859,
+			[2] = 98,
+			[3] = 57,
 		},
 		["Earthborer:14"] = {
 			[1] = 1187,
 			[2] = 99,
 			[3] = 34,
 		},
-		["Plaguehound:55"] = {
-			[1] = 4065,
-			[2] = 93,
-			[3] = 13,
+		["Thuzadin Acolyte:60"] = {
+			[1] = 5661,
+			[2] = 97,
+			[3] = 26,
 		},
 		["Crag Coyote:36"] = {
 			[1] = 1310,
@@ -5631,10 +5722,10 @@ pfUI_cache = {
 			[2] = 97,
 			[3] = 4,
 		},
-		["Thenan:42"] = {
-			[1] = 5215,
-			[2] = 48,
-			[3] = 21,
+		["Jadespine Basilisk:39"] = {
+			[1] = 5203,
+			[2] = 97,
+			[3] = 16,
 		},
 		["Crimson Priest:61"] = {
 			[1] = 35532,
@@ -5661,40 +5752,40 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 7,
 		},
-		["Wailing Banshee:60"] = {
-			[1] = 19664,
-			[2] = 95,
-			[3] = 43,
-		},
-		["Thuzadin Necromancer:60"] = {
-			[1] = 18294,
+		["Blackrock Gladiator:24"] = {
+			[1] = 1708,
 			[2] = 97,
-			[3] = 54,
+			[3] = 8,
 		},
-		["Voidwalker Minion:47"] = {
-			[1] = 3642,
-			[2] = 75,
-			[3] = 12,
+		["Black Slime:21"] = {
+			[1] = 400,
+			[2] = 91,
+			[3] = 3,
+		},
+		["Starving Buzzard:37"] = {
+			[1] = 1773,
+			[2] = 81,
+			[3] = 5,
 		},
 		["Aku'mai Servant:26"] = {
 			[1] = 1822,
 			[2] = 95,
 			[3] = 12,
 		},
-		["Daggerspine Sorceress:40"] = {
-			[1] = 240,
-			[2] = 5,
-			[3] = 1,
+		["Legashi Rogue:53"] = {
+			[1] = 3583,
+			[2] = 99,
+			[3] = 16,
 		},
 		["Venomtip Scorpid:53"] = {
 			[1] = 3809,
 			[2] = 97,
 			[3] = 14,
 		},
-		["Gorishi Reaver:51"] = {
-			[1] = 3612,
-			[2] = 86,
-			[3] = 10,
+		["Witherbark Berserker:36"] = {
+			[1] = 4363,
+			[2] = 98,
+			[3] = 28,
 		},
 		["Hakkari Frostwing:50"] = {
 			[1] = 10452,
@@ -5707,14 +5798,14 @@ pfUI_cache = {
 			[3] = 4,
 		},
 		["Twilight's Hammer Ambassador:57"] = {
-			[1] = 4821,
-			[2] = 96,
-			[3] = 23,
-		},
-		["Rock Elemental:40"] = {
-			[1] = 1824,
+			[1] = 4833,
 			[2] = 99,
-			[3] = 12,
+			[3] = 24,
+		},
+		["Dredge Worm:52"] = {
+			[1] = 5728,
+			[2] = 99,
+			[3] = 14,
 		},
 		["Rock Stalker:58"] = {
 			[1] = 4836,
@@ -5726,30 +5817,30 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 6,
 		},
-		["Blackfathom Myrmidon:23"] = {
-			[1] = 2942,
-			[2] = 99,
-			[3] = 17,
+		["Imp Minion:31"] = {
+			[1] = 299,
+			[2] = 87,
+			[3] = 1,
 		},
-		["Stone Golem:38"] = {
-			[1] = 1813,
+		["Scalding Whelp:41"] = {
+			[1] = 1702,
+			[2] = 99,
+			[3] = 8,
+		},
+		["Goblin Shipbuilder:20"] = {
+			[1] = 1496,
 			[2] = 82,
-			[3] = 7,
-		},
-		["Wastewander Thief:40"] = {
-			[1] = 1904,
-			[2] = 99,
-			[3] = 7,
+			[3] = 12,
 		},
 		["Swamp Jaguar:37"] = {
 			[1] = 1219,
 			[2] = 90,
 			[3] = 4,
 		},
-		["Vilebranch Hideskinner:49"] = {
-			[1] = 6390,
+		["Freezing Ghoul:56"] = {
+			[1] = 4063,
 			[2] = 99,
-			[3] = 25,
+			[3] = 17,
 		},
 		["Shirokuma:60"] = {
 			[1] = 5403,
@@ -5761,50 +5852,50 @@ pfUI_cache = {
 			[2] = 97,
 			[3] = 50,
 		},
-		["Young Stranglethorn Tiger:30"] = {
-			[1] = 1171,
-			[2] = 97,
-			[3] = 3,
+		["Wolf Master Nandos:25"] = {
+			[1] = 4123,
+			[2] = 45,
+			[3] = 20,
 		},
-		["Dragonmaw Raider:27"] = {
-			[1] = 878,
+		["Razormane Geomancer:12"] = {
+			[1] = 178,
 			[2] = 98,
-			[3] = 10,
+			[3] = 4,
 		},
-		["Syndicate Prowler:36"] = {
-			[1] = 4433,
+		["Incendosaur:49"] = {
+			[1] = 2956,
 			[2] = 99,
-			[3] = 29,
+			[3] = 12,
 		},
-		["Shadowforge Chanter:39"] = {
-			[1] = 1375,
-			[2] = 99,
-			[3] = 7,
+		["Voidwalker Minion:47"] = {
+			[1] = 3642,
+			[2] = 75,
+			[3] = 12,
 		},
 		["Fledgling Pterrordax:48"] = {
 			[1] = 2702,
 			[2] = 97,
 			[3] = 8,
 		},
-		["Skullsplitter Scout:42"] = {
-			[1] = 1891,
-			[2] = 95,
-			[3] = 5,
+		["Araj the Summoner:63"] = {
+			[1] = 94577,
+			[2] = 34,
+			[3] = 29,
 		},
 		["Hexed Troll:8"] = {
 			[1] = 116,
 			[2] = 99,
 			[3] = 4,
 		},
-		["Dreadscorn:57"] = {
-			[1] = 4272,
-			[2] = 92,
-			[3] = 12,
-		},
-		["Defias Henchman:15"] = {
-			[1] = 1197,
+		["Greater Lava Spider:49"] = {
+			[1] = 2729,
 			[2] = 99,
-			[3] = 7,
+			[3] = 22,
+		},
+		["Swampwalker:38"] = {
+			[1] = 705,
+			[2] = 99,
+			[3] = 4,
 		},
 		["Scarlet Curate:56"] = {
 			[1] = 6980,
@@ -5816,50 +5907,50 @@ pfUI_cache = {
 			[2] = 98,
 			[3] = 21,
 		},
-		["Anvilrage Marshal:56"] = {
-			[1] = 8916,
-			[2] = 97,
-			[3] = 34,
+		["Roc:41"] = {
+			[1] = 1902,
+			[2] = 95,
+			[3] = 5,
 		},
-		["Rotted One:25"] = {
-			[1] = 375,
-			[2] = 90,
-			[3] = 1,
+		["Portal Seeker:53"] = {
+			[1] = 2278,
+			[2] = 80,
+			[3] = 6,
 		},
-		["Crushridge Ogre:34"] = {
-			[1] = 1252,
-			[2] = 94,
-			[3] = 7,
+		["Thundering Exile:38"] = {
+			[1] = 1519,
+			[2] = 99,
+			[3] = 5,
 		},
 		["Vilebranch Wolf Pup:47"] = {
 			[1] = 2712,
 			[2] = 86,
 			[3] = 13,
 		},
-		["Lupine Horror:25"] = {
-			[1] = 2295,
-			[2] = 97,
-			[3] = 14,
+		["Ragefire Trogg:15"] = {
+			[1] = 1303,
+			[2] = 70,
+			[3] = 22,
 		},
-		["Stonevault Rockchewer:37"] = {
-			[1] = 3946,
-			[2] = 83,
-			[3] = 12,
+		["Defias Smuggler:12"] = {
+			[1] = 249,
+			[2] = 96,
+			[3] = 5,
 		},
-		["Death Speaker Jargba:30"] = {
-			[1] = 8831,
-			[2] = 97,
-			[3] = 60,
+		["Murk Slitherer:46"] = {
+			[1] = 6354,
+			[2] = 90,
+			[3] = 15,
 		},
 		["Shadowhide Slayer:25"] = {
 			[1] = 627,
 			[2] = 94,
 			[3] = 5,
 		},
-		["Golemagg the Incinerator:-1"] = {
-			[1] = 2403198,
-			[2] = 37,
-			[3] = 37,
+		["Hammered Patron:55"] = {
+			[1] = 8800,
+			[2] = 44,
+			[3] = 15,
 		},
 		["Dashel Stonefist:26"] = {
 			[1] = 343,
@@ -5876,10 +5967,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 12,
 		},
-		["Witherbark Troll:31"] = {
-			[1] = 1389,
-			[2] = 9,
-			[3] = 1,
+		["Mangy Wolf:5"] = {
+			[1] = 102,
+			[2] = 79,
+			[3] = 5,
 		},
 		["Bloodhound:52"] = {
 			[1] = 5229,
@@ -5891,10 +5982,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 6,
 		},
-		["Anvilrage Reservist:57"] = {
-			[1] = 483,
-			[2] = 99,
-			[3] = 7,
+		["Rumbler:45"] = {
+			[1] = 2513,
+			[2] = 83,
+			[3] = 14,
 		},
 		["Jabbering Ghoul:54"] = {
 			[1] = 3787,
@@ -5911,10 +6002,10 @@ pfUI_cache = {
 			[2] = 93,
 			[3] = 6,
 		},
-		["Syndicate Pathstalker:32"] = {
-			[1] = 1295,
-			[2] = 97,
-			[3] = 9,
+		["Skullsplitter Panther:41"] = {
+			[1] = 1745,
+			[2] = 95,
+			[3] = 6,
 		},
 		["Shadowhide Warrior:25"] = {
 			[1] = 569,
@@ -5931,40 +6022,40 @@ pfUI_cache = {
 			[2] = 94,
 			[3] = 20,
 		},
-		["Young Fleshripper:11"] = {
-			[1] = 84,
-			[2] = 96,
-			[3] = 2,
+		["Kraul Bat:30"] = {
+			[1] = 3017,
+			[2] = 74,
+			[3] = 14,
 		},
-		["Hedrum the Creeper:55"] = {
-			[1] = 28842,
+		["Scorched Guardian:43"] = {
+			[1] = 5464,
 			[2] = 99,
-			[3] = 60,
+			[3] = 28,
 		},
 		["Kurzen War Tiger:32"] = {
 			[1] = 785,
 			[2] = 99,
 			[3] = 2,
 		},
-		["Riverpaw Outrunner:9"] = {
-			[1] = 128,
-			[2] = 83,
-			[3] = 4,
+		["Brutus:43"] = {
+			[1] = 2994,
+			[2] = 81,
+			[3] = 13,
 		},
 		["Anvilrage Medic:53"] = {
-			[1] = 5963,
-			[2] = 98,
-			[3] = 17,
-		},
-		["Razorfen Defender:27"] = {
-			[1] = 2568,
+			[1] = 6120,
 			[2] = 99,
-			[3] = 16,
+			[3] = 18,
 		},
-		["Bile Slime:60"] = {
-			[1] = 880,
-			[2] = 98,
-			[3] = 9,
+		["Cursed Sailor:26"] = {
+			[1] = 685,
+			[2] = 94,
+			[3] = 7,
+		},
+		["Lupine Horror:25"] = {
+			[1] = 2295,
+			[2] = 97,
+			[3] = 14,
 		},
 		["Doomforge Arcanasmith:56"] = {
 			[1] = 3131,
@@ -5976,70 +6067,70 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 19,
 		},
-		["Blackrock Grunt:20"] = {
-			[1] = 324,
-			[2] = 86,
-			[3] = 2,
+		["Crushridge Enforcer:38"] = {
+			[1] = 4228,
+			[2] = 99,
+			[3] = 34,
 		},
-		["Dreadmaul Ogre:46"] = {
-			[1] = 2779,
-			[2] = 96,
-			[3] = 7,
+		["Prince Nazjak:41"] = {
+			[1] = 1988,
+			[2] = 87,
+			[3] = 13,
 		},
-		["Weapon Technician:57"] = {
-			[1] = 3417,
-			[2] = 56,
-			[3] = 10,
+		["Firegut Ogre:50"] = {
+			[1] = 3927,
+			[2] = 99,
+			[3] = 11,
 		},
-		["Hatecrest Siren:42"] = {
-			[1] = 1800,
-			[2] = 93,
-			[3] = 4,
+		["Diseased Wolf:53"] = {
+			[1] = 3697,
+			[2] = 98,
+			[3] = 14,
 		},
 		["Dark Iron Steamsmith:47"] = {
 			[1] = 2559,
 			[2] = 95,
 			[3] = 10,
 		},
-		["Wastewander Bandit:41"] = {
-			[1] = 2226,
-			[2] = 93,
-			[3] = 6,
+		["Morgan the Collector:10"] = {
+			[1] = 247,
+			[2] = 96,
+			[3] = 10,
 		},
-		["Blackrock Hunter:24"] = {
-			[1] = 2016,
-			[2] = 97,
-			[3] = 8,
+		["Lost One Fisherman:36"] = {
+			[1] = 1516,
+			[2] = 92,
+			[3] = 4,
 		},
-		["Anvilrage Captain:59"] = {
-			[1] = 12000,
-			[2] = 99,
-			[3] = 39,
+		["Tangled Horror:40"] = {
+			[1] = 1197,
+			[2] = 91,
+			[3] = 4,
 		},
 		["Scarlet Paladin:56"] = {
 			[1] = 9871,
 			[2] = 99,
 			[3] = 28,
 		},
-		["Redridge Basher:20"] = {
-			[1] = 472,
-			[2] = 94,
-			[3] = 4,
+		["Lord Roccor:54"] = {
+			[1] = 28888,
+			[2] = 99,
+			[3] = 68,
 		},
-		["Blackfathom Sea Witch:24"] = {
-			[1] = 1859,
-			[2] = 98,
-			[3] = 13,
+		["Aqua Guardian:23"] = {
+			[1] = 565,
+			[2] = 62,
+			[3] = 4,
 		},
 		["Murloc Forager:10"] = {
 			[1] = 199,
 			[2] = 96,
 			[3] = 12,
 		},
-		["Ravaged Cadaver:57"] = {
-			[1] = 15836,
-			[2] = 65,
-			[3] = 32,
+		["Kurzen Headshrinker:34"] = {
+			[1] = 1166,
+			[2] = 99,
+			[3] = 4,
 		},
 		["Dragonmaw Battlemaster:30"] = {
 			[1] = 765,
@@ -6066,20 +6157,20 @@ pfUI_cache = {
 			[2] = 85,
 			[3] = 9,
 		},
-		["Young Panther:31"] = {
-			[1] = 1222,
-			[2] = 95,
-			[3] = 4,
-		},
-		["Arena Spectator:54"] = {
-			[1] = 3468,
-			[2] = 92,
-			[3] = 16,
-		},
-		["Lady Sarevess:25"] = {
-			[1] = 5246,
+		["Rock Elemental:40"] = {
+			[1] = 1824,
 			[2] = 99,
-			[3] = 26,
+			[3] = 12,
+		},
+		["Twilight Fire Guard:49"] = {
+			[1] = 6559,
+			[2] = 96,
+			[3] = 29,
+		},
+		["Crest Killer:54"] = {
+			[1] = 10311,
+			[2] = 96,
+			[3] = 19,
 		},
 		["Atal'ai Corpse Eater:50"] = {
 			[1] = 6152,
@@ -6091,64 +6182,64 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 3,
 		},
-		["Plagued Insect:60"] = {
-			[1] = 1883,
+		["Kurzen Jungle Fighter:33"] = {
+			[1] = 1324,
 			[2] = 97,
-			[3] = 9,
-		},
-		["Thundering Exile:38"] = {
-			[1] = 1519,
-			[2] = 99,
 			[3] = 5,
+		},
+		["Black Dragonspawn:53"] = {
+			[1] = 7869,
+			[2] = 99,
+			[3] = 30,
 		},
 		["Carrion Scarab:57"] = {
 			[1] = 860,
 			[2] = 98,
 			[3] = 5,
 		},
-		["Wastewander Bandit:42"] = {
-			[1] = 2336,
+		["Dreadmaul Ogre Mage:47"] = {
+			[1] = 1645,
 			[2] = 95,
-			[3] = 7,
+			[3] = 2,
 		},
 		["Fire Roc:43"] = {
 			[1] = 1669,
 			[2] = 94,
 			[3] = 6,
 		},
-		["Ambassador Flamelash:-1"] = {
-			[1] = 51320,
-			[2] = 99,
-			[3] = 75,
+		["Dustwind Harpy:8"] = {
+			[1] = 155,
+			[2] = 97,
+			[3] = 6,
 		},
-		["Ragefire Trogg:15"] = {
-			[1] = 1303,
-			[2] = 70,
-			[3] = 22,
+		["Vile Slime:54"] = {
+			[1] = 3759,
+			[2] = 98,
+			[3] = 18,
 		},
-		["Goblin Shipbuilder:19"] = {
-			[1] = 1278,
-			[2] = 94,
-			[3] = 12,
+		["Rethilgore:20"] = {
+			[1] = 3024,
+			[2] = 46,
+			[3] = 10,
 		},
 		["7:XT:41"] = {
 			[1] = 1600,
 			[2] = 92,
 			[3] = 8,
 		},
-		["Scarlet Worker:55"] = {
-			[1] = 3881,
-			[2] = 52,
-			[3] = 8,
+		["Gibbering Ghoul:57"] = {
+			[1] = 4940,
+			[2] = 99,
+			[3] = 15,
 		},
 		["Plague Ravager:55"] = {
 			[1] = 4165,
 			[2] = 98,
 			[3] = 18,
 		},
-		["Skullsplitter Panther:41"] = {
-			[1] = 1745,
-			[2] = 95,
+		["Kolkar Outrunner:8"] = {
+			[1] = 155,
+			[2] = 97,
 			[3] = 6,
 		},
 		["Bile Spewer:62"] = {
@@ -6166,80 +6257,80 @@ pfUI_cache = {
 			[2] = 96,
 			[3] = 5,
 		},
-		["Tormented Officer:24"] = {
-			[1] = 2228,
-			[2] = 95,
-			[3] = 18,
+		["Nightbane Dark Runner:29"] = {
+			[1] = 992,
+			[2] = 98,
+			[3] = 2,
 		},
-		["Rocklance:17"] = {
-			[1] = 1673,
-			[2] = 97,
-			[3] = 14,
+		["Dreadmaul Ogre:46"] = {
+			[1] = 2779,
+			[2] = 96,
+			[3] = 7,
 		},
-		["Jarquia:46"] = {
-			[1] = 2241,
+		["Boulderfist Brute:35"] = {
+			[1] = 1469,
 			[2] = 99,
-			[3] = 8,
+			[3] = 9,
 		},
 		["Twilight Aquamancer:25"] = {
 			[1] = 1996,
 			[2] = 72,
 			[3] = 11,
 		},
-		["Murkgill Hunter:35"] = {
-			[1] = 1540,
-			[2] = 92,
-			[3] = 4,
+		["Swampwalker Elder:39"] = {
+			[1] = 797,
+			[2] = 87,
+			[3] = 2,
 		},
 		["Tortured Druid:56"] = {
 			[1] = 3254,
 			[2] = 98,
 			[3] = 8,
 		},
-		["Sunscale Screecher:13"] = {
-			[1] = 230,
-			[2] = 96,
-			[3] = 9,
+		["Atal'ai Priest:47"] = {
+			[1] = 8208,
+			[2] = 98,
+			[3] = 29,
 		},
-		["Syndicate Mercenary:32"] = {
-			[1] = 1351,
-			[2] = 99,
-			[3] = 11,
+		["Murkgill Lord:37"] = {
+			[1] = 1268,
+			[2] = 81,
+			[3] = 2,
 		},
 		["Searing Blade Warlock:14"] = {
 			[1] = 1040,
 			[2] = 99,
 			[3] = 29,
 		},
-		["Slavering Ghoul:52"] = {
-			[1] = 3494,
+		["Rotting Cadaver:54"] = {
+			[1] = 3910,
 			[2] = 99,
 			[3] = 15,
 		},
-		["Crypt Crawler:61"] = {
-			[1] = 30114,
-			[2] = 98,
-			[3] = 64,
+		["Deathstalker Adamant:18"] = {
+			[1] = 2147,
+			[2] = 65,
+			[3] = 12,
 		},
 		["Balnazzar:62"] = {
 			[1] = 64432,
 			[2] = 48,
 			[3] = 26,
 		},
-		["Dreadmaw Crocolisk:10"] = {
-			[1] = 170,
-			[2] = 97,
-			[3] = 6,
+		["Theramore Sentry:36"] = {
+			[1] = 1775,
+			[2] = 63,
+			[3] = 2,
 		},
 		["Stonevault Basher:39"] = {
 			[1] = 4396,
 			[2] = 83,
 			[3] = 8,
 		},
-		["Scarlet Hound:53"] = {
-			[1] = 758,
-			[2] = 83,
-			[3] = 1,
+		["Plague Spreader:28"] = {
+			[1] = 928,
+			[2] = 99,
+			[3] = 3,
 		},
 		["Kobold Miner:6"] = {
 			[1] = 38,
@@ -6251,50 +6342,50 @@ pfUI_cache = {
 			[2] = 95,
 			[3] = 3,
 		},
-		["Coyote:10"] = {
-			[1] = 127,
-			[2] = 97,
-			[3] = 3,
+		["Scarlet Medic:54"] = {
+			[1] = 4740,
+			[2] = 84,
+			[3] = 12,
 		},
 		["Renagish:60"] = {
 			[1] = 4314,
 			[2] = 97,
 			[3] = 11,
 		},
-		["Defias Squallshaper:18"] = {
-			[1] = 778,
-			[2] = 85,
-			[3] = 8,
+		["Living Decay:56"] = {
+			[1] = 4058,
+			[2] = 99,
+			[3] = 10,
 		},
-		["Enthralled Atal'ai:45"] = {
-			[1] = 5671,
-			[2] = 58,
-			[3] = 12,
+		["Young Panther:31"] = {
+			[1] = 1222,
+			[2] = 95,
+			[3] = 4,
 		},
 		["Enraged Rock Elemental:42"] = {
 			[1] = 2124,
 			[2] = 97,
 			[3] = 16,
 		},
-		["Twilight Fire Guard:49"] = {
-			[1] = 6559,
-			[2] = 96,
-			[3] = 29,
+		["Mosshide Gnoll:21"] = {
+			[1] = 552,
+			[2] = 99,
+			[3] = 4,
 		},
 		["Witherbark Witch Doctor:33"] = {
 			[1] = 1177,
 			[2] = 99,
 			[3] = 7,
 		},
-		["Scarlet Medic:52"] = {
-			[1] = 3089,
-			[2] = 77,
-			[3] = 6,
+		["Defias Conjurer:16"] = {
+			[1] = 1170,
+			[2] = 96,
+			[3] = 7,
 		},
-		["Black Broodling:51"] = {
-			[1] = 2824,
-			[2] = 99,
-			[3] = 8,
+		["Golemagg the Incinerator:-1"] = {
+			[1] = 2403198,
+			[2] = 37,
+			[3] = 37,
 		},
 		["Goblin Woodcarver:18"] = {
 			[1] = 1479,
@@ -6306,10 +6397,10 @@ pfUI_cache = {
 			[2] = 92,
 			[3] = 4,
 		},
-		["Morphaz:52"] = {
-			[1] = 15825,
-			[2] = 62,
-			[3] = 30,
+		["Earthen Guardian:45"] = {
+			[1] = 774,
+			[2] = 46,
+			[3] = 4,
 		},
 		["Razorfen Defender:28"] = {
 			[1] = 2576,
@@ -6321,40 +6412,40 @@ pfUI_cache = {
 			[2] = 86,
 			[3] = 13,
 		},
-		["Panther:32"] = {
-			[1] = 1283,
-			[2] = 86,
-			[3] = 3,
+		["Bloodscalp Mystic:35"] = {
+			[1] = 1229,
+			[2] = 94,
+			[3] = 4,
 		},
 		["Razormane Hunter:12"] = {
 			[1] = 208,
 			[2] = 97,
 			[3] = 6,
 		},
-		["Magregan Deepshadow:38"] = {
-			[1] = 3925,
-			[2] = 97,
-			[3] = 9,
+		["Ward Guardian:31"] = {
+			[1] = 3658,
+			[2] = 57,
+			[3] = 10,
 		},
 		["Fallenroot Rogue:21"] = {
 			[1] = 1831,
 			[2] = 99,
 			[3] = 17,
 		},
-		["Thunder Lizard:10"] = {
-			[1] = 173,
-			[2] = 99,
-			[3] = 6,
+		["Gnarled Thistleshrub:48"] = {
+			[1] = 3091,
+			[2] = 97,
+			[3] = 11,
 		},
-		["Vile Slime:54"] = {
-			[1] = 3759,
-			[2] = 98,
-			[3] = 18,
+		["Scalding Broodling:54"] = {
+			[1] = 2771,
+			[2] = 87,
+			[3] = 7,
 		},
-		["Gibbering Ghoul:57"] = {
-			[1] = 4940,
-			[2] = 99,
-			[3] = 15,
+		["Compact Harvest Reaper:40"] = {
+			[1] = 1573,
+			[2] = 87,
+			[3] = 3,
 		},
 		["Nightbane Vile Fang:29"] = {
 			[1] = 1043,
@@ -6366,40 +6457,40 @@ pfUI_cache = {
 			[2] = 89,
 			[3] = 3,
 		},
-		["Kolkar Outrunner:8"] = {
-			[1] = 155,
-			[2] = 97,
-			[3] = 6,
+		["Hukku:52"] = {
+			[1] = 9841,
+			[2] = 98,
+			[3] = 20,
 		},
-		["Tamed Hyena:28"] = {
-			[1] = 655,
-			[2] = 93,
-			[3] = 5,
+		["Murk Spitter:47"] = {
+			[1] = 5585,
+			[2] = 96,
+			[3] = 20,
 		},
 		["Lieutenant Benedict:8"] = {
 			[1] = 132,
 			[2] = 58,
 			[3] = 6,
 		},
-		["Quarry Slave:48"] = {
-			[1] = 2821,
-			[2] = 99,
-			[3] = 8,
+		["Bleak Worg:19"] = {
+			[1] = 1307,
+			[2] = 58,
+			[3] = 12,
 		},
 		["Thrashtail Basilisk:41"] = {
 			[1] = 1882,
 			[2] = 96,
 			[3] = 6,
 		},
-		["Highland Thrasher:33"] = {
-			[1] = 1371,
-			[2] = 97,
-			[3] = 8,
+		["Lieutenant Fangore:26"] = {
+			[1] = 642,
+			[2] = 74,
+			[3] = 4,
 		},
-		["Scarlet Medic:53"] = {
-			[1] = 2860,
-			[2] = 80,
-			[3] = 7,
+		["Stonevault Shaman:40"] = {
+			[1] = 1647,
+			[2] = 94,
+			[3] = 6,
 		},
 		["Blazing Invader:55"] = {
 			[1] = 3103,
@@ -6411,55 +6502,55 @@ pfUI_cache = {
 			[2] = 98,
 			[3] = 4,
 		},
-		["Ironfur Patriarch:49"] = {
-			[1] = 2943,
-			[2] = 95,
-			[3] = 8,
+		["Bluegill Puddlejumper:21"] = {
+			[1] = 413,
+			[2] = 97,
+			[3] = 4,
 		},
 		["Doomforge Dragoon:56"] = {
 			[1] = 8618,
 			[2] = 99,
 			[3] = 32,
 		},
-		["Atal'ai Priest:47"] = {
-			[1] = 8208,
+		["Wretched Lost One:45"] = {
+			[1] = 2091,
 			[2] = 98,
-			[3] = 29,
+			[3] = 5,
 		},
-		["Crypt Robber:55"] = {
-			[1] = 6262,
-			[2] = 98,
-			[3] = 19,
+		["Crimson Monk:61"] = {
+			[1] = 21429,
+			[2] = 95,
+			[3] = 43,
 		},
 		["Frostmane Shadowcaster:10"] = {
 			[1] = 83,
 			[2] = 74,
 			[3] = 1,
 		},
-		["Deathstalker Adamant:18"] = {
-			[1] = 2147,
-			[2] = 65,
-			[3] = 12,
+		["Cookie:20"] = {
+			[1] = 4467,
+			[2] = 24,
+			[3] = 6,
 		},
 		["Searing Ghoul:55"] = {
 			[1] = 5722,
 			[2] = 99,
 			[3] = 26,
 		},
-		["Nightbane Tainted One:31"] = {
-			[1] = 652,
-			[2] = 94,
-			[3] = 1,
+		["Lost One Seer:38"] = {
+			[1] = 1360,
+			[2] = 72,
+			[3] = 3,
 		},
 		["Rotting Behemoth:56"] = {
 			[1] = 4139,
 			[2] = 97,
 			[3] = 16,
 		},
-		["Clattering Scorpid:6"] = {
-			[1] = 123,
-			[2] = 99,
-			[3] = 3,
+		["Maleki the Pallid:61"] = {
+			[1] = 62253,
+			[2] = 98,
+			[3] = 87,
 		},
 		["Venomtail Scorpid:9"] = {
 			[1] = 178,
@@ -6471,45 +6562,45 @@ pfUI_cache = {
 			[2] = 96,
 			[3] = 4,
 		},
-		["Witherbark Axe Thrower:33"] = {
-			[1] = 1385,
-			[2] = 92,
+		["Defias Pirate:18"] = {
+			[1] = 1452,
+			[2] = 62,
 			[3] = 9,
 		},
-		["Blighted Zombie:52"] = {
-			[1] = 3114,
-			[2] = 99,
-			[3] = 15,
+		["Stone Rumbler:22"] = {
+			[1] = 1277,
+			[2] = 39,
+			[3] = 4,
 		},
-		["Anvilrage Reservist:58"] = {
-			[1] = 1069,
-			[2] = 99,
-			[3] = 8,
+		["Savannah Huntress:11"] = {
+			[1] = 177,
+			[2] = 78,
+			[3] = 2,
 		},
 		["Swamp Jaguar:36"] = {
 			[1] = 894,
 			[2] = 98,
 			[3] = 3,
 		},
-		["Razorfen Earthbreaker:30"] = {
-			[1] = 2828,
-			[2] = 73,
-			[3] = 13,
+		["Riverpaw Runt:8"] = {
+			[1] = 159,
+			[2] = 80,
+			[3] = 5,
 		},
 		["Murkshallow Softshell:25"] = {
 			[1] = 264,
 			[2] = 85,
 			[3] = 4,
 		},
-		["Scarlet Hound:52"] = {
-			[1] = 360,
-			[2] = 82,
-			[3] = 1,
+		["Ardo Dirtpaw:24"] = {
+			[1] = 662,
+			[2] = 84,
+			[3] = 2,
 		},
-		["Centipaar Swarmer:49"] = {
-			[1] = 3148,
-			[2] = 99,
-			[3] = 18,
+		["Skeletal Guardian:55"] = {
+			[1] = 4658,
+			[2] = 94,
+			[3] = 20,
 		},
 		["Scarlet Avenger:56"] = {
 			[1] = 3836,
@@ -6531,45 +6622,45 @@ pfUI_cache = {
 			[2] = 84,
 			[3] = 1,
 		},
-		["Plague Spreader:28"] = {
-			[1] = 928,
-			[2] = 99,
+		["Bloodscalp Warrior:34"] = {
+			[1] = 511,
+			[2] = 75,
+			[3] = 2,
+		},
+		["Edwin VanCleef:20"] = {
+			[1] = 4111,
+			[2] = 48,
+			[3] = 16,
+		},
+		["Sorrow Spinner:36"] = {
+			[1] = 1269,
+			[2] = 90,
 			[3] = 3,
 		},
-		["Scarlet Medic:54"] = {
-			[1] = 4740,
-			[2] = 84,
-			[3] = 12,
+		["Defias Smuggler:11"] = {
+			[1] = 220,
+			[2] = 96,
+			[3] = 2,
 		},
-		["Burning Blade Acolyte:12"] = {
-			[1] = 225,
-			[2] = 99,
+		["Hecklefang Hyena:16"] = {
+			[1] = 279,
+			[2] = 95,
+			[3] = 5,
+		},
+		["Twilight Marauder:58"] = {
+			[1] = 4515,
+			[2] = 60,
 			[3] = 11,
 		},
-		["Rock Stalker:57"] = {
-			[1] = 4261,
+		["Tethis:43"] = {
+			[1] = 5972,
+			[2] = 91,
+			[3] = 13,
+		},
+		["Burning Blade Bruiser:10"] = {
+			[1] = 184,
 			[2] = 99,
 			[3] = 11,
-		},
-		["Mindless Undead:58"] = {
-			[1] = 1881,
-			[2] = 68,
-			[3] = 4,
-		},
-		["Hukku's Voidwalker:52"] = {
-			[1] = 3691,
-			[2] = 44,
-			[3] = 6,
-		},
-		["Cave Creeper:54"] = {
-			[1] = 7299,
-			[2] = 99,
-			[3] = 24,
-		},
-		["Scalding Broodling:54"] = {
-			[1] = 2771,
-			[2] = 87,
-			[3] = 7,
 		},
 		["Lightning Hide:11"] = {
 			[1] = 186,
@@ -6591,10 +6682,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 52,
 		},
-		["Defias Conjurer:16"] = {
-			[1] = 1170,
+		["Lava Elemental:61"] = {
+			[1] = 198105,
 			[2] = 96,
-			[3] = 7,
+			[3] = 88,
 		},
 		["Greater Rock Elemental:44"] = {
 			[1] = 2441,
@@ -6611,40 +6702,40 @@ pfUI_cache = {
 			[2] = 96,
 			[3] = 7,
 		},
-		["First Mate Snellig:29"] = {
-			[1] = 892,
-			[2] = 96,
-			[3] = 7,
+		["Young Stranglethorn Raptor:31"] = {
+			[1] = 1079,
+			[2] = 98,
+			[3] = 3,
 		},
-		["Deep Strider:49"] = {
-			[1] = 2577,
-			[2] = 97,
-			[3] = 6,
+		["Shrieking Banshee:59"] = {
+			[1] = 18195,
+			[2] = 98,
+			[3] = 49,
 		},
-		["Bloodscalp Mystic:35"] = {
-			[1] = 1229,
-			[2] = 94,
-			[3] = 4,
+		["Wailing Death:57"] = {
+			[1] = 4564,
+			[2] = 71,
+			[3] = 12,
 		},
 		["Compact Harvest Reaper:41"] = {
 			[1] = 1971,
 			[2] = 91,
 			[3] = 2,
 		},
-		["Gnarled Thistleshrub:48"] = {
-			[1] = 3091,
-			[2] = 97,
-			[3] = 11,
+		["Skeletal Miner:17"] = {
+			[1] = 1194,
+			[2] = 98,
+			[3] = 5,
 		},
 		["Nightbane Dark Runner:28"] = {
 			[1] = 935,
 			[2] = 99,
 			[3] = 4,
 		},
-		["Lieutenant Fangore:26"] = {
-			[1] = 642,
-			[2] = 74,
-			[3] = 4,
+		["Crypt Crawler:61"] = {
+			[1] = 29890,
+			[2] = 99,
+			[3] = 65,
 		},
 		["Cannibal Ghoul:55"] = {
 			[1] = 4072,
@@ -6656,70 +6747,70 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 12,
 		},
-		["Doom'rel:60"] = {
-			[1] = 27995,
+		["Anvilrage Guardsman:53"] = {
+			[1] = 8346,
 			[2] = 99,
-			[3] = 59,
+			[3] = 41,
 		},
-		["Shadowhide Darkweaver:25"] = {
-			[1] = 427,
-			[2] = 98,
-			[3] = 5,
+		["Stonevault Rockchewer:37"] = {
+			[1] = 3946,
+			[2] = 83,
+			[3] = 12,
 		},
 		["Defias Digger:16"] = {
 			[1] = 475,
 			[2] = 78,
 			[3] = 2,
 		},
-		["Compact Harvest Reaper:40"] = {
-			[1] = 1573,
-			[2] = 87,
-			[3] = 3,
+		["Roka:60"] = {
+			[1] = 4798,
+			[2] = 78,
+			[3] = 8,
 		},
-		["Pyromancer Loregrain:55"] = {
-			[1] = 17842,
-			[2] = 94,
-			[3] = 40,
+		["Dragonmaw Bonewarder:28"] = {
+			[1] = 689,
+			[2] = 84,
+			[3] = 4,
 		},
 		["Warbringer Construct:57"] = {
 			[1] = 10821,
 			[2] = 99,
 			[3] = 38,
 		},
-		["Gordunni Warlock:43"] = {
-			[1] = 1643,
-			[2] = 98,
-			[3] = 5,
-		},
-		["Defias Thug:3"] = {
-			[1] = 55,
+		["Nightmare Wyrmkin:51"] = {
+			[1] = 6791,
 			[2] = 99,
-			[3] = 5,
+			[3] = 26,
+		},
+		["Scalding Drake:54"] = {
+			[1] = 8091,
+			[2] = 99,
+			[3] = 26,
 		},
 		["Fetid Zombie:56"] = {
 			[1] = 4833,
 			[2] = 93,
 			[3] = 17,
 		},
-		["Murk Spitter:47"] = {
-			[1] = 5585,
-			[2] = 96,
-			[3] = 20,
+		["Flesh Golem:57"] = {
+			[1] = 23103,
+			[2] = 72,
+			[3] = 31,
 		},
-		["Surena Caledon:9"] = {
-			[1] = 95,
-			[2] = 84,
+		["Garr Salthoof:41"] = {
+			[1] = 2347,
+			[2] = 80,
+			[3] = 4,
+		},
+		["Plagued Maggot:55"] = {
+			[1] = 981,
+			[2] = 90,
 			[3] = 3,
 		},
-		["Burning Blade Bruiser:10"] = {
-			[1] = 184,
-			[2] = 99,
-			[3] = 11,
-		},
-		["Mottled Screecher:24"] = {
-			[1] = 545,
-			[2] = 99,
-			[3] = 5,
+		["Vilebranch Berserker:47"] = {
+			[1] = 6180,
+			[2] = 97,
+			[3] = 24,
 		},
 		["Deathsworn Captain:25"] = {
 			[1] = 2773,
@@ -6731,25 +6822,25 @@ pfUI_cache = {
 			[2] = 96,
 			[3] = 3,
 		},
-		["Scarlet Archmage:55"] = {
-			[1] = 4975,
-			[2] = 94,
-			[3] = 10,
+		["Gruff Swiftbite:12"] = {
+			[1] = 208,
+			[2] = 99,
+			[3] = 8,
 		},
 		["Skullsplitter Warrior:39"] = {
 			[1] = 1218,
 			[2] = 99,
 			[3] = 3,
 		},
-		["Cookie:20"] = {
-			[1] = 4467,
-			[2] = 24,
-			[3] = 6,
+		["Servant of Ilgalar:25"] = {
+			[1] = 444,
+			[2] = 99,
+			[3] = 3,
 		},
-		["Baroness Anastari:61"] = {
-			[1] = 50867,
-			[2] = 39,
-			[3] = 32,
+		["Marsh Inkspewer:42"] = {
+			[1] = 2008,
+			[2] = 98,
+			[3] = 9,
 		},
 		["Daggerspine Raider:39"] = {
 			[1] = 1792,
@@ -6766,30 +6857,30 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 10,
 		},
-		["Mosshide Fenrunner:23"] = {
-			[1] = 360,
-			[2] = 98,
+		["Frostsaber Pride Watcher:59"] = {
+			[1] = 4825,
+			[2] = 29,
 			[3] = 3,
 		},
-		["Stone Rumbler:22"] = {
-			[1] = 1277,
-			[2] = 39,
-			[3] = 4,
+		["Bloodscalp Shaman:33"] = {
+			[1] = 383,
+			[2] = 99,
+			[3] = 1,
 		},
 		["Anvilrage Reservist:56"] = {
 			[1] = 1052,
 			[2] = 95,
 			[3] = 6,
 		},
-		["Eyeless Watcher:58"] = {
-			[1] = 4043,
-			[2] = 90,
-			[3] = 8,
+		["Shadowforge Darkweaver:37"] = {
+			[1] = 1024,
+			[2] = 99,
+			[3] = 6,
 		},
-		["Bloodscalp Warrior:34"] = {
-			[1] = 511,
-			[2] = 75,
-			[3] = 2,
+		["Emperor Dagran Thaurissan:-1"] = {
+			[1] = 43936,
+			[2] = 99,
+			[3] = 80,
 		},
 		["Dustbelcher Shaman:42"] = {
 			[1] = 1613,
@@ -6811,70 +6902,70 @@ pfUI_cache = {
 			[2] = 98,
 			[3] = 9,
 		},
-		["Edwin VanCleef:20"] = {
-			[1] = 4111,
-			[2] = 48,
+		["Razorfen Warrior:24"] = {
+			[1] = 2174,
+			[2] = 99,
 			[3] = 16,
 		},
-		["Scarlet Praetorian:56"] = {
-			[1] = 6355,
-			[2] = 99,
-			[3] = 23,
+		["Dragonmaw Scout:18"] = {
+			[1] = 327,
+			[2] = 94,
+			[3] = 3,
 		},
 		["Crimson Gallant:59"] = {
 			[1] = 16709,
 			[2] = 99,
 			[3] = 41,
 		},
-		["Sorrow Spinner:36"] = {
-			[1] = 1269,
-			[2] = 90,
-			[3] = 3,
+		["Plagued Insect:60"] = {
+			[1] = 1883,
+			[2] = 97,
+			[3] = 9,
 		},
-		["Razormane Defender:12"] = {
-			[1] = 254,
-			[2] = 98,
-			[3] = 11,
+		["Witherbark Shadowcaster:31"] = {
+			[1] = 783,
+			[2] = 89,
+			[3] = 5,
 		},
 		["Defias Cutpurse:6"] = {
 			[1] = 120,
 			[2] = 99,
 			[3] = 3,
 		},
-		["Tethis:43"] = {
-			[1] = 5972,
-			[2] = 91,
-			[3] = 13,
+		["Stonevault Bonesnapper:40"] = {
+			[1] = 1710,
+			[2] = 95,
+			[3] = 10,
 		},
-		["Harvest Watcher:15"] = {
-			[1] = 302,
-			[2] = 99,
-			[3] = 5,
+		["Hatecrest Screamer:41"] = {
+			[1] = 1406,
+			[2] = 98,
+			[3] = 4,
 		},
 		["Ribbly Screwspigot:55"] = {
 			[1] = 14169,
 			[2] = 97,
 			[3] = 47,
 		},
-		["Lava Elemental:61"] = {
-			[1] = 198105,
-			[2] = 96,
-			[3] = 88,
-		},
-		["Kurzen Headshrinker:34"] = {
-			[1] = 1166,
+		["Enraged Rock Elemental:43"] = {
+			[1] = 2244,
 			[2] = 99,
-			[3] = 4,
+			[3] = 15,
 		},
-		["Chieftain Nek'rosh:32"] = {
-			[1] = 1747,
-			[2] = 13,
-			[3] = 4,
+		["Pyromancer Loregrain:55"] = {
+			[1] = 17842,
+			[2] = 94,
+			[3] = 40,
 		},
-		["Brain Eater:28"] = {
-			[1] = 25,
-			[2] = 81,
-			[3] = 4,
+		["Scarlet Enchanter:54"] = {
+			[1] = 5136,
+			[2] = 97,
+			[3] = 22,
+		},
+		["Atal'ai High Priest:51"] = {
+			[1] = 9852,
+			[2] = 88,
+			[3] = 21,
 		},
 		["Earthen Stonebreaker:44"] = {
 			[1] = 2768,
@@ -6886,10 +6977,10 @@ pfUI_cache = {
 			[2] = 85,
 			[3] = 2,
 		},
-		["Wailing Death:57"] = {
-			[1] = 4564,
-			[2] = 71,
-			[3] = 12,
+		["Blazing Invader:54"] = {
+			[1] = 2705,
+			[2] = 99,
+			[3] = 9,
 		},
 		["Shadowhide Darkweaver:26"] = {
 			[1] = 563,
@@ -6906,15 +6997,15 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 18,
 		},
-		["Kobold Tunneler:6"] = {
-			[1] = 21,
-			[2] = 67,
-			[3] = 4,
-		},
-		["Stone Keeper:46"] = {
-			[1] = 7908,
+		["Thunder Lizard:10"] = {
+			[1] = 173,
 			[2] = 99,
-			[3] = 18,
+			[3] = 6,
+		},
+		["Feeboz:39"] = {
+			[1] = 907,
+			[2] = 45,
+			[3] = 3,
 		},
 		["High Priestess of Thaurissan:60"] = {
 			[1] = 17767,
@@ -6926,10 +7017,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 18,
 		},
-		["Boulderfist Shaman:39"] = {
-			[1] = 3983,
-			[2] = 99,
-			[3] = 31,
+		["Kurzen Elite:36"] = {
+			[1] = 782,
+			[2] = 96,
+			[3] = 1,
 		},
 		["Wailing Guardsman:22"] = {
 			[1] = 2193,
@@ -6956,10 +7047,10 @@ pfUI_cache = {
 			[2] = 93,
 			[3] = 13,
 		},
-		["Barnabus:38"] = {
-			[1] = 2606,
-			[2] = 95,
-			[3] = 13,
+		["Morbent Fel:32"] = {
+			[1] = 3138,
+			[2] = 94,
+			[3] = 11,
 		},
 		["Death's Head Seer:29"] = {
 			[1] = 2816,
@@ -6977,34 +7068,34 @@ pfUI_cache = {
 			[3] = 4,
 		},
 		["Desert Rumbler:57"] = {
-			[1] = 4263,
-			[2] = 93,
-			[3] = 17,
+			[1] = 4232,
+			[2] = 99,
+			[3] = 20,
 		},
-		["Shadowsworn Enforcer:53"] = {
-			[1] = 2916,
-			[2] = 90,
-			[3] = 6,
+		["Houndmaster Grebmar:54"] = {
+			[1] = 20387,
+			[2] = 99,
+			[3] = 49,
 		},
 		["Fireguard Destroyer:57"] = {
 			[1] = 10846,
 			[2] = 99,
 			[3] = 36,
 		},
-		["Sunscale Screecher:15"] = {
-			[1] = 303,
-			[2] = 99,
-			[3] = 14,
-		},
-		["Snapping Crustacean:23"] = {
-			[1] = 1929,
-			[2] = 88,
-			[3] = 20,
-		},
-		["Wastewander Rogue:44"] = {
-			[1] = 2489,
-			[2] = 99,
+		["Gravis Slipknot:36"] = {
+			[1] = 1721,
+			[2] = 94,
 			[3] = 7,
+		},
+		["Son of Arugal:24"] = {
+			[1] = 2199,
+			[2] = 93,
+			[3] = 18,
+		},
+		["Lost One Muckdweller:37"] = {
+			[1] = 1351,
+			[2] = 97,
+			[3] = 3,
 		},
 		["Anvilrage Marshal:57"] = {
 			[1] = 8975,
@@ -7016,10 +7107,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 74,
 		},
-		["Vilebranch Berserker:47"] = {
-			[1] = 6180,
-			[2] = 97,
-			[3] = 24,
+		["Southsea Brigand:12"] = {
+			[1] = 210,
+			[2] = 98,
+			[3] = 7,
 		},
 		["Dunemaul Ogre Mage:46"] = {
 			[1] = 2274,
@@ -7036,10 +7127,10 @@ pfUI_cache = {
 			[2] = 96,
 			[3] = 14,
 		},
-		["Murk Slitherer:45"] = {
-			[1] = 5640,
+		["Witherbark Headhunter:34"] = {
+			[1] = 1290,
 			[2] = 99,
-			[3] = 14,
+			[3] = 10,
 		},
 		["Razorfen Totemic:29"] = {
 			[1] = 2715,
@@ -7051,30 +7142,30 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 11,
 		},
-		["Skeletal Healer:26"] = {
-			[1] = 716,
+		["Twilight Keeper Mayna:60"] = {
+			[1] = 3193,
 			[2] = 99,
-			[3] = 1,
+			[3] = 13,
 		},
-		["Bloodscalp Shaman:33"] = {
-			[1] = 383,
+		["Searing Blade Enforcer:15"] = {
+			[1] = 1157,
 			[2] = 99,
-			[3] = 1,
+			[3] = 29,
 		},
 		["Kul Tiras Marine:7"] = {
 			[1] = 96,
 			[2] = 88,
 			[3] = 4,
 		},
-		["Elder Saltwater Crocolisk:38"] = {
-			[1] = 7748,
-			[2] = 99,
-			[3] = 18,
+		["Jericho:60"] = {
+			[1] = 2800,
+			[2] = 11,
+			[3] = 5,
 		},
-		["Skittering Crustacean:22"] = {
-			[1] = 1694,
-			[2] = 98,
-			[3] = 9,
+		["Blindlight Muckdweller:25"] = {
+			[1] = 2043,
+			[2] = 47,
+			[3] = 12,
 		},
 		["Hulking Mountain Lion:33"] = {
 			[1] = 1231,
@@ -7086,30 +7177,30 @@ pfUI_cache = {
 			[2] = 95,
 			[3] = 9,
 		},
-		["Lava Elemental:62"] = {
-			[1] = 210369,
+		["Elder Rage Scar:49"] = {
+			[1] = 2884,
+			[2] = 96,
+			[3] = 12,
+		},
+		["Defias Pirate:20"] = {
+			[1] = 1403,
 			[2] = 99,
-			[3] = 87,
+			[3] = 18,
 		},
 		["Kurzen Witch Doctor:36"] = {
 			[1] = 417,
 			[2] = 95,
 			[3] = 3,
 		},
-		["Plague Lurker:55"] = {
-			[1] = 3729,
-			[2] = 99,
-			[3] = 16,
-		},
 		["Lava Surger:62"] = {
 			[1] = 189155,
 			[2] = 99,
 			[3] = 86,
 		},
-		["Hatecrest Screamer:41"] = {
-			[1] = 1406,
-			[2] = 98,
-			[3] = 4,
+		["Earthen Stonebreaker:45"] = {
+			[1] = 2783,
+			[2] = 85,
+			[3] = 10,
 		},
 		["Imp Minion:22"] = {
 			[1] = 193,
@@ -7126,55 +7217,55 @@ pfUI_cache = {
 			[2] = 87,
 			[3] = 1,
 		},
-		["Anvilrage Guardsman:51"] = {
-			[1] = 7922,
+		["Ridge Stalker Patriarch:40"] = {
+			[1] = 2238,
+			[2] = 98,
+			[3] = 8,
+		},
+		["Temporal Parasite:57"] = {
+			[1] = 3099,
+			[2] = 63,
+			[3] = 10,
+		},
+		["Deadwood Den Watcher:53"] = {
+			[1] = 3618,
 			[2] = 99,
-			[3] = 30,
-		},
-		["Scourge Champion:60"] = {
-			[1] = 4887,
-			[2] = 99,
-			[3] = 14,
-		},
-		["Defias Footpad:10"] = {
-			[1] = 140,
-			[2] = 97,
-			[3] = 3,
-		},
-		["Giant Plains Creeper:36"] = {
-			[1] = 1634,
-			[2] = 90,
 			[3] = 9,
+		},
+		["Black Ravager Mastiff:26"] = {
+			[1] = 453,
+			[2] = 78,
+			[3] = 1,
 		},
 		["Skeletal Flayer:50"] = {
 			[1] = 3449,
 			[2] = 99,
 			[3] = 12,
 		},
-		["Molten Elemental:14"] = {
-			[1] = 1266,
-			[2] = 99,
-			[3] = 26,
-		},
-		["Deadwood Warrior:48"] = {
-			[1] = 3134,
-			[2] = 99,
-			[3] = 13,
-		},
-		["Ograbisi:55"] = {
-			[1] = 16123,
-			[2] = 85,
-			[3] = 29,
-		},
-		["Defias Pillager:14"] = {
-			[1] = 144,
-			[2] = 65,
-			[3] = 2,
-		},
-		["Witherbark Headhunter:34"] = {
-			[1] = 1290,
-			[2] = 99,
+		["Scarlet Spellbinder:58"] = {
+			[1] = 2968,
+			[2] = 94,
 			[3] = 10,
+		},
+		["Shadowsworn Enforcer:53"] = {
+			[1] = 2916,
+			[2] = 90,
+			[3] = 6,
+		},
+		["Chillwind Ravager:59"] = {
+			[1] = 4807,
+			[2] = 99,
+			[3] = 11,
+		},
+		["Elder Saltwater Crocolisk:38"] = {
+			[1] = 7748,
+			[2] = 99,
+			[3] = 18,
+		},
+		["Stonelash Pincer:56"] = {
+			[1] = 4255,
+			[2] = 99,
+			[3] = 15,
 		},
 		["Starving Buzzard:36"] = {
 			[1] = 1474,
@@ -7191,9 +7282,9 @@ pfUI_cache = {
 			[2] = 86,
 			[3] = 8,
 		},
-		["Morbent Fel:32"] = {
-			[1] = 3138,
-			[2] = 94,
+		["Mountain Lion:33"] = {
+			[1] = 1380,
+			[2] = 99,
 			[3] = 11,
 		},
 		["Redridge Brute:17"] = {
@@ -7211,30 +7302,30 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 12,
 		},
-		["Araj the Summoner:63"] = {
-			[1] = 94577,
-			[2] = 34,
-			[3] = 29,
+		["Razormane Battleguard:10"] = {
+			[1] = 175,
+			[2] = 96,
+			[3] = 5,
 		},
 		["Dredge Crusher:57"] = {
 			[1] = 4297,
 			[2] = 99,
 			[3] = 15,
 		},
-		["Houndmaster Grebmar:54"] = {
-			[1] = 20387,
-			[2] = 99,
-			[3] = 49,
+		["River Crocolisk:30"] = {
+			[1] = 1148,
+			[2] = 86,
+			[3] = 1,
 		},
-		["Skullsplitter Hunter:41"] = {
-			[1] = 1593,
-			[2] = 63,
-			[3] = 3,
-		},
-		["Ok'thor the Breaker:55"] = {
-			[1] = 24936,
+		["Dreadmaul Ogre:45"] = {
+			[1] = 2339,
 			[2] = 99,
-			[3] = 61,
+			[3] = 6,
+		},
+		["Ridge Stalker:36"] = {
+			[1] = 1600,
+			[2] = 97,
+			[3] = 7,
 		},
 		["Blackrock Worg:54"] = {
 			[1] = 3298,
@@ -7251,40 +7342,40 @@ pfUI_cache = {
 			[2] = 97,
 			[3] = 10,
 		},
-		["Lost One Muckdweller:37"] = {
-			[1] = 1351,
-			[2] = 97,
-			[3] = 3,
+		["Centipaar Tunneler:47"] = {
+			[1] = 2330,
+			[2] = 96,
+			[3] = 8,
 		},
 		["Bloodscalp Mystic:34"] = {
 			[1] = 1175,
 			[2] = 82,
 			[3] = 2,
 		},
-		["Mottled Screecher:25"] = {
-			[1] = 746,
-			[2] = 96,
+		["Kurzen Jungle Fighter:32"] = {
+			[1] = 865,
+			[2] = 94,
 			[3] = 4,
 		},
-		["Searing Blade Cultist:15"] = {
-			[1] = 1224,
+		["Blackrock Champion:24"] = {
+			[1] = 569,
 			[2] = 99,
-			[3] = 35,
+			[3] = 7,
 		},
 		["Blackrock Slayer:56"] = {
 			[1] = 4007,
 			[2] = 99,
 			[3] = 14,
 		},
-		["Colonel Kurzen:40"] = {
-			[1] = 4846,
-			[2] = 86,
-			[3] = 10,
+		["Young Fleshripper:11"] = {
+			[1] = 84,
+			[2] = 96,
+			[3] = 2,
 		},
-		["Angerclaw Grizzly:51"] = {
-			[1] = 4334,
-			[2] = 71,
-			[3] = 13,
+		["Skeletal Warrior:22"] = {
+			[1] = 599,
+			[2] = 99,
+			[3] = 2,
 		},
 		["Mosshide Trapper:24"] = {
 			[1] = 696,
@@ -7301,20 +7392,20 @@ pfUI_cache = {
 			[2] = 98,
 			[3] = 11,
 		},
-		["Narg the Taskmaster:10"] = {
-			[1] = 362,
-			[2] = 60,
-			[3] = 4,
+		["Dustbelcher Brute:39"] = {
+			[1] = 1646,
+			[2] = 95,
+			[3] = 7,
 		},
 		["Atal'ai Deathwalker:51"] = {
 			[1] = 11147,
 			[2] = 81,
 			[3] = 32,
 		},
-		["Defias Cutpurse:5"] = {
-			[1] = 100,
-			[2] = 95,
-			[3] = 4,
+		["Deep Strider:49"] = {
+			[1] = 2577,
+			[2] = 97,
+			[3] = 6,
 		},
 		["Aggem Thorncurse:30"] = {
 			[1] = 9912,
@@ -7341,9 +7432,9 @@ pfUI_cache = {
 			[2] = 95,
 			[3] = 3,
 		},
-		["Mosshide Gnoll:21"] = {
-			[1] = 552,
-			[2] = 99,
+		["Murkgill Warrior:35"] = {
+			[1] = 1271,
+			[2] = 96,
 			[3] = 4,
 		},
 		["High Protector Lorik:61"] = {
@@ -7356,55 +7447,55 @@ pfUI_cache = {
 			[2] = 94,
 			[3] = 10,
 		},
-		["Razorfen Warrior:25"] = {
-			[1] = 2270,
+		["Voodoo Troll:7"] = {
+			[1] = 130,
 			[2] = 97,
-			[3] = 16,
-		},
-		["Defias Pirate:20"] = {
-			[1] = 1403,
-			[2] = 99,
-			[3] = 18,
-		},
-		["Syndicate Conjuror:35"] = {
-			[1] = 3051,
-			[2] = 99,
-			[3] = 25,
-		},
-		["Durotar Tiger:7"] = {
-			[1] = 137,
-			[2] = 79,
 			[3] = 4,
 		},
-		["Redridge Poacher:17"] = {
-			[1] = 384,
-			[2] = 87,
-			[3] = 2,
+		["Anvilrage Guardsman:51"] = {
+			[1] = 7922,
+			[2] = 99,
+			[3] = 30,
+		},
+		["Brain Eater:28"] = {
+			[1] = 25,
+			[2] = 81,
+			[3] = 4,
+		},
+		["Crimson Defender:61"] = {
+			[1] = 31532,
+			[2] = 94,
+			[3] = 44,
+		},
+		["Grim Patron:54"] = {
+			[1] = 3800,
+			[2] = 10,
+			[3] = 1,
 		},
 		["Defias Strip Miner:19"] = {
 			[1] = 349,
 			[2] = 79,
 			[3] = 3,
 		},
-		["Hakkari Frostwing:49"] = {
-			[1] = 10329,
-			[2] = 98,
-			[3] = 35,
-		},
-		["Witherbark Headhunter:35"] = {
-			[1] = 1462,
+		["Doomforge Dragoon:57"] = {
+			[1] = 8917,
 			[2] = 99,
-			[3] = 10,
+			[3] = 26,
+		},
+		["Diseased Flayer:59"] = {
+			[1] = 5067,
+			[2] = 99,
+			[3] = 12,
 		},
 		["Bloodsail Mage:41"] = {
 			[1] = 1517,
 			[2] = 79,
 			[3] = 3,
 		},
-		["Skorki:45"] = {
-			[1] = 4750,
-			[2] = 6,
-			[3] = 4,
+		["Sunscale Screecher:13"] = {
+			[1] = 230,
+			[2] = 96,
+			[3] = 9,
 		},
 		["Glasshide Gazer:46"] = {
 			[1] = 3074,
@@ -7426,95 +7517,95 @@ pfUI_cache = {
 			[2] = 79,
 			[3] = 12,
 		},
-		["Roka:60"] = {
-			[1] = 4798,
-			[2] = 78,
-			[3] = 8,
+		["Murk Slitherer:45"] = {
+			[1] = 5640,
+			[2] = 99,
+			[3] = 14,
 		},
 		["Stonevault Mauler:45"] = {
 			[1] = 6444,
 			[2] = 99,
 			[3] = 24,
 		},
-		["Murloc:6"] = {
-			[1] = 122,
-			[2] = 84,
-			[3] = 5,
+		["Defias Looter:13"] = {
+			[1] = 112,
+			[2] = 77,
+			[3] = 3,
 		},
 		["Anvilrage Footman:53"] = {
 			[1] = 8366,
 			[2] = 99,
 			[3] = 37,
 		},
-		["Chillwind Ravager:59"] = {
-			[1] = 4807,
+		["Dark Keeper Ofgut:55"] = {
+			[1] = 7625,
+			[2] = 54,
+			[3] = 10,
+		},
+		["Deadwood Shaman:53"] = {
+			[1] = 3242,
 			[2] = 99,
-			[3] = 11,
+			[3] = 13,
 		},
-		["Emperor Dagran Thaurissan:-1"] = {
-			[1] = 43936,
-			[2] = 99,
-			[3] = 80,
-		},
-		["Dustbelcher Brute:39"] = {
-			[1] = 1646,
-			[2] = 95,
-			[3] = 7,
-		},
-		["Dark Iron Taskmaster:47"] = {
-			[1] = 2651,
-			[2] = 99,
-			[3] = 14,
-		},
-		["Mountain Lion:33"] = {
-			[1] = 1380,
-			[2] = 99,
-			[3] = 11,
-		},
-		["River Crocolisk:30"] = {
-			[1] = 1148,
-			[2] = 86,
-			[3] = 1,
-		},
-		["Mosshide Gnoll:20"] = {
-			[1] = 517,
-			[2] = 84,
-			[3] = 1,
-		},
-		["Stonevault Shaman:40"] = {
-			[1] = 1647,
-			[2] = 94,
-			[3] = 6,
-		},
-		["Young Wetlands Crocolisk:21"] = {
-			[1] = 395,
-			[2] = 91,
+		["Yowler:25"] = {
+			[1] = 521,
+			[2] = 87,
 			[3] = 3,
 		},
-		["Twilight Loreseeker:24"] = {
-			[1] = 1839,
-			[2] = 78,
-			[3] = 10,
+		["Deep Lurker:48"] = {
+			[1] = 8224,
+			[2] = 95,
+			[3] = 28,
+		},
+		["Highland Fleshstalker:36"] = {
+			[1] = 1631,
+			[2] = 99,
+			[3] = 5,
 		},
 		["Giant Wetlands Crocolisk:26"] = {
 			[1] = 825,
 			[2] = 97,
 			[3] = 6,
 		},
-		["Blackrock Champion:24"] = {
-			[1] = 569,
+		["Mosshide Gnoll:20"] = {
+			[1] = 517,
+			[2] = 84,
+			[3] = 1,
+		},
+		["Skittering Crustacean:22"] = {
+			[1] = 1694,
+			[2] = 98,
+			[3] = 9,
+		},
+		["Cursed Atal'ai:45"] = {
+			[1] = 4817,
 			[2] = 99,
-			[3] = 7,
+			[3] = 13,
+		},
+		["Flamekin Spitter:51"] = {
+			[1] = 897,
+			[2] = 97,
+			[3] = 4,
+		},
+		["Stitched Horror:57"] = {
+			[1] = 4650,
+			[2] = 99,
+			[3] = 26,
+		},
+		["Dark Iron Taskmaster:47"] = {
+			[1] = 2651,
+			[2] = 99,
+			[3] = 14,
 		},
 		["Garr:-1"] = {
 			[1] = 1682718,
 			[2] = 90,
 			[3] = 90,
 		},
-		["Atal'ai High Priest:51"] = {
-			[1] = 9852,
-			[2] = 88,
-			[3] = 21,
+		["Razorfen Earthbreaker:30"] = {
+			[1] = 2828,
+			[2] = 73,
+			[3] = 13,
 		},
 		["Gordunni Battlemaster:46"] = {
 			[1] = 2422,
@@ -7526,15 +7617,15 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 10,
 		},
-		["Broken Cadaver:58"] = {
-			[1] = 4064,
+		["Rumbling Exile:38"] = {
+			[1] = 1557,
 			[2] = 99,
-			[3] = 11,
+			[3] = 15,
 		},
-		["Southsea Brigand:12"] = {
-			[1] = 210,
-			[2] = 98,
-			[3] = 7,
+		["Twilight Marauder:59"] = {
+			[1] = 5759,
+			[2] = 55,
+			[3] = 17,
 		},
 		["Southsea Dock Worker:45"] = {
 			[1] = 2845,
@@ -7566,40 +7657,40 @@ pfUI_cache = {
 			[2] = 64,
 			[3] = 2,
 		},
-		["Bluegill Murloc:21"] = {
-			[1] = 554,
-			[2] = 93,
-			[3] = 3,
+		["Ogom the Wretched:53"] = {
+			[1] = 20292,
+			[2] = 46,
+			[3] = 20,
 		},
-		["Shadowforge Chanter:38"] = {
-			[1] = 1249,
-			[2] = 99,
+		["Bile Spewer:61"] = {
+			[1] = 30275,
+			[2] = 63,
+			[3] = 41,
+		},
+		["Narg the Taskmaster:10"] = {
+			[1] = 362,
+			[2] = 60,
 			[3] = 4,
 		},
-		["Ferocious Rage Scar:47"] = {
-			[1] = 2478,
-			[2] = 99,
-			[3] = 9,
-		},
-		["Kul Tiras Marine:6"] = {
-			[1] = 74,
-			[2] = 89,
-			[3] = 4,
+		["Dreadmaul Mauler:54"] = {
+			[1] = 3584,
+			[2] = 87,
+			[3] = 11,
 		},
 		["Carrion Grub:55"] = {
 			[1] = 4002,
 			[2] = 99,
 			[3] = 18,
 		},
-		["Cliff Breaker:55"] = {
-			[1] = 8356,
-			[2] = 99,
-			[3] = 32,
+		["Temporal Parasite:55"] = {
+			[1] = 3399,
+			[2] = 75,
+			[3] = 9,
 		},
-		["Enraged Rock Elemental:43"] = {
-			[1] = 2244,
+		["Green Sludge:46"] = {
+			[1] = 2797,
 			[2] = 99,
-			[3] = 15,
+			[3] = 11,
 		},
 		["Anger'rel:58"] = {
 			[1] = 26015,
@@ -7616,15 +7707,15 @@ pfUI_cache = {
 			[2] = 93,
 			[3] = 6,
 		},
-		["Earthen Guardian:45"] = {
-			[1] = 774,
-			[2] = 46,
-			[3] = 4,
+		["Searing Roc:47"] = {
+			[1] = 2469,
+			[2] = 95,
+			[3] = 8,
 		},
-		["Green Sludge:46"] = {
-			[1] = 2797,
+		["Fireguard Destroyer:59"] = {
+			[1] = 12851,
 			[2] = 99,
-			[3] = 11,
+			[3] = 36,
 		},
 		["Blazing Fireguard:55"] = {
 			[1] = 10470,
@@ -7636,50 +7727,50 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 18,
 		},
-		["Skeleton:25"] = {
-			[1] = 561,
-			[2] = 86,
-			[3] = 4,
-		},
-		["Scorched Guardian:44"] = {
-			[1] = 6326,
-			[2] = 99,
-			[3] = 31,
-		},
-		["Black Drake:51"] = {
-			[1] = 7335,
-			[2] = 99,
-			[3] = 24,
-		},
-		["Ridge Huntress:38"] = {
-			[1] = 1529,
+		["Elder Mystic Razorsnout:15"] = {
+			[1] = 1200,
 			[2] = 94,
-			[3] = 6,
+			[3] = 17,
 		},
-		["Yowler:25"] = {
-			[1] = 521,
-			[2] = 87,
-			[3] = 3,
-		},
-		["Enthralled Atal'ai:46"] = {
-			[1] = 5552,
-			[2] = 94,
+		["Ice Thistle Patriarch:58"] = {
+			[1] = 4465,
+			[2] = 99,
 			[3] = 14,
+		},
+		["Patchwork Horror:58"] = {
+			[1] = 36249,
+			[2] = 99,
+			[3] = 62,
+		},
+		["Bloodroar the Stalker:49"] = {
+			[1] = 7495,
+			[2] = 86,
+			[3] = 19,
+		},
+		["Sea Spray:47"] = {
+			[1] = 3236,
+			[2] = 99,
+			[3] = 9,
+		},
+		["Fen Creeper:25"] = {
+			[1] = 595,
+			[2] = 97,
+			[3] = 5,
 		},
 		["Lorgus Jett:26"] = {
 			[1] = 1962,
 			[2] = 99,
 			[3] = 10,
 		},
-		["Deep Lurker:48"] = {
-			[1] = 8224,
-			[2] = 95,
-			[3] = 28,
+		["Lost One Mudlurker:35"] = {
+			[1] = 1093,
+			[2] = 90,
+			[3] = 4,
 		},
-		["Skeletal Warrior:22"] = {
-			[1] = 599,
+		["Plague Lurker:55"] = {
+			[1] = 3729,
 			[2] = 99,
-			[3] = 2,
+			[3] = 16,
 		},
 		["Slavering Worg:19"] = {
 			[1] = 1566,
@@ -7696,35 +7787,35 @@ pfUI_cache = {
 			[2] = 92,
 			[3] = 2,
 		},
-		["Highland Fleshstalker:36"] = {
-			[1] = 1631,
-			[2] = 99,
-			[3] = 5,
+		["Young Black Ravager:23"] = {
+			[1] = 264,
+			[2] = 98,
+			[3] = 1,
 		},
 		["Ember Worg:52"] = {
 			[1] = 3523,
 			[2] = 97,
 			[3] = 18,
 		},
-		["Stonelash Pincer:56"] = {
-			[1] = 4255,
-			[2] = 99,
-			[3] = 15,
+		["Deathlash Scorpid:55"] = {
+			[1] = 3884,
+			[2] = 98,
+			[3] = 21,
 		},
 		["Razormane Quilboar:6"] = {
 			[1] = 120,
 			[2] = 99,
 			[3] = 6,
 		},
-		["Atal'ai Witch Doctor:50"] = {
-			[1] = 7062,
-			[2] = 99,
-			[3] = 21,
+		["Razormane Wolf:8"] = {
+			[1] = 204,
+			[2] = 82,
+			[3] = 2,
 		},
-		["Sea Spray:47"] = {
-			[1] = 3236,
+		["Twilight's Hammer Torturer:51"] = {
+			[1] = 6307,
 			[2] = 99,
-			[3] = 9,
+			[3] = 22,
 		},
 		["Southsea Pirate:45"] = {
 			[1] = 2755,
@@ -7736,20 +7827,20 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 13,
 		},
-		["Bloodsail Swabby:42"] = {
-			[1] = 1994,
-			[2] = 91,
-			[3] = 5,
+		["Nightbane Shadow Weaver:27"] = {
+			[1] = 360,
+			[2] = 93,
+			[3] = 3,
 		},
 		["Stonevault Seer:40"] = {
 			[1] = 3798,
 			[2] = 99,
 			[3] = 10,
 		},
-		["Stitched Horror:57"] = {
-			[1] = 4650,
+		["Hive'Ashi Drone:57"] = {
+			[1] = 3558,
 			[2] = 99,
-			[3] = 26,
+			[3] = 14,
 		},
 		["Savannah Huntress:12"] = {
 			[1] = 219,
@@ -7761,40 +7852,40 @@ pfUI_cache = {
 			[2] = 93,
 			[3] = 9,
 		},
-		["Hukku:52"] = {
-			[1] = 9841,
-			[2] = 98,
-			[3] = 20,
+		["Defias Overseer:18"] = {
+			[1] = 1400,
+			[2] = 22,
+			[3] = 3,
 		},
 		["Dunemaul Warlock:48"] = {
 			[1] = 2372,
 			[2] = 99,
 			[3] = 21,
 		},
-		["Hatecrest Warrior:43"] = {
-			[1] = 2272,
-			[2] = 98,
-			[3] = 7,
+		["Crimson Monk:60"] = {
+			[1] = 18070,
+			[2] = 93,
+			[3] = 51,
 		},
 		["Gibbering Ghoul:56"] = {
 			[1] = 4263,
 			[2] = 99,
 			[3] = 14,
 		},
+		["Defias Cutpurse:5"] = {
+			[1] = 100,
+			[2] = 95,
+			[3] = 4,
+		},
+		["Voidwalker Minion:53"] = {
+			[1] = 754,
+			[2] = 90,
+			[3] = 1,
+		},
 		["Vilebranch Headhunter:47"] = {
 			[1] = 6060,
 			[2] = 97,
 			[3] = 23,
-		},
-		["Lo'Grosh:39"] = {
-			[1] = 1323,
-			[2] = 96,
-			[3] = 2,
-		},
-		["Twilight's Hammer Torturer:51"] = {
-			[1] = 6307,
-			[2] = 99,
-			[3] = 22,
 		},
 		["Scarlet Mage:55"] = {
 			[1] = 2302,
@@ -7806,20 +7897,20 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 9,
 		},
-		["Dreadmaul Mauler:54"] = {
-			[1] = 3584,
-			[2] = 87,
-			[3] = 11,
-		},
-		["Temporal Parasite:55"] = {
-			[1] = 3399,
-			[2] = 75,
+		["Revelosh:40"] = {
+			[1] = 5693,
+			[2] = 40,
 			[3] = 9,
 		},
-		["Voidwalker Minion:53"] = {
-			[1] = 754,
-			[2] = 90,
-			[3] = 1,
+		["Syndicate Conjuror:35"] = {
+			[1] = 3051,
+			[2] = 99,
+			[3] = 25,
+		},
+		["Cauldron Lord Razarch:56"] = {
+			[1] = 2412,
+			[2] = 87,
+			[3] = 7,
 		},
 		["Shadowsworn Dreadweaver:55"] = {
 			[1] = 2823,
@@ -7836,15 +7927,15 @@ pfUI_cache = {
 			[2] = 51,
 			[3] = 19,
 		},
-		["Ogom the Wretched:53"] = {
-			[1] = 20292,
-			[2] = 46,
-			[3] = 20,
+		["Cookie:19"] = {
+			[1] = 4940,
+			[2] = 5,
+			[3] = 1,
 		},
-		["Revelosh:40"] = {
-			[1] = 5693,
-			[2] = 40,
-			[3] = 9,
+		["Sand Skitterer:56"] = {
+			[1] = 4190,
+			[2] = 99,
+			[3] = 16,
 		},
 		["Fenrus the Devourer:25"] = {
 			[1] = 11804,
@@ -7861,25 +7952,25 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 8,
 		},
-		["Felstalker:4"] = {
-			[1] = 72,
+		["Enthralled Atal'ai:46"] = {
+			[1] = 5552,
 			[2] = 94,
-			[3] = 5,
+			[3] = 14,
 		},
 		["Onyxia's Elite Guard:60"] = {
 			[1] = 18979,
 			[2] = 28,
 			[3] = 7,
 		},
-		["Dread Weaver:58"] = {
-			[1] = 3232,
-			[2] = 90,
-			[3] = 6,
+		["Kolkar Stormer:14"] = {
+			[1] = 183,
+			[2] = 98,
+			[3] = 5,
 		},
-		["Centipaar Tunneler:47"] = {
-			[1] = 2330,
-			[2] = 96,
-			[3] = 8,
+		["Defias Pillager:15"] = {
+			[1] = 296,
+			[2] = 93,
+			[3] = 4,
 		},
 		["Molten Elemental:15"] = {
 			[1] = 1445,
@@ -7896,10 +7987,10 @@ pfUI_cache = {
 			[2] = 89,
 			[3] = 3,
 		},
-		["Elder Stranglethorn Tiger:35"] = {
-			[1] = 1488,
-			[2] = 97,
-			[3] = 3,
+		["Burning Blade Apprentice:10"] = {
+			[1] = 135,
+			[2] = 82,
+			[3] = 7,
 		},
 		["Stone Golem:39"] = {
 			[1] = 1695,
@@ -7916,20 +8007,20 @@ pfUI_cache = {
 			[2] = 79,
 			[3] = 1,
 		},
-		["Hatecrest Screamer:42"] = {
-			[1] = 1068,
-			[2] = 98,
-			[3] = 6,
+		["Skeletal Sorcerer:52"] = {
+			[1] = 2936,
+			[2] = 99,
+			[3] = 13,
 		},
-		["Lost One Mudlurker:35"] = {
-			[1] = 1093,
-			[2] = 90,
-			[3] = 4,
+		["Deep Strider:47"] = {
+			[1] = 2355,
+			[2] = 99,
+			[3] = 9,
 		},
-		["Young Black Ravager:23"] = {
-			[1] = 264,
-			[2] = 98,
-			[3] = 1,
+		["Dust Stormer:56"] = {
+			[1] = 4320,
+			[2] = 99,
+			[3] = 12,
 		},
 		["Magma Elemental:46"] = {
 			[1] = 2576,
@@ -7941,60 +8032,60 @@ pfUI_cache = {
 			[2] = 98,
 			[3] = 23,
 		},
-		["Lord Incendius:57"] = {
-			[1] = 24324,
-			[2] = 99,
-			[3] = 51,
+		["Voidwalker Minion:14"] = {
+			[1] = 120,
+			[2] = 82,
+			[3] = 1,
 		},
 		["Anvilrage Officer:55"] = {
 			[1] = 9170,
 			[2] = 99,
 			[3] = 25,
 		},
-		["Razormane Wolf:8"] = {
-			[1] = 204,
-			[2] = 82,
-			[3] = 2,
-		},
-		["Deep Strider:47"] = {
-			[1] = 2355,
+		["Living Decay:55"] = {
+			[1] = 4217,
 			[2] = 99,
-			[3] = 9,
+			[3] = 17,
+		},
+		["Black Drake:51"] = {
+			[1] = 7335,
+			[2] = 99,
+			[3] = 24,
 		},
 		["Cursed Marine:28"] = {
 			[1] = 929,
 			[2] = 95,
 			[3] = 6,
 		},
-		["Blazing Fireguard:54"] = {
-			[1] = 8863,
-			[2] = 99,
-			[3] = 33,
-		},
-		["Skullsplitter Mystic:39"] = {
-			[1] = 1506,
-			[2] = 89,
-			[3] = 2,
-		},
-		["Elder Mystic Razorsnout:15"] = {
-			[1] = 1200,
-			[2] = 94,
-			[3] = 17,
-		},
-		["Gor'tesh:54"] = {
-			[1] = 3769,
-			[2] = 96,
-			[3] = 12,
-		},
 		["Nightmare Scalebane:50"] = {
 			[1] = 12173,
 			[2] = 98,
 			[3] = 42,
 		},
-		["Foreman Jerris:62"] = {
-			[1] = 11753,
-			[2] = 91,
-			[3] = 32,
+		["Morganth:27"] = {
+			[1] = 1624,
+			[2] = 99,
+			[3] = 6,
+		},
+		["Carrion Grub:54"] = {
+			[1] = 3731,
+			[2] = 99,
+			[3] = 17,
+		},
+		["Crimson Rifleman:60"] = {
+			[1] = 643,
+			[2] = 14,
+			[3] = 1,
+		},
+		["Slavering Ghoul:50"] = {
+			[1] = 3198,
+			[2] = 99,
+			[3] = 14,
+		},
+		["Scarlet Lumberjack:54"] = {
+			[1] = 3953,
+			[2] = 97,
+			[3] = 12,
 		},
 		["Defias Trapper:13"] = {
 			[1] = 216,
@@ -8016,50 +8107,50 @@ pfUI_cache = {
 			[2] = 34,
 			[3] = 27,
 		},
-		["Morganth:27"] = {
-			[1] = 1624,
-			[2] = 99,
-			[3] = 6,
-		},
-		["Agathelos the Raging:33"] = {
-			[1] = 9670,
-			[2] = 99,
-			[3] = 31,
-		},
-		["Patchwork Horror:58"] = {
-			[1] = 36623,
-			[2] = 96,
-			[3] = 59,
-		},
-		["Slavering Ghoul:50"] = {
-			[1] = 3198,
-			[2] = 99,
-			[3] = 14,
-		},
-		["Defias Rogue Wizard:10"] = {
-			[1] = 123,
-			[2] = 94,
-			[3] = 8,
-		},
-		["Master Digger:15"] = {
-			[1] = 323,
-			[2] = 79,
-			[3] = 1,
+		["Burning Exile:39"] = {
+			[1] = 1887,
+			[2] = 97,
+			[3] = 9,
 		},
 		["Shazzrah:-1"] = {
 			[1] = 1218548,
 			[2] = 74,
 			[3] = 74,
 		},
-		["Crimson Rifleman:60"] = {
-			[1] = 643,
-			[2] = 14,
+		["Elder Stranglethorn Tiger:35"] = {
+			[1] = 1488,
+			[2] = 97,
+			[3] = 3,
+		},
+		["Atal'ai Witch Doctor:50"] = {
+			[1] = 7062,
+			[2] = 99,
+			[3] = 21,
+		},
+		["Shadowforge Senator:57"] = {
+			[1] = 3123,
+			[2] = 99,
+			[3] = 15,
+		},
+		["Master Digger:15"] = {
+			[1] = 323,
+			[2] = 79,
 			[3] = 1,
 		},
-		["Fineous Darkvire:54"] = {
-			[1] = 44756,
-			[2] = 86,
-			[3] = 57,
+		["Bloodhound Mastiff:55"] = {
+			[1] = 4293,
+			[2] = 96,
+			[3] = 14,
+		},
+		["Felstalker:4"] = {
+			[1] = 72,
+			[2] = 94,
+			[3] = 5,
+		},
+		["Agathelos the Raging:33"] = {
+			[1] = 9670,
+			[2] = 99,
+			[3] = 31,
 		},
 		["Voodoo Troll:8"] = {
 			[1] = 128,
@@ -8071,35 +8162,35 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 3,
 		},
-		["Defias Pillager:15"] = {
-			[1] = 296,
-			[2] = 93,
-			[3] = 4,
+		["Anub'shiah:55"] = {
+			[1] = 24463,
+			[2] = 99,
+			[3] = 57,
 		},
-		["Cursed Mage:55"] = {
-			[1] = 2606,
-			[2] = 97,
-			[3] = 6,
+		["Warpwood Moss Flayer:53"] = {
+			[1] = 3133,
+			[2] = 95,
+			[3] = 10,
 		},
 		["Torn Fin Oracle:31"] = {
 			[1] = 1018,
 			[2] = 94,
 			[3] = 11,
 		},
-		["Thundering Exile:39"] = {
-			[1] = 1605,
-			[2] = 99,
-			[3] = 10,
+		["Bloodscalp Axe Thrower:33"] = {
+			[1] = 1347,
+			[2] = 92,
+			[3] = 4,
 		},
 		["Crimson Bodyguard:58"] = {
 			[1] = 11396,
 			[2] = 22,
 			[3] = 8,
 		},
-		["Nightmare Whelp:50"] = {
-			[1] = 3569,
-			[2] = 92,
-			[3] = 15,
+		["Rotting Ghoul:54"] = {
+			[1] = 3662,
+			[2] = 99,
+			[3] = 21,
 		},
 		["Sand Skitterer:55"] = {
 			[1] = 3776,
@@ -8121,20 +8212,20 @@ pfUI_cache = {
 			[2] = 98,
 			[3] = 5,
 		},
-		["Dust Stormer:56"] = {
-			[1] = 4320,
+		["Stonelash Scorpid:55"] = {
+			[1] = 4246,
 			[2] = 99,
-			[3] = 12,
+			[3] = 22,
 		},
-		["Voidwalker Minion:14"] = {
-			[1] = 120,
-			[2] = 82,
-			[3] = 1,
+		["Searing Blade Warlock:13"] = {
+			[1] = 758,
+			[2] = 99,
+			[3] = 16,
 		},
-		["Cannon Master Willey:60"] = {
-			[1] = 38261,
-			[2] = 48,
-			[3] = 39,
+		["Roc:42"] = {
+			[1] = 2116,
+			[2] = 96,
+			[3] = 9,
 		},
 		["Centipaar Worker:48"] = {
 			[1] = 2319,
@@ -8166,45 +8257,45 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 35,
 		},
-		["Rotting Ghoul:54"] = {
-			[1] = 3662,
-			[2] = 99,
-			[3] = 21,
+		["Defias Rogue Wizard:10"] = {
+			[1] = 123,
+			[2] = 94,
+			[3] = 8,
 		},
 		["Shadowforge Peasant:55"] = {
-			[1] = 3851,
-			[2] = 85,
-			[3] = 10,
+			[1] = 4377,
+			[2] = 94,
+			[3] = 12,
 		},
-		["Stonelash Scorpid:55"] = {
-			[1] = 4246,
-			[2] = 99,
-			[3] = 22,
+		["Skeletal Guardian:56"] = {
+			[1] = 5572,
+			[2] = 97,
+			[3] = 24,
 		},
-		["Hive'Ashi Drone:57"] = {
-			[1] = 3558,
-			[2] = 99,
-			[3] = 14,
+		["Gorishi Wasp:51"] = {
+			[1] = 3873,
+			[2] = 94,
+			[3] = 9,
 		},
-		["Cauldron Lord Razarch:56"] = {
-			[1] = 2412,
-			[2] = 87,
-			[3] = 7,
+		["Nightmare Whelp:50"] = {
+			[1] = 3569,
+			[2] = 92,
+			[3] = 15,
 		},
 		["Hatecrest Wave Rider:42"] = {
 			[1] = 1949,
 			[2] = 97,
 			[3] = 6,
 		},
-		["Roc:42"] = {
-			[1] = 2116,
-			[2] = 96,
-			[3] = 9,
-		},
-		["Carrion Grub:54"] = {
-			[1] = 3731,
+		["Thundering Exile:39"] = {
+			[1] = 1605,
 			[2] = 99,
-			[3] = 17,
+			[3] = 10,
+		},
+		["Smoldar:50"] = {
+			[1] = 8998,
+			[2] = 99,
+			[3] = 39,
 		},
 		["Tamed Battleboar:26"] = {
 			[1] = 1000,
@@ -8216,30 +8307,30 @@ pfUI_cache = {
 			[2] = 78,
 			[3] = 8,
 		},
-		["Smoldar:50"] = {
-			[1] = 8998,
+		["Dread Weaver:59"] = {
+			[1] = 3007,
 			[2] = 99,
-			[3] = 39,
+			[3] = 7,
 		},
 		["Syndicate Sentry:36"] = {
 			[1] = 1829,
 			[2] = 91,
 			[3] = 12,
 		},
-		["Dread Weaver:59"] = {
-			[1] = 3007,
-			[2] = 99,
-			[3] = 7,
+		["Defias Henchman:16"] = {
+			[1] = 1341,
+			[2] = 22,
+			[3] = 2,
 		},
 		["Benny Blaanco:15"] = {
 			[1] = 331,
 			[2] = 71,
 			[3] = 4,
 		},
-		["Scarlet Archmage:56"] = {
-			[1] = 6142,
-			[2] = 86,
-			[3] = 18,
+		["Razorfen Beastmaster:31"] = {
+			[1] = 3560,
+			[2] = 42,
+			[3] = 15,
 		},
 		["Cauldron Lord Malvinious:55"] = {
 			[1] = 3126,
@@ -8251,40 +8342,40 @@ pfUI_cache = {
 			[2] = 73,
 			[3] = 1,
 		},
-		["Scarlet Lumberjack:54"] = {
-			[1] = 3953,
-			[2] = 97,
-			[3] = 12,
+		["Brain Eater:29"] = {
+			[1] = 985,
+			[2] = 98,
+			[3] = 3,
 		},
 		["Azure Templar:60"] = {
 			[1] = 8099,
 			[2] = 99,
 			[3] = 40,
 		},
-		["Living Decay:55"] = {
-			[1] = 4217,
+		["Gordunni Mage-Lord:45"] = {
+			[1] = 1841,
+			[2] = 97,
+			[3] = 5,
+		},
+		["Razorfen Quilguard:26"] = {
+			[1] = 2274,
 			[2] = 99,
 			[3] = 17,
 		},
-		["Tempered War Golem:45"] = {
-			[1] = 2615,
-			[2] = 78,
-			[3] = 9,
-		},
-		["Shadowforge Senator:57"] = {
-			[1] = 3123,
-			[2] = 99,
-			[3] = 15,
+		["Lost One Chieftain:39"] = {
+			[1] = 1222,
+			[2] = 87,
+			[3] = 3,
 		},
 		["Twilight Dark Shaman:47"] = {
 			[1] = 4902,
 			[2] = 90,
 			[3] = 14,
 		},
-		["Death's Head Adept:28"] = {
-			[1] = 2682,
-			[2] = 96,
-			[3] = 14,
+		["Baron Geddon:-1"] = {
+			[1] = 1828455,
+			[2] = 33,
+			[3] = 33,
 		},
 		["Blackrock Sorcerer:55"] = {
 			[1] = 2938,
@@ -8296,10 +8387,10 @@ pfUI_cache = {
 			[2] = 97,
 			[3] = 7,
 		},
-		["Redridge Mongrel:15"] = {
-			[1] = 326,
-			[2] = 85,
-			[3] = 2,
+		["Servant of Arkkoroc:54"] = {
+			[1] = 9444,
+			[2] = 91,
+			[3] = 23,
 		},
 		["Bloodtalon Taillasher:7"] = {
 			[1] = 93,
@@ -8336,35 +8427,35 @@ pfUI_cache = {
 			[2] = 72,
 			[3] = 12,
 		},
-		["Savannah Prowler:14"] = {
-			[1] = 260,
-			[2] = 99,
-			[3] = 6,
-		},
-		["Dope'rel:58"] = {
-			[1] = 21571,
-			[2] = 96,
-			[3] = 50,
-		},
 		["Aku'mai Snapjaw:26"] = {
 			[1] = 2528,
 			[2] = 97,
 			[3] = 22,
 		},
-		["Bloodscalp Axe Thrower:33"] = {
-			[1] = 1347,
-			[2] = 92,
+		["Witherbark Shadow Hunter:36"] = {
+			[1] = 1188,
+			[2] = 99,
+			[3] = 8,
+		},
+		["Redridge Mystic:19"] = {
+			[1] = 376,
+			[2] = 99,
 			[3] = 4,
+		},
+		["Scourge Soldier:53"] = {
+			[1] = 3783,
+			[2] = 99,
+			[3] = 12,
+		},
+		["Death's Head Adept:28"] = {
+			[1] = 2682,
+			[2] = 96,
+			[3] = 14,
 		},
 		["Rockwing Screecher:60"] = {
 			[1] = 17517,
 			[2] = 99,
 			[3] = 47,
-		},
-		["Defias Henchman:16"] = {
-			[1] = 1341,
-			[2] = 22,
-			[3] = 2,
 		},
 		["Vile Priestess Hexx:51"] = {
 			[1] = 10229,
@@ -8376,19 +8467,19 @@ pfUI_cache = {
 			[2] = 72,
 			[3] = 12,
 		},
-		["Searing Blade Warlock:13"] = {
-			[1] = 758,
-			[2] = 99,
-			[3] = 16,
+		["Narillasanz:44"] = {
+			[1] = 15417,
+			[2] = 61,
+			[3] = 46,
 		},
-		["Deep Stinger:53"] = {
-			[1] = 7712,
-			[2] = 68,
-			[3] = 22,
+		["Frostsaber Stalker:60"] = {
+			[1] = 4783,
+			[2] = 97,
+			[3] = 10,
 		},
-		["Gorishi Wasp:51"] = {
-			[1] = 3873,
-			[2] = 94,
+		["Tempered War Golem:45"] = {
+			[1] = 2615,
+			[2] = 78,
 			[3] = 9,
 		},
 		["Rotting Ghoul:55"] = {
@@ -8396,45 +8487,45 @@ pfUI_cache = {
 			[2] = 97,
 			[3] = 15,
 		},
-		["Narillasanz:44"] = {
-			[1] = 15417,
-			[2] = 61,
-			[3] = 46,
+		["Kregg Keelhaul:47"] = {
+			[1] = 1982,
+			[2] = 74,
+			[3] = 4,
 		},
 		["Shadowsworn Cultist:51"] = {
 			[1] = 3288,
 			[2] = 99,
 			[3] = 9,
 		},
-		["Wrath Hammer Construct:57"] = {
-			[1] = 13240,
-			[2] = 96,
-			[3] = 42,
+		["Haunting Vision:58"] = {
+			[1] = 3362,
+			[2] = 99,
+			[3] = 12,
 		},
-		["Princess Moira Bronzebeard:60"] = {
-			[1] = 20089,
-			[2] = 97,
-			[3] = 42,
+		["Dredge Striker:56"] = {
+			[1] = 3704,
+			[2] = 99,
+			[3] = 11,
 		},
 		["Twilight Emissary:55"] = {
 			[1] = 8669,
 			[2] = 92,
 			[3] = 28,
 		},
-		["Lava Reaver:62"] = {
-			[1] = 235089,
+		["Plaguehound Runt:54"] = {
+			[1] = 3895,
 			[2] = 98,
-			[3] = 93,
+			[3] = 16,
 		},
 		["Bloodscalp Headhunter:36"] = {
 			[1] = 1259,
 			[2] = 98,
 			[3] = 6,
 		},
-		["Razorfen Beastmaster:31"] = {
-			[1] = 3560,
-			[2] = 42,
-			[3] = 15,
+		["Imp Minion:10"] = {
+			[1] = 64,
+			[2] = 91,
+			[3] = 1,
 		},
 		["Burning Blade Thug:9"] = {
 			[1] = 173,
@@ -8446,10 +8537,10 @@ pfUI_cache = {
 			[2] = 51,
 			[3] = 7,
 		},
-		["Razorfen Quilguard:26"] = {
-			[1] = 2274,
+		["Servant of Grol:53"] = {
+			[1] = 3974,
 			[2] = 99,
-			[3] = 17,
+			[3] = 12,
 		},
 		["Gobbler:22"] = {
 			[1] = 375,
@@ -8466,50 +8557,50 @@ pfUI_cache = {
 			[2] = 24,
 			[3] = 3,
 		},
-		["Diseased Wolf:54"] = {
-			[1] = 3894,
-			[2] = 99,
-			[3] = 16,
+		["Jungle Stalker:40"] = {
+			[1] = 1385,
+			[2] = 91,
+			[3] = 5,
 		},
-		["Brain Eater:29"] = {
-			[1] = 985,
-			[2] = 98,
-			[3] = 3,
+		["Syndicate Footpad:33"] = {
+			[1] = 1211,
+			[2] = 94,
+			[3] = 8,
 		},
 		["Razorfen Geomancer:25"] = {
 			[1] = 2200,
 			[2] = 4,
 			[3] = 1,
 		},
-		["Doomforge Craftsman:54"] = {
-			[1] = 4071,
-			[2] = 95,
-			[3] = 16,
+		["Princess Moira Bronzebeard:60"] = {
+			[1] = 20089,
+			[2] = 97,
+			[3] = 42,
 		},
-		["Lost One Chieftain:39"] = {
-			[1] = 1222,
-			[2] = 87,
-			[3] = 3,
+		["Lava Reaver:62"] = {
+			[1] = 235089,
+			[2] = 98,
+			[3] = 93,
 		},
-		["Gordunni Warlord:47"] = {
-			[1] = 2185,
+		["Diseased Wolf:54"] = {
+			[1] = 3894,
 			[2] = 99,
-			[3] = 5,
+			[3] = 16,
 		},
 		["Rusty Harvest Golem:9"] = {
 			[1] = 135,
 			[2] = 85,
 			[3] = 3,
 		},
-		["Jungle Stalker:40"] = {
-			[1] = 1385,
-			[2] = 91,
+		["Bloodsail Sea Dog:45"] = {
+			[1] = 2185,
+			[2] = 96,
 			[3] = 5,
 		},
-		["Servant of Arkkoroc:54"] = {
-			[1] = 9444,
-			[2] = 91,
-			[3] = 23,
+		["Myzrael:44"] = {
+			[1] = 11886,
+			[2] = 97,
+			[3] = 28,
 		},
 		["Vilebranch Wolf Pup:46"] = {
 			[1] = 2482,
@@ -8526,10 +8617,10 @@ pfUI_cache = {
 			[2] = 86,
 			[3] = 3,
 		},
-		["Ironpatch:43"] = {
-			[1] = 2320,
-			[2] = 98,
-			[3] = 6,
+		["Scarlet Warder:53"] = {
+			[1] = 6504,
+			[2] = 99,
+			[3] = 14,
 		},
 		["Marsh Inkspewer:43"] = {
 			[1] = 2211,
@@ -8541,20 +8632,20 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 21,
 		},
-		["Baron Geddon:-1"] = {
-			[1] = 1828455,
-			[2] = 33,
-			[3] = 33,
+		["Defias Pirate:19"] = {
+			[1] = 1116,
+			[2] = 92,
+			[3] = 7,
 		},
 		["Centipaar Stinger:48"] = {
 			[1] = 3169,
 			[2] = 88,
 			[3] = 7,
 		},
-		["Witherbark Shadow Hunter:36"] = {
-			[1] = 1188,
+		["Cliff Thunderer:53"] = {
+			[1] = 7843,
 			[2] = 99,
-			[3] = 8,
+			[3] = 21,
 		},
 		["Kolkar Marauder:16"] = {
 			[1] = 549,
@@ -8566,15 +8657,15 @@ pfUI_cache = {
 			[2] = 87,
 			[3] = 11,
 		},
-		["Cliff Thunderer:53"] = {
-			[1] = 7843,
+		["Dragonmaw Grunt:21"] = {
+			[1] = 556,
 			[2] = 99,
-			[3] = 21,
+			[3] = 3,
 		},
-		["Scourge Soldier:53"] = {
-			[1] = 3783,
+		["Gordunni Warlord:47"] = {
+			[1] = 2185,
 			[2] = 99,
-			[3] = 12,
+			[3] = 5,
 		},
 		["Frostsaber Huntress:58"] = {
 			[1] = 4194,
@@ -8596,60 +8687,60 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 20,
 		},
-		["Razorfen Stalker:29"] = {
-			[1] = 2436,
-			[2] = 37,
-			[3] = 5,
+		["Ironpatch:43"] = {
+			[1] = 2320,
+			[2] = 98,
+			[3] = 6,
 		},
-		["Nightbane Shadow Weaver:28"] = {
-			[1] = 800,
-			[2] = 92,
-			[3] = 3,
+		["Blacky:55"] = {
+			[1] = 1739,
+			[2] = 13,
+			[3] = 1,
 		},
-		["Frostsaber Stalker:60"] = {
-			[1] = 4783,
-			[2] = 97,
-			[3] = 10,
+		["Hulking Feral Scar:46"] = {
+			[1] = 2723,
+			[2] = 99,
+			[3] = 8,
 		},
 		["Greater Plainstrider:11"] = {
 			[1] = 214,
 			[2] = 90,
 			[3] = 5,
 		},
-		["Frenzied Pterrordax:54"] = {
-			[1] = 3960,
-			[2] = 95,
-			[3] = 12,
+		["Mottled Boar:2"] = {
+			[1] = 56,
+			[2] = 99,
+			[3] = 6,
 		},
 		["Shadowsworn Enforcer:54"] = {
 			[1] = 3786,
 			[2] = 94,
 			[3] = 12,
 		},
-		["High Interrogator Gerstahn:54"] = {
-			[1] = 19797,
-			[2] = 86,
-			[3] = 44,
+		["Muckrake:40"] = {
+			[1] = 5115,
+			[2] = 84,
+			[3] = 18,
 		},
 		["Wastewander Rogue:43"] = {
 			[1] = 2180,
 			[2] = 97,
 			[3] = 6,
 		},
-		["Stormwind Guard:23"] = {
-			[1] = 1267,
-			[2] = 3,
-			[3] = 2,
+		["Crag Coyote:35"] = {
+			[1] = 1526,
+			[2] = 93,
+			[3] = 6,
 		},
-		["Muckrake:40"] = {
-			[1] = 5115,
-			[2] = 84,
-			[3] = 18,
+		["Shadowforge Warrior:39"] = {
+			[1] = 1747,
+			[2] = 98,
+			[3] = 11,
 		},
-		["Blacky:55"] = {
-			[1] = 1739,
-			[2] = 13,
-			[3] = 1,
+		["Nightbane Shadow Weaver:28"] = {
+			[1] = 800,
+			[2] = 92,
+			[3] = 3,
 		},
 		["Prowler:10"] = {
 			[1] = 210,
@@ -8671,15 +8762,15 @@ pfUI_cache = {
 			[2] = 97,
 			[3] = 19,
 		},
-		["Hukku's Succubus:52"] = {
-			[1] = 1687,
-			[2] = 36,
-			[3] = 5,
+		["Witherbark Venomblood:43"] = {
+			[1] = 2146,
+			[2] = 96,
+			[3] = 11,
 		},
-		["Imp Minion:10"] = {
-			[1] = 64,
-			[2] = 91,
-			[3] = 1,
+		["Rabid Crag Coyote:42"] = {
+			[1] = 2153,
+			[2] = 99,
+			[3] = 10,
 		},
 		["Deadwood Den Watcher:54"] = {
 			[1] = 3924,
@@ -8691,45 +8782,45 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 16,
 		},
-		["Crag Coyote:35"] = {
-			[1] = 1526,
-			[2] = 93,
-			[3] = 6,
+		["Razorfen Stalker:29"] = {
+			[1] = 2436,
+			[2] = 37,
+			[3] = 5,
 		},
 		["Crypt Beast:59"] = {
 			[1] = 36008,
 			[2] = 99,
 			[3] = 53,
 		},
-		["Dredge Striker:56"] = {
-			[1] = 3704,
+		["Crushridge Brute:36"] = {
+			[1] = 1295,
 			[2] = 99,
-			[3] = 11,
+			[3] = 8,
 		},
-		["Witherbark Venomblood:43"] = {
-			[1] = 2146,
-			[2] = 96,
-			[3] = 11,
+		["Crushridge Enforcer:39"] = {
+			[1] = 4632,
+			[2] = 99,
+			[3] = 31,
 		},
 		["Mangy Wolf:6"] = {
 			[1] = 71,
 			[2] = 99,
 			[3] = 5,
 		},
+		["Chillwind Ravager:58"] = {
+			[1] = 4373,
+			[2] = 97,
+			[3] = 15,
+		},
 		["Mountain Yeti:33"] = {
 			[1] = 1039,
 			[2] = 98,
 			[3] = 7,
 		},
-		["Twilight Acolyte:24"] = {
-			[1] = 4520,
-			[2] = 20,
-			[3] = 6,
-		},
-		["Plaguehound Runt:54"] = {
-			[1] = 3895,
+		["Blackrock Tracker:23"] = {
+			[1] = 534,
 			[2] = 98,
-			[3] = 16,
+			[3] = 5,
 		},
 		["Lesser Water Elemental:37"] = {
 			[1] = 1311,
@@ -8741,19 +8832,19 @@ pfUI_cache = {
 			[2] = 96,
 			[3] = 9,
 		},
-		["Mottled Boar:1"] = {
-			[1] = 42,
-			[2] = 96,
-			[3] = 4,
+		["Stormwind Guard:23"] = {
+			[1] = 1267,
+			[2] = 3,
+			[3] = 2,
 		},
 		["Ragefire Shaman:13"] = {
 			[1] = 904,
 			[2] = 99,
 			[3] = 19,
 		},
-		["Death's Head Acolyte:28"] = {
-			[1] = 2354,
-			[2] = 81,
+		["Crypt Slayer:59"] = {
+			[1] = 4612,
+			[2] = 99,
 			[3] = 15,
 		},
 		["Syndicate Spy:35"] = {
@@ -8761,25 +8852,25 @@ pfUI_cache = {
 			[2] = 92,
 			[3] = 10,
 		},
-		["Myzrael:44"] = {
-			[1] = 11886,
-			[2] = 97,
-			[3] = 28,
+		["Stonelash Scorpid:54"] = {
+			[1] = 3565,
+			[2] = 99,
+			[3] = 13,
 		},
 		["Gloom'rel:58"] = {
-			[1] = 24452,
+			[1] = 24395,
+			[2] = 96,
+			[3] = 51,
+		},
+		["Wastewander Shadow Mage:42"] = {
+			[1] = 1175,
 			[2] = 95,
-			[3] = 50,
-		},
-		["Scarlet Warder:53"] = {
-			[1] = 6504,
-			[2] = 99,
-			[3] = 14,
-		},
-		["Defias Pirate:19"] = {
-			[1] = 1116,
-			[2] = 92,
 			[3] = 7,
+		},
+		["Buzzard:37"] = {
+			[1] = 1670,
+			[2] = 97,
+			[3] = 9,
 		},
 		["Twilight Reaver:25"] = {
 			[1] = 2028,
@@ -8801,10 +8892,10 @@ pfUI_cache = {
 			[2] = 1,
 			[3] = 1,
 		},
-		["Stonelash Scorpid:54"] = {
-			[1] = 3565,
-			[2] = 99,
-			[3] = 13,
+		["Death's Head Acolyte:28"] = {
+			[1] = 2354,
+			[2] = 81,
+			[3] = 15,
 		},
 		["Rotting Sludge:55"] = {
 			[1] = 4115,
@@ -8821,30 +8912,30 @@ pfUI_cache = {
 			[2] = 94,
 			[3] = 13,
 		},
-		["Atal'ai Warrior:50"] = {
-			[1] = 14004,
+		["Hive'Ashi Drone:58"] = {
+			[1] = 3868,
 			[2] = 99,
-			[3] = 40,
+			[3] = 19,
 		},
 		["Cursed Atal'ai:46"] = {
 			[1] = 7218,
 			[2] = 92,
 			[3] = 18,
 		},
-		["Anvilrage Guardsman:52"] = {
-			[1] = 8210,
-			[2] = 99,
-			[3] = 31,
+		["Spawn of Hakkar:51"] = {
+			[1] = 28927,
+			[2] = 95,
+			[3] = 71,
 		},
 		["Fallenroot Shadowstalker:23"] = {
 			[1] = 1599,
 			[2] = 99,
 			[3] = 15,
 		},
-		["Old Town Thug:26"] = {
-			[1] = 336,
-			[2] = 85,
-			[3] = 2,
+		["Imp Minion:12"] = {
+			[1] = 83,
+			[2] = 82,
+			[3] = 1,
 		},
 		["Crimson Guardsman:60"] = {
 			[1] = 18163,
@@ -8861,10 +8952,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 5,
 		},
-		["Shadowhide Brute:23"] = {
-			[1] = 493,
+		["Hammerfall Grunt:34"] = {
+			[1] = 1096,
 			[2] = 99,
-			[3] = 4,
+			[3] = 11,
 		},
 		["Shadowforge Tunneler:36"] = {
 			[1] = 1606,
@@ -8876,15 +8967,15 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 58,
 		},
-		["Mottled Boar:2"] = {
-			[1] = 56,
-			[2] = 99,
-			[3] = 6,
+		["War Reaver:55"] = {
+			[1] = 4055,
+			[2] = 81,
+			[3] = 16,
 		},
-		["Nefaru:34"] = {
-			[1] = 4337,
+		["Snapjaw:30"] = {
+			[1] = 1126,
 			[2] = 99,
-			[3] = 8,
+			[3] = 10,
 		},
 		["Molten Destroyer:63"] = {
 			[1] = 300005,
@@ -8896,20 +8987,20 @@ pfUI_cache = {
 			[2] = 98,
 			[3] = 5,
 		},
+		["Anvilrage Guardsman:52"] = {
+			[1] = 8210,
+			[2] = 99,
+			[3] = 31,
+		},
 		["Barak Kodobane:16"] = {
 			[1] = 282,
 			[2] = 77,
 			[3] = 8,
 		},
-		["Snapjaw:30"] = {
-			[1] = 1126,
+		["Boulderfist Enforcer:34"] = {
+			[1] = 1312,
 			[2] = 99,
 			[3] = 10,
-		},
-		["Tormented Officer:23"] = {
-			[1] = 1517,
-			[2] = 55,
-			[3] = 12,
 		},
 		["Venture Co. Strip Miner:41"] = {
 			[1] = 1820,
@@ -8926,15 +9017,15 @@ pfUI_cache = {
 			[2] = 76,
 			[3] = 20,
 		},
-		["Crimson Elite:60"] = {
-			[1] = 8683,
+		["Nefaru:34"] = {
+			[1] = 4337,
 			[2] = 99,
-			[3] = 29,
+			[3] = 8,
 		},
-		["Rabid Crag Coyote:42"] = {
-			[1] = 2153,
-			[2] = 99,
-			[3] = 10,
+		["Taragaman the Hungerer:16"] = {
+			[1] = 2512,
+			[2] = 26,
+			[3] = 19,
 		},
 		["Ridge Stalker Patriarch:41"] = {
 			[1] = 1918,
@@ -8951,85 +9042,85 @@ pfUI_cache = {
 			[2] = 96,
 			[3] = 7,
 		},
-		["Crushridge Brute:36"] = {
-			[1] = 1295,
-			[2] = 99,
-			[3] = 8,
+		["Shadowfang Darksoul:20"] = {
+			[1] = 1429,
+			[2] = 97,
+			[3] = 6,
 		},
 		["Redridge Drudger:21"] = {
 			[1] = 264,
 			[2] = 97,
 			[3] = 4,
 		},
-		["Razormane Wolf:7"] = {
-			[1] = 148,
-			[2] = 95,
-			[3] = 3,
+		["Shadowhide Brute:23"] = {
+			[1] = 493,
+			[2] = 99,
+			[3] = 4,
+		},
+		["Crimson Elite:60"] = {
+			[1] = 8683,
+			[2] = 99,
+			[3] = 29,
+		},
+		["Ice Thistle Matriarch:56"] = {
+			[1] = 4186,
+			[2] = 99,
+			[3] = 18,
+		},
+		["Shadowforge Citizen:55"] = {
+			[1] = 5798,
+			[2] = 79,
+			[3] = 10,
+		},
+		["Thauris Balgarr:57"] = {
+			[1] = 5036,
+			[2] = 89,
+			[3] = 15,
 		},
 		["Tharil'zun:24"] = {
 			[1] = 1599,
 			[2] = 81,
 			[3] = 7,
 		},
-		["Blackrock Tracker:23"] = {
-			[1] = 534,
-			[2] = 98,
-			[3] = 5,
-		},
-		["Znort:39"] = {
-			[1] = 1769,
-			[2] = 98,
-			[3] = 21,
-		},
-		["Crypt Slayer:59"] = {
-			[1] = 4612,
-			[2] = 99,
-			[3] = 15,
-		},
-		["Ice Thistle Yeti:55"] = {
-			[1] = 3655,
-			[2] = 99,
-			[3] = 16,
-		},
 		["Deadwood Shaman:54"] = {
 			[1] = 2587,
 			[2] = 99,
 			[3] = 10,
-		},
-		["Imp Minion:12"] = {
-			[1] = 83,
-			[2] = 82,
-			[3] = 1,
-		},
-		["Kobold Laborer:4"] = {
-			[1] = 53,
-			[2] = 92,
-			[3] = 2,
 		},
 		["Hungering Wraith:56"] = {
 			[1] = 4081,
 			[2] = 99,
 			[3] = 17,
 		},
-		["Wastewander Shadow Mage:42"] = {
-			[1] = 1175,
-			[2] = 95,
-			[3] = 7,
+		["Kobold Laborer:4"] = {
+			[1] = 53,
+			[2] = 92,
+			[3] = 2,
 		},
-		["War Reaver:55"] = {
-			[1] = 4055,
-			[2] = 81,
+		["Znort:39"] = {
+			[1] = 1769,
+			[2] = 98,
+			[3] = 21,
+		},
+		["Ice Thistle Yeti:55"] = {
+			[1] = 3655,
+			[2] = 99,
 			[3] = 16,
+		},
+		["Crimson Guardsman:59"] = {
+			[1] = 18205,
+			[2] = 61,
+			[3] = 31,
+		},
+		["Nightbane Vile Fang:30"] = {
+			[1] = 674,
+			[2] = 91,
+			[3] = 3,
 		},
 		["Hahk'Zor:54"] = {
 			[1] = 10160,
 			[2] = 91,
 			[3] = 29,
-		},
-		["Hive'Ashi Drone:58"] = {
-			[1] = 3868,
-			[2] = 99,
-			[3] = 19,
 		},
 		["Young Goretusk:13"] = {
 			[1] = 237,
@@ -9041,50 +9132,50 @@ pfUI_cache = {
 			[2] = 92,
 			[3] = 11,
 		},
-		["Spawn of Hakkar:51"] = {
-			[1] = 28927,
-			[2] = 95,
-			[3] = 71,
+		["Scarlet Sentinel:55"] = {
+			[1] = 8593,
+			[2] = 94,
+			[3] = 30,
 		},
-		["Lava Surger:61"] = {
-			[1] = 171458,
+		["Shadowforge Ambusher:43"] = {
+			[1] = 1429,
 			[2] = 99,
-			[3] = 74,
-		},
-		["Dustbelcher Brute:40"] = {
-			[1] = 1509,
-			[2] = 93,
 			[3] = 5,
+		},
+		["Bloodtalon Taillasher:8"] = {
+			[1] = 165,
+			[2] = 99,
+			[3] = 6,
 		},
 		["Grand Inquisitor Isillien:63"] = {
 			[1] = 114255,
 			[2] = 85,
 			[3] = 31,
 		},
-		["Crimson Guardsman:59"] = {
-			[1] = 18205,
-			[2] = 61,
-			[3] = 31,
+		["Twilight's Hammer Ambassador:58"] = {
+			[1] = 5561,
+			[2] = 99,
+			[3] = 19,
 		},
-		["Dredge Worm:53"] = {
-			[1] = 5300,
-			[2] = 94,
-			[3] = 20,
+		["Bloodhound:50"] = {
+			[1] = 4069,
+			[2] = 99,
+			[3] = 21,
 		},
 		["Tamed Battleboar:23"] = {
 			[1] = 1678,
 			[2] = 74,
 			[3] = 14,
 		},
+		["Quarry Slave:46"] = {
+			[1] = 2287,
+			[2] = 97,
+			[3] = 5,
+		},
 		["Scarlet Knight:54"] = {
 			[1] = 3902,
 			[2] = 96,
 			[3] = 15,
-		},
-		["Boulderfist Enforcer:34"] = {
-			[1] = 1312,
-			[2] = 99,
-			[3] = 10,
 		},
 		["Fel Steed:20"] = {
 			[1] = 2129,
@@ -9111,69 +9202,69 @@ pfUI_cache = {
 			[2] = 91,
 			[3] = 12,
 		},
-		["Scarlet Sentinel:55"] = {
-			[1] = 8593,
-			[2] = 94,
-			[3] = 30,
-		},
-		["Shadowfang Darksoul:20"] = {
-			[1] = 1429,
-			[2] = 97,
-			[3] = 6,
-		},
-		["Black Guard Sentry:60"] = {
-			[1] = 12158,
-			[2] = 97,
-			[3] = 30,
-		},
-		["Ice Thistle Matriarch:56"] = {
-			[1] = 4186,
+		["Skeletal Horror:23"] = {
+			[1] = 648,
 			[2] = 99,
-			[3] = 18,
-		},
-		["Desert Rumbler:56"] = {
-			[1] = 3875,
-			[2] = 99,
-			[3] = 17,
-		},
-		["Shrike Bat:38"] = {
-			[1] = 4597,
-			[2] = 91,
-			[3] = 14,
-		},
-		["Vilebranch Headhunter:46"] = {
-			[1] = 5631,
-			[2] = 99,
-			[3] = 26,
-		},
-		["Odo the Blindwatcher:24"] = {
-			[1] = 3362,
-			[2] = 92,
-			[3] = 26,
+			[3] = 1,
 		},
 		["Razorclaw the Butcher:22"] = {
 			[1] = 2884,
 			[2] = 99,
 			[3] = 15,
 		},
+		["Dustbelcher Brute:40"] = {
+			[1] = 1509,
+			[2] = 93,
+			[3] = 5,
+		},
+		["Wave Strider:47"] = {
+			[1] = 2842,
+			[2] = 98,
+			[3] = 11,
+		},
+		["Elder Black Bear:12"] = {
+			[1] = 140,
+			[2] = 48,
+			[3] = 1,
+		},
+		["Shrike Bat:38"] = {
+			[1] = 4597,
+			[2] = 91,
+			[3] = 14,
+		},
+		["Darkmist Silkspinner:39"] = {
+			[1] = 1758,
+			[2] = 99,
+			[3] = 6,
+		},
+		["Odo the Blindwatcher:24"] = {
+			[1] = 3362,
+			[2] = 92,
+			[3] = 26,
+		},
+		["Desert Rumbler:56"] = {
+			[1] = 3875,
+			[2] = 99,
+			[3] = 17,
+		},
 		["Aku'mai:28"] = {
 			[1] = 8916,
 			[2] = 75,
 			[3] = 39,
 		},
-		["Armored Scorpid:7"] = {
-			[1] = 135,
-			[2] = 98,
-			[3] = 6,
+		["Boss Tho'grun:42"] = {
+			[1] = 2197,
+			[2] = 60,
+			[3] = 3,
 		},
-		["Twilight's Hammer Ambassador:58"] = {
-			[1] = 5561,
-			[2] = 99,
-			[3] = 19,
+		["Razormane Thornweaver:10"] = {
+			[1] = 142,
+			[2] = 79,
+			[3] = 5,
 		},
-		["Nightbane Vile Fang:30"] = {
-			[1] = 674,
-			[2] = 91,
+		["Murkgill Oracle:36"] = {
+			[1] = 1436,
+			[2] = 93,
 			[3] = 3,
 		},
 		["Redridge Thrasher:15"] = {
@@ -9181,30 +9272,30 @@ pfUI_cache = {
 			[2] = 79,
 			[3] = 2,
 		},
-		["Crimson Conjuror:59"] = {
-			[1] = 16654,
-			[2] = 95,
-			[3] = 37,
+		["Torn Screamer:55"] = {
+			[1] = 4311,
+			[2] = 76,
+			[3] = 11,
 		},
-		["Magma Elemental:47"] = {
-			[1] = 2708,
-			[2] = 98,
-			[3] = 14,
+		["Enraged Feral Scar:45"] = {
+			[1] = 2525,
+			[2] = 99,
+			[3] = 9,
 		},
-		["Mindless Undead:60"] = {
-			[1] = 2228,
-			[2] = 86,
-			[3] = 6,
+		["Thistleshrub Dew Collector:47"] = {
+			[1] = 2921,
+			[2] = 99,
+			[3] = 10,
 		},
 		["Thistleshrub Rootshaper:50"] = {
 			[1] = 2542,
 			[2] = 99,
 			[3] = 7,
 		},
-		["Shadowforge Ambusher:43"] = {
-			[1] = 1429,
+		["Corrupted Bloodtalon Scythemaw:10"] = {
+			[1] = 176,
 			[2] = 99,
-			[3] = 5,
+			[3] = 6,
 		},
 		["Stonevault Brawler:44"] = {
 			[1] = 6180,
@@ -9216,15 +9307,15 @@ pfUI_cache = {
 			[2] = 68,
 			[3] = 1,
 		},
-		["Death Singer:58"] = {
-			[1] = 4712,
-			[2] = 99,
-			[3] = 7,
-		},
-		["Bloodtalon Taillasher:8"] = {
-			[1] = 165,
-			[2] = 99,
+		["Armored Scorpid:7"] = {
+			[1] = 135,
+			[2] = 98,
 			[3] = 6,
+		},
+		["Sleeby:40"] = {
+			[1] = 963,
+			[2] = 58,
+			[3] = 5,
 		},
 		["Deep Lurker:47"] = {
 			[1] = 7979,
@@ -9246,39 +9337,39 @@ pfUI_cache = {
 			[2] = 50,
 			[3] = 5,
 		},
-		["Thistleshrub Dew Collector:47"] = {
-			[1] = 2921,
-			[2] = 99,
-			[3] = 10,
+		["Silvermane Stalker:48"] = {
+			[1] = 2970,
+			[2] = 98,
+			[3] = 20,
 		},
-		["Bloodhound:50"] = {
-			[1] = 4069,
+		["Blazing Elemental:46"] = {
+			[1] = 2727,
 			[2] = 99,
-			[3] = 21,
+			[3] = 14,
 		},
 		["Malor the Zealous:60"] = {
 			[1] = 42127,
 			[2] = 99,
 			[3] = 69,
 		},
-		["Quarry Slave:46"] = {
-			[1] = 2287,
-			[2] = 97,
-			[3] = 5,
+		["Thuzadin Shadowcaster:58"] = {
+			[1] = 15589,
+			[2] = 99,
+			[3] = 40,
 		},
-		["Silvermane Stalker:48"] = {
-			[1] = 2970,
-			[2] = 98,
-			[3] = 20,
+		["Dustbelcher Mauler:41"] = {
+			[1] = 1953,
+			[2] = 93,
+			[3] = 10,
 		},
 		["Flesh Eater:24"] = {
 			[1] = 689,
 			[2] = 99,
 			[3] = 1,
 		},
-		["Blazing Elemental:46"] = {
-			[1] = 2727,
-			[2] = 99,
+		["Magma Elemental:47"] = {
+			[1] = 2708,
+			[2] = 98,
 			[3] = 14,
 		},
 		["Crypt Crawler:60"] = {
@@ -9291,10 +9382,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 64,
 		},
-		["Elder Black Bear:12"] = {
-			[1] = 140,
-			[2] = 48,
-			[3] = 1,
+		["Dark Iron Lookout:48"] = {
+			[1] = 2860,
+			[2] = 97,
+			[3] = 15,
 		},
 		["Blighted Surge:55"] = {
 			[1] = 3914,
@@ -9306,75 +9397,75 @@ pfUI_cache = {
 			[2] = 97,
 			[3] = 4,
 		},
-		["Wretched Lost One:47"] = {
-			[1] = 2487,
-			[2] = 88,
-			[3] = 7,
+		["Crimson Conjuror:59"] = {
+			[1] = 16654,
+			[2] = 95,
+			[3] = 37,
 		},
-		["Razorfen Beastmaster:30"] = {
-			[1] = 3325,
-			[2] = 54,
-			[3] = 18,
+		["Defias Taskmaster:19"] = {
+			[1] = 1668,
+			[2] = 91,
+			[3] = 17,
 		},
 		["Tangled Horror:41"] = {
 			[1] = 1295,
 			[2] = 92,
 			[3] = 3,
 		},
-		["Wave Strider:47"] = {
-			[1] = 2842,
-			[2] = 98,
-			[3] = 11,
+		["Atal'ai Corpse Eater:49"] = {
+			[1] = 6374,
+			[2] = 92,
+			[3] = 26,
 		},
-		["Darkmist Silkspinner:39"] = {
-			[1] = 1758,
-			[2] = 99,
+		["Razormane Scout:7"] = {
+			[1] = 136,
+			[2] = 97,
 			[3] = 6,
 		},
-		["Boss Tho'grun:42"] = {
-			[1] = 2197,
-			[2] = 60,
-			[3] = 3,
+		["Centipaar Stinger:49"] = {
+			[1] = 2545,
+			[2] = 90,
+			[3] = 6,
 		},
 		["Bloodscalp Berserker:36"] = {
 			[1] = 1060,
 			[2] = 75,
 			[3] = 3,
 		},
-		["Jergosh the Invoker:16"] = {
-			[1] = 2368,
-			[2] = 31,
-			[3] = 11,
-		},
-		["Southsea Cannoneer:13"] = {
-			[1] = 243,
+		["Stonevault Cave Hunter:37"] = {
+			[1] = 4338,
 			[2] = 99,
-			[3] = 5,
+			[3] = 17,
 		},
-		["Hammerfall Peon:34"] = {
-			[1] = 1376,
-			[2] = 89,
-			[3] = 11,
+		["Mosshide Trapper:23"] = {
+			[1] = 485,
+			[2] = 92,
+			[3] = 3,
+		},
+		["Riverpaw Runt:9"] = {
+			[1] = 53,
+			[2] = 34,
+			[3] = 2,
 		},
 		["Dredge Striker:55"] = {
 			[1] = 3707,
 			[2] = 99,
 			[3] = 20,
 		},
-		["Stonevault Cave Hunter:37"] = {
-			[1] = 4338,
-			[2] = 99,
-			[3] = 17,
+		["Wretched Lost One:47"] = {
+			[1] = 2487,
+			[2] = 88,
+			[3] = 7,
 		},
-		["Deadwood Gardener:48"] = {
-			[1] = 3299,
+		["Southsea Cannoneer:13"] = {
+			[1] = 243,
 			[2] = 99,
-			[3] = 11,
+			[3] = 5,
 		},
-		["Torn Screamer:55"] = {
-			[1] = 4311,
-			[2] = 76,
-			[3] = 11,
+		["Lordaeron Veteran:60"] = {
+			[1] = 57754,
+			[2] = 58,
+			[3] = 54,
 		},
 		["Skeletal Terror:52"] = {
 			[1] = 3479,
@@ -9386,35 +9477,35 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 13,
 		},
+		["Gorlash:47"] = {
+			[1] = 8266,
+			[2] = 89,
+			[3] = 20,
+		},
 		["Magmus:-1"] = {
 			[1] = 51405,
 			[2] = 99,
 			[3] = 84,
 		},
-		["Fireguard:54"] = {
-			[1] = 10782,
-			[2] = 97,
-			[3] = 41,
-		},
-		["Riverpaw Runt:9"] = {
-			[1] = 53,
-			[2] = 34,
-			[3] = 2,
-		},
-		["Carrion Lurker:52"] = {
-			[1] = 3185,
-			[2] = 95,
-			[3] = 16,
-		},
-		["Sleeby:40"] = {
-			[1] = 963,
-			[2] = 58,
+		["Redridge Alpha:22"] = {
+			[1] = 559,
+			[2] = 92,
 			[3] = 5,
 		},
-		["Dark Iron Lookout:48"] = {
-			[1] = 2860,
-			[2] = 97,
-			[3] = 15,
+		["Razorfen Beastmaster:30"] = {
+			[1] = 3325,
+			[2] = 54,
+			[3] = 18,
+		},
+		["Mottled Scytheclaw:25"] = {
+			[1] = 765,
+			[2] = 99,
+			[3] = 4,
+		},
+		["Shadowforge Citizen:56"] = {
+			[1] = 3191,
+			[2] = 81,
+			[3] = 11,
 		},
 		["Ice Thistle Matriarch:57"] = {
 			[1] = 3956,
@@ -9426,20 +9517,20 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 10,
 		},
-		["Lordaeron Veteran:60"] = {
-			[1] = 57754,
-			[2] = 58,
-			[3] = 54,
+		["Quilguard Champion:30"] = {
+			[1] = 3412,
+			[2] = 99,
+			[3] = 32,
 		},
 		["Black Dragon Whelp:17"] = {
 			[1] = 153,
 			[2] = 94,
 			[3] = 2,
 		},
-		["Thuzadin Shadowcaster:58"] = {
-			[1] = 15589,
-			[2] = 99,
-			[3] = 40,
+		["Crimson Guardsman:58"] = {
+			[1] = 15972,
+			[2] = 50,
+			[3] = 28,
 		},
 		["Blighted Surge:54"] = {
 			[1] = 3698,
@@ -9456,10 +9547,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 15,
 		},
-		["Shadowforge Citizen:56"] = {
-			[1] = 3191,
-			[2] = 81,
-			[3] = 11,
+		["Frenzied Plaguehound:58"] = {
+			[1] = 4507,
+			[2] = 95,
+			[3] = 13,
 		},
 		["Singer:34"] = {
 			[1] = 2383,
@@ -9476,20 +9567,20 @@ pfUI_cache = {
 			[2] = 71,
 			[3] = 3,
 		},
-		["Saturated Ooze:47"] = {
-			[1] = 10945,
-			[2] = 38,
-			[3] = 11,
+		["Twilight Avenger:59"] = {
+			[1] = 4716,
+			[2] = 99,
+			[3] = 19,
 		},
 		["Shadowforge Commander:40"] = {
 			[1] = 1995,
 			[2] = 88,
 			[3] = 6,
 		},
-		["Gorlash:47"] = {
-			[1] = 8266,
+		["Hammerfall Peon:34"] = {
+			[1] = 1376,
 			[2] = 89,
-			[3] = 20,
+			[3] = 11,
 		},
 		["Daggerspine Siren:31"] = {
 			[1] = 1059,
@@ -9501,20 +9592,20 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 27,
 		},
-		["Atal'ai Corpse Eater:49"] = {
-			[1] = 6374,
-			[2] = 92,
-			[3] = 26,
-		},
-		["Twilight Dark Shaman:48"] = {
-			[1] = 4980,
+		["Glassweb Spider:45"] = {
+			[1] = 2421,
 			[2] = 99,
 			[3] = 14,
 		},
-		["Defias Taskmaster:19"] = {
-			[1] = 1668,
-			[2] = 91,
-			[3] = 17,
+		["Scorching Elemental:53"] = {
+			[1] = 3144,
+			[2] = 82,
+			[3] = 9,
+		},
+		["Shadowsworn Thug:52"] = {
+			[1] = 3326,
+			[2] = 99,
+			[3] = 12,
 		},
 		["Guzzling Patron:53"] = {
 			[1] = 2675,
@@ -9551,10 +9642,10 @@ pfUI_cache = {
 			[2] = 92,
 			[3] = 6,
 		},
-		["Gnus:60"] = {
-			[1] = 2040,
-			[2] = 5,
-			[3] = 1,
+		["Kurzen Witch Doctor:37"] = {
+			[1] = 1000,
+			[2] = 96,
+			[3] = 3,
 		},
 		["Kobold Digger:12"] = {
 			[1] = 139,
@@ -9566,35 +9657,35 @@ pfUI_cache = {
 			[2] = 88,
 			[3] = 16,
 		},
-		["Hate Shrieker:56"] = {
-			[1] = 4502,
-			[2] = 84,
-			[3] = 11,
+		["Defias Squallshaper:19"] = {
+			[1] = 823,
+			[2] = 97,
+			[3] = 6,
 		},
 		["Ravaged Cadaver:56"] = {
 			[1] = 13941,
 			[2] = 92,
 			[3] = 42,
 		},
-		["Bone Chewer:26"] = {
-			[1] = 440,
-			[2] = 93,
-			[3] = 2,
-		},
-		["Mottled Razormaw:27"] = {
-			[1] = 872,
-			[2] = 99,
+		["Slime Maggot:46"] = {
+			[1] = 2088,
+			[2] = 55,
 			[3] = 6,
 		},
-		["Mosshide Trapper:23"] = {
-			[1] = 485,
-			[2] = 92,
-			[3] = 3,
+		["Cauldron Lord Soulwrath:58"] = {
+			[1] = 4072,
+			[2] = 45,
+			[3] = 14,
 		},
-		["Kurzen Witch Doctor:37"] = {
-			[1] = 1000,
-			[2] = 96,
-			[3] = 3,
+		["Syndicate Assassin:38"] = {
+			[1] = 1815,
+			[2] = 90,
+			[3] = 14,
+		},
+		["Sneed:20"] = {
+			[1] = 1712,
+			[2] = 27,
+			[3] = 4,
 		},
 		["Deep Lurker:49"] = {
 			[1] = 8159,
@@ -9606,75 +9697,75 @@ pfUI_cache = {
 			[2] = 91,
 			[3] = 4,
 		},
-		["Forsaken Bodyguard:35"] = {
-			[1] = 1586,
-			[2] = 83,
-			[3] = 8,
+		["Daggerspine Shorehunter:30"] = {
+			[1] = 1053,
+			[2] = 99,
+			[3] = 9,
 		},
-		["Sarltooth:29"] = {
-			[1] = 682,
-			[2] = 97,
-			[3] = 4,
-		},
-		["Frenzied Plaguehound:58"] = {
-			[1] = 4507,
-			[2] = 95,
-			[3] = 13,
-		},
-		["Undead Dynamiter:17"] = {
-			[1] = 1475,
-			[2] = 8,
+		["Gnus:60"] = {
+			[1] = 2040,
+			[2] = 5,
 			[3] = 1,
 		},
-		["Daggerspine Siren:32"] = {
-			[1] = 1064,
+		["Fallenroot Hellcaller:24"] = {
+			[1] = 1772,
 			[2] = 99,
-			[3] = 8,
+			[3] = 13,
 		},
-		["Great Goretusk:17"] = {
-			[1] = 381,
+		["Elder Shardtooth:58"] = {
+			[1] = 5200,
 			[2] = 99,
-			[3] = 2,
+			[3] = 13,
+		},
+		["Grimlok:45"] = {
+			[1] = 14505,
+			[2] = 48,
+			[3] = 22,
+		},
+		["Torn Fin Coastrunner:30"] = {
+			[1] = 1108,
+			[2] = 99,
+			[3] = 10,
 		},
 		["Sarkoth:4"] = {
 			[1] = 87,
 			[2] = 97,
 			[3] = 5,
 		},
-		["Stonevault Oracle:38"] = {
-			[1] = 4253,
-			[2] = 93,
+		["Great Goretusk:17"] = {
+			[1] = 381,
+			[2] = 99,
+			[3] = 2,
+		},
+		["Shadowfang Ragetooth:24"] = {
+			[1] = 1977,
+			[2] = 99,
+			[3] = 13,
+		},
+		["Atal'alarion:50"] = {
+			[1] = 35718,
+			[2] = 99,
+			[3] = 72,
+		},
+		["Skeletal Raider:28"] = {
+			[1] = 932,
+			[2] = 95,
+			[3] = 3,
+		},
+		["Syndicate Sentry:37"] = {
+			[1] = 1766,
+			[2] = 83,
 			[3] = 11,
-		},
-		["Shadowsworn Thug:52"] = {
-			[1] = 3326,
-			[2] = 99,
-			[3] = 12,
-		},
-		["Witherbark Hideskinner:42"] = {
-			[1] = 2065,
-			[2] = 96,
-			[3] = 9,
-		},
-		["Crimson Guardsman:58"] = {
-			[1] = 15972,
-			[2] = 50,
-			[3] = 28,
-		},
-		["Venom Belcher:61"] = {
-			[1] = 29503,
-			[2] = 99,
-			[3] = 59,
 		},
 		["Crypt Slayer:58"] = {
 			[1] = 4712,
 			[2] = 96,
 			[3] = 15,
 		},
-		["Gorishi Reaver:52"] = {
-			[1] = 3757,
-			[2] = 95,
-			[3] = 11,
+		["Plague Ravager:56"] = {
+			[1] = 4244,
+			[2] = 97,
+			[3] = 21,
 		},
 		["Stonevault Oracle:37"] = {
 			[1] = 3661,
@@ -9686,10 +9777,10 @@ pfUI_cache = {
 			[2] = 66,
 			[3] = 1,
 		},
-		["Syndicate Assassin:38"] = {
-			[1] = 1815,
-			[2] = 90,
-			[3] = 14,
+		["Crimson Battle Mage:61"] = {
+			[1] = 18383,
+			[2] = 99,
+			[3] = 52,
 		},
 		["Burning Blade Cultist:10"] = {
 			[1] = 146,
@@ -9711,10 +9802,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 3,
 		},
-		["Cauldron Lord Soulwrath:58"] = {
-			[1] = 4072,
-			[2] = 45,
-			[3] = 14,
+		["Gorishi Reaver:52"] = {
+			[1] = 3757,
+			[2] = 95,
+			[3] = 11,
 		},
 		["Kolkar Drudge:7"] = {
 			[1] = 117,
@@ -9726,10 +9817,10 @@ pfUI_cache = {
 			[2] = 98,
 			[3] = 7,
 		},
-		["Captain Halyndor:30"] = {
-			[1] = 880,
-			[2] = 96,
-			[3] = 7,
+		["Witherbark Berserker:37"] = {
+			[1] = 4532,
+			[2] = 95,
+			[3] = 26,
 		},
 		["Phalanx:58"] = {
 			[1] = 28976,
@@ -9741,75 +9832,75 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 5,
 		},
-		["Blackfathom Sea Witch:23"] = {
-			[1] = 1685,
+		["Marez Cowl:40"] = {
+			[1] = 5121,
 			[2] = 99,
-			[3] = 24,
+			[3] = 40,
 		},
-		["Defias Taskmaster:18"] = {
-			[1] = 1548,
-			[2] = 36,
-			[3] = 5,
-		},
-		["Slavering Ghoul:51"] = {
-			[1] = 3581,
-			[2] = 99,
-			[3] = 16,
-		},
-		["Grimlok:45"] = {
-			[1] = 14505,
-			[2] = 48,
-			[3] = 22,
-		},
-		["Torn Fin Coastrunner:30"] = {
-			[1] = 1108,
+		["Rock Elemental:39"] = {
+			[1] = 1790,
 			[2] = 99,
 			[3] = 10,
 		},
-		["Crypt Scarab:60"] = {
-			[1] = 79,
-			[2] = 23,
+		["Forsaken Bodyguard:35"] = {
+			[1] = 1586,
+			[2] = 83,
+			[3] = 8,
+		},
+		["Undead Dynamiter:17"] = {
+			[1] = 1475,
+			[2] = 8,
 			[3] = 1,
+		},
+		["Daggerspine Siren:32"] = {
+			[1] = 1064,
+			[2] = 99,
+			[3] = 8,
+		},
+		["Crypt Scarab:60"] = {
+			[1] = 77,
+			[2] = 30,
+			[3] = 2,
 		},
 		["Firegut Brute:52"] = {
 			[1] = 4177,
 			[2] = 99,
 			[3] = 14,
 		},
-		["Fleeting Plainstrider:13"] = {
-			[1] = 243,
-			[2] = 90,
-			[3] = 6,
+		["Vengeful Surge:40"] = {
+			[1] = 2018,
+			[2] = 93,
+			[3] = 17,
 		},
-		["Kraul Bat:31"] = {
-			[1] = 3429,
-			[2] = 80,
-			[3] = 18,
+		["Blacklash:50"] = {
+			[1] = 12242,
+			[2] = 77,
+			[3] = 51,
 		},
-		["Archaedas:-1"] = {
-			[1] = 34992,
-			[2] = 97,
-			[3] = 61,
+		["Captain Halyndor:30"] = {
+			[1] = 880,
+			[2] = 96,
+			[3] = 7,
 		},
 		["Mottled Scytheclaw:26"] = {
 			[1] = 825,
 			[2] = 97,
 			[3] = 5,
 		},
-		["Skeletal Warder:29"] = {
-			[1] = 800,
-			[2] = 99,
-			[3] = 4,
+		["Aku'mai Snapjaw:27"] = {
+			[1] = 2459,
+			[2] = 98,
+			[3] = 14,
 		},
-		["Skeletal Raider:28"] = {
-			[1] = 932,
-			[2] = 95,
-			[3] = 3,
+		["Witherbark Hideskinner:42"] = {
+			[1] = 2065,
+			[2] = 96,
+			[3] = 9,
 		},
-		["Plague Ravager:56"] = {
-			[1] = 4244,
-			[2] = 97,
-			[3] = 21,
+		["Defias Taskmaster:18"] = {
+			[1] = 1548,
+			[2] = 36,
+			[3] = 5,
 		},
 		["Blackrock Gladiator:25"] = {
 			[1] = 2521,
@@ -9821,50 +9912,50 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 6,
 		},
-		["Daggerspine Shorehunter:30"] = {
-			[1] = 1053,
-			[2] = 99,
-			[3] = 9,
+		["Twilight's Hammer Torturer:52"] = {
+			[1] = 7089,
+			[2] = 98,
+			[3] = 23,
 		},
 		["Marsh Murloc:41"] = {
 			[1] = 1885,
 			[2] = 92,
 			[3] = 5,
 		},
-		["Fallenroot Hellcaller:24"] = {
-			[1] = 1772,
-			[2] = 99,
-			[3] = 13,
+		["Skeletal Healer:27"] = {
+			[1] = 339,
+			[2] = 90,
+			[3] = 1,
 		},
 		["Kobold Geomancer:8"] = {
 			[1] = 23,
 			[2] = 40,
 			[3] = 2,
 		},
-		["Mottled Scytheclaw:25"] = {
-			[1] = 765,
-			[2] = 99,
-			[3] = 4,
+		["Razorfen Beast Trainer:28"] = {
+			[1] = 2990,
+			[2] = 86,
+			[3] = 26,
 		},
 		["Dustwind Pillager:7"] = {
 			[1] = 104,
 			[2] = 99,
 			[3] = 6,
 		},
-		["Shadowsworn Warlock:53"] = {
-			[1] = 2163,
-			[2] = 97,
-			[3] = 6,
+		["Oggleflint:16"] = {
+			[1] = 1698,
+			[2] = 43,
+			[3] = 18,
 		},
-		["Dire Condor:19"] = {
-			[1] = 151,
-			[2] = 95,
-			[3] = 3,
+		["Skeletal Warder:29"] = {
+			[1] = 800,
+			[2] = 99,
+			[3] = 4,
 		},
-		["Nightmare Scalebane:49"] = {
-			[1] = 12232,
-			[2] = 97,
-			[3] = 42,
+		["Scarlet Hunter:52"] = {
+			[1] = 3576,
+			[2] = 98,
+			[3] = 10,
 		},
 		["Venture Co. Surveyor:42"] = {
 			[1] = 1837,
@@ -9876,15 +9967,15 @@ pfUI_cache = {
 			[2] = 98,
 			[3] = 10,
 		},
-		["Greater Obsidian Elemental:56"] = {
-			[1] = 3531,
-			[2] = 33,
-			[3] = 4,
+		["Archaedas:-1"] = {
+			[1] = 34992,
+			[2] = 97,
+			[3] = 61,
 		},
-		["Shadowfang Ragetooth:24"] = {
-			[1] = 1977,
+		["Fireguard:52"] = {
+			[1] = 7931,
 			[2] = 99,
-			[3] = 13,
+			[3] = 24,
 		},
 		["Fen Dweller:26"] = {
 			[1] = 542,
@@ -9896,10 +9987,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 18,
 		},
-		["Greater Kraul Bat:32"] = {
-			[1] = 4615,
-			[2] = 99,
-			[3] = 30,
+		["Commander Springvale:24"] = {
+			[1] = 5823,
+			[2] = 68,
+			[3] = 16,
 		},
 		["Kolkar Drudge:6"] = {
 			[1] = 93,
@@ -9911,20 +10002,20 @@ pfUI_cache = {
 			[2] = 89,
 			[3] = 3,
 		},
-		["Fen Dweller:21"] = {
-			[1] = 412,
-			[2] = 99,
-			[3] = 7,
+		["Fras Siabi:61"] = {
+			[1] = 35033,
+			[2] = 79,
+			[3] = 52,
 		},
 		["Burning Blade Cultist:11"] = {
 			[1] = 209,
 			[2] = 95,
 			[3] = 3,
 		},
-		["Vengeful Surge:40"] = {
-			[1] = 2018,
-			[2] = 93,
-			[3] = 17,
+		["Scourge Guard:58"] = {
+			[1] = 4241,
+			[2] = 98,
+			[3] = 9,
 		},
 		["Fallenroot Hellcaller:25"] = {
 			[1] = 1887,
@@ -9946,30 +10037,30 @@ pfUI_cache = {
 			[2] = 73,
 			[3] = 3,
 		},
-		["Witherbark Berserker:37"] = {
-			[1] = 4532,
-			[2] = 95,
-			[3] = 26,
+		["Legashi Satyr:52"] = {
+			[1] = 2965,
+			[2] = 99,
+			[3] = 15,
 		},
 		["Witherbark Troll:30"] = {
 			[1] = 1151,
 			[2] = 97,
 			[3] = 6,
 		},
-		["Marez Cowl:40"] = {
-			[1] = 5121,
+		["Firegut Ogre:51"] = {
+			[1] = 4229,
 			[2] = 99,
-			[3] = 40,
+			[3] = 17,
 		},
 		["Ongeku:37"] = {
 			[1] = 1500,
 			[2] = 87,
 			[3] = 4,
 		},
-		["Bloodsail Swashbuckler:42"] = {
-			[1] = 1478,
-			[2] = 89,
-			[3] = 4,
+		["Boar Spirit:19"] = {
+			[1] = 268,
+			[2] = 77,
+			[3] = 2,
 		},
 		["Skullsplitter Witch Doctor:42"] = {
 			[1] = 1684,
@@ -9981,10 +10072,10 @@ pfUI_cache = {
 			[2] = 59,
 			[3] = 1,
 		},
-		["Winterfall Ursa:58"] = {
-			[1] = 4245,
+		["Blackrock Sentry:22"] = {
+			[1] = 1765,
 			[2] = 99,
-			[3] = 17,
+			[3] = 13,
 		},
 		["Young Forest Bear:9"] = {
 			[1] = 263,
@@ -9996,25 +10087,25 @@ pfUI_cache = {
 			[2] = 93,
 			[3] = 7,
 		},
-		["Flameguard:62"] = {
-			[1] = 197032,
-			[2] = 98,
-			[3] = 82,
+		["Fleeting Plainstrider:13"] = {
+			[1] = 243,
+			[2] = 90,
+			[3] = 6,
 		},
 		["Mirelow:25"] = {
 			[1] = 826,
 			[2] = 99,
 			[3] = 5,
 		},
-		["Commander Springvale:24"] = {
-			[1] = 5823,
-			[2] = 68,
-			[3] = 16,
+		["Shadowsworn Warlock:53"] = {
+			[1] = 2163,
+			[2] = 97,
+			[3] = 6,
 		},
-		["Venture Co. Strip Miner:40"] = {
-			[1] = 1384,
-			[2] = 99,
-			[3] = 5,
+		["Shadowfang Ragetooth:23"] = {
+			[1] = 1844,
+			[2] = 73,
+			[3] = 10,
 		},
 		["Ridge Stalker:37"] = {
 			[1] = 1461,
@@ -10031,10 +10122,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 5,
 		},
-		["Legashi Satyr:52"] = {
-			[1] = 2965,
-			[2] = 99,
-			[3] = 15,
+		["Defias Evoker:18"] = {
+			[1] = 1848,
+			[2] = 21,
+			[3] = 3,
 		},
 		["Skeletal Warder:28"] = {
 			[1] = 766,
@@ -10046,35 +10137,35 @@ pfUI_cache = {
 			[2] = 98,
 			[3] = 16,
 		},
-		["Blacklash:50"] = {
-			[1] = 12242,
-			[2] = 77,
-			[3] = 51,
+		["Kraul Bat:31"] = {
+			[1] = 3429,
+			[2] = 80,
+			[3] = 18,
 		},
-		["Chillwind Ravager:57"] = {
-			[1] = 4551,
-			[2] = 99,
-			[3] = 11,
+		["Dire Condor:19"] = {
+			[1] = 151,
+			[2] = 95,
+			[3] = 3,
 		},
-		["Shadowfang Ragetooth:23"] = {
-			[1] = 1844,
-			[2] = 73,
-			[3] = 10,
-		},
-		["Scarlet Lumberjack:56"] = {
-			[1] = 4532,
+		["Nightmare Scalebane:49"] = {
+			[1] = 12232,
 			[2] = 97,
-			[3] = 11,
+			[3] = 42,
 		},
-		["Black Broodling:52"] = {
-			[1] = 3112,
+		["Winterfall Ursa:58"] = {
+			[1] = 4245,
 			[2] = 99,
-			[3] = 13,
+			[3] = 17,
 		},
-		["Fras Siabi:61"] = {
-			[1] = 35033,
-			[2] = 79,
-			[3] = 52,
+		["Fen Dweller:21"] = {
+			[1] = 412,
+			[2] = 99,
+			[3] = 7,
+		},
+		["Greater Kraul Bat:32"] = {
+			[1] = 4615,
+			[2] = 99,
+			[3] = 30,
 		},
 		["Burrowing Thundersnout:53"] = {
 			[1] = 5998,
@@ -10101,30 +10192,30 @@ pfUI_cache = {
 			[2] = 88,
 			[3] = 6,
 		},
-		["Twilight's Hammer Torturer:52"] = {
-			[1] = 7089,
-			[2] = 98,
-			[3] = 23,
-		},
 		["Defias Trapper:12"] = {
 			[1] = 241,
 			[2] = 93,
 			[3] = 1,
 		},
-		["Gath'Ilzogg:26"] = {
-			[1] = 2606,
+		["Flamescale Wyrmkin:57"] = {
+			[1] = 6179,
 			[2] = 98,
-			[3] = 17,
+			[3] = 21,
+		},
+		["Putrid Shrieker:58"] = {
+			[1] = 4368,
+			[2] = 99,
+			[3] = 10,
 		},
 		["Searing Blade Warlock:15"] = {
 			[1] = 1104,
 			[2] = 99,
 			[3] = 25,
 		},
-		["Razorfen Beast Trainer:28"] = {
-			[1] = 2990,
-			[2] = 86,
-			[3] = 26,
+		["Scarlet Lumberjack:56"] = {
+			[1] = 4532,
+			[2] = 97,
+			[3] = 11,
 		},
 		["Bloodsail Raider:40"] = {
 			[1] = 1652,
@@ -10146,18 +10237,18 @@ pfUI_cache = {
 			[2] = 93,
 			[3] = 6,
 		},
-		["Oggleflint:16"] = {
-			[1] = 1698,
-			[2] = 43,
-			[3] = 18,
-		},
-		["Rock Elemental:39"] = {
-			[1] = 1790,
+		["Groddoc Thunderer:50"] = {
+			[1] = 3194,
 			[2] = 99,
-			[3] = 10,
+			[3] = 9,
 		},
-		["Blackrock Sentry:22"] = {
-			[1] = 1765,
+		["Chillwind Ravager:57"] = {
+			[1] = 4551,
+			[2] = 99,
+			[3] = 11,
+		},
+		["Black Broodling:52"] = {
+			[1] = 3112,
 			[2] = 99,
 			[3] = 13,
 		},
@@ -10166,10 +10257,10 @@ pfUI_cache = {
 			[2] = 96,
 			[3] = 19,
 		},
-		["Scarlet Hunter:52"] = {
-			[1] = 3576,
+		["Flameguard:62"] = {
+			[1] = 197032,
 			[2] = 98,
-			[3] = 10,
+			[3] = 82,
 		},
 		["Bloodsail Deckhand:43"] = {
 			[1] = 2356,
@@ -10181,8 +10272,8 @@ pfUI_cache = {
 			[2] = 95,
 			[3] = 5,
 		},
-		["Groddoc Thunderer:50"] = {
-			[1] = 3194,
+		["Southsea Swashbuckler:44"] = {
+			[1] = 2247,
 			[2] = 99,
 			[3] = 9,
 		},
@@ -10221,15 +10312,15 @@ pfUI_cache = {
 			[2] = 85,
 			[3] = 13,
 		},
-		["Flamescale Wyrmkin:57"] = {
-			[1] = 6179,
-			[2] = 98,
-			[3] = 21,
+		["Greater Obsidian Elemental:56"] = {
+			[1] = 3531,
+			[2] = 33,
+			[3] = 4,
 		},
-		["Shadowfang Glutton:21"] = {
-			[1] = 1464,
-			[2] = 93,
-			[3] = 13,
+		["Bloodsail Swashbuckler:42"] = {
+			[1] = 1478,
+			[2] = 89,
+			[3] = 4,
 		},
 		["Redridge Mystic:18"] = {
 			[1] = 346,
@@ -10246,25 +10337,25 @@ pfUI_cache = {
 			[2] = 87,
 			[3] = 9,
 		},
-		["Sneed:20"] = {
-			[1] = 1712,
-			[2] = 27,
-			[3] = 4,
+		["Gath'Ilzogg:26"] = {
+			[1] = 2606,
+			[2] = 98,
+			[3] = 17,
 		},
 		["Fledgling Pterrordax:50"] = {
 			[1] = 3756,
 			[2] = 99,
 			[3] = 11,
 		},
-		["Elder Shardtooth:58"] = {
-			[1] = 5200,
+		["Crimson Templar:60"] = {
+			[1] = 8577,
 			[2] = 99,
-			[3] = 13,
+			[3] = 32,
 		},
-		["Skeletal Healer:27"] = {
-			[1] = 339,
-			[2] = 90,
-			[3] = 1,
+		["Blackfathom Sea Witch:23"] = {
+			[1] = 1685,
+			[2] = 99,
+			[3] = 24,
 		},
 		["Voidwalker Minion:36"] = {
 			[1] = 379,
@@ -10276,25 +10367,25 @@ pfUI_cache = {
 			[2] = 85,
 			[3] = 4,
 		},
-		["Putrid Shrieker:58"] = {
-			[1] = 4368,
+		["Venture Co. Strip Miner:40"] = {
+			[1] = 1384,
 			[2] = 99,
-			[3] = 10,
+			[3] = 5,
 		},
-		["Aku'mai Snapjaw:27"] = {
-			[1] = 2459,
-			[2] = 98,
+		["Twilight Dark Shaman:48"] = {
+			[1] = 4980,
+			[2] = 99,
 			[3] = 14,
 		},
-		["Fireguard:52"] = {
-			[1] = 7931,
+		["Slavering Ghoul:51"] = {
+			[1] = 3581,
 			[2] = 99,
-			[3] = 24,
+			[3] = 16,
 		},
-		["Scorching Elemental:53"] = {
-			[1] = 3144,
-			[2] = 82,
-			[3] = 9,
+		["Shadowfang Glutton:21"] = {
+			[1] = 1464,
+			[2] = 93,
+			[3] = 13,
 		},
 		["Lesser Rock Elemental:37"] = {
 			[1] = 1623,
@@ -10316,30 +10407,30 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 28,
 		},
-		["Defias Evoker:18"] = {
-			[1] = 1848,
-			[2] = 21,
-			[3] = 3,
-		},
-		["Firegut Ogre:51"] = {
-			[1] = 4229,
+		["Venom Belcher:61"] = {
+			[1] = 29503,
 			[2] = 99,
-			[3] = 17,
+			[3] = 59,
+		},
+		["Stonevault Oracle:38"] = {
+			[1] = 4253,
+			[2] = 93,
+			[3] = 11,
 		},
 		["Deadwood Pathfinder:49"] = {
-			[1] = 3249,
-			[2] = 66,
-			[3] = 7,
+			[1] = 2934,
+			[2] = 83,
+			[3] = 10,
 		},
 		["Elder Shardtooth:57"] = {
 			[1] = 5423,
 			[2] = 99,
 			[3] = 21,
 		},
-		["Atal'alarion:50"] = {
-			[1] = 35718,
-			[2] = 99,
-			[3] = 72,
+		["Sarltooth:29"] = {
+			[1] = 682,
+			[2] = 97,
+			[3] = 4,
 		},
 		["Core Rager:62"] = {
 			[1] = 38000,
@@ -10361,30 +10452,30 @@ pfUI_cache = {
 			[2] = 98,
 			[3] = 5,
 		},
-		["Glassweb Spider:45"] = {
-			[1] = 2421,
-			[2] = 99,
-			[3] = 14,
-		},
-		["Crimson Templar:60"] = {
-			[1] = 8577,
-			[2] = 99,
-			[3] = 32,
-		},
-		["Crimson Battle Mage:61"] = {
-			[1] = 18383,
-			[2] = 99,
-			[3] = 52,
-		},
-		["Syndicate Sentry:37"] = {
-			[1] = 1766,
-			[2] = 83,
+		["Hate Shrieker:56"] = {
+			[1] = 4502,
+			[2] = 84,
 			[3] = 11,
 		},
-		["Razormane Scout:7"] = {
-			[1] = 136,
+		["Torn Fin Tidehunter:31"] = {
+			[1] = 908,
+			[2] = 99,
+			[3] = 10,
+		},
+		["Fireguard:54"] = {
+			[1] = 10782,
 			[2] = 97,
-			[3] = 6,
+			[3] = 41,
+		},
+		["Bone Chewer:26"] = {
+			[1] = 440,
+			[2] = 93,
+			[3] = 2,
+		},
+		["Carrion Lurker:52"] = {
+			[1] = 3185,
+			[2] = 95,
+			[3] = 16,
 		},
 		["Torn Fin Coastrunner:29"] = {
 			[1] = 1062,
@@ -10396,15 +10487,15 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 3,
 		},
+		["Mottled Razormaw:27"] = {
+			[1] = 872,
+			[2] = 99,
+			[3] = 6,
+		},
 		["Murloc Forager:9"] = {
 			[1] = 195,
 			[2] = 86,
 			[3] = 10,
-		},
-		["Centipaar Stinger:49"] = {
-			[1] = 2545,
-			[2] = 90,
-			[3] = 6,
 		},
 		["Plaguebat:55"] = {
 			[1] = 4210,
@@ -10421,10 +10512,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 34,
 		},
-		["Twilight Avenger:59"] = {
-			[1] = 4716,
+		["Deadwood Gardener:48"] = {
+			[1] = 3299,
 			[2] = 99,
-			[3] = 19,
+			[3] = 11,
 		},
 		["Blackrock Warlock:56"] = {
 			[1] = 2663,
@@ -10441,15 +10532,15 @@ pfUI_cache = {
 			[2] = 95,
 			[3] = 4,
 		},
-		["Defias Squallshaper:19"] = {
-			[1] = 823,
-			[2] = 97,
-			[3] = 6,
+		["Jergosh the Invoker:16"] = {
+			[1] = 2368,
+			[2] = 31,
+			[3] = 11,
 		},
-		["Torn Fin Tidehunter:31"] = {
-			[1] = 908,
-			[2] = 99,
-			[3] = 10,
+		["Saturated Ooze:47"] = {
+			[1] = 10945,
+			[2] = 38,
+			[3] = 11,
 		},
 		["Dragonmaw Grunt:19"] = {
 			[1] = 513,
@@ -10471,9 +10562,9 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 5,
 		},
-		["Slime Maggot:46"] = {
-			[1] = 2088,
-			[2] = 55,
+		["Mindless Undead:60"] = {
+			[1] = 2228,
+			[2] = 86,
 			[3] = 6,
 		},
 		["Ghoul Ravener:58"] = {
@@ -10481,45 +10572,45 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 40,
 		},
-		["Quilguard Champion:30"] = {
-			[1] = 3412,
+		["Death Singer:58"] = {
+			[1] = 4712,
 			[2] = 99,
-			[3] = 32,
+			[3] = 7,
 		},
-		["Murkgill Oracle:36"] = {
-			[1] = 1436,
-			[2] = 93,
-			[3] = 3,
-		},
-		["Redridge Alpha:22"] = {
-			[1] = 559,
-			[2] = 92,
-			[3] = 5,
-		},
-		["Razormane Thornweaver:10"] = {
-			[1] = 142,
-			[2] = 79,
-			[3] = 5,
-		},
-		["Servant of Sevine:55"] = {
-			[1] = 4222,
+		["Vilebranch Headhunter:46"] = {
+			[1] = 5631,
 			[2] = 99,
-			[3] = 13,
+			[3] = 26,
 		},
 		["Highland Strider:30"] = {
 			[1] = 1184,
 			[2] = 99,
 			[3] = 32,
 		},
+		["Spectral Attendant:60"] = {
+			[1] = 6750,
+			[2] = 77,
+			[3] = 18,
+		},
+		["Servant of Sevine:55"] = {
+			[1] = 4222,
+			[2] = 99,
+			[3] = 13,
+		},
 		["Living Blaze:54"] = {
 			[1] = 4081,
 			[2] = 98,
 			[3] = 17,
 		},
-		["Skeletal Horror:23"] = {
-			[1] = 648,
-			[2] = 99,
-			[3] = 1,
+		["Blackfathom Tide Priestess:21"] = {
+			[1] = 1474,
+			[2] = 98,
+			[3] = 10,
+		},
+		["Kolkar Stormer:13"] = {
+			[1] = 257,
+			[2] = 90,
+			[3] = 6,
 		},
 		["Razorfen Beast Trainer:29"] = {
 			[1] = 2914,
@@ -10536,10 +10627,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 14,
 		},
-		["Dustbelcher Mauler:41"] = {
-			[1] = 1953,
-			[2] = 93,
-			[3] = 10,
+		["Dredge Worm:53"] = {
+			[1] = 5300,
+			[2] = 94,
+			[3] = 20,
 		},
 		["Imp Minion:23"] = {
 			[1] = 200,
@@ -10551,15 +10642,15 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 13,
 		},
-		["Blackfathom Tide Priestess:21"] = {
-			[1] = 1474,
-			[2] = 98,
-			[3] = 10,
+		["Black Guard Sentry:60"] = {
+			[1] = 12158,
+			[2] = 97,
+			[3] = 30,
 		},
-		["Corrupted Bloodtalon Scythemaw:10"] = {
-			[1] = 176,
-			[2] = 99,
-			[3] = 6,
+		["Razormane Wolf:7"] = {
+			[1] = 148,
+			[2] = 95,
+			[3] = 3,
 		},
 		["Syndicate Saboteur:37"] = {
 			[1] = 1598,
@@ -10571,20 +10662,20 @@ pfUI_cache = {
 			[2] = 98,
 			[3] = 3,
 		},
-		["Spectral Attendant:60"] = {
-			[1] = 6750,
-			[2] = 77,
-			[3] = 18,
+		["Young Wetlands Crocolisk:22"] = {
+			[1] = 441,
+			[2] = 93,
+			[3] = 3,
 		},
 		["Haunted Servitor:20"] = {
 			[1] = 1515,
 			[2] = 99,
 			[3] = 10,
 		},
-		["Kolkar Stormer:13"] = {
-			[1] = 257,
-			[2] = 90,
-			[3] = 6,
+		["Lava Surger:61"] = {
+			[1] = 171458,
+			[2] = 99,
+			[3] = 74,
 		},
 		["Shadowforge Geologist:41"] = {
 			[1] = 2613,
@@ -10596,10 +10687,10 @@ pfUI_cache = {
 			[2] = 90,
 			[3] = 3,
 		},
-		["Young Wetlands Crocolisk:22"] = {
-			[1] = 441,
-			[2] = 93,
-			[3] = 3,
+		["Old Town Thug:26"] = {
+			[1] = 336,
+			[2] = 85,
+			[3] = 2,
 		},
 		["Rotted One:26"] = {
 			[1] = 818,
@@ -10626,20 +10717,20 @@ pfUI_cache = {
 			[2] = 98,
 			[3] = 9,
 		},
-		["Shadowforge Citizen:55"] = {
-			[1] = 5798,
-			[2] = 79,
-			[3] = 10,
+		["Twilight Acolyte:24"] = {
+			[1] = 4520,
+			[2] = 20,
+			[3] = 6,
 		},
 		["Kobold Geomancer:7"] = {
 			[1] = 74,
 			[2] = 45,
 			[3] = 2,
 		},
-		["Taragaman the Hungerer:16"] = {
-			[1] = 2512,
-			[2] = 26,
-			[3] = 19,
+		["Atal'ai Warrior:50"] = {
+			[1] = 14004,
+			[2] = 99,
+			[3] = 40,
 		},
 		["Mossflayer Zombie:53"] = {
 			[1] = 3591,
@@ -10651,10 +10742,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 5,
 		},
-		["Thauris Balgarr:57"] = {
-			[1] = 5036,
-			[2] = 89,
-			[3] = 15,
+		["Mottled Boar:1"] = {
+			[1] = 42,
+			[2] = 96,
+			[3] = 4,
 		},
 		["Stonevault Brawler:43"] = {
 			[1] = 6061,
@@ -10662,9 +10753,9 @@ pfUI_cache = {
 			[3] = 17,
 		},
 		["General Angerforge:-1"] = {
-			[1] = 48306,
-			[2] = 87,
-			[3] = 78,
+			[1] = 48287,
+			[2] = 99,
+			[3] = 87,
 		},
 		["Lost One Muckdweller:36"] = {
 			[1] = 1517,
@@ -10706,10 +10797,10 @@ pfUI_cache = {
 			[2] = 67,
 			[3] = 5,
 		},
-		["Buzzard:37"] = {
-			[1] = 1670,
-			[2] = 97,
-			[3] = 9,
+		["High Interrogator Gerstahn:54"] = {
+			[1] = 19797,
+			[2] = 86,
+			[3] = 44,
 		},
 		["Shadowsworn Adept:53"] = {
 			[1] = 2874,
@@ -10721,10 +10812,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 2,
 		},
-		["Hammerfall Grunt:34"] = {
-			[1] = 1096,
-			[2] = 99,
-			[3] = 11,
+		["Tormented Officer:23"] = {
+			[1] = 1517,
+			[2] = 55,
+			[3] = 12,
 		},
 		["Boulderfist Magus:37"] = {
 			[1] = 1286,
@@ -10771,15 +10862,15 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 11,
 		},
-		["Haunting Vision:58"] = {
-			[1] = 3362,
+		["Death's Head Sage:29"] = {
+			[1] = 2385,
 			[2] = 99,
-			[3] = 12,
+			[3] = 22,
 		},
-		["Crushridge Enforcer:39"] = {
-			[1] = 4632,
-			[2] = 99,
-			[3] = 31,
+		["Doomforge Craftsman:54"] = {
+			[1] = 4071,
+			[2] = 95,
+			[3] = 16,
 		},
 		["Boulderfist Lord:40"] = {
 			[1] = 5175,
@@ -10791,15 +10882,15 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 41,
 		},
-		["Chillwind Ravager:58"] = {
-			[1] = 4373,
-			[2] = 97,
-			[3] = 15,
+		["Hukku's Succubus:52"] = {
+			[1] = 1687,
+			[2] = 36,
+			[3] = 5,
 		},
-		["Cursed Marine:27"] = {
-			[1] = 894,
-			[2] = 98,
-			[3] = 8,
+		["Deep Stinger:53"] = {
+			[1] = 7712,
+			[2] = 68,
+			[3] = 22,
 		},
 		["Vilebranch Aman'zasi Guard:50"] = {
 			[1] = 6620,
@@ -10821,25 +10912,25 @@ pfUI_cache = {
 			[2] = 76,
 			[3] = 1,
 		},
-		["Shadowforge Warrior:39"] = {
-			[1] = 1747,
-			[2] = 98,
-			[3] = 11,
+		["Dope'rel:58"] = {
+			[1] = 21881,
+			[2] = 97,
+			[3] = 51,
 		},
 		["Voidwalker Minion:48"] = {
 			[1] = 258,
 			[2] = 45,
 			[3] = 1,
 		},
-		["Dragonmaw Grunt:21"] = {
-			[1] = 556,
-			[2] = 99,
-			[3] = 3,
+		["Cursed Marine:27"] = {
+			[1] = 894,
+			[2] = 98,
+			[3] = 8,
 		},
-		["Death's Head Sage:29"] = {
-			[1] = 2385,
-			[2] = 99,
-			[3] = 22,
+		["Frenzied Pterrordax:54"] = {
+			[1] = 3960,
+			[2] = 95,
+			[3] = 12,
 		},
 		["Loro:51"] = {
 			[1] = 22564,
@@ -10851,10 +10942,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 4,
 		},
-		["Syndicate Footpad:33"] = {
-			[1] = 1211,
-			[2] = 94,
-			[3] = 8,
+		["Scarlet Archmage:56"] = {
+			[1] = 6142,
+			[2] = 86,
+			[3] = 18,
 		},
 		["Eviscerator:55"] = {
 			[1] = 27669,
@@ -10866,25 +10957,25 @@ pfUI_cache = {
 			[2] = 98,
 			[3] = 13,
 		},
-		["Servant of Grol:53"] = {
-			[1] = 3974,
-			[2] = 99,
-			[3] = 12,
-		},
 		["Darkmist Spider:36"] = {
 			[1] = 1524,
 			[2] = 92,
 			[3] = 3,
+		},
+		["Wrath Hammer Construct:57"] = {
+			[1] = 13240,
+			[2] = 96,
+			[3] = 42,
 		},
 		["Shadowfang Moonwalker:20"] = {
 			[1] = 1306,
 			[2] = 99,
 			[3] = 12,
 		},
-		["Bloodsail Sea Dog:45"] = {
-			[1] = 2185,
-			[2] = 96,
-			[3] = 5,
+		["Savannah Prowler:14"] = {
+			[1] = 260,
+			[2] = 99,
+			[3] = 6,
 		},
 		["Hearthsinger Forresten:60"] = {
 			[1] = 34380,
@@ -10941,8 +11032,8 @@ pfUI_cache = {
 			[2] = 96,
 			[3] = 9,
 		},
-		["Redridge Mystic:19"] = {
-			[1] = 376,
+		["Stranglethorn Tiger:33"] = {
+			[1] = 1362,
 			[2] = 99,
 			[3] = 4,
 		},
@@ -10971,10 +11062,10 @@ pfUI_cache = {
 			[2] = 82,
 			[3] = 2,
 		},
-		["Twilight Emissary:56"] = {
-			[1] = 8785,
-			[2] = 99,
-			[3] = 24,
+		["\"Pretty Boy\" Duncan:39"] = {
+			[1] = 1434,
+			[2] = 98,
+			[3] = 3,
 		},
 		["Death's Head Acolyte:29"] = {
 			[1] = 2515,
@@ -10991,10 +11082,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 21,
 		},
-		["Gordunni Mage-Lord:45"] = {
-			[1] = 1841,
-			[2] = 97,
-			[3] = 5,
+		["Ridge Huntress:38"] = {
+			[1] = 1529,
+			[2] = 94,
+			[3] = 6,
 		},
 		["Venomlash Scorpid:40"] = {
 			[1] = 4662,
@@ -11006,20 +11097,20 @@ pfUI_cache = {
 			[2] = 98,
 			[3] = 38,
 		},
-		["Fen Creeper:25"] = {
-			[1] = 595,
-			[2] = 97,
-			[3] = 5,
+		["Foreman Jerris:62"] = {
+			[1] = 11753,
+			[2] = 91,
+			[3] = 32,
 		},
-		["Stranglethorn Tiger:33"] = {
-			[1] = 1362,
-			[2] = 99,
-			[3] = 4,
+		["Cannon Master Willey:60"] = {
+			[1] = 38261,
+			[2] = 48,
+			[3] = 39,
 		},
-		["Overlord Ramtusk:32"] = {
-			[1] = 10065,
-			[2] = 99,
-			[3] = 58,
+		["Gor'tesh:54"] = {
+			[1] = 3769,
+			[2] = 96,
+			[3] = 12,
 		},
 		["Stranglethorn Raptor:33"] = {
 			[1] = 1352,
@@ -11031,55 +11122,55 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 28,
 		},
-		["Anub'shiah:55"] = {
-			[1] = 24463,
+		["Skeleton:25"] = {
+			[1] = 561,
+			[2] = 86,
+			[3] = 4,
+		},
+		["Twilight Emissary:56"] = {
+			[1] = 8785,
 			[2] = 99,
-			[3] = 57,
+			[3] = 24,
 		},
-		["Bloodhound Mastiff:55"] = {
-			[1] = 4293,
-			[2] = 96,
-			[3] = 14,
-		},
-		["\"Pretty Boy\" Duncan:39"] = {
-			[1] = 1434,
-			[2] = 98,
-			[3] = 3,
+		["Lord Incendius:57"] = {
+			[1] = 24324,
+			[2] = 99,
+			[3] = 51,
 		},
 		["Captain Greenskin:20"] = {
 			[1] = 3064,
 			[2] = 65,
 			[3] = 20,
 		},
-		["Crimson Monk:60"] = {
-			[1] = 18070,
-			[2] = 93,
-			[3] = 51,
+		["Egorn:17"] = {
+			[1] = 109,
+			[2] = 12,
+			[3] = 1,
 		},
-		["Nightbane Shadow Weaver:27"] = {
-			[1] = 360,
-			[2] = 93,
-			[3] = 3,
-		},
-		["Skeletal Executioner:55"] = {
-			[1] = 8841,
-			[2] = 99,
-			[3] = 36,
-		},
-		["Kolkar Stormer:14"] = {
-			[1] = 183,
+		["Hatecrest Screamer:42"] = {
+			[1] = 1068,
 			[2] = 98,
+			[3] = 6,
+		},
+		["Bloodsail Swabby:42"] = {
+			[1] = 1994,
+			[2] = 91,
 			[3] = 5,
 		},
-		["Cursed Atal'ai:45"] = {
-			[1] = 4817,
-			[2] = 99,
-			[3] = 13,
+		["Nerub'enkan:61"] = {
+			[1] = 65682,
+			[2] = 37,
+			[3] = 30,
 		},
-		["Blazing Elemental:47"] = {
-			[1] = 2609,
+		["Skullsplitter Mystic:39"] = {
+			[1] = 1506,
 			[2] = 89,
-			[3] = 14,
+			[3] = 2,
+		},
+		["Overlord Ramtusk:32"] = {
+			[1] = 10065,
+			[2] = 99,
+			[3] = 58,
 		},
 		["Mercutio Filthgorger:57"] = {
 			[1] = 6790,
@@ -11101,10 +11192,10 @@ pfUI_cache = {
 			[2] = 72,
 			[3] = 4,
 		},
-		["Thuzadin Shadowcaster:59"] = {
-			[1] = 17656,
-			[2] = 68,
-			[3] = 36,
+		["Lo'Grosh:39"] = {
+			[1] = 1323,
+			[2] = 96,
+			[3] = 2,
 		},
 		["Starving Dire Wolf:19"] = {
 			[1] = 445,
@@ -11151,15 +11242,15 @@ pfUI_cache = {
 			[2] = 71,
 			[3] = 10,
 		},
-		["Razorfen Warrior:24"] = {
-			[1] = 2174,
+		["Skhowl:36"] = {
+			[1] = 4443,
 			[2] = 99,
-			[3] = 16,
+			[3] = 29,
 		},
-		["Deathlash Scorpid:55"] = {
-			[1] = 3884,
-			[2] = 98,
-			[3] = 21,
+		["Searing Blade Cultist:15"] = {
+			[1] = 1224,
+			[2] = 99,
+			[3] = 35,
 		},
 		["Arena Spectator:55"] = {
 			[1] = 4441,
@@ -11181,10 +11272,10 @@ pfUI_cache = {
 			[2] = 98,
 			[3] = 15,
 		},
-		["Ice Thistle Patriarch:58"] = {
-			[1] = 4465,
+		["Shadowforge Chanter:38"] = {
+			[1] = 1249,
 			[2] = 99,
-			[3] = 14,
+			[3] = 4,
 		},
 		["Lava Spawn:60"] = {
 			[1] = 21493,
@@ -11201,10 +11292,10 @@ pfUI_cache = {
 			[2] = 91,
 			[3] = 5,
 		},
-		["Burning Exile:39"] = {
-			[1] = 1887,
-			[2] = 97,
-			[3] = 9,
+		["Skullsplitter Hunter:41"] = {
+			[1] = 1593,
+			[2] = 63,
+			[3] = 3,
 		},
 		["Scarlet Enchanter:55"] = {
 			[1] = 5326,
@@ -11226,10 +11317,10 @@ pfUI_cache = {
 			[2] = 89,
 			[3] = 13,
 		},
-		["Fetid Zombie:54"] = {
-			[1] = 4106,
-			[2] = 88,
-			[3] = 19,
+		["Venture Co. Geologist:36"] = {
+			[1] = 438,
+			[2] = 97,
+			[3] = 5,
 		},
 		["Shadowforge Warrior:38"] = {
 			[1] = 1748,
@@ -11246,10 +11337,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 33,
 		},
-		["Skeletal Guardian:56"] = {
-			[1] = 5540,
-			[2] = 90,
-			[3] = 22,
+		["Murloc:6"] = {
+			[1] = 122,
+			[2] = 84,
+			[3] = 5,
 		},
 		["Bazzalan:16"] = {
 			[1] = 1762,
@@ -11271,10 +11362,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 4,
 		},
-		["Grim Patron:54"] = {
-			[1] = 3800,
-			[2] = 10,
-			[3] = 1,
+		["Redridge Poacher:17"] = {
+			[1] = 384,
+			[2] = 87,
+			[3] = 2,
 		},
 		["Shadow Charger:21"] = {
 			[1] = 2860,
@@ -11296,20 +11387,20 @@ pfUI_cache = {
 			[2] = 93,
 			[3] = 4,
 		},
-		["Primitive Owlbeast:45"] = {
-			[1] = 2680,
-			[2] = 69,
-			[3] = 5,
+		["Wretched Lost One:46"] = {
+			[1] = 1973,
+			[2] = 99,
+			[3] = 6,
 		},
 		["Syndicate Magus:37"] = {
 			[1] = 3140,
 			[2] = 99,
 			[3] = 27,
 		},
-		["Rethilgore:20"] = {
-			[1] = 3024,
-			[2] = 46,
-			[3] = 10,
+		["Ferocious Rage Scar:47"] = {
+			[1] = 2478,
+			[2] = 99,
+			[3] = 9,
 		},
 		["Grizzle:55"] = {
 			[1] = 33129,
@@ -11326,10 +11417,10 @@ pfUI_cache = {
 			[2] = 91,
 			[3] = 15,
 		},
-		["Huntsman Radley:56"] = {
-			[1] = 4744,
-			[2] = 95,
-			[3] = 11,
+		["Ok'thor the Breaker:55"] = {
+			[1] = 24936,
+			[2] = 99,
+			[3] = 61,
 		},
 		["Boulderfist Ogre:33"] = {
 			[1] = 1249,
@@ -11341,35 +11432,35 @@ pfUI_cache = {
 			[2] = 49,
 			[3] = 5,
 		},
-		["Goblin Shipbuilder:20"] = {
-			[1] = 1496,
-			[2] = 82,
-			[3] = 12,
+		["Aku'mai Fisher:24"] = {
+			[1] = 2218,
+			[2] = 99,
+			[3] = 14,
 		},
 		["Thaurissan Spy:54"] = {
 			[1] = 3679,
 			[2] = 97,
 			[3] = 13,
 		},
-		["Hatecrest Serpent Guard:45"] = {
-			[1] = 1665,
-			[2] = 94,
-			[3] = 3,
+		["Ograbisi:55"] = {
+			[1] = 16123,
+			[2] = 85,
+			[3] = 29,
 		},
-		["Ridge Stalker Patriarch:40"] = {
-			[1] = 2238,
-			[2] = 98,
-			[3] = 8,
-		},
-		["Shadowforge Darkweaver:37"] = {
-			[1] = 1024,
+		["Dustwind Savage:9"] = {
+			[1] = 130,
 			[2] = 99,
 			[3] = 6,
 		},
-		["Marsh Inkspewer:42"] = {
-			[1] = 2008,
-			[2] = 98,
-			[3] = 9,
+		["Crypt Robber:54"] = {
+			[1] = 5862,
+			[2] = 97,
+			[3] = 17,
+		},
+		["Gorishi Reaver:51"] = {
+			[1] = 3612,
+			[2] = 86,
+			[3] = 10,
 		},
 		["Deathmaw:53"] = {
 			[1] = 3821,
@@ -11381,10 +11472,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 17,
 		},
-		["Defias Overseer:18"] = {
-			[1] = 1400,
-			[2] = 22,
-			[3] = 3,
+		["Crimson Priest:60"] = {
+			[1] = 16540,
+			[2] = 98,
+			[3] = 55,
 		},
 		["Illusory Wraith:60"] = {
 			[1] = 1010,
@@ -11396,10 +11487,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 20,
 		},
-		["Blindlight Muckdweller:25"] = {
-			[1] = 2043,
-			[2] = 47,
-			[3] = 12,
+		["Broken Cadaver:58"] = {
+			[1] = 4064,
+			[2] = 99,
+			[3] = 11,
 		},
 		["Cave Creeper:52"] = {
 			[1] = 6259,
@@ -11411,25 +11502,25 @@ pfUI_cache = {
 			[2] = 97,
 			[3] = 14,
 		},
-		["Corrupted Bloodtalon Scythemaw:11"] = {
-			[1] = 181,
-			[2] = 93,
-			[3] = 6,
+		["Cavalier Durgen:57"] = {
+			[1] = 3088,
+			[2] = 96,
+			[3] = 8,
 		},
 		["Blackbreath Crony:54"] = {
 			[1] = 8676,
 			[2] = 53,
 			[3] = 14,
 		},
-		["Flamekin Sprite:53"] = {
-			[1] = 857,
-			[2] = 81,
-			[3] = 1,
-		},
-		["Lord Shalzaru:47"] = {
-			[1] = 1889,
+		["Venture Co. Tinkerer:40"] = {
+			[1] = 681,
 			[2] = 92,
-			[3] = 5,
+			[3] = 2,
+		},
+		["Highlord Bolvar Fordragon:-1"] = {
+			[1] = 489967,
+			[2] = 9,
+			[3] = 9,
 		},
 		["Plains Creeper:32"] = {
 			[1] = 1200,
@@ -11446,15 +11537,15 @@ pfUI_cache = {
 			[2] = 98,
 			[3] = 5,
 		},
-		["Highlord Bolvar Fordragon:-1"] = {
-			[1] = 489967,
-			[2] = 9,
-			[3] = 9,
+		["Blazing Invader:56"] = {
+			[1] = 3181,
+			[2] = 88,
+			[3] = 10,
 		},
-		["Stonevault Geomancer:44"] = {
-			[1] = 5129,
-			[2] = 67,
-			[3] = 9,
+		["Boulderfist Shaman:39"] = {
+			[1] = 3983,
+			[2] = 99,
+			[3] = 31,
 		},
 		["Haunting Vision:57"] = {
 			[1] = 3218,
@@ -11476,25 +11567,25 @@ pfUI_cache = {
 			[2] = 89,
 			[3] = 18,
 		},
-		["Mangled Cadaver:55"] = {
-			[1] = 14051,
-			[2] = 83,
-			[3] = 31,
+		["Defias Squallshaper:18"] = {
+			[1] = 778,
+			[2] = 85,
+			[3] = 8,
 		},
-		["Ambassador Infernus:42"] = {
-			[1] = 4189,
-			[2] = 99,
-			[3] = 9,
+		["Firelord:62"] = {
+			[1] = 250087,
+			[2] = 36,
+			[3] = 36,
 		},
 		["Zolo:51"] = {
 			[1] = 18624,
 			[2] = 99,
 			[3] = 47,
 		},
-		["Apothecary Jorell:36"] = {
-			[1] = 1611,
-			[2] = 90,
-			[3] = 17,
+		["Twilight Loreseeker:24"] = {
+			[1] = 1839,
+			[2] = 78,
+			[3] = 10,
 		},
 		["Twilight's Hammer Ambassador:56"] = {
 			[1] = 4123,
@@ -11521,25 +11612,25 @@ pfUI_cache = {
 			[2] = 97,
 			[3] = 3,
 		},
-		["Shrieking Banshee:60"] = {
-			[1] = 19626,
-			[2] = 95,
-			[3] = 53,
+		["Wastewander Rogue:44"] = {
+			[1] = 2489,
+			[2] = 99,
+			[3] = 7,
 		},
 		["Redridge Thrasher:14"] = {
 			[1] = 153,
 			[2] = 91,
 			[3] = 1,
 		},
-		["Earthen Stonebreaker:45"] = {
-			[1] = 2783,
-			[2] = 85,
-			[3] = 10,
+		["Fineous Darkvire:54"] = {
+			[1] = 44756,
+			[2] = 86,
+			[3] = 57,
 		},
-		["Searing Blade Enforcer:15"] = {
-			[1] = 1157,
+		["Grel'borg the Miser:39"] = {
+			[1] = 3947,
 			[2] = 99,
-			[3] = 29,
+			[3] = 26,
 		},
 		["Snapjaw:31"] = {
 			[1] = 1203,
@@ -11561,10 +11652,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 19,
 		},
-		["Twilight Marauder:59"] = {
-			[1] = 5759,
-			[2] = 55,
-			[3] = 17,
+		["Skorki:45"] = {
+			[1] = 4750,
+			[2] = 6,
+			[3] = 4,
 		},
 		["Cresting Exile:38"] = {
 			[1] = 1340,
@@ -11581,40 +11672,40 @@ pfUI_cache = {
 			[2] = 76,
 			[3] = 6,
 		},
-		["Rumbling Exile:38"] = {
-			[1] = 1557,
-			[2] = 99,
-			[3] = 15,
+		["Chieftain Nek'rosh:32"] = {
+			[1] = 1747,
+			[2] = 13,
+			[3] = 4,
 		},
-		["Dustwind Savage:9"] = {
-			[1] = 130,
-			[2] = 99,
-			[3] = 6,
+		["Mangled Cadaver:55"] = {
+			[1] = 14051,
+			[2] = 83,
+			[3] = 31,
 		},
-		["Winterfall Runner:57"] = {
-			[1] = 4432,
-			[2] = 85,
-			[3] = 13,
+		["Razormane Dustrunner:9"] = {
+			[1] = 128,
+			[2] = 97,
+			[3] = 4,
 		},
 		["Daggerspine Shorehunter:31"] = {
 			[1] = 1089,
 			[2] = 97,
 			[3] = 9,
 		},
-		["Fleet Master Firallon:48"] = {
-			[1] = 2461,
-			[2] = 79,
-			[3] = 3,
+		["Gordunni Warlock:43"] = {
+			[1] = 1643,
+			[2] = 98,
+			[3] = 5,
 		},
 		["Shadowhide Slayer:26"] = {
 			[1] = 852,
 			[2] = 94,
 			[3] = 3,
 		},
-		["Murk Spitter:46"] = {
-			[1] = 5174,
-			[2] = 90,
-			[3] = 19,
+		["Earthen Templar:60"] = {
+			[1] = 8496,
+			[2] = 96,
+			[3] = 28,
 		},
 		["Crimson Inquisitor:60"] = {
 			[1] = 23424,
@@ -11631,25 +11722,25 @@ pfUI_cache = {
 			[2] = 76,
 			[3] = 60,
 		},
-		["Theramore Sentry:36"] = {
-			[1] = 1775,
-			[2] = 63,
-			[3] = 2,
+		["Murk Worm:48"] = {
+			[1] = 8141,
+			[2] = 99,
+			[3] = 26,
 		},
 		["Ironaya:40"] = {
 			[1] = 23865,
 			[2] = 57,
 			[3] = 25,
 		},
-		["Ridge Stalker:36"] = {
-			[1] = 1600,
-			[2] = 97,
-			[3] = 7,
-		},
-		["Dark Iron Geologist:43"] = {
-			[1] = 1325,
+		["Vale Screecher:43"] = {
+			[1] = 2391,
 			[2] = 99,
-			[3] = 8,
+			[3] = 6,
+		},
+		["Fen Creeper:24"] = {
+			[1] = 693,
+			[2] = 95,
+			[3] = 4,
 		},
 		["Twilight's Hammer Torturer:53"] = {
 			[1] = 6636,
@@ -11666,20 +11757,20 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 18,
 		},
-		["Servant of Ilgalar:25"] = {
-			[1] = 444,
+		["Feral Scar Yeti:44"] = {
+			[1] = 1888,
 			[2] = 99,
-			[3] = 3,
+			[3] = 11,
 		},
-		["Boulderfist Brute:35"] = {
-			[1] = 1469,
+		["Dark Iron Geologist:43"] = {
+			[1] = 1325,
 			[2] = 99,
-			[3] = 9,
+			[3] = 8,
 		},
-		["Venture Co. Tinkerer:40"] = {
-			[1] = 681,
-			[2] = 92,
-			[3] = 2,
+		["Lady Sarevess:25"] = {
+			[1] = 5246,
+			[2] = 99,
+			[3] = 26,
 		},
 		["Anvilrage Captain:58"] = {
 			[1] = 11797,
@@ -11711,40 +11802,40 @@ pfUI_cache = {
 			[2] = 60,
 			[3] = 31,
 		},
-		["Mosshide Mistweaver:22"] = {
-			[1] = 491,
-			[2] = 92,
-			[3] = 2,
+		["Lost One Riftseeker:38"] = {
+			[1] = 421,
+			[2] = 84,
+			[3] = 1,
 		},
-		["Sin'Dall:37"] = {
-			[1] = 1420,
-			[2] = 86,
-			[3] = 4,
+		["Lightning Hide:10"] = {
+			[1] = 171,
+			[2] = 99,
+			[3] = 7,
+		},
+		["Scarlet Medic:53"] = {
+			[1] = 2860,
+			[2] = 80,
+			[3] = 7,
+		},
+		["Defias Wizard:18"] = {
+			[1] = 1023,
+			[2] = 85,
+			[3] = 7,
 		},
 		["Young Sawtooth Crocolisk:36"] = {
 			[1] = 1269,
 			[2] = 95,
 			[3] = 4,
 		},
-		["Hammered Patron:55"] = {
-			[1] = 8800,
-			[2] = 44,
-			[3] = 15,
+		["Black Broodling:51"] = {
+			[1] = 2824,
+			[2] = 99,
+			[3] = 8,
 		},
-		["Makrura Clacker:6"] = {
-			[1] = 119,
-			[2] = 86,
-			[3] = 3,
-		},
-		["Kurzen Jungle Fighter:33"] = {
-			[1] = 1324,
-			[2] = 97,
-			[3] = 5,
-		},
-		["Porcine Entourage:7"] = {
-			[1] = 178,
-			[2] = 40,
-			[3] = 2,
+		["Scarlet Medic:52"] = {
+			[1] = 3089,
+			[2] = 77,
+			[3] = 6,
 		},
 		["Young Panther:30"] = {
 			[1] = 379,
@@ -11761,65 +11852,65 @@ pfUI_cache = {
 			[2] = 96,
 			[3] = 15,
 		},
-		["Skeletal Berserker:57"] = {
-			[1] = 5736,
-			[2] = 59,
-			[3] = 17,
+		["Colonel Kurzen:40"] = {
+			[1] = 4846,
+			[2] = 86,
+			[3] = 10,
 		},
-		["Lost One Fisherman:36"] = {
-			[1] = 1516,
-			[2] = 92,
+		["Fen Lord:26"] = {
+			[1] = 832,
+			[2] = 73,
 			[3] = 4,
 		},
-		["Rumbling Exile:39"] = {
-			[1] = 1821,
-			[2] = 99,
-			[3] = 25,
+		["Stonevault Flameweaver:44"] = {
+			[1] = 4602,
+			[2] = 90,
+			[3] = 11,
 		},
-		["Crimson Monk:61"] = {
-			[1] = 21429,
-			[2] = 95,
-			[3] = 43,
-		},
-		["Kraul Bat:30"] = {
-			[1] = 3017,
-			[2] = 74,
-			[3] = 14,
-		},
-		["Watchman Doomgrip:55"] = {
-			[1] = 9861,
-			[2] = 66,
-			[3] = 21,
-		},
-		["Murkgill Warrior:35"] = {
-			[1] = 1271,
+		["Temporal Parasite:56"] = {
+			[1] = 2907,
 			[2] = 96,
+			[3] = 13,
+		},
+		["Hate'rel:58"] = {
+			[1] = 21238,
+			[2] = 99,
+			[3] = 48,
+		},
+		["Defias Overseer:17"] = {
+			[1] = 1333,
+			[2] = 98,
+			[3] = 10,
+		},
+		["Rogue Black Drake:51"] = {
+			[1] = 5470,
+			[2] = 10,
 			[3] = 4,
 		},
-		["Brutus:43"] = {
-			[1] = 2994,
-			[2] = 81,
-			[3] = 13,
+		["Jarquia:46"] = {
+			[1] = 2241,
+			[2] = 99,
+			[3] = 8,
 		},
 		["Slave Master Blackheart:50"] = {
 			[1] = 2863,
 			[2] = 85,
 			[3] = 12,
 		},
-		["Portal Seeker:53"] = {
-			[1] = 2278,
-			[2] = 80,
-			[3] = 6,
+		["Doom'rel:60"] = {
+			[1] = 27995,
+			[2] = 99,
+			[3] = 59,
 		},
 		["Minor Manifestation of Fire:12"] = {
 			[1] = 209,
 			[2] = 99,
 			[3] = 6,
 		},
-		["Ragefire Trogg:13"] = {
-			[1] = 946,
-			[2] = 90,
-			[3] = 20,
+		["Gordunni Shaman:45"] = {
+			[1] = 2030,
+			[2] = 99,
+			[3] = 4,
 		},
 		["Runa:60"] = {
 			[1] = 2825,
@@ -11831,15 +11922,15 @@ pfUI_cache = {
 			[2] = 98,
 			[3] = 8,
 		},
-		["Rotting Cadaver:54"] = {
-			[1] = 3910,
-			[2] = 99,
-			[3] = 15,
+		["Kul Tiras Marine:6"] = {
+			[1] = 74,
+			[2] = 89,
+			[3] = 4,
 		},
-		["Bloodsail Swashbuckler:41"] = {
-			[1] = 2158,
-			[2] = 98,
-			[3] = 5,
+		["Rocklance:17"] = {
+			[1] = 1673,
+			[2] = 97,
+			[3] = 14,
 		},
 		["Obsidian Shard:40"] = {
 			[1] = 1249,
@@ -11856,15 +11947,15 @@ pfUI_cache = {
 			[2] = 87,
 			[3] = 12,
 		},
-		["Gasher:51"] = {
-			[1] = 15993,
-			[2] = 99,
-			[3] = 45,
+		["Thuzadin Necromancer:60"] = {
+			[1] = 18294,
+			[2] = 97,
+			[3] = 54,
 		},
-		["Imp Minion:31"] = {
-			[1] = 299,
-			[2] = 87,
-			[3] = 1,
+		["Murkshallow Snapclaw:23"] = {
+			[1] = 1853,
+			[2] = 98,
+			[3] = 11,
 		},
 		["Buzzard:39"] = {
 			[1] = 1646,
@@ -11876,25 +11967,25 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 25,
 		},
-		["Crypt Horror:57"] = {
-			[1] = 4383,
+		["Highland Strider:31"] = {
+			[1] = 924,
 			[2] = 99,
-			[3] = 12,
+			[3] = 11,
 		},
 		["Stonelash Flayer:57"] = {
 			[1] = 4316,
 			[2] = 99,
 			[3] = 14,
 		},
-		["Jadespine Basilisk:39"] = {
-			[1] = 5203,
+		["Anvilrage Overseer:51"] = {
+			[1] = 8256,
 			[2] = 97,
-			[3] = 16,
+			[3] = 25,
 		},
-		["Thuzadin Necromancer:61"] = {
-			[1] = 22036,
-			[2] = 96,
-			[3] = 56,
+		["Crypt Horror:57"] = {
+			[1] = 4383,
+			[2] = 99,
+			[3] = 12,
 		},
 		["Krom'Grul:54"] = {
 			[1] = 2252,
@@ -11926,10 +12017,10 @@ pfUI_cache = {
 			[2] = 97,
 			[3] = 7,
 		},
-		["Frostsaber Pride Watcher:59"] = {
-			[1] = 4825,
-			[2] = 29,
-			[3] = 3,
+		["Riverpaw Outrunner:9"] = {
+			[1] = 128,
+			[2] = 83,
+			[3] = 4,
 		},
 		["Shadowforge Surveyor:35"] = {
 			[1] = 2870,
@@ -11951,20 +12042,20 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 8,
 		},
-		["Desert Rumbler:58"] = {
-			[1] = 4539,
+		["Patchwork Horror:59"] = {
+			[1] = 37671,
 			[2] = 99,
-			[3] = 18,
+			[3] = 65,
 		},
 		["Kolkar Wrangler:12"] = {
 			[1] = 246,
 			[2] = 98,
 			[3] = 5,
 		},
-		["Cursed Sailor:26"] = {
-			[1] = 685,
+		["Andre Firebeard:45"] = {
+			[1] = 2702,
 			[2] = 94,
-			[3] = 7,
+			[3] = 9,
 		},
 		["Defias Blackguard:19"] = {
 			[1] = 1447,
@@ -11976,45 +12067,45 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 24,
 		},
-		["Dustwind Harpy:7"] = {
-			[1] = 135,
+		["Ironjaw Basilisk:43"] = {
+			[1] = 2085,
 			[2] = 98,
-			[3] = 6,
+			[3] = 4,
 		},
 		["Vile Slime:55"] = {
 			[1] = 3759,
 			[2] = 96,
 			[3] = 16,
 		},
-		["Black Dragon Whelp:18"] = {
-			[1] = 348,
-			[2] = 75,
-			[3] = 2,
+		["Blackfathom Myrmidon:23"] = {
+			[1] = 2942,
+			[2] = 99,
+			[3] = 17,
 		},
-		["Lesser Rock Elemental:38"] = {
-			[1] = 1688,
-			[2] = 96,
-			[3] = 9,
+		["Highlord Taelan Fordring:63"] = {
+			[1] = 27798,
+			[2] = 38,
+			[3] = 25,
 		},
 		["Young Lashtail Raptor:33"] = {
 			[1] = 1152,
 			[2] = 96,
 			[3] = 1,
 		},
-		["Razormane Battleguard:10"] = {
-			[1] = 175,
-			[2] = 96,
-			[3] = 5,
+		["Witchwing Roguefeather:16"] = {
+			[1] = 309,
+			[2] = 97,
+			[3] = 10,
 		},
 		["Tempered War Golem:46"] = {
 			[1] = 2692,
 			[2] = 99,
 			[3] = 18,
 		},
-		["Highlord Taelan Fordring:63"] = {
-			[1] = 27798,
-			[2] = 38,
-			[3] = 25,
+		["Wailing Banshee:60"] = {
+			[1] = 19789,
+			[2] = 98,
+			[3] = 46,
 		},
 		["Ridge Huntress:39"] = {
 			[1] = 1724,
@@ -12026,10 +12117,10 @@ pfUI_cache = {
 			[2] = 85,
 			[3] = 4,
 		},
-		["Argus Shadow Mage:35"] = {
-			[1] = 1140,
-			[2] = 58,
-			[3] = 2,
+		["Skeletal Healer:26"] = {
+			[1] = 716,
+			[2] = 99,
+			[3] = 1,
 		},
 		["Boulderfist Ogre:32"] = {
 			[1] = 1312,
@@ -12076,20 +12167,20 @@ pfUI_cache = {
 			[2] = 93,
 			[3] = 5,
 		},
-		["Gilnid:20"] = {
-			[1] = 3878,
-			[2] = 66,
-			[3] = 20,
+		["Kurzen Commando:35"] = {
+			[1] = 650,
+			[2] = 99,
+			[3] = 4,
 		},
 		["Bloodscalp Witch Doctor:37"] = {
 			[1] = 1437,
 			[2] = 99,
 			[3] = 2,
 		},
-		["Ward Guardian:31"] = {
-			[1] = 3658,
-			[2] = 57,
-			[3] = 10,
+		["Razorfen Defender:27"] = {
+			[1] = 2568,
+			[2] = 99,
+			[3] = 16,
 		},
 		["Witchwing Harpy:14"] = {
 			[1] = 319,
@@ -12101,84 +12192,84 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 16,
 		},
-		["Firelord:62"] = {
-			[1] = 250087,
-			[2] = 36,
-			[3] = 36,
-		},
-		["Living Decay:56"] = {
-			[1] = 4058,
+		["Venomtail Scorpid:10"] = {
+			[1] = 165,
 			[2] = 99,
-			[3] = 10,
+			[3] = 14,
+		},
+		["Defias Night Blade:25"] = {
+			[1] = 763,
+			[2] = 75,
+			[3] = 1,
 		},
 		["Rockwing Gargoyle:60"] = {
 			[1] = 16871,
 			[2] = 99,
 			[3] = 43,
 		},
-		["Saturated Ooze:48"] = {
-			[1] = 12387,
-			[2] = 97,
-			[3] = 48,
+		["Dreadscorn:57"] = {
+			[1] = 4272,
+			[2] = 92,
+			[3] = 12,
 		},
-		["Burning Blade Fanatic:10"] = {
-			[1] = 200,
-			[2] = 98,
-			[3] = 5,
-		},
-		["Tortured Sentinel:56"] = {
-			[1] = 4122,
+		["Plaguehound:56"] = {
+			[1] = 4151,
 			[2] = 99,
-			[3] = 15,
+			[3] = 12,
 		},
-		["Razormane Geomancer:12"] = {
-			[1] = 178,
-			[2] = 98,
-			[3] = 4,
+		["Defias Henchman:15"] = {
+			[1] = 1197,
+			[2] = 99,
+			[3] = 7,
 		},
-		["Skeletal Warlord:58"] = {
-			[1] = 16004,
-			[2] = 30,
-			[3] = 16,
+		["Unliving Atal'ai:49"] = {
+			[1] = 8778,
+			[2] = 99,
+			[3] = 29,
+		},
+		["Monstrous Ooze:26"] = {
+			[1] = 736,
+			[2] = 94,
+			[3] = 6,
 		},
 		["Deep Pool Threshfin:24"] = {
 			[1] = 2302,
 			[2] = 84,
 			[3] = 15,
 		},
-		["Witchwing Roguefeather:16"] = {
-			[1] = 309,
-			[2] = 97,
-			[3] = 10,
+		["Skeletal Servant:57"] = {
+			[1] = 850,
+			[2] = 92,
+			[3] = 2,
 		},
-		["Hate'rel:58"] = {
-			[1] = 21238,
-			[2] = 99,
-			[3] = 48,
+		["Kolkar Outrunner:7"] = {
+			[1] = 105,
+			[2] = 91,
+			[3] = 4,
 		},
-		["Gnawbone:25"] = {
-			[1] = 1881,
-			[2] = 99,
-			[3] = 11,
+		["Anvilrage Overseer:50"] = {
+			[1] = 6992,
+			[2] = 96,
+			[3] = 28,
 		},
 		["Syndicate Conjuror:36"] = {
 			[1] = 3137,
 			[2] = 98,
 			[3] = 15,
 		},
-		["Black Drake:52"] = {
-			[1] = 7924,
-			[2] = 92,
-			[3] = 24,
+		["Atal'ai Deathwalker:50"] = {
+			[1] = 9348,
+			[2] = 88,
+			[3] = 29,
 		},
-		["Firesworn:60"] = {
-			[1] = 125723,
-			[2] = 84,
-			[3] = 71,
+		["Crushridge Mauler:37"] = {
+			[1] = 4373,
+			[2] = 99,
+			[3] = 29,
 		},
-		["Cleft Scorpid:38"] = {
-			[1] = 1065,
-			[2] = 62,
+		["Witherbark Troll:31"] = {
+			[1] = 1389,
+			[2] = 9,
 			[3] = 1,
 		},
 		["Atal'ai Priest:46"] = {
@@ -12186,25 +12277,25 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 24,
 		},
-		["Anvilrage Overseer:50"] = {
-			[1] = 6992,
-			[2] = 96,
-			[3] = 28,
+		["Rotting Worm:50"] = {
+			[1] = 49,
+			[2] = 82,
+			[3] = 6,
 		},
-		["Murk Slitherer:46"] = {
-			[1] = 6354,
-			[2] = 90,
-			[3] = 15,
+		["Obsidian Golem:38"] = {
+			[1] = 4842,
+			[2] = 85,
+			[3] = 12,
 		},
 		["Burrowing Thundersnout:52"] = {
 			[1] = 6373,
 			[2] = 99,
 			[3] = 16,
 		},
-		["Bloodtalon Taillasher:6"] = {
-			[1] = 119,
-			[2] = 83,
-			[3] = 3,
+		["Dunemaul Enforcer:46"] = {
+			[1] = 2655,
+			[2] = 98,
+			[3] = 8,
 		},
 		["Kazon:27"] = {
 			[1] = 723,
@@ -12216,10 +12307,10 @@ pfUI_cache = {
 			[2] = 73,
 			[3] = 42,
 		},
-		["Marsh Flesheater:44"] = {
-			[1] = 2179,
-			[2] = 99,
-			[3] = 9,
+		["Gelihast:26"] = {
+			[1] = 7479,
+			[2] = 69,
+			[3] = 37,
 		},
 		["Scorching Elemental:54"] = {
 			[1] = 3196,
@@ -12231,10 +12322,10 @@ pfUI_cache = {
 			[2] = 97,
 			[3] = 4,
 		},
-		["Biba:47"] = {
-			[1] = 1567,
-			[2] = 6,
-			[3] = 1,
+		["Feral Scar Yeti:43"] = {
+			[1] = 1708,
+			[2] = 99,
+			[3] = 8,
 		},
 		["Crushridge Warmonger:39"] = {
 			[1] = 4685,
@@ -12246,20 +12337,20 @@ pfUI_cache = {
 			[2] = 97,
 			[3] = 7,
 		},
-		["Murkshallow Snapclaw:23"] = {
-			[1] = 1853,
-			[2] = 98,
-			[3] = 11,
+		["Venture Co. Surveyor:41"] = {
+			[1] = 893,
+			[2] = 89,
+			[3] = 2,
 		},
 		["Vilebranch Warrior:46"] = {
 			[1] = 6015,
 			[2] = 95,
 			[3] = 26,
 		},
-		["Highland Strider:31"] = {
-			[1] = 924,
+		["Shadowforge Surveyor:36"] = {
+			[1] = 2982,
 			[2] = 99,
-			[3] = 11,
+			[3] = 10,
 		},
 		["Tamed Hyena:27"] = {
 			[1] = 751,
@@ -12276,25 +12367,25 @@ pfUI_cache = {
 			[2] = 96,
 			[3] = 9,
 		},
-		["Gordunni Mauler:44"] = {
-			[1] = 1699,
-			[2] = 98,
-			[3] = 6,
+		["Hatecrest Serpent Guard:44"] = {
+			[1] = 1941,
+			[2] = 99,
+			[3] = 5,
 		},
 		["Razormane Defender:13"] = {
 			[1] = 235,
 			[2] = 84,
 			[3] = 5,
 		},
-		["Bluegill Raider:28"] = {
-			[1] = 998,
-			[2] = 94,
-			[3] = 2,
-		},
-		["Crushridge Enforcer:38"] = {
-			[1] = 4228,
+		["Scarlet Praetorian:56"] = {
+			[1] = 6355,
 			[2] = 99,
-			[3] = 34,
+			[3] = 23,
+		},
+		["Stonevault Geomancer:44"] = {
+			[1] = 5129,
+			[2] = 67,
+			[3] = 9,
 		},
 		["Dustbelcher Ogre Mage:44"] = {
 			[1] = 1708,
@@ -12306,10 +12397,10 @@ pfUI_cache = {
 			[2] = 94,
 			[3] = 6,
 		},
-		["Rabid Crag Coyote:43"] = {
-			[1] = 2359,
-			[2] = 99,
-			[3] = 9,
+		["Forsaken Courier:35"] = {
+			[1] = 1187,
+			[2] = 83,
+			[3] = 10,
 		},
 		["Bloodtalon Scythemaw:10"] = {
 			[1] = 140,
@@ -12321,80 +12412,80 @@ pfUI_cache = {
 			[2] = 97,
 			[3] = 43,
 		},
-		["Swampwalker:38"] = {
-			[1] = 705,
-			[2] = 99,
-			[3] = 4,
+		["Defias Digger:15"] = {
+			[1] = 373,
+			[2] = 74,
+			[3] = 3,
 		},
 		["Bloodscalp Hunter:34"] = {
 			[1] = 1375,
 			[2] = 99,
 			[3] = 3,
 		},
-		["Atal'ai Witch Doctor:48"] = {
-			[1] = 6960,
+		["Ice Thistle Yeti:56"] = {
+			[1] = 4455,
 			[2] = 99,
-			[3] = 26,
+			[3] = 19,
 		},
-		["Atal'ai High Priest:50"] = {
-			[1] = 7429,
-			[2] = 38,
-			[3] = 12,
+		["Dustwind Harpy:7"] = {
+			[1] = 135,
+			[2] = 98,
+			[3] = 6,
 		},
-		["Blindlight Oracle:25"] = {
-			[1] = 1859,
-			[2] = 95,
-			[3] = 15,
+		["Scalding Whelp:42"] = {
+			[1] = 1793,
+			[2] = 99,
+			[3] = 7,
 		},
 		["Blackrock Scout:21"] = {
 			[1] = 1618,
 			[2] = 91,
 			[3] = 6,
 		},
-		["Crypt Robber:54"] = {
-			[1] = 5862,
-			[2] = 97,
-			[3] = 17,
-		},
-		["Ragefire Shaman:15"] = {
-			[1] = 1322,
-			[2] = 97,
-			[3] = 25,
-		},
-		["Molten War Golem:57"] = {
-			[1] = 15818,
+		["Molten Elemental:14"] = {
+			[1] = 1266,
 			[2] = 99,
-			[3] = 42,
+			[3] = 26,
+		},
+		["Warpwood Shredder:54"] = {
+			[1] = 3547,
+			[2] = 83,
+			[3] = 7,
+		},
+		["Hungering Wraith:57"] = {
+			[1] = 4395,
+			[2] = 99,
+			[3] = 15,
 		},
 		["Gluggle:37"] = {
 			[1] = 1317,
 			[2] = 55,
 			[3] = 1,
 		},
-		["Stranglethorn Tiger:32"] = {
-			[1] = 1339,
-			[2] = 96,
-			[3] = 5,
+		["Baroness Anastari:61"] = {
+			[1] = 50867,
+			[2] = 39,
+			[3] = 32,
 		},
 		["Dustbelcher Ogre:39"] = {
 			[1] = 1642,
 			[2] = 91,
 			[3] = 9,
 		},
-		["Thistleshrub Dew Collector:48"] = {
-			[1] = 3385,
-			[2] = 99,
-			[3] = 14,
+		["Scarlet Archmage:55"] = {
+			[1] = 4975,
+			[2] = 94,
+			[3] = 10,
 		},
 		["Kurzen Commando:34"] = {
 			[1] = 984,
 			[2] = 99,
 			[3] = 2,
 		},
-		["Bloodscalp Headhunter:37"] = {
-			[1] = 1704,
+		["Ambassador Flamelash:-1"] = {
+			[1] = 51320,
 			[2] = 99,
-			[3] = 4,
+			[3] = 75,
 		},
 		["Syndicate Thief:33"] = {
 			[1] = 1324,
@@ -12406,10 +12497,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 16,
 		},
-		["Swampwalker Elder:39"] = {
-			[1] = 797,
-			[2] = 87,
-			[3] = 2,
+		["Cleft Scorpid:38"] = {
+			[1] = 1065,
+			[2] = 62,
+			[3] = 1,
 		},
 		["Black Ooze:24"] = {
 			[1] = 448,
@@ -12426,10 +12517,10 @@ pfUI_cache = {
 			[2] = 93,
 			[3] = 47,
 		},
-		["Venture Co. Geologist:36"] = {
-			[1] = 438,
-			[2] = 97,
-			[3] = 5,
+		["Crimson Sorcerer:60"] = {
+			[1] = 16528,
+			[2] = 66,
+			[3] = 30,
 		},
 		["Scarlet Spellbinder:57"] = {
 			[1] = 3149,
@@ -12441,24 +12532,24 @@ pfUI_cache = {
 			[2] = 95,
 			[3] = 18,
 		},
-		["Lord Roccor:54"] = {
-			[1] = 28888,
+		["Molten War Golem:57"] = {
+			[1] = 15818,
 			[2] = 99,
-			[3] = 68,
+			[3] = 42,
 		},
 		["Lord Falconcrest:40"] = {
 			[1] = 12717,
 			[2] = 97,
 			[3] = 61,
 		},
-		["Plagued Maggot:55"] = {
-			[1] = 981,
-			[2] = 90,
-			[3] = 3,
-		},
-		["Wretched Lost One:45"] = {
-			[1] = 2091,
+		["Shadowhide Darkweaver:25"] = {
+			[1] = 427,
 			[2] = 98,
+			[3] = 5,
+		},
+		["Skullsplitter Scout:42"] = {
+			[1] = 1891,
+			[2] = 95,
 			[3] = 5,
 		},
 		["Witherbark Sadist:44"] = {
@@ -12466,10 +12557,10 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 11,
 		},
-		["Mosshide Mongrel:22"] = {
-			[1] = 595,
-			[2] = 94,
-			[3] = 3,
+		["Defias Miner:17"] = {
+			[1] = 130,
+			[2] = 71,
+			[3] = 2,
 		},
 		["Armored Scorpid:8"] = {
 			[1] = 154,
@@ -12481,40 +12572,40 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 8,
 		},
-		["Earthen Templar:60"] = {
-			[1] = 8496,
-			[2] = 96,
-			[3] = 28,
-		},
-		["Razormane Dustrunner:9"] = {
-			[1] = 128,
+		["Dreadmaw Crocolisk:10"] = {
+			[1] = 170,
 			[2] = 97,
-			[3] = 4,
+			[3] = 6,
 		},
-		["Gor'marok the Ravager:49"] = {
-			[1] = 3355,
-			[2] = 99,
-			[3] = 7,
+		["Coyote:10"] = {
+			[1] = 127,
+			[2] = 97,
+			[3] = 3,
 		},
-		["Anvilrage Guardsman:53"] = {
-			[1] = 8346,
+		["Atal'ai High Priest:50"] = {
+			[1] = 7429,
+			[2] = 38,
+			[3] = 12,
+		},
+		["Servant of Allistarj:55"] = {
+			[1] = 4757,
 			[2] = 99,
-			[3] = 41,
+			[3] = 13,
 		},
 		["Snort the Heckler:17"] = {
 			[1] = 294,
 			[2] = 90,
 			[3] = 8,
 		},
-		["Swampwalker:39"] = {
-			[1] = 1473,
-			[2] = 93,
-			[3] = 5,
+		["Crimson Courier:60"] = {
+			[1] = 21577,
+			[2] = 26,
+			[3] = 20,
 		},
-		["Defias Smuggler:11"] = {
-			[1] = 220,
-			[2] = 96,
-			[3] = 2,
+		["Cave Creeper:54"] = {
+			[1] = 7299,
+			[2] = 99,
+			[3] = 24,
 		},
 		["Rotting Cadaver:53"] = {
 			[1] = 3597,
@@ -12531,20 +12622,20 @@ pfUI_cache = {
 			[2] = 97,
 			[3] = 52,
 		},
-		["Bluegill Puddlejumper:21"] = {
-			[1] = 413,
-			[2] = 97,
+		["Mindless Undead:58"] = {
+			[1] = 1881,
+			[2] = 68,
 			[3] = 4,
 		},
-		["Eye of Naxxramas:60"] = {
-			[1] = 975,
-			[2] = 93,
-			[3] = 3,
-		},
-		["Fleshflayer Ghoul:59"] = {
-			[1] = 17094,
+		["Stone Keeper:46"] = {
+			[1] = 7908,
 			[2] = 99,
-			[3] = 53,
+			[3] = 18,
+		},
+		["Mosshide Mongrel:22"] = {
+			[1] = 595,
+			[2] = 94,
+			[3] = 3,
 		},
 		["Scourge Champion:59"] = {
 			[1] = 4602,
@@ -12556,15 +12647,15 @@ pfUI_cache = {
 			[2] = 92,
 			[3] = 8,
 		},
-		["Dragonmaw Centurion:28"] = {
-			[1] = 754,
-			[2] = 92,
-			[3] = 10,
+		["Corrupted Bloodtalon Scythemaw:11"] = {
+			[1] = 181,
+			[2] = 93,
+			[3] = 6,
 		},
-		["Shade of Eranikus:-1"] = {
-			[1] = 51158,
-			[2] = 97,
-			[3] = 88,
+		["Venomlash Scorpid:39"] = {
+			[1] = 4936,
+			[2] = 50,
+			[3] = 7,
 		},
 		["Zhevra Runner:13"] = {
 			[1] = 254,
@@ -12576,40 +12667,40 @@ pfUI_cache = {
 			[2] = 89,
 			[3] = 53,
 		},
-		["Glassweb Spider:43"] = {
-			[1] = 2226,
+		["Stonespine:61"] = {
+			[1] = 43026,
 			[2] = 99,
-			[3] = 9,
+			[3] = 72,
 		},
-		["Twilight Marauder:58"] = {
-			[1] = 4515,
-			[2] = 60,
-			[3] = 11,
+		["Witherbark Axe Thrower:33"] = {
+			[1] = 1385,
+			[2] = 92,
+			[3] = 9,
 		},
 		["Twilight Geomancer:50"] = {
 			[1] = 4957,
 			[2] = 99,
 			[3] = 16,
 		},
-		["Black Widow Hatchling:25"] = {
-			[1] = 393,
-			[2] = 90,
-			[3] = 2,
+		["Deadwood Avenger:54"] = {
+			[1] = 3863,
+			[2] = 99,
+			[3] = 14,
 		},
 		["Mosshide Mistweaver:23"] = {
 			[1] = 523,
 			[2] = 75,
 			[3] = 1,
 		},
-		["Hecklefang Hyena:16"] = {
-			[1] = 279,
-			[2] = 95,
-			[3] = 5,
-		},
 		["Blackrock Scout:20"] = {
 			[1] = 1293,
 			[2] = 99,
 			[3] = 6,
+		},
+		["Fleet Master Firallon:48"] = {
+			[1] = 2461,
+			[2] = 79,
+			[3] = 3,
 		},
 		["Geolord Mottle:9"] = {
 			[1] = 240,
@@ -12626,20 +12717,20 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 22,
 		},
-		["Crimson Sorcerer:60"] = {
-			[1] = 16528,
-			[2] = 66,
-			[3] = 30,
+		["Twilight Fire Guard:48"] = {
+			[1] = 6212,
+			[2] = 96,
+			[3] = 27,
 		},
 		["Sunscale Lashtail:13"] = {
 			[1] = 183,
 			[2] = 98,
 			[3] = 9,
 		},
-		["Verek:56"] = {
-			[1] = 20115,
-			[2] = 97,
-			[3] = 50,
+		["Hedrum the Creeper:55"] = {
+			[1] = 28842,
+			[2] = 99,
+			[3] = 60,
 		},
 		["Kurzen Shadow Hunter:38"] = {
 			[1] = 1655,
@@ -12661,27 +12752,27 @@ pfUI_cache = {
 			[2] = 99,
 			[3] = 21,
 		},
-		["Gelihast:26"] = {
-			[1] = 7479,
-			[2] = 69,
-			[3] = 37,
+		["Saturated Ooze:48"] = {
+			[1] = 12387,
+			[2] = 97,
+			[3] = 48,
 		},
 		["Murkshallow Snapclaw:22"] = {
 			[1] = 1634,
 			[2] = 92,
 			[3] = 12,
 		},
-		["Marsh Oracle:45"] = {
-			[1] = 2043,
-			[2] = 96,
-			[3] = 6,
+		["Scalding Broodling:53"] = {
+			[1] = 2505,
+			[2] = 99,
+			[3] = 16,
 		},
 	},
 	["gold"] = {
 		["Hogger"] = {
-			["Naimah"] = 3020467,
-			["Octalis"] = 228824,
-			["Twilightcult"] = 7744,
+			["Naimah"] = 3363563,
+			["Octalis"] = 228794,
+			["Twilightcult"] = 7324,
 			["Maentora"] = 13854,
 		},
 	},
@@ -12689,130 +12780,130 @@ pfUI_cache = {
 		["Hogger"] = {
 			["Naimah"] = {
 				[1] = {
-					[1] = "|cffb27353Southsea Pirate attempts to run away in fear!",
-					[2] = "|cffb27353Southsea Pirate attempts to run away in fear!",
-					[3] = "|cffb27353Southsea Pirate attempts to run away in fear!",
-					[4] = "|cffb27353Southsea Swashbuckler attempts to run away in fear!",
-					[5] = "|cffb27353Southsea Pirate attempts to run away in fear!",
-					[6] = "|cffb27353Southsea Pirate attempts to run away in fear!",
-					[7] = "|cffb27353Southsea Freebooter attempts to run away in fear!",
-					[8] = "|cffb27353Southsea Freebooter attempts to run away in fear!",
-					[9] = "|cff53b253|r|cff53b253[G]|r|cff53b253 |r|cff53b253[|cfff48cba|Hplayer:Sarkiel|h|cfff48cbaSarkiel|h|r|cff53b253]|r|cff53b253|r|cff53b253: np",
-					[10] = "|cffb27353Southsea Dock Worker attempts to run away in fear!",
-					[11] = "|cff53b253|r|cff53b253[G]|r|cff53b253 |r|cff53b253[|cffaad372|Hplayer:Scrubbington|h|cffaad372Scrubbington|h|r|cff53b253]|r|cff53b253|r|cff53b253: ty sm bro",
-					[12] = "|cffb27353Andre Firebeard attempts to run away in fear!",
-					[13] = "|cffb27353Southsea Dock Worker attempts to run away in fear!",
-					[14] = "|cffb27353Southsea Freebooter attempts to run away in fear!",
-					[15] = "|cff53b253|r|cff53b253[G]|r|cff53b253 |r|cff53b253[|cffaad372|Hplayer:Scrubbington|h|cffaad372Scrubbington|h|r|cff53b253]|r|cff53b253|r|cff53b253: |cffffff00|Hquest:0:0:0:0|h[Wanted!  Otto and Falconcrest]|h|r|cff53b253|cffffff00|Hquest:0:0:0:0|h[Wanted!  Marez Cowl]|h|r|cff53b253|cffffff00|Hquest:0:0:0:0|h[Crushridge Warmongers]|h|r|cff53b253|cffffff00|Hquest:0:0:0:0|h[The Perenolde Tiara]|h|r|cff53b253",
-					[16] = "|cffb27353Southsea Dock Worker attempts to run away in fear!",
-					[17] = "|cff53b253|r|cff53b253[G]|r|cff53b253 |r|cff53b253[|cfff48cba|Hplayer:Sarkiel|h|cfff48cbaSarkiel|h|r|cff53b253]|r|cff53b253|r|cff53b253: which ones*",
-					[18] = "|cffb27353Southsea Dock Worker attempts to run away in fear!",
-					[19] = "|cff53b253|r|cff53b253[G]|r|cff53b253 |r|cff53b253[|cfff48cba|Hplayer:Sarkiel|h|cfff48cbaSarkiel|h|r|cff53b253]|r|cff53b253|r|cff53b253: Sure, wish one ? Stormguard ?",
-					[20] = "|cff53b253|r|cff53b253[G]|r|cff53b253 |r|cff53b253[|cffaad372|Hplayer:Scrubbington|h|cffaad372Scrubbington|h|r|cff53b253]|r|cff53b253|r|cff53b253: in arathi",
-					[21] = "|cff53b253|r|cff53b253[G]|r|cff53b253 |r|cff53b253[|cffaad372|Hplayer:Scrubbington|h|cffaad372Scrubbington|h|r|cff53b253]|r|cff53b253|r|cff53b253: anyone can help me with a bunch of elite quests",
-					[22] = "|cffb27353Southsea Dock Worker attempts to run away in fear!",
-					[23] = "|cffb27353Southsea Dock Worker attempts to run away in fear!",
-					[24] = "|cffb27353Southsea Dock Worker attempts to run away in fear!",
-					[25] = "|cffb27353Southsea Dock Worker attempts to run away in fear!",
-					[26] = "|cffb2b233|r|cffb2b233[|cfff48cba|Hplayer:Sarkiel|h|cfff48cbaSarkiel|h|r|cffb2b233]|r|cffb2b233 has come online.",
-					[27] = "|cffb27353Southsea Dock Worker attempts to run away in fear!",
-					[28] = "|cffb27353Southsea Dock Worker attempts to run away in fear!",
-					[29] = "|cffb27353Southsea Dock Worker attempts to run away in fear!",
+					[1] = "|cffb2b233Sagant leaves the party.",
+					[2] = "|cffb2b233Nefertyti leaves the party.",
+					[3] = "|cffb2b233Dirja leaves the party.",
+					[4] = "|cffb2b233Dain leaves the party.",
+					[5] = "|cffb2b233You have been inactive for some time and will be logged out of the game. If you wish to remain logged in, hit the cancel button.",
+					[6] = "|cffb2b233Sagant has gone offline.",
+					[7] = "|cffb2b233|r|cffb2b233[|cffffffff|Hplayer:Gimple|h|cffffffffGimple|h|r|cffb2b233]|r|cffb2b233 has come online.",
+					[8] = "|cff8888b2|r|cff8888b2[P]|r|cff8888b2 |r|cff8888b2[|cffaad372|Hplayer:Dain|h|cffaad372Dain|h|r|cff8888b2]|r|cff8888b2|r|cff8888b2: feeling slighly less squishy",
+					[9] = "|cff8888b2|r|cff8888b2[P]|r|cff8888b2 |r|cff8888b2[|cffaad372|Hplayer:Dain|h|cffaad372Dain|h|r|cff8888b2]|r|cff8888b2|r|cff8888b2: woot, im 4007hp with my pvp gear on now and 3427hp with pve gear",
+					[10] = "|cff8888b2|r|cff8888b2[P]|r|cff8888b2 |r|cff8888b2[|cffffffff|Hplayer:Sagant|h|cffffffffSagant|h|r|cff8888b2]|r|cff8888b2|r|cff8888b2: <3",
+					[11] = "|cff8888b2|r|cff8888b2[P]|r|cff8888b2 |r|cff8888b2[|cffffffff|Hplayer:Sagant|h|cffffffffSagant|h|r|cff8888b2]|r|cff8888b2|r|cff8888b2: ya",
+					[12] = "|cff8888b2|r|cff8888b2[P]|r|cff8888b2 |r|cff8888b2[|cffaad372|Hplayer:Dain|h|cffaad372Dain|h|r|cff8888b2]|r|cff8888b2|r|cff8888b2: really wish |cff0070dd|Hitem:22679:0:0:0|h[Supply Bag]|h|r|cff8888b2 wasn't unique",
+					[13] = "|cff8888b2|r|cff8888b2[P]|r|cff8888b2 |r|cff8888b2[|cffffffff|Hplayer:Sagant|h|cffffffffSagant|h|r|cff8888b2]|r|cff8888b2|r|cff8888b2: yup",
+					[14] = "|cff8888b2|r|cff8888b2[P]|r|cff8888b2 |r|cff8888b2[|cffaad372|Hplayer:Dain|h|cffaad372Dain|h|r|cff8888b2]|r|cff8888b2|r|cff8888b2: yea that thing is niiiice|cffa335ee|Hitem:22678:0:0:0|h[Talisman of Ascendance]|h|r|cff8888b2",
+					[15] = "|cff8888b2|r|cff8888b2[P]|r|cff8888b2 |r|cff8888b2[|cffffffff|Hplayer:Sagant|h|cffffffffSagant|h|r|cff8888b2]|r|cff8888b2|r|cff8888b2: wanting to get that trinket",
+					[16] = "|cff8888b2|r|cff8888b2[P]|r|cff8888b2 |r|cff8888b2[|cffaad372|Hplayer:Dain|h|cffaad372Dain|h|r|cff8888b2]|r|cff8888b2|r|cff8888b2: kickass",
+					[17] = "|cff8888b2|r|cff8888b2[P]|r|cff8888b2 |r|cff8888b2[|cffffffff|Hplayer:Sagant|h|cffffffffSagant|h|r|cff8888b2]|r|cff8888b2|r|cff8888b2: i'm at revered",
+					[18] = "|cff8888b2|r|cff8888b2[P]|r|cff8888b2 |r|cff8888b2[|cffffffff|Hplayer:Sagant|h|cffffffffSagant|h|r|cff8888b2]|r|cff8888b2|r|cff8888b2: ya",
+					[19] = "|cff8888b2|r|cff8888b2[P]|r|cff8888b2 |r|cff8888b2[|cffaad372|Hplayer:Dain|h|cffaad372Dain|h|r|cff8888b2]|r|cff8888b2|r|cff8888b2: was faster than hitting exalted",
+					[20] = "|cff8888b2|r|cff8888b2[P]|r|cff8888b2 |r|cff8888b2[|cffaad372|Hplayer:Dain|h|cffaad372Dain|h|r|cff8888b2]|r|cff8888b2|r|cff8888b2: andi only reached revered with AD before i bought my items from them",
+					[21] = "|cff8888b2|r|cff8888b2[P]|r|cff8888b2 |r|cff8888b2[|cffffffff|Hplayer:Sagant|h|cffffffffSagant|h|r|cff8888b2]|r|cff8888b2|r|cff8888b2: gotcha.. should bought some of those",
+					[22] = "|cff8888b2|r|cff8888b2[P]|r|cff8888b2 |r|cff8888b2[|cffaad372|Hplayer:Dain|h|cffaad372Dain|h|r|cff8888b2]|r|cff8888b2|r|cff8888b2: coz they could be turned in for either of the two tokens",
+					[23] = "|cff8888b2|r|cff8888b2[P]|r|cff8888b2 |r|cff8888b2[|cffaad372|Hplayer:Dain|h|cffaad372Dain|h|r|cff8888b2]|r|cff8888b2|r|cff8888b2: they drop off undead stuff, but i farmed core of elements",
+					[24] = "|cff8888b2|r|cff8888b2[P]|r|cff8888b2 |r|cff8888b2[|cffffffff|Hplayer:Sagant|h|cffffffffSagant|h|r|cff8888b2]|r|cff8888b2|r|cff8888b2: where do you usually farm em?",
+					[25] = "|cff8888b2|r|cff8888b2[P]|r|cff8888b2 |r|cff8888b2[|cffffffff|Hplayer:Sagant|h|cffffffffSagant|h|r|cff8888b2]|r|cff8888b2|r|cff8888b2: i'd be happy to have it.",
+					[26] = "|cff8888b2|r|cff8888b2[P]|r|cff8888b2 |r|cff8888b2[|cffaad372|Hplayer:Dain|h|cffaad372Dain|h|r|cff8888b2]|r|cff8888b2|r|cff8888b2: sagant i got 4x|cffffffff|Hitem:22526:0:0:0|h[Bone Fragments]|h|r|cff8888b2left uc an have ",
+					[27] = "|cffb2b233|r|cffb2b233[|cffff7c0a|Hplayer:Iuma|h|cffff7c0aIuma|h|r|cffb2b233]|r|cffb2b233 has come online.",
+					[28] = "|cff8888b2|r|cff8888b2[P]|r|cff8888b2 |r|cff8888b2[|cffff7c0a|Hplayer:Dirja|h|cffff7c0aDirja|h|r|cff8888b2]|r|cff8888b2|r|cff8888b2: naisu",
+					[29] = "|cffb2b233You are now AFK: Away from Keyboard",
 				},
 				[2] = {
 				},
 				[3] = {
-					[1] = "|cff338833You receive loot: |cffffffff|Hitem:4338:0:0:0|h[Mageweave Cloth]|h|r|cff338833.",
-					[2] = "|cffb2b233You loot 94 Copper",
-					[3] = "|cff7373b2Your Gadgetzan reputation has increased by 1.",
-					[4] = "|cffb2b233You loot 83 Copper",
-					[5] = "|cff7373b2Your Gadgetzan reputation has increased by 1.",
-					[6] = "|cffb2b233You loot 1 Silver, 10 Copper",
-					[7] = "|cff7373b2Your Gadgetzan reputation has increased by 1.",
-					[8] = "|cffb2b233You loot 85 Copper",
-					[9] = "|cffb2b233You loot 96 Copper",
-					[10] = "|cff7373b2Your Gadgetzan reputation has increased by 1.",
-					[11] = "|cff7373b2Your Gadgetzan reputation has increased by 1.",
-					[12] = "|cff338833You receive loot: |cffffffff|Hitem:1645:0:0:0|h[Moonberry Juice]|h|r|cff338833.",
-					[13] = "|cffb2b233You loot 1 Silver, 10 Copper",
-					[14] = "|cff7373b2Your Gadgetzan reputation has increased by 1.",
-					[15] = "|cffb2b233You loot 94 Copper",
-					[16] = "|cff7373b2Your Gadgetzan reputation has increased by 1.",
-					[17] = "|cffb2b233You loot 1 Silver, 4 Copper",
-					[18] = "|cff7373b2Your Gadgetzan reputation has increased by 1.",
-					[19] = "|cffb2b233You loot 1 Silver, 1 Copper",
-					[20] = "|cff7373b2Your Gadgetzan reputation has increased by 1.",
-					[21] = "|cff338833You receive loot: |cffffffff|Hitem:3928:0:0:0|h[Superior Healing Potion]|h|r|cff338833.",
-					[22] = "|cff338833You receive loot: |cff9d9d9d|Hitem:4024:0:0:0|h[Heavy War Staff]|h|r|cff338833.",
-					[23] = "|cffb2b233You loot 81 Copper",
-					[24] = "|cff7373b2Your Gadgetzan reputation has increased by 1.",
-					[25] = "|cffb2b233You loot 1 Silver, 1 Copper",
-					[26] = "|cff338833You receive loot: |cffffffff|Hitem:4338:0:0:0|h[Mageweave Cloth]|h|r|cff338833x2.",
-					[27] = "|cffb2b233You loot 91 Copper",
-					[28] = "|cff338833You receive loot: |cffffffff|Hitem:4338:0:0:0|h[Mageweave Cloth]|h|r|cff338833x2.",
-					[29] = "|cffb2b233You loot 1 Silver, 13 Copper",
+					[1] = "|cff338833Dirja won: |cff0070dd|Hitem:22409:0:0:0|h[Tunic of the Crescent Moon]|h|r|cff338833",
+					[2] = "|cff338833Greed Roll - 6 for |cff0070dd|Hitem:22409:0:0:0|h[Tunic of the Crescent Moon]|h|r|cff338833 by Dain",
+					[3] = "|cff338833Greed Roll - 47 for |cff0070dd|Hitem:22409:0:0:0|h[Tunic of the Crescent Moon]|h|r|cff338833 by Dirja",
+					[4] = "|cff338833Greed Roll - 28 for |cff0070dd|Hitem:22409:0:0:0|h[Tunic of the Crescent Moon]|h|r|cff338833 by Sagant",
+					[5] = "|cff338833Greed Roll - 28 for |cff0070dd|Hitem:22409:0:0:0|h[Tunic of the Crescent Moon]|h|r|cff338833 by Nefertyti",
+					[6] = "|cff338833Dirja has selected Greed for: |cff0070dd|Hitem:22409:0:0:0|h[Tunic of the Crescent Moon]|h|r|cff338833",
+					[7] = "|cff338833You won: |cff0070dd|Hitem:16722:0:0:0|h[Lightforge Bracers]|h|r|cff338833",
+					[8] = "|cff338833Need Roll - 78 for |cff0070dd|Hitem:16722:0:0:0|h[Lightforge Bracers]|h|r|cff338833 by Naimah",
+					[9] = "|cff338833Nefertyti has selected Greed for: |cff0070dd|Hitem:16722:0:0:0|h[Lightforge Bracers]|h|r|cff338833",
+					[10] = "|cff338833Dirja won: |cff0070dd|Hitem:13340:0:0:0|h[Cape of the Black Baron]|h|r|cff338833",
+					[11] = "|cff338833Need Roll - 26 for |cff0070dd|Hitem:13340:0:0:0|h[Cape of the Black Baron]|h|r|cff338833 by Dirja",
+					[12] = "|cff338833Nefertyti has selected Greed for: |cff0070dd|Hitem:13340:0:0:0|h[Cape of the Black Baron]|h|r|cff338833",
+					[13] = "|cff338833Dirja has selected Need for: |cff0070dd|Hitem:13340:0:0:0|h[Cape of the Black Baron]|h|r|cff338833",
+					[14] = "|cff338833Dain won: |cff0070dd|Hitem:16681:0:0:0|h[Beaststalker's Bindings]|h|r|cff338833",
+					[15] = "|cff338833Need Roll - 24 for |cff0070dd|Hitem:16681:0:0:0|h[Beaststalker's Bindings]|h|r|cff338833 by Dain",
+					[16] = "|cff338833Nefertyti has selected Greed for: |cff0070dd|Hitem:16681:0:0:0|h[Beaststalker's Bindings]|h|r|cff338833",
+					[17] = "|cff338833Dirja won: |cff0070dd|Hitem:50021:0:0:0|h[Dragonbreath]|h|r|cff338833",
+					[18] = "|cff338833Need Roll - 49 for |cff0070dd|Hitem:50021:0:0:0|h[Dragonbreath]|h|r|cff338833 by Dirja",
+					[19] = "|cff338833Nefertyti passed on: |cff0070dd|Hitem:50021:0:0:0|h[Dragonbreath]|h|r|cff338833",
+					[20] = "|cff338833Nefertyti has selected Greed for: |cff0070dd|Hitem:22409:0:0:0|h[Tunic of the Crescent Moon]|h|r|cff338833",
+					[21] = "|cff338833Dirja has selected Greed for: |cff0070dd|Hitem:16722:0:0:0|h[Lightforge Bracers]|h|r|cff338833",
+					[22] = "|cff338833Nefertyti won: |cff1eff00|Hitem:12843:0:0:0|h[Corruptor's Scourgestone]|h|r|cff338833",
+					[23] = "|cff338833Greed Roll - 13 for |cff1eff00|Hitem:12843:0:0:0|h[Corruptor's Scourgestone]|h|r|cff338833 by Naimah",
+					[24] = "|cff338833Greed Roll - 17 for |cff1eff00|Hitem:12843:0:0:0|h[Corruptor's Scourgestone]|h|r|cff338833 by Dain",
+					[25] = "|cff338833Greed Roll - 78 for |cff1eff00|Hitem:12843:0:0:0|h[Corruptor's Scourgestone]|h|r|cff338833 by Nefertyti",
+					[26] = "|cff338833You have selected Greed for: |cff1eff00|Hitem:12843:0:0:0|h[Corruptor's Scourgestone]|h|r|cff338833",
+					[27] = "|cff338833You passed on: |cff0070dd|Hitem:13340:0:0:0|h[Cape of the Black Baron]|h|r|cff338833",
+					[28] = "|cff338833Sagant has selected Greed for: |cff0070dd|Hitem:13340:0:0:0|h[Cape of the Black Baron]|h|r|cff338833",
+					[29] = "|cff338833Sagant passed on: |cff0070dd|Hitem:16722:0:0:0|h[Lightforge Bracers]|h|r|cff338833",
 				},
 				[4] = {
-					[1] = "|cffb28cb2[W] |r|cffb28cb2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb28cb2]|r|cffb28cb2|r|cffb28cb2: yep no hope for him now",
-					[2] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: That kiddo's gonna be a night owl for sure",
-					[3] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: O_O",
-					[4] = "|cffb28cb2[W] |r|cffb28cb2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb28cb2]|r|cffb28cb2|r|cffb28cb2: my 2yr old is still up playing with us.. so yes i need sleep for him for sure",
-					[5] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: And LIFE",
-					[6] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: Hahah I believe it, kids tend to have that effect",
-					[7] = "|cffb28cb2[W] |r|cffb28cb2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb28cb2]|r|cffb28cb2|r|cffb28cb2: thanks.. and thanks.. i need it",
-					[8] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: Sleep well Nef! :)",
-					[9] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: Best of luck if you do!",
-					[10] = "|cffb28cb2[W] |r|cffb28cb2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb28cb2]|r|cffb28cb2|r|cffb28cb2: anyway i'm going to bed.. i'm not sure if i'm raiding or not tomorrow",
-					[11] = "|cffb28cb2[W] |r|cffb28cb2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb28cb2]|r|cffb28cb2|r|cffb28cb2: yep",
-					[12] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: I swear they made it MORE expensive.",
-					[13] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: Wtf",
-					[14] = "|cffb28cb2[W] |r|cffb28cb2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb28cb2]|r|cffb28cb2|r|cffb28cb2: 30 dragonscales..",
-					[15] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: Loool ridiculous.",
-					[16] = "|cffb28cb2[W] |r|cffb28cb2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb28cb2]|r|cffb28cb2|r|cffb28cb2: tell me about it.. 5 arcanite bars.. 15lbs ",
-					[17] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: Truly an epic grind.  At this point I think it's a prestige item so it'll be cool to have regardless ^_^",
-					[18] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: Yeah I mean just the amount you've dropped on that questline is scary already! ",
-					[19] = "|cffb28cb2[W] |r|cffb28cb2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb28cb2]|r|cffb28cb2|r|cffb28cb2: i know.. i've been saving my pennies since march ",
-					[20] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: And on this server they made the skill super expensive (which honestly makes more sense) but it means that Paladins/Warlocks can end up paying a double fortune.",
-					[21] = "|cffb28cb2[W] |r|cffb28cb2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb28cb2]|r|cffb28cb2|r|cffb28cb2: well its a summon so maybe it will be less at least",
-					[22] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: I think they didn't alter the cash values since previously the mounts were super expensive.",
-					[23] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: As far as I know it does not.",
-					[24] = "|cffb28cb2[W] |r|cffb28cb2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb28cb2]|r|cffb28cb2|r|cffb28cb2: nope i think i t comes with it .. at least i hope so",
-					[25] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: Holy crap do you have your max riding skill?",
-					[26] = "|cffb28cb2[W] |r|cffb28cb2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb28cb2]|r|cffb28cb2|r|cffb28cb2: funny thing i'm ahead of Tegridy in the quest line.. ",
-					[27] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: O_O",
-					[28] = "|cffb28cb2[W] |r|cffb28cb2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb28cb2]|r|cffb28cb2|r|cffb28cb2: yep i dropped 200g last night to get where i am.. need to drop another 400 to get it i think",
-					[29] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: Freaking sweet, I've still yet to do Scholo on this server and would love to try it.",
+					[1] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: I have just fixed this for Cleo hahaa",
+					[2] = "|cffb28cb2[W] |r|cffb28cb2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb28cb2]|r|cffb28cb2|r|cffb28cb2: sad.. just sad",
+					[3] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: This is accurate. :((((((",
+					[4] = "|cffb28cb2[W] |r|cffb28cb2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb28cb2]|r|cffb28cb2|r|cffb28cb2: you telling me you don't have all my alts on your friends list.. thats why you d ind't see me",
+					[5] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: My penance for FAILURE",
+					[6] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: Oh I just said there's clearly a Teebu's Blazing Longsword in that Eternium Lockbox for you. :P",
+					[7] = "|cffb28cb2[W] |r|cffb28cb2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb28cb2]|r|cffb28cb2|r|cffb28cb2: what you say.. too many people talking to me",
+					[8] = "|cffb273b2[W] |r|cffb273b2[|cfff48cba|Hplayer:Siege|h|cfff48cbaSiege|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: Work and LIFE",
+					[9] = "|cffb273b2[W] |r|cffb273b2[|cfff48cba|Hplayer:Siege|h|cfff48cbaSiege|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: Ugh it really does",
+					[10] = "|cffb28cb2[W] |r|cffb28cb2[|cfff48cba|Hplayer:Siege|h|cfff48cbaSiege|h|r|cffb28cb2]|r|cffb28cb2|r|cffb28cb2: work happens",
+					[11] = "|cffb28cb2[W] |r|cffb28cb2[|cfff48cba|Hplayer:Siege|h|cfff48cbaSiege|h|r|cffb28cb2]|r|cffb28cb2|r|cffb28cb2: its ok",
+					[12] = "|cffb273b2[W] |r|cffb273b2[|cfff48cba|Hplayer:Siege|h|cfff48cbaSiege|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: I FAILED YOU I'M SORRY :((((((((",
+					[13] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: And a pumpkin.",
+					[14] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: And less stress",
+					[15] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: And that I need more sleep",
+					[16] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: TELL SIEGE I AM SORRY",
+					[17] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: I am basically worse than hitler :(",
+					[18] = "|cffb28cb2[W] |r|cffb28cb2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb28cb2]|r|cffb28cb2|r|cffb28cb2: i blame you",
+					[19] = "|cffb28cb2[W] |r|cffb28cb2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb28cb2]|r|cffb28cb2|r|cffb28cb2: siege is now home..  sitting and staring at me play",
+					[20] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: OH NOO",
+					[21] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: Time for the spankings...again.",
+					[22] = "|cffb28cb2[W] |r|cffb28cb2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb28cb2]|r|cffb28cb2|r|cffb28cb2: you gonna get me in trouble too",
+					[23] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: Ruh roh",
+					[24] = "|cffb28cb2[W] |r|cffb28cb2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb28cb2]|r|cffb28cb2|r|cffb28cb2: you in trouble",
+					[25] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: I accidentally put out feelers in Guild Chat because I am sleep deprived and had a very long day and thought you guys weren't online :(",
+					[26] = "|cffb28cb2[W] |r|cffb28cb2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb28cb2]|r|cffb28cb2|r|cffb28cb2: so i have to ask wtf aren't we waiting on siege?",
+					[27] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: Lolol amazing",
+					[28] = "|cffb28cb2[W] |r|cffb28cb2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb28cb2]|r|cffb28cb2|r|cffb28cb2: exactly",
+					[29] = "|cffb273b2[W] |r|cffb273b2[|cff9382c9|Hplayer:Nefertyti|h|cff9382c9Nefertyti|h|r|cffb273b2]|r|cffb273b2|r|cffb273b2: Hahaha and then it hit you...they might not be serious? :P",
 				},
 				[5] = {
-					[1] = "|cffb29393Joined Channel: [4. LookingForGroup]",
-					[2] = "|cffb29393Joined Channel: [3. LocalDefense - Tanaris]",
-					[3] = "|cffb29393Joined Channel: [1. General - Tanaris]",
-					[4] = "|cffb29393Joined Channel: [4. LookingForGroup]",
-					[5] = "|cffb29393Joined Channel: [3. LocalDefense - Tanaris]",
-					[6] = "|cffb29393Joined Channel: [1. General - Tanaris]",
-					[7] = "|cffb29393Joined Channel: [4. LookingForGroup]",
-					[8] = "|cffb29393Joined Channel: [3. LocalDefense - Tanaris]",
-					[9] = "|cffb29393Joined Channel: [1. General - Tanaris]",
-					[10] = "|cffb29393Changed Channel: [3. LocalDefense - Tanaris]",
-					[11] = "|cffb29393Changed Channel: [1. General - Tanaris]",
-					[12] = "|cffb29393Changed Channel: [3. LocalDefense - Silithus]",
-					[13] = "|cffb29393Changed Channel: [1. General - Silithus]",
-					[14] = "|cffb29393Changed Channel: [3. LocalDefense - Tanaris]",
-					[15] = "|cffb29393Changed Channel: [1. General - Tanaris]",
-					[16] = "|cffb29393Joined Channel: [4. LookingForGroup]",
-					[17] = "|cffb29393Joined Channel: [3. LocalDefense - Feralas]",
-					[18] = "|cffb29393Joined Channel: [1. General - Feralas]",
-					[19] = "|cffb29393Changed Channel: [3. LocalDefense - Feralas]",
-					[20] = "|cffb29393Changed Channel: [1. General - Feralas]",
-					[21] = "|cffb29393Joined Channel: [4. LookingForGroup]",
-					[22] = "|cffb29393Joined Channel: [3. LocalDefense - Tanaris]",
-					[23] = "|cffb29393Joined Channel: [1. General - Tanaris]",
-					[24] = "|cffb29393Changed Channel: [3. LocalDefense - Tanaris]",
-					[25] = "|cffb29393Changed Channel: [1. General - Tanaris]",
-					[26] = "|cffb29393Changed Channel: [3. LocalDefense - Silithus]",
-					[27] = "|cffb29393Changed Channel: [1. General - Silithus]",
-					[28] = "|cffb29393Joined Channel: [4. LookingForGroup]",
-					[29] = "|cffb29393Joined Channel: [3. LocalDefense - Tanaris]",
+					[1] = "|cffb29393Changed Channel: [3. LocalDefense - Redridge Mountains]",
+					[2] = "|cffb29393Left Channel: [2. Trade - City]",
+					[3] = "|cffb29393Changed Channel: [1. General - Redridge Mountains]",
+					[4] = "|cffb29393Changed Channel: [3. LocalDefense - Ironforge]",
+					[5] = "|cffb29393Joined Channel: [2. Trade - City]",
+					[6] = "|cffb29393Changed Channel: [1. General - Ironforge]",
+					[7] = "|cffb29393Changed Channel: [3. LocalDefense - Stratholme]",
+					[8] = "|cffb29393Changed Channel: [1. General - Stratholme]",
+					[9] = "|cffb29393Changed Channel: [3. LocalDefense - Eastern Plaguelands]",
+					[10] = "|cffb29393Changed Channel: [1. General - Eastern Plaguelands]",
+					[11] = "|cffb29393Changed Channel: [3. LocalDefense - Stratholme]",
+					[12] = "|cffb29393Changed Channel: [1. General - Stratholme]",
+					[13] = "|cffb29393Joined Channel: [4. LookingForGroup]",
+					[14] = "|cffb29393Joined Channel: [3. LocalDefense - Eastern Plaguelands]",
+					[15] = "|cffb29393Joined Channel: [1. General - Eastern Plaguelands]",
+					[16] = "|cffb29393Changed Channel: [3. LocalDefense - Stratholme]",
+					[17] = "|cffb29393Changed Channel: [1. General - Stratholme]",
+					[18] = "|cffb29393Changed Channel: [3. LocalDefense - Eastern Plaguelands]",
+					[19] = "|cffb29393Left Channel: [2. Trade - City]",
+					[20] = "|cffb29393Changed Channel: [1. General - Eastern Plaguelands]",
+					[21] = "|cffb29393Changed Channel: [3. LocalDefense - Ironforge]",
+					[22] = "|cffb29393Joined Channel: [2. Trade - City]",
+					[23] = "|cffb29393Changed Channel: [1. General - Ironforge]",
+					[24] = "|cffb29393Joined Channel: [4. LookingForGroup]",
+					[25] = "|cffb29393Joined Channel: [3. LocalDefense - Silithus]",
+					[26] = "|cffb29393Joined Channel: [1. General - Silithus]",
+					[27] = "|cffb29393Changed Channel: [3. LocalDefense - Silithus]",
+					[28] = "|cffb29393Changed Channel: [1. General - Silithus]",
+					[29] = "|cffb29393Changed Channel: [3. LocalDefense - Dustwallow Marsh]",
 				},
 				[6] = {
 				},
@@ -12834,20 +12925,20 @@ pfUI_cache = {
 					[11] = "|cFFFF8080DPSMate|r: This is a remastered build, consider it the last one. I have focused on reducing the complexity in this update and fix the remaining bugs!",
 					[12] = "|cFFFF8080DPSMate|r: DPSMate build 130 has been loaded!",
 					[13] = "TheoryCraft |cffccccff|Hurl:1.06.5|h[1.06.5]|h|r by Aelian. Type /tc for ui interface. Type /tc more for hidden features.",
-					[14] = "|cffb2b233You have requested to trade with Dirja.",
-					[15] = "|cffb29393Joined Channel: [4. GuildRecruitment - City]",
-					[16] = "|cffb29393Joined Channel: [2. Trade - City]",
-					[17] = "|cffffff00<AF>|rToolTip: Theme: |cff0099FFAqua Fusion|r by |cff0099FFAquaFlare7 (AquaFlare7@gmail.com)|r applied",
-					[18] = "|cffffff00<AF>|rToolTip: v5.8 Loaded for Octalis of Hogger",
-					[19] = "|cffb2b233Welcome to World of Warcraft: Vanilla+",
-					[20] = "|cFF7CFC00M|r|cffC495DDacro|r |cFF7CFC00E|r|cffC495DDxtender|r: Has been loaded",
-					[21] = "|cffffff78Ace Initialization Complete|r\n|cffffff78Registered Ace applications:|r 1\n|cffffff78Profile loaded:|r default\n|cffffff78Type|r |cffd8c7ff/ace|r |cffffff78for more information|r",
-					[22] = "MobInfo-2  v 2.97  Loaded,  |cff00ff00enter /mi2 or /mobinfo2 for help",
-					[23] = "|cFFFF8080DPSMate|r: Also, If you would like to upload raid logs and armory, take a look at |cffccccff|Hurl:https://legacyplayers.com|h[https://legacyplayers.com]|h|r ",
-					[24] = "|cFFFF8080DPSMate|r: If anyone is interested in further fixing this addon, adding features etc. feel free to make a pull request in the repo!",
-					[25] = "|cFFFF8080DPSMate|r: This is a remastered build, consider it the last one. I have focused on reducing the complexity in this update and fix the remaining bugs!",
-					[26] = "|cFFFF8080DPSMate|r: DPSMate build 130 has been loaded!",
-					[27] = "TheoryCraft |cffccccff|Hurl:1.06.5|h[1.06.5]|h|r by Aelian. Type /tc for ui interface. Type /tc more for hidden features.",
+					[14] = "|cffb29393Joined Channel: [4. GuildRecruitment - City]",
+					[15] = "|cffb29393Joined Channel: [2. Trade - City]",
+					[16] = "|cffffff00<AF>|rToolTip: Theme: |cff0099FFAqua Fusion|r by |cff0099FFAquaFlare7 (AquaFlare7@gmail.com)|r applied",
+					[17] = "|cffffff00<AF>|rToolTip: v5.8 Loaded for Octalis of Hogger",
+					[18] = "|cffb2b233Welcome to World of Warcraft: Vanilla+",
+					[19] = "|cFF7CFC00M|r|cffC495DDacro|r |cFF7CFC00E|r|cffC495DDxtender|r: Has been loaded",
+					[20] = "|cffffff78Ace Initialization Complete|r\n|cffffff78Registered Ace applications:|r 1\n|cffffff78Profile loaded:|r default\n|cffffff78Type|r |cffd8c7ff/ace|r |cffffff78for more information|r",
+					[21] = "MobInfo-2  v 2.97  Loaded,  |cff00ff00enter /mi2 or /mobinfo2 for help",
+					[22] = "|cFFFF8080DPSMate|r: Also, If you would like to upload raid logs and armory, take a look at |cffccccff|Hurl:https://legacyplayers.com|h[https://legacyplayers.com]|h|r ",
+					[23] = "|cFFFF8080DPSMate|r: If anyone is interested in further fixing this addon, adding features etc. feel free to make a pull request in the repo!",
+					[24] = "|cFFFF8080DPSMate|r: This is a remastered build, consider it the last one. I have focused on reducing the complexity in this update and fix the remaining bugs!",
+					[25] = "|cFFFF8080DPSMate|r: DPSMate build 130 has been loaded!",
+					[26] = "TheoryCraft |cffccccff|Hurl:1.06.5|h[1.06.5]|h|r by Aelian. Type /tc for ui interface. Type /tc more for hidden features.",
+					[27] = "|cffb2b233You have requested to trade with Dirja.",
 					[28] = "|cffb29393Joined Channel: [4. GuildRecruitment - City]",
 					[29] = "|cffb29393Joined Channel: [2. Trade - City]",
 				},
@@ -12882,10 +12973,10 @@ pfUI_cache = {
 			},
 			["Twilightcult"] = {
 				[1] = {
-					[1] = "|cffffff00<AF>|rToolTip: Theme: |cff0099FFAqua Fusion|r by |cff0099FFAquaFlare7 (AquaFlare7@gmail.com)|r applied",
-					[2] = "|cffffff00<AF>|rToolTip: v5.8 Loaded for Twilightcult of Hogger",
-					[3] = "|cffb29393Joined Channel: [5. GuildRecruitment - City]",
-					[4] = "|cffb29393Joined Channel: [2. Trade - City]",
+					[1] = "|cffb29393Joined Channel: [5. GuildRecruitment - City]",
+					[2] = "|cffb29393Joined Channel: [2. Trade - City]",
+					[3] = "|cffffff00<AF>|rToolTip: Theme: |cff0099FFAqua Fusion|r by |cff0099FFAquaFlare7 (AquaFlare7@gmail.com)|r applied",
+					[4] = "|cffffff00<AF>|rToolTip: v5.8 Loaded for Twilightcult of Hogger",
 					[5] = "|cffb2b233Welcome to World of Warcraft: Vanilla+",
 					[6] = "|cFF7CFC00M|r|cffC495DDacro|r |cFF7CFC00E|r|cffC495DDxtender|r: Has been loaded",
 					[7] = "|cffffff78Ace Initialization Complete|r\n|cffffff78Registered Ace applications:|r 1\n|cffffff78Profile loaded:|r default\n|cffffff78Type|r |cffd8c7ff/ace|r |cffffff78for more information|r",
@@ -12908,9 +12999,9 @@ pfUI_cache = {
 					[24] = "|cFFFF8080DPSMate|r: This is a remastered build, consider it the last one. I have focused on reducing the complexity in this update and fix the remaining bugs!",
 					[25] = "|cFFFF8080DPSMate|r: DPSMate build 130 has been loaded!",
 					[26] = "TheoryCraft |cffccccff|Hurl:1.06.5|h[1.06.5]|h|r by Aelian. Type /tc for ui interface. Type /tc more for hidden features.",
-					[27] = "|cffb2b282Thomas Miller says: Warm, wholesome bread!",
-					[28] = "|cffb29393Joined Channel: [5. GuildRecruitment - City]",
-					[29] = "|cffb29393Joined Channel: [2. Trade - City]",
+					[27] = "|cffffff00<AF>|rToolTip: Theme: |cff0099FFAqua Fusion|r by |cff0099FFAquaFlare7 (AquaFlare7@gmail.com)|r applied",
+					[28] = "|cffffff00<AF>|rToolTip: v5.8 Loaded for Twilightcult of Hogger",
+					[29] = "|cffb29393Joined Channel: [5. GuildRecruitment - City]",
 				},
 				[2] = {
 				},

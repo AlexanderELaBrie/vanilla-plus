@@ -1,5 +1,5 @@
 
 BCSConfig = {
-	["DropdownRight"] = "PLAYERSTAT_BASE_STATS",
+	["DropdownRight"] = "PLAYERSTAT_MELEE_COMBAT",
 	["DropdownLeft"] = "PLAYERSTAT_BASE_STATS",
 }

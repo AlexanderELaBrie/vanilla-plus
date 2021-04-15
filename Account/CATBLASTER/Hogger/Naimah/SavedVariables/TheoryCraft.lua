@@ -9,26 +9,26 @@ TheoryCraft_Settings = {
 		["Nature"] = 0,
 	},
 	["ColR"] = 1,
-	["ColG"] = 1,
+	["buttontextx"] = 1.111,
 	["ColG2"] = 1,
 	["ColR2"] = 1,
-	["embedstyle1"] = true,
+	["ColB"] = 1,
 	["tryfirst"] = "averagedam",
 	["trysecondsfg"] = -1,
-	["ColB"] = 1,
+	["embedstyle1"] = true,
 	["tryfirstsfg"] = 0,
-	["embed"] = true,
-	["buttontextx"] = 1.111,
-	["buttontexty"] = 10.22,
+	["combinedot"] = true,
+	["ColG"] = 1,
+	["FontPath"] = "Interface\\AddOns\\pfUI\\fonts\\BigNoodleTitling.ttf",
 	["GenerateList"] = "",
-	["ColB2"] = 0.6862745098039216,
+	["procs"] = true,
 	["trysecond"] = "averagehealnocrit",
-	["dataversion"] = "1.06",
+	["mitigation"] = true,
 	["buttontext"] = true,
 	["dontresist"] = true,
-	["mitigation"] = true,
-	["procs"] = true,
-	["FontPath"] = "Interface\\AddOns\\pfUI\\fonts\\BigNoodleTitling.ttf",
+	["dataversion"] = "1.06",
+	["ColB2"] = 0.6862745098039216,
+	["buttontexty"] = 10.22,
 	["critchancedata"] = {
 		["113:0"] = {
 			["casts"] = 7,
@@ -66,8 +66,8 @@ TheoryCraft_Settings = {
 			["casts"] = 49,
 			["crits"] = 5,
 		},
-		["87:0"] = {
-			["casts"] = 4,
+		["80:0"] = {
+			["casts"] = 6,
 			["crits"] = 0,
 		},
 		["169:3"] = {
@@ -146,13 +146,13 @@ TheoryCraft_Settings = {
 			["casts"] = 1,
 			["crits"] = 0,
 		},
-		["94:3"] = {
-			["casts"] = 2,
-			["crits"] = 1,
-		},
-		["117:0"] = {
-			["casts"] = 1,
+		["118:0"] = {
+			["casts"] = 14,
 			["crits"] = 0,
+		},
+		["100:0"] = {
+			["casts"] = 12,
+			["crits"] = 3,
 		},
 		["116:0"] = {
 			["casts"] = 10,
@@ -194,76 +194,92 @@ TheoryCraft_Settings = {
 			["casts"] = 8,
 			["crits"] = 2,
 		},
+		["58:0"] = {
+			["casts"] = 12,
+			["crits"] = 1,
+		},
 		["107:0"] = {
 			["casts"] = 11,
 			["crits"] = 3,
 		},
-		["98:0"] = {
-			["casts"] = 2,
+		["93:0"] = {
+			["casts"] = 16,
+			["crits"] = 2,
+		},
+		["96:0"] = {
+			["casts"] = 149,
+			["crits"] = 16,
+		},
+		["86:0"] = {
+			["casts"] = 155,
+			["crits"] = 19,
+		},
+		["76:0"] = {
+			["casts"] = 5,
 			["crits"] = 1,
 		},
-		["58:0"] = {
-			["casts"] = 12,
-			["crits"] = 1,
+		["88:0"] = {
+			["casts"] = 1,
+			["crits"] = 0,
+		},
+		["87:0"] = {
+			["casts"] = 4,
+			["crits"] = 0,
+		},
+		["169:0"] = {
+			["casts"] = 1,
+			["crits"] = 0,
+		},
+		["179:0"] = {
+			["casts"] = 2,
+			["crits"] = 0,
 		},
 		["104:0"] = {
 			["casts"] = 8,
 			["crits"] = 1,
 		},
-		["71:0"] = {
-			["casts"] = 20,
-			["crits"] = 2,
-		},
-		["81:0"] = {
-			["casts"] = 13,
-			["crits"] = 1,
-		},
-		["123:0"] = {
-			["casts"] = 1,
-			["crits"] = 0,
-		},
 		["163:0"] = {
 			["casts"] = 1,
 			["crits"] = 0,
 		},
-		["106:0"] = {
-			["casts"] = 56,
-			["crits"] = 5,
-		},
-		["70:0"] = {
-			["casts"] = 22,
-			["crits"] = 2,
-		},
-		["95:0"] = {
-			["casts"] = 7,
-			["crits"] = 1,
-		},
-		["118:0"] = {
+		["166:0"] = {
 			["casts"] = 14,
-			["crits"] = 0,
-		},
-		["62:0"] = {
-			["casts"] = 7,
-			["crits"] = 1,
-		},
-		["92:0"] = {
-			["casts"] = 11,
-			["crits"] = 2,
-		},
-		["103:0"] = {
-			["casts"] = 8,
 			["crits"] = 0,
 		},
 		["82:0"] = {
 			["casts"] = 19,
 			["crits"] = 2,
 		},
-		["166:0"] = {
-			["casts"] = 14,
+		["110:0"] = {
+			["casts"] = 2,
+			["crits"] = 1,
+		},
+		["94:3"] = {
+			["casts"] = 2,
+			["crits"] = 1,
+		},
+		["103:0"] = {
+			["casts"] = 8,
 			["crits"] = 0,
 		},
-		["179:0"] = {
-			["casts"] = 2,
+		["92:0"] = {
+			["casts"] = 11,
+			["crits"] = 2,
+		},
+		["62:0"] = {
+			["casts"] = 7,
+			["crits"] = 1,
+		},
+		["117:0"] = {
+			["casts"] = 1,
+			["crits"] = 0,
+		},
+		["70:0"] = {
+			["casts"] = 22,
+			["crits"] = 2,
+		},
+		["123:0"] = {
+			["casts"] = 1,
 			["crits"] = 0,
 		},
 		["182:0"] = {
@@ -274,35 +290,35 @@ TheoryCraft_Settings = {
 			["casts"] = 1,
 			["crits"] = 0,
 		},
-		["93:0"] = {
-			["casts"] = 16,
-			["crits"] = 2,
+		["95:0"] = {
+			["casts"] = 7,
+			["crits"] = 1,
 		},
 		["66:0"] = {
 			["casts"] = 21,
 			["crits"] = 6,
 		},
-		["76:0"] = {
-			["casts"] = 5,
+		["106:0"] = {
+			["casts"] = 56,
+			["crits"] = 5,
+		},
+		["81:0"] = {
+			["casts"] = 13,
 			["crits"] = 1,
 		},
-		["86:0"] = {
-			["casts"] = 132,
-			["crits"] = 16,
+		["71:0"] = {
+			["casts"] = 20,
+			["crits"] = 2,
 		},
-		["96:0"] = {
-			["casts"] = 149,
-			["crits"] = 16,
-		},
-		["169:0"] = {
-			["casts"] = 1,
-			["crits"] = 0,
+		["98:0"] = {
+			["casts"] = 2,
+			["crits"] = 1,
 		},
 		["51:0"] = {
 			["casts"] = 15,
 			["crits"] = 2,
 		},
 	},
-	["combinedot"] = true,
+	["embed"] = true,
 	["healanddamage"] = true,
 }
