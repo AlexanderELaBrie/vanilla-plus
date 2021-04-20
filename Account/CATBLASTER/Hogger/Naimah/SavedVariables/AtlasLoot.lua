@@ -9,14 +9,14 @@ AtlasLootCharDB = {
 	["SafeLinks"] = true,
 	["SearchResult"] = {
 	},
-	["PartialMatching"] = true,
+	["EquipCompare"] = false,
 	["MinimapButtonRadius"] = 78,
 	["FirstTime"] = false,
-	["LootlinkTT"] = false,
+	["LastBoss"] = "MCShazzrah",
 	["HidePanel"] = false,
 	["WishList"] = {
 	},
-	["EquipCompare"] = false,
+	["PartialMatching"] = true,
 	["AllLinks"] = false,
 	["QuickLooks"] = {
 	},
@@ -24,5 +24,5 @@ AtlasLootCharDB = {
 	["MinimapButtonPosition"] = 315,
 	["ItemSpam"] = true,
 	["MinimapButton"] = true,
-	["LastBoss"] = "MCShazzrah",
+	["LootlinkTT"] = false,
 }

@@ -106,12 +106,6 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["HeadSlot"] = {
-					["Name"] = "",
-					["Code"] = 0,
-					["SubCode"] = 0,
-					["EnchantCode"] = 0,
-				},
 				["WaistSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
@@ -119,6 +113,12 @@ gOutfitter_Settings = {
 					["EnchantCode"] = 0,
 				},
 				["NeckSlot"] = {
+					["Name"] = "",
+					["Code"] = 0,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["HeadSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
@@ -207,7 +207,7 @@ gOutfitter_Settings = {
 		["Complete"] = {
 			[1] = {
 				["Items"] = {
-					["Finger0Slot"] = {
+					["WristSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -249,7 +249,7 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["ChestSlot"] = {
+					["RangedSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -279,25 +279,25 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["ShirtSlot"] = {
-						["Name"] = "",
-						["Code"] = 0,
-						["SubCode"] = 0,
-						["EnchantCode"] = 0,
-					},
 					["SecondaryHandSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["WristSlot"] = {
+					["ShirtSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["RangedSlot"] = {
+					["Finger0Slot"] = {
+						["Name"] = "",
+						["Code"] = 0,
+						["SubCode"] = 0,
+						["EnchantCode"] = 0,
+					},
+					["ChestSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -333,7 +333,7 @@ gOutfitter_Settings = {
 			},
 			[2] = {
 				["Items"] = {
-					["Finger0Slot"] = {
+					["WristSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -375,7 +375,7 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["ChestSlot"] = {
+					["RangedSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -405,25 +405,25 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["ShirtSlot"] = {
-						["Name"] = "",
-						["Code"] = 0,
-						["SubCode"] = 0,
-						["EnchantCode"] = 0,
-					},
 					["SecondaryHandSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["WristSlot"] = {
+					["ShirtSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["RangedSlot"] = {
+					["Finger0Slot"] = {
+						["Name"] = "",
+						["Code"] = 0,
+						["SubCode"] = 0,
+						["EnchantCode"] = 0,
+					},
+					["ChestSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,

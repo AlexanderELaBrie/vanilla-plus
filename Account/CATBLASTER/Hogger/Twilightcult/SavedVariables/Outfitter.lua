@@ -71,7 +71,7 @@ gOutfitter_Settings = {
 		},
 		[3] = {
 			["Items"] = {
-				["WristSlot"] = {
+				["Finger0Slot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
@@ -137,15 +137,15 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["ShirtSlot"] = {
-					["Name"] = "Recruit's Shirt",
-					["Code"] = 38,
-					["SubCode"] = 0,
-					["EnchantCode"] = 0,
-				},
 				["SecondaryHandSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["ShirtSlot"] = {
+					["Name"] = "Recruit's Shirt",
+					["Code"] = 38,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
@@ -167,7 +167,7 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["Finger0Slot"] = {
+				["WristSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
@@ -189,7 +189,7 @@ gOutfitter_Settings = {
 		},
 		[4] = {
 			["Items"] = {
-				["WristSlot"] = {
+				["Finger0Slot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
@@ -273,7 +273,7 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["Finger0Slot"] = {
+				["WristSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
@@ -446,9 +446,9 @@ gOutfitter_Settings = {
 		},
 		[10] = {
 			["Items"] = {
-				["ShirtSlot"] = {
-					["Name"] = "Recruit's Shirt",
-					["Code"] = 38,
+				["SecondaryHandSlot"] = {
+					["Name"] = "Worn Wooden Shield",
+					["Code"] = 2362,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
@@ -470,9 +470,9 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["SecondaryHandSlot"] = {
-					["Name"] = "Worn Wooden Shield",
-					["Code"] = 2362,
+				["ShirtSlot"] = {
+					["Name"] = "Recruit's Shirt",
+					["Code"] = 38,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
@@ -548,33 +548,33 @@ gOutfitter_Settings = {
 		},
 		[13] = {
 			["Items"] = {
-				["SecondaryHandSlot"] = {
-					["Name"] = "",
-					["Code"] = 0,
+				["ShirtSlot"] = {
+					["Name"] = "Recruit's Shirt",
+					["Code"] = 38,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
 				["FeetSlot"] = {
-					["Name"] = "",
-					["Code"] = 0,
+					["Name"] = "Recruit's Boots",
+					["Code"] = 40,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
 				["LegsSlot"] = {
-					["Name"] = "",
-					["Code"] = 0,
+					["Name"] = "Recruit's Pants",
+					["Code"] = 39,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
 				["MainHandSlot"] = {
-					["Name"] = "",
-					["Code"] = 0,
+					["Name"] = "Worn Shortsword",
+					["Code"] = 25,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["ShirtSlot"] = {
-					["Name"] = "",
-					["Code"] = 0,
+				["SecondaryHandSlot"] = {
+					["Name"] = "Worn Wooden Shield",
+					["Code"] = 2362,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
@@ -617,8 +617,42 @@ gOutfitter_Settings = {
 		[15] = {
 			["Items"] = {
 				["SecondaryHandSlot"] = {
-					["Name"] = "Worn Wooden Shield",
-					["Code"] = 2362,
+					["Name"] = "",
+					["Code"] = 0,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["FeetSlot"] = {
+					["Name"] = "",
+					["Code"] = 0,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["LegsSlot"] = {
+					["Name"] = "",
+					["Code"] = 0,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["MainHandSlot"] = {
+					["Name"] = "",
+					["Code"] = 0,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["ShirtSlot"] = {
+					["Name"] = "",
+					["Code"] = 0,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+			},
+		},
+		[16] = {
+			["Items"] = {
+				["ShirtSlot"] = {
+					["Name"] = "Recruit's Shirt",
+					["Code"] = 38,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
@@ -640,43 +674,9 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["ShirtSlot"] = {
-					["Name"] = "Recruit's Shirt",
-					["Code"] = 38,
-					["SubCode"] = 0,
-					["EnchantCode"] = 0,
-				},
-			},
-		},
-		[16] = {
-			["Items"] = {
 				["SecondaryHandSlot"] = {
-					["Name"] = "",
-					["Code"] = 0,
-					["SubCode"] = 0,
-					["EnchantCode"] = 0,
-				},
-				["FeetSlot"] = {
-					["Name"] = "",
-					["Code"] = 0,
-					["SubCode"] = 0,
-					["EnchantCode"] = 0,
-				},
-				["LegsSlot"] = {
-					["Name"] = "",
-					["Code"] = 0,
-					["SubCode"] = 0,
-					["EnchantCode"] = 0,
-				},
-				["MainHandSlot"] = {
-					["Name"] = "",
-					["Code"] = 0,
-					["SubCode"] = 0,
-					["EnchantCode"] = 0,
-				},
-				["ShirtSlot"] = {
-					["Name"] = "",
-					["Code"] = 0,
+					["Name"] = "Worn Wooden Shield",
+					["Code"] = 2362,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
@@ -751,10 +751,72 @@ gOutfitter_Settings = {
 			},
 		},
 		[19] = {
-			["Name"] = "Warrior: Battle Stance",
+			["Items"] = {
+				["SecondaryHandSlot"] = {
+					["Name"] = "Worn Wooden Shield",
+					["Code"] = 2362,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["FeetSlot"] = {
+					["Name"] = "Recruit's Boots",
+					["Code"] = 40,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["LegsSlot"] = {
+					["Name"] = "Recruit's Pants",
+					["Code"] = 39,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["MainHandSlot"] = {
+					["Name"] = "Worn Shortsword",
+					["Code"] = 25,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["ShirtSlot"] = {
+					["Name"] = "Recruit's Shirt",
+					["Code"] = 38,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+			},
 		},
 		[20] = {
-			["Name"] = "Warrior: Battle Stance",
+			["Items"] = {
+				["SecondaryHandSlot"] = {
+					["Name"] = "",
+					["Code"] = 0,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["FeetSlot"] = {
+					["Name"] = "",
+					["Code"] = 0,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["LegsSlot"] = {
+					["Name"] = "",
+					["Code"] = 0,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["MainHandSlot"] = {
+					["Name"] = "",
+					["Code"] = 0,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["ShirtSlot"] = {
+					["Name"] = "",
+					["Code"] = 0,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+			},
 		},
 		[21] = {
 			["Items"] = {
@@ -791,6 +853,50 @@ gOutfitter_Settings = {
 			},
 		},
 		[22] = {
+			["Name"] = "Warrior: Battle Stance",
+		},
+		[23] = {
+			["Items"] = {
+				["SecondaryHandSlot"] = {
+					["Name"] = "",
+					["Code"] = 0,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["FeetSlot"] = {
+					["Name"] = "",
+					["Code"] = 0,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["LegsSlot"] = {
+					["Name"] = "",
+					["Code"] = 0,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+				["MainHandSlot"] = {
+					["Name"] = "",
+					["Code"] = 0,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+			},
+		},
+		[24] = {
+			["Name"] = "Warrior: Battle Stance",
+		},
+		[25] = {
+			["Items"] = {
+				["ShirtSlot"] = {
+					["Name"] = "",
+					["Code"] = 0,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+			},
+		},
+		[26] = {
 			["Name"] = "Warrior: Battle Stance",
 		},
 	},
@@ -888,7 +994,7 @@ gOutfitter_Settings = {
 		["Complete"] = {
 			[1] = {
 				["Items"] = {
-					["Finger0Slot"] = {
+					["WristSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -930,7 +1036,7 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["ChestSlot"] = {
+					["RangedSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -960,25 +1066,25 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["ShirtSlot"] = {
-						["Name"] = "Recruit's Shirt",
-						["Code"] = 38,
-						["SubCode"] = 0,
-						["EnchantCode"] = 0,
-					},
 					["SecondaryHandSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["WristSlot"] = {
+					["ShirtSlot"] = {
+						["Name"] = "Recruit's Shirt",
+						["Code"] = 38,
+						["SubCode"] = 0,
+						["EnchantCode"] = 0,
+					},
+					["Finger0Slot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["RangedSlot"] = {
+					["ChestSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -1014,7 +1120,7 @@ gOutfitter_Settings = {
 			},
 			[2] = {
 				["Items"] = {
-					["Finger0Slot"] = {
+					["WristSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -1056,7 +1162,7 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["ChestSlot"] = {
+					["RangedSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -1086,25 +1192,25 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["ShirtSlot"] = {
-						["Name"] = "",
-						["Code"] = 0,
-						["SubCode"] = 0,
-						["EnchantCode"] = 0,
-					},
 					["SecondaryHandSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["WristSlot"] = {
+					["ShirtSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["RangedSlot"] = {
+					["Finger0Slot"] = {
+						["Name"] = "",
+						["Code"] = 0,
+						["SubCode"] = 0,
+						["EnchantCode"] = 0,
+					},
+					["ChestSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,

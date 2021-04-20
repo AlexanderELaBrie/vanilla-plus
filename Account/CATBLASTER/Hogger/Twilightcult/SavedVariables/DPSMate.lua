@@ -180,41 +180,41 @@ DPSMateCombatTime = {
 DPSMateHistory = {
 	["EDDone"] = {
 	},
-	["DMGTaken"] = {
+	["Fails"] = {
 	},
 	["OHealing"] = {
 	},
-	["names"] = {
+	["EHealingTaken"] = {
 	},
 	["EHealing"] = {
 	},
 	["EDTaken"] = {
 	},
-	["Interrupts"] = {
+	["CCBreaker"] = {
 	},
-	["Deaths"] = {
+	["Threat"] = {
 	},
 	["Dispels"] = {
 	},
 	["THealingTaken"] = {
 	},
-	["EHealingTaken"] = {
+	["Auras"] = {
 	},
 	["OHealingTaken"] = {
 	},
 	["THealing"] = {
 	},
-	["Auras"] = {
+	["names"] = {
 	},
 	["Absorbs"] = {
 	},
-	["Threat"] = {
+	["Deaths"] = {
 	},
-	["Fails"] = {
+	["DMGTaken"] = {
 	},
 	["DMGDone"] = {
 	},
-	["CCBreaker"] = {
+	["Interrupts"] = {
 	},
 }
 DPSMateFails = {

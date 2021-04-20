@@ -11,18 +11,18 @@ AtlasLootCharDB = {
 	},
 	["EquipCompare"] = false,
 	["MinimapButtonRadius"] = 78,
-	["WishList"] = {
-	},
+	["FirstTime"] = false,
 	["LastBoss"] = "BRDGuzzler",
 	["HidePanel"] = false,
-	["ItemSpam"] = true,
+	["WishList"] = {
+	},
 	["PartialMatching"] = true,
 	["AllLinks"] = false,
 	["QuickLooks"] = {
 	},
 	["AtlasLootVersion"] = "50008",
 	["MinimapButtonPosition"] = 315,
-	["FirstTime"] = false,
+	["ItemSpam"] = true,
 	["MinimapButton"] = true,
 	["LootlinkTT"] = false,
 }

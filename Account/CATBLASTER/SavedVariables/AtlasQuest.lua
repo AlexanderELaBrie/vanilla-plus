@@ -2,23 +2,23 @@
 AtlasQuest_Options = {
 	["Naimah"] = {
 		["ShownSide"] = "Left",
-		["NoQuerySpam"] = "yes",
 		["AtlasAutoShow"] = 2,
+		["NoQuerySpam"] = "yes",
 	},
 	["Version"] = "4.1.3",
 	["Twilightcult"] = {
 		["ShownSide"] = "Left",
-		["NoQuerySpam"] = "yes",
 		["AtlasAutoShow"] = 2,
+		["NoQuerySpam"] = "yes",
 	},
 	["Maentora"] = {
 		["ShownSide"] = "Left",
-		["AtlasAutoShow"] = 2,
 		["NoQuerySpam"] = "yes",
+		["AtlasAutoShow"] = 2,
 	},
 	["Octalis"] = {
 		["ShownSide"] = "Left",
-		["NoQuerySpam"] = "yes",
 		["AtlasAutoShow"] = 2,
+		["NoQuerySpam"] = "yes",
 	},
 }
