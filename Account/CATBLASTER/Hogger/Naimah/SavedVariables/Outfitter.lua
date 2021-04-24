@@ -18,15 +18,12 @@ gOutfitter_Settings = {
 			},
 		},
 		[2] = {
-			["Name"] = "Around Town",
-		},
-		[3] = {
 			["Items"] = {
-				["WristSlot"] = {
-					["Name"] = "Black Steel Bindings",
-					["Code"] = 22205,
+				["Finger0Slot"] = {
+					["Name"] = "Magni's Will",
+					["Code"] = 12548,
 					["SubCode"] = 0,
-					["EnchantCode"] = 927,
+					["EnchantCode"] = 0,
 				},
 				["BackSlot"] = {
 					["Name"] = "Stoneskin Gargoyle Cape",
@@ -89,13 +86,13 @@ gOutfitter_Settings = {
 					["MetaSlotName"] = "TwoHandSlot",
 					["EnchantCode"] = 1897,
 				},
-				["ShirtSlot"] = {
+				["SecondaryHandSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["SecondaryHandSlot"] = {
+				["ShirtSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
@@ -107,11 +104,11 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["Finger0Slot"] = {
-					["Name"] = "Magni's Will",
-					["Code"] = 12548,
+				["WristSlot"] = {
+					["Name"] = "Black Steel Bindings",
+					["Code"] = 22205,
 					["SubCode"] = 0,
-					["EnchantCode"] = 0,
+					["EnchantCode"] = 927,
 				},
 				["RangedSlot"] = {
 					["Name"] = "Libram of Truth",
@@ -139,7 +136,13 @@ gOutfitter_Settings = {
 				},
 			},
 		},
+		[3] = {
+			["Name"] = "Weapon Swap Two-Hander",
+		},
 		[4] = {
+			["Name"] = "Around Town",
+		},
+		[5] = {
 			["Items"] = {
 				["Finger0Slot"] = {
 					["Name"] = "Magni's Will",
@@ -151,7 +154,7 @@ gOutfitter_Settings = {
 					["Name"] = "Stoneskin Gargoyle Cape",
 					["Code"] = 13397,
 					["SubCode"] = 0,
-					["EnchantCode"] = 0,
+					["EnchantCode"] = 849,
 				},
 				["Trinket0Slot"] = {
 					["Name"] = "Seal of the Dawn",
@@ -183,11 +186,11 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["RangedSlot"] = {
-					["Name"] = "Libram of Truth",
-					["Code"] = 22400,
+				["ChestSlot"] = {
+					["Name"] = "Savage Gladiator Chain",
+					["Code"] = 11726,
 					["SubCode"] = 0,
-					["EnchantCode"] = 0,
+					["EnchantCode"] = 928,
 				},
 				["Trinket1Slot"] = {
 					["Name"] = "Hand of Justice",
@@ -208,9 +211,9 @@ gOutfitter_Settings = {
 					["MetaSlotName"] = "TwoHandSlot",
 					["EnchantCode"] = 1897,
 				},
-				["WaistSlot"] = {
-					["Name"] = "Atal'alarion's Tusk Ring",
-					["Code"] = 10798,
+				["SecondaryHandSlot"] = {
+					["Name"] = "",
+					["Code"] = 0,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
@@ -220,9 +223,21 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["NeckSlot"] = {
-					["Name"] = "Mark of Fordring",
-					["Code"] = 15411,
+				["LegsSlot"] = {
+					["Name"] = "Abyssal Plate Legplates of Striking",
+					["Code"] = 20671,
+					["SubCode"] = 2157,
+					["EnchantCode"] = 18,
+				},
+				["WristSlot"] = {
+					["Name"] = "Black Steel Bindings",
+					["Code"] = 22205,
+					["SubCode"] = 0,
+					["EnchantCode"] = 927,
+				},
+				["RangedSlot"] = {
+					["Name"] = "Libram of Truth",
+					["Code"] = 22400,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
@@ -232,39 +247,27 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["ChestSlot"] = {
-					["Name"] = "Savage Gladiator Chain",
-					["Code"] = 11726,
-					["SubCode"] = 0,
-					["EnchantCode"] = 928,
-				},
-				["WristSlot"] = {
-					["Name"] = "Black Steel Bindings",
-					["Code"] = 22205,
-					["SubCode"] = 0,
-					["EnchantCode"] = 927,
-				},
-				["LegsSlot"] = {
-					["Name"] = "Savage Gladiator Leggings",
-					["Code"] = 11728,
+				["NeckSlot"] = {
+					["Name"] = "Mark of Fordring",
+					["Code"] = 15411,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["SecondaryHandSlot"] = {
-					["Name"] = "",
-					["Code"] = 0,
+				["WaistSlot"] = {
+					["Name"] = "Atal'alarion's Tusk Ring",
+					["Code"] = 10798,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
 			},
 		},
-		[5] = {
+		[6] = {
 			["Items"] = {
-				["WristSlot"] = {
-					["Name"] = "Black Steel Bindings",
-					["Code"] = 22205,
+				["Finger0Slot"] = {
+					["Name"] = "Magni's Will",
+					["Code"] = 12548,
 					["SubCode"] = 0,
-					["EnchantCode"] = 927,
+					["EnchantCode"] = 0,
 				},
 				["BackSlot"] = {
 					["Name"] = "Pale Moon Cloak",
@@ -327,13 +330,13 @@ gOutfitter_Settings = {
 					["MetaSlotName"] = "TwoHandSlot",
 					["EnchantCode"] = 1897,
 				},
-				["ShirtSlot"] = {
+				["SecondaryHandSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["SecondaryHandSlot"] = {
+				["ShirtSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
@@ -345,11 +348,11 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["Finger0Slot"] = {
-					["Name"] = "Magni's Will",
-					["Code"] = 12548,
+				["WristSlot"] = {
+					["Name"] = "Black Steel Bindings",
+					["Code"] = 22205,
 					["SubCode"] = 0,
-					["EnchantCode"] = 0,
+					["EnchantCode"] = 927,
 				},
 				["RangedSlot"] = {
 					["Name"] = "Libram of Truth",
@@ -377,13 +380,13 @@ gOutfitter_Settings = {
 				},
 			},
 		},
-		[6] = {
+		[7] = {
 			["Items"] = {
-				["WristSlot"] = {
-					["Name"] = "Black Steel Bindings",
-					["Code"] = 22205,
+				["Finger0Slot"] = {
+					["Name"] = "Magni's Will",
+					["Code"] = 12548,
 					["SubCode"] = 0,
-					["EnchantCode"] = 927,
+					["EnchantCode"] = 0,
 				},
 				["BackSlot"] = {
 					["Name"] = "Pale Moon Cloak",
@@ -445,13 +448,13 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 1897,
 				},
-				["ShirtSlot"] = {
+				["SecondaryHandSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["SecondaryHandSlot"] = {
+				["ShirtSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
@@ -463,11 +466,11 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 18,
 				},
-				["Finger0Slot"] = {
-					["Name"] = "Magni's Will",
-					["Code"] = 12548,
+				["WristSlot"] = {
+					["Name"] = "Black Steel Bindings",
+					["Code"] = 22205,
 					["SubCode"] = 0,
-					["EnchantCode"] = 0,
+					["EnchantCode"] = 927,
 				},
 				["RangedSlot"] = {
 					["Name"] = "Libram of Truth",
@@ -495,13 +498,13 @@ gOutfitter_Settings = {
 				},
 			},
 		},
-		[7] = {
+		[8] = {
 			["Items"] = {
-				["Finger0Slot"] = {
-					["Name"] = "Magni's Will",
-					["Code"] = 12548,
+				["WristSlot"] = {
+					["Name"] = "Black Steel Bindings",
+					["Code"] = 22205,
 					["SubCode"] = 0,
-					["EnchantCode"] = 0,
+					["EnchantCode"] = 927,
 				},
 				["BackSlot"] = {
 					["Name"] = "Pale Moon Cloak",
@@ -569,11 +572,11 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["ShirtSlot"] = {
-					["Name"] = "",
-					["Code"] = 0,
+				["SecondaryHandSlot"] = {
+					["Name"] = "Crest of Supremacy",
+					["Code"] = 10835,
 					["SubCode"] = 0,
-					["EnchantCode"] = 0,
+					["EnchantCode"] = 1890,
 				},
 				["NeckSlot"] = {
 					["Name"] = "Mark of Fordring",
@@ -593,11 +596,11 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 928,
 				},
-				["WristSlot"] = {
-					["Name"] = "Black Steel Bindings",
-					["Code"] = 22205,
+				["Finger0Slot"] = {
+					["Name"] = "Magni's Will",
+					["Code"] = 12548,
 					["SubCode"] = 0,
-					["EnchantCode"] = 927,
+					["EnchantCode"] = 0,
 				},
 				["LegsSlot"] = {
 					["Name"] = "Savage Gladiator Leggings",
@@ -605,21 +608,21 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 18,
 				},
-				["SecondaryHandSlot"] = {
-					["Name"] = "Crest of Supremacy",
-					["Code"] = 10835,
+				["ShirtSlot"] = {
+					["Name"] = "",
+					["Code"] = 0,
 					["SubCode"] = 0,
-					["EnchantCode"] = 1890,
+					["EnchantCode"] = 0,
 				},
 			},
 		},
-		[8] = {
+		[9] = {
 			["Items"] = {
-				["WristSlot"] = {
-					["Name"] = "Black Steel Bindings",
-					["Code"] = 22205,
+				["Finger0Slot"] = {
+					["Name"] = "Magni's Will",
+					["Code"] = 12548,
 					["SubCode"] = 0,
-					["EnchantCode"] = 927,
+					["EnchantCode"] = 0,
 				},
 				["BackSlot"] = {
 					["Name"] = "Cerise Drape",
@@ -700,11 +703,11 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["Finger0Slot"] = {
-					["Name"] = "Magni's Will",
-					["Code"] = 12548,
+				["WristSlot"] = {
+					["Name"] = "Black Steel Bindings",
+					["Code"] = 22205,
 					["SubCode"] = 0,
-					["EnchantCode"] = 0,
+					["EnchantCode"] = 927,
 				},
 				["ChestSlot"] = {
 					["Name"] = "Savage Gladiator Chain",
@@ -732,13 +735,13 @@ gOutfitter_Settings = {
 				},
 			},
 		},
-		[9] = {
+		[10] = {
 			["Items"] = {
-				["WristSlot"] = {
-					["Name"] = "Black Steel Bindings",
-					["Code"] = 22205,
+				["Finger0Slot"] = {
+					["Name"] = "Magni's Will",
+					["Code"] = 12548,
 					["SubCode"] = 0,
-					["EnchantCode"] = 927,
+					["EnchantCode"] = 0,
 				},
 				["BackSlot"] = {
 					["Name"] = "Cerise Drape",
@@ -801,13 +804,13 @@ gOutfitter_Settings = {
 					["MetaSlotName"] = "TwoHandSlot",
 					["EnchantCode"] = 1897,
 				},
-				["SecondaryHandSlot"] = {
+				["ShirtSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["ShirtSlot"] = {
+				["SecondaryHandSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
@@ -831,11 +834,11 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 928,
 				},
-				["Finger0Slot"] = {
-					["Name"] = "Magni's Will",
-					["Code"] = 12548,
+				["WristSlot"] = {
+					["Name"] = "Black Steel Bindings",
+					["Code"] = 22205,
 					["SubCode"] = 0,
-					["EnchantCode"] = 0,
+					["EnchantCode"] = 927,
 				},
 				["HandsSlot"] = {
 					["Name"] = "Fists of Phalanx",
@@ -851,13 +854,13 @@ gOutfitter_Settings = {
 				},
 			},
 		},
-		[10] = {
+		[11] = {
 			["Items"] = {
-				["WristSlot"] = {
-					["Name"] = "Black Steel Bindings",
-					["Code"] = 22205,
+				["Finger0Slot"] = {
+					["Name"] = "Magni's Will",
+					["Code"] = 12548,
 					["SubCode"] = 0,
-					["EnchantCode"] = 927,
+					["EnchantCode"] = 0,
 				},
 				["BackSlot"] = {
 					["Name"] = "Cerise Drape",
@@ -926,7 +929,7 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["SecondaryHandSlot"] = {
+				["ShirtSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
@@ -938,11 +941,11 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 1887,
 				},
-				["Finger0Slot"] = {
-					["Name"] = "Magni's Will",
-					["Code"] = 12548,
+				["WristSlot"] = {
+					["Name"] = "Black Steel Bindings",
+					["Code"] = 22205,
 					["SubCode"] = 0,
-					["EnchantCode"] = 0,
+					["EnchantCode"] = 927,
 				},
 				["RangedSlot"] = {
 					["Name"] = "Libram of Truth",
@@ -962,7 +965,7 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["ShirtSlot"] = {
+				["SecondaryHandSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
@@ -970,13 +973,13 @@ gOutfitter_Settings = {
 				},
 			},
 		},
-		[11] = {
+		[12] = {
 			["Items"] = {
-				["WristSlot"] = {
-					["Name"] = "Black Steel Bindings",
-					["Code"] = 22205,
+				["Finger0Slot"] = {
+					["Name"] = "Magni's Will",
+					["Code"] = 12548,
 					["SubCode"] = 0,
-					["EnchantCode"] = 927,
+					["EnchantCode"] = 0,
 				},
 				["BackSlot"] = {
 					["Name"] = "Cerise Drape",
@@ -1038,13 +1041,13 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 1897,
 				},
-				["SecondaryHandSlot"] = {
+				["ShirtSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["ShirtSlot"] = {
+				["SecondaryHandSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
@@ -1068,11 +1071,11 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 928,
 				},
-				["Finger0Slot"] = {
-					["Name"] = "Magni's Will",
-					["Code"] = 12548,
+				["WristSlot"] = {
+					["Name"] = "Black Steel Bindings",
+					["Code"] = 22205,
 					["SubCode"] = 0,
-					["EnchantCode"] = 0,
+					["EnchantCode"] = 927,
 				},
 				["HandsSlot"] = {
 					["Name"] = "Fists of Phalanx",
@@ -1088,13 +1091,13 @@ gOutfitter_Settings = {
 				},
 			},
 		},
-		[12] = {
+		[13] = {
 			["Items"] = {
-				["WristSlot"] = {
-					["Name"] = "Black Steel Bindings",
-					["Code"] = 22205,
+				["Finger0Slot"] = {
+					["Name"] = "Magni's Will",
+					["Code"] = 12548,
 					["SubCode"] = 0,
-					["EnchantCode"] = 927,
+					["EnchantCode"] = 0,
 				},
 				["BackSlot"] = {
 					["Name"] = "Cerise Drape",
@@ -1156,17 +1159,17 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["ShirtSlot"] = {
-					["Name"] = "",
-					["Code"] = 0,
-					["SubCode"] = 0,
-					["EnchantCode"] = 0,
-				},
 				["SecondaryHandSlot"] = {
 					["Name"] = "Crest of Supremacy",
 					["Code"] = 10835,
 					["SubCode"] = 0,
 					["EnchantCode"] = 1890,
+				},
+				["ShirtSlot"] = {
+					["Name"] = "",
+					["Code"] = 0,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
 				},
 				["ShoulderSlot"] = {
 					["Name"] = "Ebonsteel Spaulders",
@@ -1174,11 +1177,11 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["Finger0Slot"] = {
-					["Name"] = "Magni's Will",
-					["Code"] = 12548,
+				["WristSlot"] = {
+					["Name"] = "Black Steel Bindings",
+					["Code"] = 22205,
 					["SubCode"] = 0,
-					["EnchantCode"] = 0,
+					["EnchantCode"] = 927,
 				},
 				["ChestSlot"] = {
 					["Name"] = "Savage Gladiator Chain",
@@ -1206,13 +1209,13 @@ gOutfitter_Settings = {
 				},
 			},
 		},
-		[13] = {
+		[14] = {
 			["Items"] = {
-				["WristSlot"] = {
-					["Name"] = "Black Steel Bindings",
-					["Code"] = 22205,
+				["Finger0Slot"] = {
+					["Name"] = "Magni's Will",
+					["Code"] = 12548,
 					["SubCode"] = 0,
-					["EnchantCode"] = 927,
+					["EnchantCode"] = 0,
 				},
 				["BackSlot"] = {
 					["Name"] = "Cerise Drape",
@@ -1274,17 +1277,17 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["SecondaryHandSlot"] = {
-					["Name"] = "Crest of Supremacy",
-					["Code"] = 10835,
-					["SubCode"] = 0,
-					["EnchantCode"] = 1890,
-				},
 				["ShirtSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
+				},
+				["SecondaryHandSlot"] = {
+					["Name"] = "Crest of Supremacy",
+					["Code"] = 10835,
+					["SubCode"] = 0,
+					["EnchantCode"] = 1890,
 				},
 				["ShoulderSlot"] = {
 					["Name"] = "Ebonsteel Spaulders",
@@ -1292,11 +1295,11 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["Finger0Slot"] = {
-					["Name"] = "Magni's Will",
-					["Code"] = 12548,
+				["WristSlot"] = {
+					["Name"] = "Black Steel Bindings",
+					["Code"] = 22205,
 					["SubCode"] = 0,
-					["EnchantCode"] = 0,
+					["EnchantCode"] = 927,
 				},
 				["ChestSlot"] = {
 					["Name"] = "Savage Gladiator Chain",
@@ -1324,13 +1327,13 @@ gOutfitter_Settings = {
 				},
 			},
 		},
-		[14] = {
+		[15] = {
 			["Items"] = {
-				["WristSlot"] = {
-					["Name"] = "Black Steel Bindings",
-					["Code"] = 22205,
+				["Finger0Slot"] = {
+					["Name"] = "Magni's Will",
+					["Code"] = 12548,
 					["SubCode"] = 0,
-					["EnchantCode"] = 927,
+					["EnchantCode"] = 0,
 				},
 				["BackSlot"] = {
 					["Name"] = "Cerise Drape",
@@ -1392,17 +1395,17 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["SecondaryHandSlot"] = {
-					["Name"] = "Crest of Supremacy",
-					["Code"] = 10835,
-					["SubCode"] = 0,
-					["EnchantCode"] = 1890,
-				},
 				["ShirtSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
+				},
+				["SecondaryHandSlot"] = {
+					["Name"] = "Crest of Supremacy",
+					["Code"] = 10835,
+					["SubCode"] = 0,
+					["EnchantCode"] = 1890,
 				},
 				["ShoulderSlot"] = {
 					["Name"] = "Ebonsteel Spaulders",
@@ -1410,11 +1413,11 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["Finger0Slot"] = {
-					["Name"] = "Magni's Will",
-					["Code"] = 12548,
+				["WristSlot"] = {
+					["Name"] = "Black Steel Bindings",
+					["Code"] = 22205,
 					["SubCode"] = 0,
-					["EnchantCode"] = 0,
+					["EnchantCode"] = 927,
 				},
 				["ChestSlot"] = {
 					["Name"] = "Savage Gladiator Chain",
@@ -1442,13 +1445,13 @@ gOutfitter_Settings = {
 				},
 			},
 		},
-		[15] = {
+		[16] = {
 			["Items"] = {
-				["WristSlot"] = {
-					["Name"] = "Black Steel Bindings",
-					["Code"] = 22205,
+				["Finger0Slot"] = {
+					["Name"] = "Magni's Will",
+					["Code"] = 12548,
 					["SubCode"] = 0,
-					["EnchantCode"] = 927,
+					["EnchantCode"] = 0,
 				},
 				["BackSlot"] = {
 					["Name"] = "Cerise Drape",
@@ -1510,17 +1513,17 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["SecondaryHandSlot"] = {
-					["Name"] = "Crest of Supremacy",
-					["Code"] = 10835,
-					["SubCode"] = 0,
-					["EnchantCode"] = 1890,
-				},
 				["ShirtSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
+				},
+				["SecondaryHandSlot"] = {
+					["Name"] = "Crest of Supremacy",
+					["Code"] = 10835,
+					["SubCode"] = 0,
+					["EnchantCode"] = 1890,
 				},
 				["ShoulderSlot"] = {
 					["Name"] = "Ebonsteel Spaulders",
@@ -1528,11 +1531,11 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["Finger0Slot"] = {
-					["Name"] = "Magni's Will",
-					["Code"] = 12548,
+				["WristSlot"] = {
+					["Name"] = "Black Steel Bindings",
+					["Code"] = 22205,
 					["SubCode"] = 0,
-					["EnchantCode"] = 0,
+					["EnchantCode"] = 927,
 				},
 				["ChestSlot"] = {
 					["Name"] = "Savage Gladiator Chain",
@@ -1560,13 +1563,13 @@ gOutfitter_Settings = {
 				},
 			},
 		},
-		[16] = {
+		[17] = {
 			["Items"] = {
-				["WristSlot"] = {
-					["Name"] = "Black Steel Bindings",
-					["Code"] = 22205,
+				["Finger0Slot"] = {
+					["Name"] = "Magni's Will",
+					["Code"] = 12548,
 					["SubCode"] = 0,
-					["EnchantCode"] = 927,
+					["EnchantCode"] = 0,
 				},
 				["BackSlot"] = {
 					["Name"] = "Cerise Drape",
@@ -1628,17 +1631,17 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["ShirtSlot"] = {
-					["Name"] = "",
-					["Code"] = 0,
-					["SubCode"] = 0,
-					["EnchantCode"] = 0,
-				},
 				["SecondaryHandSlot"] = {
 					["Name"] = "Crest of Supremacy",
 					["Code"] = 10835,
 					["SubCode"] = 0,
 					["EnchantCode"] = 1890,
+				},
+				["ShirtSlot"] = {
+					["Name"] = "",
+					["Code"] = 0,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
 				},
 				["ShoulderSlot"] = {
 					["Name"] = "Ebonsteel Spaulders",
@@ -1646,11 +1649,11 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["Finger0Slot"] = {
-					["Name"] = "Magni's Will",
-					["Code"] = 12548,
+				["WristSlot"] = {
+					["Name"] = "Black Steel Bindings",
+					["Code"] = 22205,
 					["SubCode"] = 0,
-					["EnchantCode"] = 0,
+					["EnchantCode"] = 927,
 				},
 				["ChestSlot"] = {
 					["Name"] = "Savage Gladiator Chain",
@@ -1678,13 +1681,13 @@ gOutfitter_Settings = {
 				},
 			},
 		},
-		[17] = {
+		[18] = {
 			["Items"] = {
-				["WristSlot"] = {
-					["Name"] = "Black Steel Bindings",
-					["Code"] = 22205,
+				["Finger0Slot"] = {
+					["Name"] = "Magni's Will",
+					["Code"] = 12548,
 					["SubCode"] = 0,
-					["EnchantCode"] = 927,
+					["EnchantCode"] = 0,
 				},
 				["BackSlot"] = {
 					["Name"] = "Cerise Drape",
@@ -1753,7 +1756,7 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["SecondaryHandSlot"] = {
+				["ShirtSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
@@ -1765,11 +1768,11 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 1887,
 				},
-				["Finger0Slot"] = {
-					["Name"] = "Magni's Will",
-					["Code"] = 12548,
+				["WristSlot"] = {
+					["Name"] = "Black Steel Bindings",
+					["Code"] = 22205,
 					["SubCode"] = 0,
-					["EnchantCode"] = 0,
+					["EnchantCode"] = 927,
 				},
 				["RangedSlot"] = {
 					["Name"] = "Libram of Truth",
@@ -1789,7 +1792,7 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["ShirtSlot"] = {
+				["SecondaryHandSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
@@ -1797,13 +1800,13 @@ gOutfitter_Settings = {
 				},
 			},
 		},
-		[18] = {
+		[19] = {
 			["Items"] = {
-				["Finger0Slot"] = {
-					["Name"] = "Magni's Will",
-					["Code"] = 12548,
+				["WristSlot"] = {
+					["Name"] = "Black Steel Bindings",
+					["Code"] = 22205,
 					["SubCode"] = 0,
-					["EnchantCode"] = 0,
+					["EnchantCode"] = 927,
 				},
 				["BackSlot"] = {
 					["Name"] = "Cerise Drape",
@@ -1866,13 +1869,13 @@ gOutfitter_Settings = {
 					["MetaSlotName"] = "TwoHandSlot",
 					["EnchantCode"] = 1897,
 				},
-				["ShirtSlot"] = {
+				["SecondaryHandSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["SecondaryHandSlot"] = {
+				["ShirtSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
@@ -1896,11 +1899,11 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 928,
 				},
-				["WristSlot"] = {
-					["Name"] = "Black Steel Bindings",
-					["Code"] = 22205,
+				["Finger0Slot"] = {
+					["Name"] = "Magni's Will",
+					["Code"] = 12548,
 					["SubCode"] = 0,
-					["EnchantCode"] = 927,
+					["EnchantCode"] = 0,
 				},
 				["HandsSlot"] = {
 					["Name"] = "Fists of Phalanx",
@@ -1916,13 +1919,13 @@ gOutfitter_Settings = {
 				},
 			},
 		},
-		[19] = {
+		[20] = {
 			["Items"] = {
-				["Finger0Slot"] = {
-					["Name"] = "Magni's Will",
-					["Code"] = 12548,
+				["WristSlot"] = {
+					["Name"] = "Black Steel Bindings",
+					["Code"] = 22205,
 					["SubCode"] = 0,
-					["EnchantCode"] = 0,
+					["EnchantCode"] = 927,
 				},
 				["BackSlot"] = {
 					["Name"] = "Cerise Drape",
@@ -1985,13 +1988,13 @@ gOutfitter_Settings = {
 					["MetaSlotName"] = "TwoHandSlot",
 					["EnchantCode"] = 1897,
 				},
-				["SecondaryHandSlot"] = {
+				["ShirtSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["ShirtSlot"] = {
+				["SecondaryHandSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
@@ -2003,11 +2006,11 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["WristSlot"] = {
-					["Name"] = "Black Steel Bindings",
-					["Code"] = 22205,
+				["Finger0Slot"] = {
+					["Name"] = "Magni's Will",
+					["Code"] = 12548,
 					["SubCode"] = 0,
-					["EnchantCode"] = 927,
+					["EnchantCode"] = 0,
 				},
 				["RangedSlot"] = {
 					["Name"] = "Libram of Truth",
@@ -2035,13 +2038,13 @@ gOutfitter_Settings = {
 				},
 			},
 		},
-		[20] = {
+		[21] = {
 			["Items"] = {
-				["WristSlot"] = {
-					["Name"] = "Black Steel Bindings",
-					["Code"] = 22205,
+				["Finger0Slot"] = {
+					["Name"] = "Magni's Will",
+					["Code"] = 12548,
 					["SubCode"] = 0,
-					["EnchantCode"] = 927,
+					["EnchantCode"] = 0,
 				},
 				["BackSlot"] = {
 					["Name"] = "Stoneskin Gargoyle Cape",
@@ -2110,7 +2113,7 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
-				["SecondaryHandSlot"] = {
+				["ShirtSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
@@ -2134,25 +2137,28 @@ gOutfitter_Settings = {
 					["SubCode"] = 0,
 					["EnchantCode"] = 928,
 				},
-				["Finger0Slot"] = {
-					["Name"] = "Magni's Will",
-					["Code"] = 12548,
+				["WristSlot"] = {
+					["Name"] = "Black Steel Bindings",
+					["Code"] = 22205,
 					["SubCode"] = 0,
-					["EnchantCode"] = 0,
+					["EnchantCode"] = 927,
 				},
 				["LegsSlot"] = {
 					["Name"] = "Abyssal Plate Legplates of Striking",
 					["Code"] = 20671,
 					["SubCode"] = 2157,
-					["EnchantCode"] = 0,
+					["EnchantCode"] = 18,
 				},
-				["ShirtSlot"] = {
+				["SecondaryHandSlot"] = {
 					["Name"] = "",
 					["Code"] = 0,
 					["SubCode"] = 0,
 					["EnchantCode"] = 0,
 				},
 			},
+		},
+		[22] = {
+			["Name"] = "Around Town",
 		},
 	},
 	["Version"] = 7,
@@ -2161,10 +2167,10 @@ gOutfitter_Settings = {
 	},
 	["HideHelm"] = {
 		[6686] = true,
-		[11729] = true,
+		[13073] = true,
 		[9978] = true,
 		[4491] = true,
-		[13073] = true,
+		[11729] = true,
 		[0] = true,
 	},
 	["Outfits"] = {
@@ -2183,7 +2189,7 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["ShoulderSlot"] = {
+					["HeadSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -2207,12 +2213,6 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["HandsSlot"] = {
-						["Name"] = "",
-						["Code"] = 0,
-						["SubCode"] = 0,
-						["EnchantCode"] = 0,
-					},
 					["WaistSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
@@ -2225,13 +2225,19 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
+					["HandsSlot"] = {
+						["Name"] = "",
+						["Code"] = 0,
+						["SubCode"] = 0,
+						["EnchantCode"] = 0,
+					},
 					["AmmoSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["HeadSlot"] = {
+					["ShoulderSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -2243,7 +2249,7 @@ gOutfitter_Settings = {
 			},
 			[2] = {
 				["Items"] = {
-					["WristSlot"] = {
+					["Finger0Slot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -2339,7 +2345,7 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["Finger0Slot"] = {
+					["WristSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -2363,11 +2369,11 @@ gOutfitter_Settings = {
 			},
 			[3] = {
 				["Items"] = {
-					["WristSlot"] = {
-						["Name"] = "Imperial Plate Bracers",
-						["Code"] = 12425,
+					["Finger0Slot"] = {
+						["Name"] = "Magni's Will",
+						["Code"] = 12548,
 						["SubCode"] = 0,
-						["EnchantCode"] = 927,
+						["EnchantCode"] = 0,
 					},
 					["BackSlot"] = {
 						["Name"] = "Cerise Drape",
@@ -2454,11 +2460,11 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["Finger0Slot"] = {
-						["Name"] = "Magni's Will",
-						["Code"] = 12548,
+					["WristSlot"] = {
+						["Name"] = "Imperial Plate Bracers",
+						["Code"] = 12425,
 						["SubCode"] = 0,
-						["EnchantCode"] = 0,
+						["EnchantCode"] = 927,
 					},
 					["NeckSlot"] = {
 						["Name"] = "Pulsating Crystalline Shard",
@@ -2485,9 +2491,10 @@ gOutfitter_Settings = {
 						["EnchantCode"] = 0,
 					},
 					["MainHandSlot"] = {
-						["Name"] = "Rubidium Hammer",
-						["Code"] = 11805,
+						["Name"] = "Hardened Steel Warhammer",
+						["Code"] = 20666,
 						["SubCode"] = 0,
+						["MetaSlotName"] = "Weapon0Slot",
 						["EnchantCode"] = 0,
 					},
 				},

@@ -11,18 +11,18 @@ AtlasLootCharDB = {
 	},
 	["EquipCompare"] = false,
 	["MinimapButtonRadius"] = 78,
-	["FirstTime"] = false,
+	["ItemSpam"] = true,
 	["LastBoss"] = "MCShazzrah",
 	["HidePanel"] = false,
-	["WishList"] = {
-	},
+	["FirstTime"] = false,
 	["PartialMatching"] = true,
 	["AllLinks"] = false,
 	["QuickLooks"] = {
 	},
 	["AtlasLootVersion"] = "40605",
 	["MinimapButtonPosition"] = 315,
-	["ItemSpam"] = true,
+	["WishList"] = {
+	},
 	["MinimapButton"] = true,
 	["LootlinkTT"] = false,
 }

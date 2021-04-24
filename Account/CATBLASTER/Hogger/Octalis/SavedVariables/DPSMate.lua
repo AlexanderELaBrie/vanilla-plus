@@ -11,6 +11,12 @@ DPSMateUser = {
 		[2] = "rogue",
 		[8] = 1,
 	},
+	["Soplia"] = {
+		[1] = 5,
+		[2] = "paladin",
+		[3] = 1,
+		[8] = 60,
+	},
 	["Dirja"] = {
 		[1] = 4,
 		[2] = "druid",
@@ -200,11 +206,11 @@ DPSMateHistory = {
 	},
 	["OHealing"] = {
 	},
-	["names"] = {
+	["EHealingTaken"] = {
 	},
 	["EHealing"] = {
 	},
-	["EDTaken"] = {
+	["OHealingTaken"] = {
 	},
 	["CCBreaker"] = {
 	},
@@ -214,23 +220,23 @@ DPSMateHistory = {
 	},
 	["THealingTaken"] = {
 	},
-	["EHealingTaken"] = {
+	["Interrupts"] = {
 	},
-	["OHealingTaken"] = {
+	["EDTaken"] = {
 	},
 	["THealing"] = {
 	},
-	["Auras"] = {
-	},
-	["Absorbs"] = {
+	["DMGTaken"] = {
 	},
 	["Deaths"] = {
 	},
-	["DMGTaken"] = {
+	["Absorbs"] = {
+	},
+	["names"] = {
 	},
 	["DMGDone"] = {
 	},
-	["Interrupts"] = {
+	["Auras"] = {
 	},
 }
 DPSMateFails = {
